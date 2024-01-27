@@ -1,0 +1,97 @@
+\section{CS 6350 only: Decision Trees with Attribute Costs}
+\label{q4}
+
+\noindent[10 points] Sometimes, we may encounter situations where
+the features in our learning problem are associated with costs. For
+example, if we are building a classifier in a medical scenario,
+features may correspond to the results of different tests that are
+performed on a patient. Some tests may be inexpensive (or inflict no
+harm), such as measuring the patient's body temperature or
+weight. Some other tests may be expensive (or may cause discomfort
+to the patient), such as blood tests or radiographs.
+
+In this question, we will explore the problem of learning decision
+trees in such a scenario. We prefer decision trees that use features
+associated with low costs at the top of the tree and only use higher
+cost features if needed at the bottom of the trees.  In order to
+impose this preference, we can modify the information gain heuristic
+that selects attributes at the root of a tree to penalize costly
+attributes.
+
+In this question, we will explore different such variations. Suppose
+we denote $Gain(S, A)$ as the information gain of an attribute $A$
+for a dataset $S$ (using the original version of information from
+ID3). Let $Cost(A)$ denote the cost of the attribute $A$. We can
+define two cost-sensitive information gain criteria for attributes
+as:
+
+\begin{enumerate}
+\item $Gain_T(S, A) = \frac{Gain(S, A)^2}{Cost(A)}$
+
+\item  $Gain_N(S, A) = \frac{2^{Gain(S, A)} - 1}{\sqrt{Cost(A) + 1}}$
+\end{enumerate}
+
+In both cases, note that attributes with higher costs are penalized
+and so will get chosen only if the information gain is really high.
+
+
+To evaluate these two methods for root selection, we will use the
+following training set:
+\begin{center}
+  \begin{tabular}{llll|r}
+    \hline
+    Shape    & Color  & Size   & Material & Label \\ \hline
+    square   & red    & big    & metal    & +     \\
+    square   & blue   & small  & plastic  & +     \\
+    triangle & yellow & medium & metal    & +     \\
+    triangle & pink   & big    & leather  & -     \\
+    square   & pink   & medium & leather  & -     \\
+    circle   & red    & small  & plastic  & -     \\
+    circle   & blue   & small  & metal    & -     \\
+    ellipse  & yellow & small  & plastic  & -     \\
+    ellipse  & blue   & big    & leather  & +     \\
+    ellipse  & pink   & medium & wood     & +     \\
+    circle   & blue   & big    & wood     & +     \\
+    triangle & blue   & medium & plastic  & +     \\  \hline
+  \end{tabular}
+\end{center}
+
+Suppose we know the following costs of the attributes:
+\begin{center}
+  \begin{tabular}{lr}
+    Attribute & Cost \\\hline
+    Shape     & 10   \\
+    Color     & 30   \\
+    Size      & 50   \\
+    Material  & 100  \\\hline
+  \end{tabular}
+\end{center}
+
+\begin{enumerate}
+\item \relax[8 points] Compute the modified gains $Gain_T$ and $Gain_S$ for each
+  attribute using these costs. Fill in your results in the table below. (upto 3
+  decimal places)
+
+
+  \begin{center}
+    \begin{tabular}{l|rr}
+      Attribute & $Gain_T$ & $Gain_S$ \\\hline
+      Shape     &          &          \\
+      Color     &          &          \\
+      Size      &          &          \\
+      Material  &          &          \\\hline
+    \end{tabular}
+  \end{center}
+
+\item \relax[2 points] For each variant of gain, which feature would you choose
+  as the root?
+\end{enumerate}
+
+\noindent (You may modify your code from the experiments to calculate these
+values instead of doing so by hand.)
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "main"
+%%% End:

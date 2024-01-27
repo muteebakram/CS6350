@@ -1,0 +1,174 @@
+1a. How many possible functions are there to map these four features to a boolean decision?
+Input space: (3 * 3 * 2 * 2)
+Output space: (3 * 3 * 2 * 2) * 2  // Two outcomes.
+
+How many functions are consistent with the given training dataset?
+// Check 1a.py
+
+1b. What is the entropy of the labels in this data? When calculating entropy, the base of the logarithm should be base 2.
+pFalse = 4/8
+pTrue = 4/8
+Entropy(H) = - pFalse * log2(pFalse) - pTrue * log2(pTrue)
+           = - 0.5 * log2(0.5) - 0.5 * log2(0.5)
+           = 1
+
+1c. Compute the information gain of each feature and enter it into Table 2. Specify upto 3 decimal places.
+
+Information gain G(S, A) = E - Sum (WeightedAvg * Es)
+
+Variety:
+    S = Variety; A = Alphonso
+        pFalse = 1/2; pTrue = 1/2; Samples: 4/8
+        E(Variety, Alphonso) = 1
+
+    S = Variety; A = Keitt
+        pFalse = 2/3; pTrue = 1/3; Samples: 3/8
+        E(Variety, Keitt) = - (1/3) * log2(1/3) - (2/3) * log2(2/3) = 0.918
+
+    S = Variety; A = Haden
+        pFalse = 0; pTrue = 1; Samples: 1/8
+        E(Variety, Haden) = - 1 * log2(1) - 0 * log2(0) = 0
+
+    G(Variety) = E - (0.5 * 1 + (3/8) * 0.918 + (1/8) * 0)
+               = 1 - (0.5 * 1 + (3/8) * 0.918 + (1/8) * 0)
+               = 0.15575
+
+Color:
+    S = Color; A = Red
+        pFalse = 1/3; pTrue = 2/3; Samples: 3/8
+        E(Color, Red) = - (1/3) * log2(1/3) - (2/3) * log2(2/3) = 0.918
+
+    S = Color; A = Yellow
+        pFalse = 2/3; pTrue = 1/3; Samples: 3/8
+        E(Color, Yellow) = - (1/3) * log2(1/3) - (2/3) * log2(2/3) = 0.918
+
+    S = Color; A = Green
+        pFalse = 1/2; pTrue = 1/2; Samples: 2/8
+        E(Color, Green) = - 0.5 * log2(0.5) - 0.5 * log2(0.5) = 1
+
+    G(Color) = E - ((3/8) * 0.918 + (3/8) * 0.918 + (2/8) * 1)
+             = 1 - ((3/8) * 0.918 + (3/8) * 0.918 + (2/8) * 1)
+             = 0.0615
+
+Smell:
+    S = Smell; A = None
+        pFalse = 3/4; pTrue = 1/4; Samples: 4/8
+        E(Smell, None) = - (1/4) * log2(1/4) - (3/4) * log2(3/4) = 0.8113
+
+    S = Smell; A = Sweet
+        pFalse = 1/4; pTrue = 3/4; Samples: 4/8
+        E(Smell, Sweet) = - (1/4) * log2(1/4) - (3/4) * log2(3/4) = 0.8113
+
+    G(Smell) = E - ((1/2) * 0.8113 + (1/2) * 0.8113)
+             = 1 - ((1/2) * 0.8113 + (1/2) * 0.8113)
+             = 0.1887
+
+Time:
+    S = Time; A = One
+        pFalse = 1/3; pTrue = 2/3; Samples: 3/8
+        E(Time, One) = - (1/3) * log2(1/3) - (2/3) * log2(2/3) = 0.918
+
+    S = Time; A = Two
+        pFalse = 3/5; pTrue = 2/5; Samples: 5/8
+        E(Time, Two) = - (3/5) * log2(3/5) - (2/5) * log2(2/5) = 0.971
+
+    G(Time) = E - ((3/8) * 0.918 + (5/8) * 0.971)
+             = 1 - ((3/8) * 0.918 + (5/8) * 0.971)
+             = 0.048875
+
+
+1d. Which attribute will you use to construct the root of the tree using the information gain heuristic of the ID3 algorithm?
+Smell
+
+1e. sing the root that you selected in the previous question, construct a
+decision tree that represents the data. You do not have to use the ID3 algorithm
+here, you can show any tree with the chosen root.
+
+See iPad ML Doc
+
+1f. Suppose you are given three more examples, listed in Table 3. Use
+your decision tree to predict the label for each example. Also report the accuracy
+of the classifier that you have learned.
+
+Alphonso Green Sweet Two True => True 
+Keitt Red Sweet One False => False
+Haden Yellow None Two True => Decision Tree leaf not present
+
+accuracy = 2/3 ???
+
+
+
+
+2a. Notice that MajorityError can be thought of as a measure of impurity
+just like entropy. Just like we used entropy to define information gain, we can
+define a new version of information gain that uses MajorityError in place of
+entropy. Write down an expression that defines a new version of information gain
+that uses MajorityError in place of entropy.
+
+MajorityError = 1 - maxPi
+
+IG (S, A) = MajorityError - Sum( WeightedAvg * MajorityError(S))
+
+2b.
+
+MajorityError = 1 - max(0.5, 0.5) 0.5
+
+Variety:
+    S = Variety; A = Alphonso
+        pFalse = 1/2; pTrue = 1/2; Samples: 4/8
+        MajorityError(Variety, Alphonso) = 1 - max(0.5, 0.5) = 0.5
+
+    S = Variety; A = Keitt
+        pFalse = 2/3; pTrue = 1/3; Samples: 3/8
+        MajorityError(Variety, Keitt) = 1 - max(1/3, 2/3) = 1/3
+
+    S = Variety; A = Haden
+        pFalse = 0; pTrue = 1; Samples: 1/8
+        MajorityError(Variety, Haden) = 1 - max(1, 0) = 0
+
+    G(Variety) = MajorityError - (0.5 * 0.5 + (3/8) * 1/3 + (1/8) * 0)
+               = 0.5 - (0.5 * 0.5 + (3/8) * 1/3 + (1/8) * 0)
+               = 0.625
+
+Color:
+    S = Color; A = Red
+        pFalse = 1/3; pTrue = 2/3; Samples: 3/8
+        MajorityError(Color, Red) = 1 - max(1/3, 2/3) = 1/3
+
+    S = Color; A = Yellow
+        pFalse = 2/3; pTrue = 1/3; Samples: 3/8
+        MajorityError(Color, Red) = 1 - max(1/3, 2/3) = 1/3
+
+    S = Color; A = Green
+        pFalse = 1/2; pTrue = 1/2; Samples: 2/8
+        MajorityError(Color, Red) = 1 - max(1/2, 1/2) = 1/2
+
+    G(Color) = E - ((3/8) * (1/3) + (3/8) * (1/3) + (2/8) * (1/2))
+             = 1 - ((3/8) * (1/3) + (3/8) * (1/3) + (2/8) * (1/2))
+             = 0.625
+
+Smell:
+    S = Smell; A = None
+        pFalse = 3/4; pTrue = 1/4; Samples: 4/8
+        E(Smell, None) = - (1/4) * log2(1/4) - (3/4) * log2(3/4) = 0.8113
+
+    S = Smell; A = Sweet
+        pFalse = 1/4; pTrue = 3/4; Samples: 4/8
+        E(Smell, Sweet) = - (1/4) * log2(1/4) - (3/4) * log2(3/4) = 0.8113
+
+    G(Smell) = E - ((1/2) * 0.8113 + (1/2) * 0.8113)
+             = 1 - ((1/2) * 0.8113 + (1/2) * 0.8113)
+             = 0.1887
+
+Time:
+    S = Time; A = One
+        pFalse = 1/3; pTrue = 2/3; Samples: 3/8
+        E(Time, One) = - (1/3) * log2(1/3) - (2/3) * log2(2/3) = 0.918
+
+    S = Time; A = Two
+        pFalse = 3/5; pTrue = 2/5; Samples: 5/8
+        E(Time, Two) = - (3/5) * log2(3/5) - (2/5) * log2(2/5) = 0.971
+
+    G(Time) = E - ((3/8) * 0.918 + (5/8) * 0.971)
+             = 1 - ((3/8) * 0.918 + (5/8) * 0.971)
+             = 0.048875
