@@ -28,6 +28,7 @@ def get_most_common_label(data_obj, column=""):
 
     entries = 0
     most_common_label = ""
+    # print(map)
     for k, v in map.items():
         if v > entries:
             entries = v
@@ -59,5 +60,6 @@ def calculate_accuracy(data_obj, predict=""):
 
 
 most_common_label = get_most_common_label(train_data_obj, "label")
-print(f"Test Accuracy : {calculate_accuracy(test_data_obj, most_common_label)}%")
-print(f"Train Accuracy: {calculate_accuracy(train_data_obj, most_common_label)}%")
+print(f"Train Most common label: {most_common_label}")
+print(f"Test Accuracy (for {most_common_label})  : {calculate_accuracy(test_data_obj, most_common_label)}%")
+print(f"Train Accuracy (for {most_common_label}) : {calculate_accuracy(train_data_obj, most_common_label)}%")
