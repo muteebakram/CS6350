@@ -1,148 +1,9 @@
 #!/usr/bin/python3
 
 import math
-from data import Data
+import json
+import pandas as pd
 from collections import OrderedDict
-
-
-class Node:
-    def __init__(self):
-        self.data = None
-        self.array_nodes = []
-
-
-class ID3:
-    def __init__(self, data_obj):
-        self.data_obj = data_obj
-        self.total_entropy = self.get_total_entropy()
-        self.attribute_possible_values = self.get_attribute_possible_values()
-        self.attribute_data = self.prepare_attribute_data()
-        self.information_gain = self.calculate_info_gain()
-        self.root_node = self.id3_root()
-        self.decision_tree = self.build_tree()
-
-    def get_total_entropy(self):
-        label_data = self.data_obj.get_column("label")
-        label_size = label_data.size
-        edible_count = list(label_data).count("e")
-        poison_count = list(label_data).count("p")
-
-        # print(edible_count, poison_count, label_size)
-        p_edible = edible_count / label_size
-        p_poison = poison_count / label_size
-        # print(p_edible, p_poison)
-        return calculate_binary_entropy(pTrue=p_edible, pFalse=p_poison)
-
-    def get_attribute_subset(self, attribute_name, attribute_value):
-        sub_dataset = self.data_obj.get_row_subset(attribute_name=attribute_name, attribute_value=attribute_value)
-
-        # print(sub_dataset.raw_data)
-        label_sub_dataset = list(sub_dataset.raw_data[:, 0])
-        # print(label_sub_dataset)
-        total_count = len(label_sub_dataset)
-        edible_count = list(label_sub_dataset).count("e")
-        poison_count = list(label_sub_dataset).count("p")
-
-        # print(edible_count, poison_count, total_count)
-
-        return {
-            "attribute_name": attribute_name,
-            "attribute_value": attribute_value,
-            "edible_count": edible_count,
-            "poison_count": poison_count,
-            "total_count": total_count,
-        }
-
-        # print(self.data_obj.get_column("cap-shape", sub))
-        # print('\n'.join(''.join(str(cell) for cell in row) for row in sub.raw_data))
-
-    def prepare_attribute_data(self):
-        attribute_meta_data = {}
-        for attribute, attribute_values in self.attribute_possible_values.items():
-            for attribute_value in attribute_values:
-                if attribute not in attribute_meta_data:
-                    attribute_meta_data[attribute] = []
-
-                attribute_meta_data[attribute].append(
-                    self.get_attribute_subset(attribute_name=attribute, attribute_value=attribute_value)
-                )
-                # print(f"attribute: {attribute} -> attribute_value: {attribute_value}", end="\t")
-
-            # print()
-
-        # print(attribute_meta_data)
-        for attribute, attribute_datas in attribute_meta_data.items():
-            for attribute_data in attribute_datas:
-                attribute_value = attribute_data["attribute_value"]
-                edible_count = attribute_data["edible_count"]
-                poison_count = attribute_data["poison_count"]
-                total_count = attribute_data["total_count"]
-
-                if total_count == 0:
-                    attribute_data["sub_entropy"] = 0
-                    continue
-
-                p_edible = edible_count / total_count
-                p_poison = poison_count / total_count
-
-                attribute_data["sub_entropy"] = calculate_binary_entropy(pTrue=p_edible, pFalse=p_poison)
-                # print(
-                #     f"attribute: {attribute}, attribute_value: {attribute_value}, p_edible: {p_edible}, p_poison: {p_poison}, \
-                #     entropy: {attribute_data['sub_entropy']}, edible_count: {edible_count}, poison_count: {poison_count}, total_count: {total_count}"
-                # )
-
-        # print(attribute_meta_data)
-        return attribute_meta_data
-
-    def get_attribute_possible_values(self):
-        attribute_possible_values_dict = {}
-        for attribute in self.data_obj.index_column_dict.values():
-            if attribute == "label":
-                continue
-
-            # print(attribute, self.data_obj.attributes[attribute].possible_vals)
-            attribute_possible_values_dict[attribute] = list(self.data_obj.attributes[attribute].possible_vals)
-
-        return attribute_possible_values_dict
-
-    def calculate_info_gain(self):
-        total_samples = self.data_obj.__len__()
-        # print("total_samples: ", total_samples)
-
-        info_gain = {}  # Key is attribute_label and value is info gain for the attribute
-        for attribute, attribute_values in self.attribute_data.items():
-            gain = 0
-            for attribute_value in attribute_values:
-                total_count = attribute_value["total_count"]
-                sub_entropy = attribute_value["sub_entropy"]
-                gain += (total_count / total_samples) * sub_entropy
-
-            # print(f"attribute: {attribute}, total_entropy: {self.total_entropy}, gain: {gain}")
-            info_gain[attribute] = self.total_entropy - gain
-
-        # print(info_gain)
-        info_gain = OrderedDict(sorted(info_gain.items(), key=lambda x: x[1], reverse=True))
-        return info_gain
-
-    def id3_root(self):
-        # for key, value in self.information_gain.items():
-        #     print(key, value)
-        data = next(iter(self.information_gain))
-        # print(root)
-
-        root = Node()
-        root.data = data
-        return root
-
-    def build_tree(self):
-        pass
-        # get max info gain
-        # if not tree:
-        #     tree[max_info_gain]
-
-        # get data subset - with data of all equal to attr value and remove attr column
-        # check subset with label if only one -> add
-        # id3(subset, attribute - a)
 
 
 def calculate_binary_entropy(pTrue=None, pFalse=None):
@@ -159,49 +20,151 @@ def calculate_binary_entropy(pTrue=None, pFalse=None):
         print(f"Cannot calculate_binary_entropy for pTrue: {pTrue}, pFalse: {pFalse}")
 
 
-def traverse(tree):
-    if not tree:
-        return
+def get_total_entropy(df):
+    label_data = df["label"]
+    label_size = label_data.size
+    edible_count = list(label_data).count("e")
+    poison_count = list(label_data).count("p")
 
-    print(tree.data)
-    for node in tree.array_nodes:
-        # print(node)
-        if not node:
+    # print(edible_count, poison_count, label_size)
+    p_edible = edible_count / label_size
+    p_poison = poison_count / label_size
+    # print(p_edible, p_poison)
+    return calculate_binary_entropy(pTrue=p_edible, pFalse=p_poison)
+
+
+def get_data_frame_subset(df, attribute=None, attribute_value=None):
+    if not attribute and not attribute_value:
+        print(f"Error: No attribute: {attribute} or attribute_value: {attribute_value}")
+        return None
+
+    df = df[df[attribute] == attribute_value]
+    # print(df)
+    df = df.loc[:, df.columns != attribute]
+    # print(df)
+    # print(df.shape[0])
+    return df
+
+
+def get_best_info_gain_attribute(df):
+    total_entropy = get_total_entropy(df)
+    total_samples = df.shape[0]
+    attributes = df.columns
+
+    attr_possible_values_dict = {}
+    for attr in attributes:
+        if attr != "label" and attr not in attr_possible_values_dict:
+            attr_possible_values_dict[attr] = list(df[attr].unique())
+
+    information_gain = {}
+    for attr, attr_values in attr_possible_values_dict.items():
+        if attr not in information_gain:
+            information_gain[attr] = 0
+
+        gain = 0
+        for attr_value in attr_values:
+            # print(attr, attr_value)
+            sub_df = get_data_frame_subset(df, attribute=attr, attribute_value=attr_value)
+            # print(sub_df)
+            samples = sub_df.shape[0]
+            edible_count = sub_df["label"].value_counts()["e"] if "e" in sub_df["label"].value_counts() else 0
+            poison_count = sub_df["label"].value_counts()["p"] if "p" in sub_df["label"].value_counts() else 0
+
+            p_edible = edible_count / samples
+            p_poison = poison_count / samples
+
+            entropy = calculate_binary_entropy(pTrue=p_edible, pFalse=p_poison)
+            gain += (samples / total_samples) * entropy
+
+        information_gain[attr] = total_entropy - gain
+
+    information_gain = OrderedDict(sorted(information_gain.items(), key=lambda x: x[1], reverse=True))
+    # print("information_gain", information_gain)
+    best_attribute = next(iter(information_gain))
+    return best_attribute, information_gain[best_attribute]
+
+
+def id3(df, tree=None, depth=0):
+    best_attribute, _ = get_best_info_gain_attribute(df)
+    best_attribute_possible_values = list(df[best_attribute].unique())
+    # print("best_attribute: ", best_attribute)
+
+    if not tree:
+        tree = {}
+
+    if best_attribute not in tree:
+        tree[best_attribute] = {}
+
+    for value in best_attribute_possible_values:
+        tree[best_attribute][value] = {}
+        # Get the dataset with rows set to the attribute value and the attribute column removed.
+        sub_df = get_data_frame_subset(df, attribute=best_attribute, attribute_value=value)
+        labels = sub_df["label"].unique()
+        if len(list(labels)) == 1:
+            tree[best_attribute][value]["label"] = list(labels)[0]
+        else:
+            sub_tree, depth = id3(sub_df, tree=None, depth=depth + 1)
+            tree[best_attribute][value] = sub_tree
+
+    return tree, depth
+
+
+def tree_walk(row, tree):
+    # print("tree", tree)
+    if "label" in tree:
+        return tree["label"]
+
+    for key in tree.keys():
+        new_key = row[key]
+        # print(f"key: {key} -> new_key: {new_key}")
+        return tree_walk(row, tree[key][new_key])
+
+
+def test_accuracy(df, tree):
+    df_rows = df.shape[0]
+    dict_rows = df.to_dict(orient="records")
+
+    if df_rows != len(dict_rows):
+        print(f"Error: Mismatch in data frame rows ({df_rows}) and dictionary row of data frames ({len(dict_rows)}).")
+        raise ValueError
+
+    correct_prediction = 0
+    total_samples = len(dict_rows)
+    # print("Total Samples: ", total_samples)
+
+    for index, row in df.iterrows():
+        predicted_label = tree_walk(row=dict_rows[index], tree=tree)
+        if predicted_label is None:
+            print("Failed to predict for row: ", row)
             continue
 
-        for edge, next_node in node.items():
-            print(edge, end="\t")
-            traverse(next_node)
-        print()
+        if row["label"] == predicted_label:
+            correct_prediction += 1
+
+    # print("Accuracy: ", correct_prediction / total_samples)
+    return correct_prediction / total_samples
 
 
-def test_tree_traversal():
-    tree = Node()
-    tree.data = "Hi"
+df = pd.read_csv("./data/train.csv")
+root_feature, info_gain = get_best_info_gain_attribute(df)
 
-    left = Node()
-    left.data = "World"
-    left.array_nodes = []
+print("(a) [2 points] The root feature that is selected by your algorithm")
+print(root_feature)
 
-    right = Node()
-    right.data = "Muteeb"
-    right.array_nodes = [None]
+print("\n(b) [2 point] Information gain for the root feature")
+print(info_gain)
 
-    tree.array_nodes.append({"left": left})
-    tree.array_nodes.append({"right": right})
+tree, depth = id3(df)
+with open("tree.json", "w") as f:
+    json.dump(tree, f, indent=4)
 
-    traverse(tree)
+print("\n(c) [2 points] Maximum depth of the tree that your implementation gives")
+print(depth)
 
+print("\n(d) [3 points] Accuracy on the training set")
+print(test_accuracy(df, tree))
 
-train_data_obj = Data(fpath="./data/train.csv")
-test_data_obj = Data(fpath="./data/test.csv")
-
-id3 = ID3(train_data_obj)
-id3.id3_root()
-# print(id3.data_obj.index_column_dict)
-# print()
-# print(id3.data_obj.column_index_dict)
-# print(id3.data_obj.get_attribute_possible_vals("veil-type"))
-# print(id3.data_obj.get_attribute_possible_vals("stalk-root"))
-# print(id3.get_attribute_subset("cap-shape", "x"))
-test_tree_traversal()
+print("\n(e) [5 points] Accuracy on the test set")
+df = pd.read_csv("./data/test.csv")
+tree, depth = id3(df)
+print(test_accuracy(df, tree))

@@ -1,0 +1,171 @@
+{
+    "spore-print-color": {
+        "k": {
+            "gill-size": {
+                "n": {
+                    "population": {
+                        "s": {
+                            "label": "p"
+                        },
+                        "v": {
+                            "cap-surface": {
+                                "y": {
+                                    "label": "p"
+                                },
+                                "f": {
+                                    "stalk-root": {
+                                        "e": {
+                                            "label": "e"
+                                        },
+                                        "b": {
+                                            "label": "p"
+                                        }
+                                    }
+                                },
+                                "s": {
+                                    "label": "p"
+                                }
+                            }
+                        },
+                        "y": {
+                            "label": "e"
+                        }
+                    }
+                },
+                "b": {
+                    "label": "e"
+                }
+            }
+        },
+        "n": {
+            "gill-size": {
+                "b": {
+                    "label": "e"
+                },
+                "n": {
+                    "stalk-shape": {
+                        "e": {
+                            "population": {
+                                "v": {
+                                    "cap-surface": {
+                                        "y": {
+                                            "label": "p"
+                                        },
+                                        "s": {
+                                            "label": "p"
+                                        },
+                                        "f": {
+                                            "stalk-root": {
+                                                "e": {
+                                                    "label": "e"
+                                                },
+                                                "b": {
+                                                    "label": "p"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "y": {
+                                    "label": "e"
+                                },
+                                "s": {
+                                    "label": "p"
+                                }
+                            }
+                        },
+                        "t": {
+                            "label": "e"
+                        }
+                    }
+                }
+            }
+        },
+        "u": {
+            "label": "e"
+        },
+        "h": {
+            "gill-size": {
+                "b": {
+                    "label": "p"
+                },
+                "n": {
+                    "label": "e"
+                }
+            }
+        },
+        "w": {
+            "gill-color": {
+                "e": {
+                    "label": "e"
+                },
+                "b": {
+                    "label": "p"
+                },
+                "w": {
+                    "habitat": {
+                        "d": {
+                            "stalk-root": {
+                                "?": {
+                                    "label": "p"
+                                },
+                                "c": {
+                                    "label": "p"
+                                },
+                                "b": {
+                                    "label": "e"
+                                }
+                            }
+                        },
+                        "l": {
+                            "cap-color": {
+                                "w": {
+                                    "label": "p"
+                                },
+                                "c": {
+                                    "label": "e"
+                                },
+                                "n": {
+                                    "label": "e"
+                                },
+                                "y": {
+                                    "label": "p"
+                                }
+                            }
+                        },
+                        "w": {
+                            "label": "e"
+                        },
+                        "p": {
+                            "label": "e"
+                        },
+                        "g": {
+                            "label": "e"
+                        }
+                    }
+                },
+                "g": {
+                    "label": "e"
+                },
+                "p": {
+                    "label": "e"
+                },
+                "y": {
+                    "label": "p"
+                }
+            }
+        },
+        "r": {
+            "label": "p"
+        },
+        "o": {
+            "label": "e"
+        },
+        "y": {
+            "label": "e"
+        },
+        "b": {
+            "label": "e"
+        }
+    }
+}
