@@ -3,7 +3,6 @@
 import math
 import json
 import pandas as pd
-from collections import OrderedDict
 
 
 def calculate_binary_entropy(pTrue=None, pFalse=None):
@@ -20,17 +19,17 @@ def calculate_binary_entropy(pTrue=None, pFalse=None):
         print(f"Cannot calculate_binary_entropy for pTrue: {pTrue}, pFalse: {pFalse}")
 
 
-def get_total_entropy(df):
-    label_data = df["label"]
+def get_entropy(df, p_value="+", n_value="-", label_col_name="label"):
+    label_data = df[label_col_name]
     label_size = label_data.size
-    edible_count = list(label_data).count("e")
-    poison_count = list(label_data).count("p")
+    positive_count = list(label_data).count(p_value)
+    negative_count = list(label_data).count(n_value)
 
-    # print(edible_count, poison_count, label_size)
-    p_edible = edible_count / label_size
-    p_poison = poison_count / label_size
-    # print(p_edible, p_poison)
-    return calculate_binary_entropy(pTrue=p_edible, pFalse=p_poison)
+    # print(positive_count, negative_count, label_size)
+    p_positive = positive_count / label_size
+    p_negative = negative_count / label_size
+    # print(p_positive, p_negative)
+    return calculate_binary_entropy(pTrue=p_positive, pFalse=p_negative)
 
 
 def get_data_frame_subset(df, attribute=None, attribute_value=None):
@@ -43,8 +42,20 @@ def get_data_frame_subset(df, attribute=None, attribute_value=None):
     return df
 
 
+def get_max_key_by_value(map):
+    max_key = ""
+    max_val = float("-inf")
+
+    for key, val in map.items():
+        if val > max_val:
+            max_val = val
+            max_key = key
+
+    return max_key
+
+
 def get_best_info_gain_attribute(df):
-    total_entropy = get_total_entropy(df)
+    total_entropy = get_entropy(df, p_value="e", n_value="p")
     total_samples = df.shape[0]
     attributes = df.columns
 
@@ -62,22 +73,14 @@ def get_best_info_gain_attribute(df):
         for attr_value in attr_values:
             # print(attr, attr_value)
             sub_df = get_data_frame_subset(df, attribute=attr, attribute_value=attr_value)
-            # print(sub_df)
             samples = sub_df.shape[0]
-            edible_count = sub_df["label"].value_counts()["e"] if "e" in sub_df["label"].value_counts() else 0
-            poison_count = sub_df["label"].value_counts()["p"] if "p" in sub_df["label"].value_counts() else 0
 
-            p_edible = edible_count / samples
-            p_poison = poison_count / samples
-
-            entropy = calculate_binary_entropy(pTrue=p_edible, pFalse=p_poison)
+            entropy = get_entropy(sub_df, p_value="e", n_value="p")
             gain += (samples / total_samples) * entropy
 
         information_gain[attr] = total_entropy - gain
 
-    information_gain = OrderedDict(sorted(information_gain.items(), key=lambda x: x[1], reverse=True))
-    # print("information_gain", information_gain)
-    best_attribute = next(iter(information_gain))
+    best_attribute = get_max_key_by_value(information_gain)
     return best_attribute, information_gain[best_attribute]
 
 
@@ -106,7 +109,7 @@ def id3(df, tree=None, depth=0):
             current_depth = max(sub_tree_depth, current_depth)
             # print("best_attribute: ", best_attribute, " depth: ", current_depth)
 
-    return tree, current_depth  # + 1 because we need to count last label.
+    return tree, current_depth
 
 
 def tree_walk(row, tree):
@@ -176,7 +179,7 @@ if __name__ == "__main__":
     print(test_accuracy(df, tree))
 
     print("\n(a) Entropy of the data")
-    print(get_total_entropy(df))
+    print(get_entropy(df, p_value="e", n_value="p"))
 
     print("\n(b) Best feature and its information gain")
     print(f"{root_feature}: {info_gain}")
