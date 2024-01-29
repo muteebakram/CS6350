@@ -89,6 +89,7 @@ def id3(df, tree=None, depth=0):
     best_attribute_possible_values = list(df[best_attribute].unique())
     # print("best_attribute: ", best_attribute)
 
+    current_depth = depth
     if not tree:
         tree = {}
 
@@ -103,20 +104,26 @@ def id3(df, tree=None, depth=0):
         if len(list(labels)) == 1:
             tree[best_attribute][value]["label"] = list(labels)[0]
         else:
-            sub_tree, depth = id3(sub_df, tree=None, depth=depth + 1)
+            sub_tree, sub_tree_depth = id3(sub_df, tree=None, depth=depth + 1)
             tree[best_attribute][value] = sub_tree
+            current_depth = max(sub_tree_depth, current_depth)
+            # print("best_attribute: ", best_attribute, " depth: ", current_depth)
 
-    return tree, depth
+    return tree, current_depth  # + 1 because we need to count last label.
 
 
 def tree_walk(row, tree):
-    # print("tree", tree)
     if "label" in tree:
+        # print()
         return tree["label"]
 
     for key in tree.keys():
         new_key = row[key]
-        # print(f"key: {key} -> new_key: {new_key}")
+        # print(f"key: {key} -> new_key: {new_key}", end="  ")
+        if new_key not in tree[key]:
+            # print(f"new_key: {new_key} not in tree.")
+            return None
+
         return tree_walk(row, tree[key][new_key])
 
 
@@ -135,7 +142,7 @@ def test_accuracy(df, tree):
     for index, row in df.iterrows():
         predicted_label = tree_walk(row=dict_rows[index], tree=tree)
         if predicted_label is None:
-            print("Failed to predict for row: ", row)
+            # print("Failed to predict for row: ", row)
             continue
 
         if row["label"] == predicted_label:
@@ -145,26 +152,27 @@ def test_accuracy(df, tree):
     return correct_prediction / total_samples
 
 
-df = pd.read_csv("./data/train.csv")
-root_feature, info_gain = get_best_info_gain_attribute(df)
+if __name__ == "__main__":
+    df = pd.read_csv("./data/train.csv")
+    root_feature, info_gain = get_best_info_gain_attribute(df)
 
-print("(a) [2 points] The root feature that is selected by your algorithm")
-print(root_feature)
+    print("(a) [2 points] The root feature that is selected by your algorithm")
+    print(root_feature)
 
-print("\n(b) [2 point] Information gain for the root feature")
-print(info_gain)
+    print("\n(b) [2 point] Information gain for the root feature")
+    print(info_gain)
 
-tree, depth = id3(df)
-with open("tree.json", "w") as f:
-    json.dump(tree, f, indent=4)
+    tree, depth = id3(df)
+    with open("tree.json", "w") as f:
+        json.dump(tree, f, indent=4)
 
-print("\n(c) [2 points] Maximum depth of the tree that your implementation gives")
-print(depth)
+    print("\n(c) [2 points] Maximum depth of the tree that your implementation gives")
+    print(depth + 1)  # Need to count label for depth
 
-print("\n(d) [3 points] Accuracy on the training set")
-print(test_accuracy(df, tree))
+    print("\n(d) [3 points] Accuracy on the training set")
+    print(test_accuracy(df, tree))
 
-print("\n(e) [5 points] Accuracy on the test set")
-df = pd.read_csv("./data/test.csv")
-tree, depth = id3(df)
-print(test_accuracy(df, tree))
+    print("\n(e) [5 points] Accuracy on the test set")
+    df = pd.read_csv("./data/test.csv")
+    tree, depth = id3(df)
+    print(test_accuracy(df, tree))

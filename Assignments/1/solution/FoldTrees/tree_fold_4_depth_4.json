@@ -1,0 +1,131 @@
+{
+    "spore-print-color": {
+        "k": {
+            "gill-size": {
+                "n": {
+                    "population": {
+                        "s": {
+                            "label": "p"
+                        },
+                        "v": {
+                            "cap-surface": {
+                                "y": {
+                                    "label": "p"
+                                },
+                                "f": {
+                                    "label": "p"
+                                },
+                                "s": {
+                                    "label": "p"
+                                }
+                            }
+                        },
+                        "y": {
+                            "label": "e"
+                        }
+                    }
+                },
+                "b": {
+                    "label": "e"
+                }
+            }
+        },
+        "n": {
+            "gill-size": {
+                "b": {
+                    "label": "e"
+                },
+                "n": {
+                    "stalk-shape": {
+                        "e": {
+                            "population": {
+                                "v": {
+                                    "label": "p"
+                                },
+                                "y": {
+                                    "label": "e"
+                                },
+                                "s": {
+                                    "label": "p"
+                                }
+                            }
+                        },
+                        "t": {
+                            "label": "e"
+                        }
+                    }
+                }
+            }
+        },
+        "u": {
+            "label": "e"
+        },
+        "h": {
+            "cap-color": {
+                "g": {
+                    "label": "p"
+                },
+                "y": {
+                    "label": "p"
+                },
+                "w": {
+                    "label": "p"
+                },
+                "b": {
+                    "label": "p"
+                },
+                "u": {
+                    "label": "e"
+                },
+                "r": {
+                    "label": "e"
+                }
+            }
+        },
+        "w": {
+            "ring-number": {
+                "t": {
+                    "label": "e"
+                },
+                "o": {
+                    "stalk-root": {
+                        "?": {
+                            "label": "p"
+                        },
+                        "b": {
+                            "cap-shape": {
+                                "b": {
+                                    "label": "p"
+                                },
+                                "f": {
+                                    "label": "e"
+                                },
+                                "k": {
+                                    "label": "e"
+                                }
+                            }
+                        },
+                        "c": {
+                            "label": "p"
+                        }
+                    }
+                },
+                "n": {
+                    "label": "p"
+                }
+            }
+        },
+        "r": {
+            "label": "p"
+        },
+        "b": {
+            "label": "e"
+        },
+        "y": {
+            "label": "e"
+        },
+        "o": {
+            "label": "e"
+        }
+    }
+}

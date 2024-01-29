@@ -1,0 +1,263 @@
+{
+    "gill-color": {
+        "k": {
+            "gill-size": {
+                "n": {
+                    "cap-surface": {
+                        "s": {
+                            "label": "p"
+                        },
+                        "y": {
+                            "label": "p"
+                        },
+                        "f": {
+                            "label": "e"
+                        }
+                    }
+                },
+                "b": {
+                    "label": "e"
+                }
+            }
+        },
+        "n": {
+            "gill-size": {
+                "b": {
+                    "label": "e"
+                },
+                "n": {
+                    "cap-surface": {
+                        "y": {
+                            "label": "p"
+                        },
+                        "s": {
+                            "stalk-shape": {
+                                "e": {
+                                    "label": "p"
+                                },
+                                "t": {
+                                    "label": "e"
+                                }
+                            }
+                        },
+                        "f": {
+                            "population": {
+                                "y": {
+                                    "label": "e"
+                                },
+                                "v": {
+                                    "label": "e"
+                                },
+                                "s": {
+                                    "label": "p"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "g": {
+            "stalk-root": {
+                "c": {
+                    "label": "e"
+                },
+                "e": {
+                    "label": "e"
+                },
+                "b": {
+                    "label": "p"
+                },
+                "?": {
+                    "label": "e"
+                }
+            }
+        },
+        "p": {
+            "spore-print-color": {
+                "k": {
+                    "gill-size": {
+                        "n": {
+                            "cap-surface": {
+                                "y": {
+                                    "label": "p"
+                                },
+                                "f": {
+                                    "label": "p"
+                                },
+                                "s": {
+                                    "label": "p"
+                                }
+                            }
+                        },
+                        "b": {
+                            "label": "e"
+                        }
+                    }
+                },
+                "n": {
+                    "gill-size": {
+                        "b": {
+                            "label": "e"
+                        },
+                        "n": {
+                            "cap-surface": {
+                                "f": {
+                                    "label": "p"
+                                },
+                                "y": {
+                                    "label": "p"
+                                },
+                                "s": {
+                                    "label": "p"
+                                }
+                            }
+                        }
+                    }
+                },
+                "u": {
+                    "label": "e"
+                },
+                "h": {
+                    "gill-size": {
+                        "b": {
+                            "label": "p"
+                        },
+                        "n": {
+                            "label": "e"
+                        }
+                    }
+                },
+                "w": {
+                    "label": "e"
+                }
+            }
+        },
+        "w": {
+            "habitat": {
+                "g": {
+                    "stalk-root": {
+                        "c": {
+                            "label": "e"
+                        },
+                        "e": {
+                            "label": "p"
+                        },
+                        "r": {
+                            "label": "e"
+                        },
+                        "b": {
+                            "label": "p"
+                        },
+                        "?": {
+                            "label": "e"
+                        }
+                    }
+                },
+                "m": {
+                    "stalk-root": {
+                        "c": {
+                            "label": "e"
+                        },
+                        "b": {
+                            "label": "p"
+                        }
+                    }
+                },
+                "d": {
+                    "stalk-surface-above-ring": {
+                        "s": {
+                            "label": "e"
+                        },
+                        "k": {
+                            "label": "p"
+                        },
+                        "y": {
+                            "label": "e"
+                        }
+                    }
+                },
+                "u": {
+                    "label": "p"
+                },
+                "p": {
+                    "label": "e"
+                },
+                "w": {
+                    "label": "e"
+                },
+                "l": {
+                    "cap-color": {
+                        "n": {
+                            "label": "e"
+                        },
+                        "c": {
+                            "label": "e"
+                        },
+                        "w": {
+                            "label": "p"
+                        },
+                        "y": {
+                            "label": "p"
+                        }
+                    }
+                }
+            }
+        },
+        "h": {
+            "stalk-root": {
+                "e": {
+                    "label": "e"
+                },
+                "b": {
+                    "label": "p"
+                },
+                "?": {
+                    "label": "e"
+                }
+            }
+        },
+        "u": {
+            "bruises": {
+                "t": {
+                    "label": "e"
+                },
+                "f": {
+                    "cap-surface": {
+                        "s": {
+                            "label": "p"
+                        },
+                        "f": {
+                            "label": "p"
+                        },
+                        "y": {
+                            "label": "e"
+                        }
+                    }
+                }
+            }
+        },
+        "b": {
+            "label": "p"
+        },
+        "e": {
+            "label": "e"
+        },
+        "r": {
+            "label": "p"
+        },
+        "y": {
+            "cap-surface": {
+                "s": {
+                    "label": "e"
+                },
+                "y": {
+                    "label": "p"
+                }
+            }
+        },
+        "o": {
+            "label": "e"
+        }
+    }
+}

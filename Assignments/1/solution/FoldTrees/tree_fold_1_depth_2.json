@@ -1,0 +1,117 @@
+{
+    "gill-color": {
+        "h": {
+            "stalk-root": {
+                "e": {
+                    "label": "e"
+                },
+                "b": {
+                    "label": "p"
+                },
+                "?": {
+                    "label": "e"
+                }
+            }
+        },
+        "k": {
+            "gill-size": {
+                "b": {
+                    "label": "e"
+                },
+                "n": {
+                    "label": "p"
+                }
+            }
+        },
+        "n": {
+            "gill-size": {
+                "n": {
+                    "label": "e"
+                },
+                "b": {
+                    "label": "e"
+                }
+            }
+        },
+        "p": {
+            "spore-print-color": {
+                "n": {
+                    "label": "e"
+                },
+                "k": {
+                    "label": "e"
+                },
+                "h": {
+                    "label": "e"
+                },
+                "w": {
+                    "label": "e"
+                }
+            }
+        },
+        "w": {
+            "spore-print-color": {
+                "k": {
+                    "label": "e"
+                },
+                "n": {
+                    "label": "e"
+                },
+                "h": {
+                    "label": "e"
+                },
+                "w": {
+                    "label": "e"
+                },
+                "r": {
+                    "label": "p"
+                }
+            }
+        },
+        "g": {
+            "stalk-root": {
+                "c": {
+                    "label": "e"
+                },
+                "b": {
+                    "label": "p"
+                },
+                "?": {
+                    "label": "e"
+                }
+            }
+        },
+        "u": {
+            "bruises": {
+                "t": {
+                    "label": "e"
+                },
+                "f": {
+                    "label": "e"
+                }
+            }
+        },
+        "e": {
+            "label": "e"
+        },
+        "b": {
+            "label": "p"
+        },
+        "r": {
+            "label": "p"
+        },
+        "y": {
+            "cap-surface": {
+                "s": {
+                    "label": "e"
+                },
+                "y": {
+                    "label": "p"
+                }
+            }
+        },
+        "o": {
+            "label": "e"
+        }
+    }
+}

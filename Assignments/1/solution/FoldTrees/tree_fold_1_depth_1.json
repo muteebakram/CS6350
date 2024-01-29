@@ -1,0 +1,40 @@
+{
+    "gill-color": {
+        "h": {
+            "label": "p"
+        },
+        "k": {
+            "label": "p"
+        },
+        "n": {
+            "label": "p"
+        },
+        "p": {
+            "label": "p"
+        },
+        "w": {
+            "label": "p"
+        },
+        "g": {
+            "label": "p"
+        },
+        "u": {
+            "label": "p"
+        },
+        "e": {
+            "label": "e"
+        },
+        "b": {
+            "label": "p"
+        },
+        "r": {
+            "label": "p"
+        },
+        "y": {
+            "label": "p"
+        },
+        "o": {
+            "label": "e"
+        }
+    }
+}

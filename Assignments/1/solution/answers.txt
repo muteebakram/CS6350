@@ -80,6 +80,8 @@ Time:
 1d. Which attribute will you use to construct the root of the tree using the information gain heuristic of the ID3 algorithm?
 Smell
 
+[Calculate info gain after best attribute]
+
 1e. sing the root that you selected in the previous question, construct a
 decision tree that represents the data. You do not have to use the ID3 algorithm
 here, you can show any tree with the chosen root.
