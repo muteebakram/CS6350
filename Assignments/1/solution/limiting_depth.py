@@ -39,7 +39,7 @@ def prepare_train_test_folds():
     return train_folds, test_folds
 
 
-def get_major_label(df):
+def get_majority_label(df):
     edible_count = df["label"].value_counts()["e"] if "e" in df["label"].value_counts() else 0
     poison_count = df["label"].value_counts()["p"] if "p" in df["label"].value_counts() else 0
 
@@ -51,10 +51,10 @@ def get_major_label(df):
 
 
 # need to find major label.
-def test_major_label():
+def test_majority_label():
     for i in range(len(dfs)):
-        print(f"Train fold {i+1} major label {get_major_label(train_folds[i])}")
-        print(f"Test  fold {i+1} major label {get_major_label(test_folds[i])}")
+        print(f"Train fold {i+1} major label {get_majority_label(train_folds[i])}")
+        print(f"Test  fold {i+1} major label {get_majority_label(test_folds[i])}")
 
 
 # need to limit depth
@@ -81,7 +81,7 @@ def id3(df, max_depth, tree=None, depth=1):
 
         elif depth >= max_depth:
             # print(value, end="\t")
-            tree[best_attribute][value]["label"] = get_major_label(df)
+            tree[best_attribute][value]["label"] = get_majority_label(df)
 
         else:
             sub_tree, sub_tree_depth = id3(sub_df, max_depth, tree=None, depth=depth + 1)
@@ -94,16 +94,33 @@ def id3(df, max_depth, tree=None, depth=1):
 # There will be 5 train folds with 5224 rows and 5 test folds with 1306 rows.
 train_folds, test_folds = prepare_train_test_folds()
 
+best_cv_accuracy = 0
+best_decision_tree = None
+best_decision_tree_depth = 0
+
 depth_limits = [1, 2, 3, 4, 5, 10, 15]
 for depth_limit in depth_limits:
     accuracies = []
     for i in range(len(dfs)):
         tree, depth = id3(train_folds[i], depth_limit)
-        with open(f"./FoldTrees/tree_fold_{i+1}_depth_{depth_limit}.json", "w") as f:
-            json.dump(tree, f, indent=4)
+        # with open(f"./FoldTrees/tree_fold_{i+1}_depth_{depth_limit}.json", "w") as f:
+        #     json.dump(tree, f, indent=4)
 
         accuracies.append(test_accuracy(test_folds[i], tree))
 
     std_accuracy = np.std(accuracies)
     avg_accuracy = np.mean(accuracies)
-    print(f"Depth Limit: {depth_limit:<2} \t Accuracy: {avg_accuracy:<2} \t Standard Deviation: {std_accuracy:<2}")
+    print(f"Depth Limit: {depth_limit:<5} Accuracy: {avg_accuracy:<25} \t Standard Deviation: {std_accuracy:<25}")
+
+    if avg_accuracy > best_cv_accuracy:
+        best_cv_accuracy = avg_accuracy
+        best_decision_tree = tree
+        best_decision_tree_depth = depth_limit
+
+print(f"\nBest depth limit of the tree is {best_decision_tree_depth} with accuracy {best_cv_accuracy}\n")
+
+train_df = pd.read_csv("./data/train.csv")
+print(f"Train data accuracy: {test_accuracy(train_df, best_decision_tree)}")
+
+test_df = pd.read_csv("./data/test.csv")
+print(f"Test  data accuracy: {test_accuracy(test_df, best_decision_tree)}")
