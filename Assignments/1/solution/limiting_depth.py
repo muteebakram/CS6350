@@ -94,7 +94,7 @@ def id3(df, max_depth, tree=None, depth=1):
 # There will be 5 train folds with 5224 rows and 5 test folds with 1306 rows.
 train_folds, test_folds = prepare_train_test_folds()
 
-print("\n(c) Cross-validation accuracies for each fold (for limiting depth setting)")
+print("(c) Cross-validation accuracies for each fold (for limiting depth setting)\n")
 best_cv_accuracy = 0
 best_decision_tree = None
 best_decision_tree_depth = 0
@@ -102,7 +102,7 @@ best_decision_tree_depth = 0
 depth_limits = [1, 2, 3, 4, 5, 10, 15]
 for depth_limit in depth_limits:
     accuracies = []
-    print(f"\nDepth Limit: {depth_limit}")
+    print(f"Depth Limit: {depth_limit}")
     for i in range(len(dfs)):
         tree, depth = id3(train_folds[i], depth_limit)
         # with open(f"./FoldTrees/tree_fold_{i+1}_depth_{depth_limit}.json", "w") as f:
