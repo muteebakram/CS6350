@@ -1,0 +1,135 @@
+Baseline
+******************************************************************
+Train Most common label : e
+Test Accuracy (for e)   : 51.819322459222086%
+Train Accuracy (for e)  : 51.791730474732%
+
+
+Full Trees
+******************************************************************
+(a) [2 points] The root feature that is selected by your algorithm
+spore-print-color
+
+(b) [2 point] Information gain for the root feature
+0.48515332936973543
+
+(c) [2 points] Maximum depth of the tree that your implementation gives
+6
+
+(d) [3 points] Accuracy on the training set
+1.0
+
+(e) [5 points] Accuracy on the test set
+1.0
+
+(a) Entropy of the data
+0.9990447440116075
+
+(b) Best feature and its information gain
+spore-print-color: 0.48515332936973543
+
+
+Limiting Depth
+******************************************************************
+
+(c) Cross-validation accuracies for each fold (for limiting depth setting)
+
+Depth Limit: 1
+  CV accuracy (Fold 1) : 0.11562021439509954
+  CV accuracy (Fold 2) : 0.1125574272588055
+  CV accuracy (Fold 3) : 0.34762633996937214
+  CV accuracy (Fold 4) : 0.20903522205206737
+  CV accuracy (Fold 5) : 0.28560490045941805
+  Accuracy             : 0.21408882082695252      
+  Standard Deviation   : 0.09271143171994259      
+
+
+Depth Limit: 2
+  CV accuracy (Fold 1) : 0.8736600306278713
+  CV accuracy (Fold 2) : 0.9379785604900459
+  CV accuracy (Fold 3) : 0.7304747320061256
+  CV accuracy (Fold 4) : 0.9594180704441041
+  CV accuracy (Fold 5) : 0.8751914241960184
+  Accuracy             : 0.875344563552833        
+  Standard Deviation   : 0.07997687331789945      
+
+
+Depth Limit: 3
+  CV accuracy (Fold 1) : 0.8744257274119449
+  CV accuracy (Fold 2) : 0.9961715160796325
+  CV accuracy (Fold 3) : 0.9762633996937213
+  CV accuracy (Fold 4) : 0.9609494640122511
+  CV accuracy (Fold 5) : 0.9502297090352221
+  Accuracy             : 0.9516079632465544       
+  Standard Deviation   : 0.04156936741679545      
+
+
+Depth Limit: 4
+  CV accuracy (Fold 1) : 0.8920367534456355
+  CV accuracy (Fold 2) : 0.9992343032159265
+  CV accuracy (Fold 3) : 0.9915773353751914
+  CV accuracy (Fold 4) : 0.9747320061255743
+  CV accuracy (Fold 5) : 0.9502297090352221
+  Accuracy             : 0.9615620214395099       
+  Standard Deviation   : 0.03861541810100949      
+
+
+Depth Limit: 5
+  CV accuracy (Fold 1) : 0.9058192955589587
+  CV accuracy (Fold 2) : 0.9992343032159265
+  CV accuracy (Fold 3) : 0.9869831546707504
+  CV accuracy (Fold 4) : 0.9747320061255743
+  CV accuracy (Fold 5) : 0.9502297090352221
+  Accuracy             : 0.9633996937212863       
+  Standard Deviation   : 0.03303837441999829      
+
+
+Depth Limit: 10
+  CV accuracy (Fold 1) : 0.9058192955589587
+  CV accuracy (Fold 2) : 1.0
+  CV accuracy (Fold 3) : 0.9869831546707504
+  CV accuracy (Fold 4) : 0.9747320061255743
+  CV accuracy (Fold 5) : 0.9502297090352221
+  Accuracy             : 0.963552833078101        
+  Standard Deviation   : 0.03320547197474912      
+
+
+Depth Limit: 15
+  CV accuracy (Fold 1) : 0.9058192955589587
+  CV accuracy (Fold 2) : 1.0
+  CV accuracy (Fold 3) : 0.9869831546707504
+  CV accuracy (Fold 4) : 0.9747320061255743
+  CV accuracy (Fold 5) : 0.9502297090352221
+  Accuracy             : 0.963552833078101        
+  Standard Deviation   : 0.03320547197474912      
+
+
+(d) Best depth (for the limiting depth setting)
+Best depth limit from given limits for the tree is 10 with accuracy 0.963552833078101
+
+(e) Accuracy of the trained classifier on the training set (For the limiting depth setting, this would be for the tree with the best depth)
+Train data accuracy: 0.9900459418070444
+
+(f) Accuracy of the trained classifier on the test set (For the limiting depth setting, this would be for the tree with the best depth)
+Test  data accuracy: 0.9893350062735258
+
+
+Grad only: Attribute cost
+******************************************************************
+1. [8 points] Compute the modified gains GainT and GainS for each attribute using these costs. Fill in your results in the table below. (upto 3 decimal places)
+GainT (S, A)
+Attribute: shape      GainT: 0.0003791224797094684     (Round upto 3 - 0.0)
+Attribute: color      GainT: 0.0004497567440618371     (Round upto 3 - 0.0)
+Attribute: size       GainT: 0.0005684560252580993     (Round upto 3 - 0.001)
+Attribute: material   GainT: 0.00035114077513800153    (Round upto 3 - 0.0)
+
+GainS (S, A)
+Attribute: shape      GainS: 0.01314678303321537       (Round upto 3 - 0.013)
+Attribute: color      GainS: 0.015058957894028608      (Round upto 3 - 0.015)
+Attribute: size       GainS: 0.017357865267819364      (Round upto 3 - 0.017)
+Attribute: material   GainS: 0.013801150058785192      (Round upto 3 - 0.014)
+
+2. [2 points] For each variant of gain, which feature would you choose as the root?
+Best GainT feature for root of the decision tree is 'size'
+Best GainS feature for root of the decision tree is 'size'
+

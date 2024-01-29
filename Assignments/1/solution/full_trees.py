@@ -118,6 +118,7 @@ def tree_walk(row, tree):
         new_key = row[key]
         # print(f"key: {key} -> new_key: {new_key}", end="  ")
         if new_key not in tree[key]:
+            # TODO limiting tree does not have all possible attributes in test folds.
             # print(f"new_key: {new_key} not in tree.")
             return None
 
@@ -173,3 +174,9 @@ if __name__ == "__main__":
     df = pd.read_csv("./data/test.csv")
     tree, depth = id3(df)
     print(test_accuracy(df, tree))
+
+    print("\n(a) Entropy of the data")
+    print(get_total_entropy(df))
+
+    print("\n(b) Best feature and its information gain")
+    print(f"{root_feature}: {info_gain}")
