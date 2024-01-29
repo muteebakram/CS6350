@@ -34,15 +34,12 @@ def get_total_entropy(df):
 
 
 def get_data_frame_subset(df, attribute=None, attribute_value=None):
-    if not attribute and not attribute_value:
+    if not attribute or not attribute_value:
         print(f"Error: No attribute: {attribute} or attribute_value: {attribute_value}")
         return None
 
-    df = df[df[attribute] == attribute_value]
-    # print(df)
-    df = df.loc[:, df.columns != attribute]
-    # print(df)
-    # print(df.shape[0])
+    df = df[df[attribute] == attribute_value]  # Filter rows with value equal to attribute's value
+    df = df.loc[:, df.columns != attribute]  # Remove the attribute column
     return df
 
 

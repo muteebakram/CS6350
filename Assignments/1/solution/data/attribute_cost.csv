@@ -1,0 +1,13 @@
+shape,color,size,material,label
+square,red,big,metal,+
+square,blue,small,plastic,+
+triangle,yellow,medium,metal,+
+triangle,pink,big,leather,-
+square,pink,medium,leather,-
+circle,red,small,plastic,-
+circle,blue,small,metal,-
+ellipse,yellow,small,plastic,-
+ellipse,blue,big,leather,+
+ellipse,pink,medium,wood,+
+circle,blue,big,wood,+
+triangle,blue,medium,plastic,+
