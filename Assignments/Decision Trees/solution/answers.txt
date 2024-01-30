@@ -1,9 +1,10 @@
 1a. How many possible functions are there to map these four features to a boolean decision?
-Input space: (3 * 3 * 2 * 2)
+Input space: (3 * 3 * 2 * 2) = 36
 Output space: (3 * 3 * 2 * 2) * 2  // Two outcomes.
 
 How many functions are consistent with the given training dataset?
-// Check 1a.py
+Remaining Input Space = 36 - 8 = 28
+Consistent Functions: 2^28
 
 1b. What is the entropy of the labels in this data? When calculating entropy, the base of the logarithm should be base 2.
 pFalse = 4/8
@@ -23,82 +24,155 @@ Variety:
 
     S = Variety; A = Keitt
         pFalse = 2/3; pTrue = 1/3; Samples: 3/8
-        E(Variety, Keitt) = - (1/3) * log2(1/3) - (2/3) * log2(2/3) = 0.918
+        E(Variety, Keitt) = - (1/3) * log2(1/3) - (2/3) * log2(2/3) = 0.9182958341
 
     S = Variety; A = Haden
         pFalse = 0; pTrue = 1; Samples: 1/8
         E(Variety, Haden) = - 1 * log2(1) - 0 * log2(0) = 0
 
-    G(Variety) = E - (0.5 * 1 + (3/8) * 0.918 + (1/8) * 0)
-               = 1 - (0.5 * 1 + (3/8) * 0.918 + (1/8) * 0)
-               = 0.15575
+    G(Variety) = E - (0.5 * 1 + (3/8) * 0.9182958341 + (1/8) * 0)
+               = 1 - (0.5 * 1 + (3/8) * 0.9182958341 + (1/8) * 0)
+               = 0.1556390622
 
 Color:
     S = Color; A = Red
         pFalse = 1/3; pTrue = 2/3; Samples: 3/8
-        E(Color, Red) = - (1/3) * log2(1/3) - (2/3) * log2(2/3) = 0.918
+        E(Color, Red) = - (1/3) * log2(1/3) - (2/3) * log2(2/3) = 0.9182958341
 
     S = Color; A = Yellow
         pFalse = 2/3; pTrue = 1/3; Samples: 3/8
-        E(Color, Yellow) = - (1/3) * log2(1/3) - (2/3) * log2(2/3) = 0.918
+        E(Color, Yellow) = - (1/3) * log2(1/3) - (2/3) * log2(2/3) = 0.9182958341
 
     S = Color; A = Green
         pFalse = 1/2; pTrue = 1/2; Samples: 2/8
         E(Color, Green) = - 0.5 * log2(0.5) - 0.5 * log2(0.5) = 1
 
-    G(Color) = E - ((3/8) * 0.918 + (3/8) * 0.918 + (2/8) * 1)
-             = 1 - ((3/8) * 0.918 + (3/8) * 0.918 + (2/8) * 1)
-             = 0.0615
+    G(Color) = E - ((3/8) * 0.9182958341 + (3/8) * 0.9182958341 + (2/8) * 1)
+             = 1 - ((3/8) * 0.9182958341 + (3/8) * 0.9182958341 + (2/8) * 1)
+             = 0.06127812442
 
 Smell:
     S = Smell; A = None
         pFalse = 3/4; pTrue = 1/4; Samples: 4/8
-        E(Smell, None) = - (1/4) * log2(1/4) - (3/4) * log2(3/4) = 0.8113
+        E(Smell, None) = - (1/4) * log2(1/4) - (3/4) * log2(3/4) = 0.8112781245
 
     S = Smell; A = Sweet
         pFalse = 1/4; pTrue = 3/4; Samples: 4/8
-        E(Smell, Sweet) = - (1/4) * log2(1/4) - (3/4) * log2(3/4) = 0.8113
+        E(Smell, Sweet) = - (1/4) * log2(1/4) - (3/4) * log2(3/4) = 0.8112781245
 
-    G(Smell) = E - ((1/2) * 0.8113 + (1/2) * 0.8113)
-             = 1 - ((1/2) * 0.8113 + (1/2) * 0.8113)
-             = 0.1887
+    G(Smell) = E - ((1/2) * 0.8112781245 + (1/2) * 0.8112781245)
+             = 1 - ((1/2) * 0.8112781245 + (1/2) * 0.8112781245)
+             = 0.1887218755
 
 Time:
     S = Time; A = One
         pFalse = 1/3; pTrue = 2/3; Samples: 3/8
-        E(Time, One) = - (1/3) * log2(1/3) - (2/3) * log2(2/3) = 0.918
+        E(Time, One) = - (1/3) * log2(1/3) - (2/3) * log2(2/3) = 0.9182958341
 
     S = Time; A = Two
         pFalse = 3/5; pTrue = 2/5; Samples: 5/8
-        E(Time, Two) = - (3/5) * log2(3/5) - (2/5) * log2(2/5) = 0.971
+        E(Time, Two) = - (3/5) * log2(3/5) - (2/5) * log2(2/5) = 0.9709505945
 
-    G(Time) = E - ((3/8) * 0.918 + (5/8) * 0.971)
-             = 1 - ((3/8) * 0.918 + (5/8) * 0.971)
-             = 0.048875
+    G(Time) = E - ((3/8) * 0.9182958341 + (5/8) * 0.9709505945)
+             = 1 - ((3/8) * 0.9182958341 + (5/8) * 0.9709505945)
+             = 0.04879494065
 
 
 1d. Which attribute will you use to construct the root of the tree using the information gain heuristic of the ID3 algorithm?
 Smell
 
-[Calculate info gain after best attribute]
+Variety Color Smell Time Ripe?
 
-1e. sing the root that you selected in the previous question, construct a
+
+With Smell (Sweet):
+
+Alphonso Yellow Sweet Two True
+Haden Green Sweet One True
+Keitt Yellow Sweet One False
+Alphonso Red Sweet Two True
+
+    S = Time; A = One, Samples = 2
+        pFalse = 1/2; pTrue = 1/2; Samples: 3/8
+        E(Time, One) = - (1/2) * log2(1/2) - (1/2) * log2(1/2) = 1
+
+    S = Time; A = Two,  Samples = 2
+        pFalse = 0; pTrue = 1; 
+        E(Time, Two) = 0
+
+    G(Time) = E - ((2/4) * 1 + (2/4) * 0)
+             = 1 - ((2/4) * 1 + (2/4) * 0)
+             = 0.5
+    
+    S = Color; A = Yellow, Samples = 2
+        pFalse = 1/2; pTrue = 1/2;
+        E(Time, One) = - (1/2) * log2(1/2) - (1/2) * log2(1/2) = 1
+
+    S = Color; A = Green,  Samples = 1
+        pFalse = 0; pTrue = 1; 
+        E(Time, Two) = 0
+    
+    S = Color; A = Red,  Samples = 1
+        pFalse = 0; pTrue = 1; 
+        E(Time, Two) = 0
+
+    G(Time) = E - ((2/4) * 1 + (1/4) * 0 + (1/4) * 0)
+             = 1 - ((2/4) * 1 + (1/4) * 0 + (1/4) * 0)
+             = 0.5
+    
+    S = Variety; A = Alphonso, Samples = 2
+        pFalse = 0; pTrue = 1;
+        E(Time, One) = 0
+
+    S = Variety; A = Haden,  Samples = 1
+        pFalse = 0; pTrue = 1; 
+        E(Variety, Haden) = 0
+    
+    S = Variety; A = Keitt,  Samples = 1
+        pFalse = 1; pTrue = 0; 
+        E(Variety, Keitt) = 0
+
+    G(Time) = E - ((2/4) * 0 + (1/4) * 0 + (1/4) * 0)
+             = 1 - ((2/4) * 0 + (1/4) * 0 + (1/4) * 0)
+             = 1
+
+    Best Info Gain: Variety
+
+With Smell (None):
+
+Alphonso Red None Two False
+Keitt Red None One True
+Keitt Green None Two False
+Alphonso Yellow None Two False
+
+    S = Time; A = One, Samples = 1
+        pFalse = 0; pTrue = 1; 
+        E(Time, One) = 0
+
+    S = Time; A = Two,  Samples = 3
+        pFalse = 1; pTrue = 0; 
+        E(Time, Two) = 0
+
+    G(Time) = E - ((1/4) * 0 + (3/4) * 0)
+            = 1 - ((1/4) * 0 + (1/4) * 0)
+            = 1
+    
+    Best Info Gain: Time
+
+1e. Using the root that you selected in the previous question, construct a
 decision tree that represents the data. You do not have to use the ID3 algorithm
 here, you can show any tree with the chosen root.
 
-See iPad ML Doc
+See Image attached
 
 1f. Suppose you are given three more examples, listed in Table 3. Use
 your decision tree to predict the label for each example. Also report the accuracy
 of the classifier that you have learned.
 
-Alphonso Green Sweet Two True => True 
-Keitt Red Sweet One False => False
-Haden Yellow None Two True => Decision Tree leaf not present
+Alphonso Green Sweet Two True => Correct 
+Keitt Red Sweet One False => Correct
+Haden Yellow None Two True => Incorrect
 
-accuracy = 2/3 ???
-
-
+Accuracy = 2/3
 
 
 2a. Notice that MajorityError can be thought of as a measure of impurity
@@ -130,7 +204,7 @@ Variety:
 
     G(Variety) = MajorityError - (0.5 * 0.5 + (3/8) * 1/3 + (1/8) * 0)
                = 0.5 - (0.5 * 0.5 + (3/8) * 1/3 + (1/8) * 0)
-               = 0.625
+               = 0.125
 
 Color:
     S = Color; A = Red
@@ -145,32 +219,32 @@ Color:
         pFalse = 1/2; pTrue = 1/2; Samples: 2/8
         MajorityError(Color, Red) = 1 - max(1/2, 1/2) = 1/2
 
-    G(Color) = E - ((3/8) * (1/3) + (3/8) * (1/3) + (2/8) * (1/2))
-             = 1 - ((3/8) * (1/3) + (3/8) * (1/3) + (2/8) * (1/2))
-             = 0.625
+    G(Color) = MajorityError - ((3/8) * (1/3) + (3/8) * (1/3) + (2/8) * (1/2))
+             = 0.5 - ((3/8) * (1/3) + (3/8) * (1/3) + (2/8) * (1/2))
+             = 0.125
 
 Smell:
     S = Smell; A = None
         pFalse = 3/4; pTrue = 1/4; Samples: 4/8
-        E(Smell, None) = - (1/4) * log2(1/4) - (3/4) * log2(3/4) = 0.8113
+        E(Smell, None) = 1 - max(3/4, 1/4) = 1/4
 
     S = Smell; A = Sweet
         pFalse = 1/4; pTrue = 3/4; Samples: 4/8
-        E(Smell, Sweet) = - (1/4) * log2(1/4) - (3/4) * log2(3/4) = 0.8113
+        E(Smell, Sweet) = 1 - max(3/4, 1/4) = 1/4
 
-    G(Smell) = E - ((1/2) * 0.8113 + (1/2) * 0.8113)
-             = 1 - ((1/2) * 0.8113 + (1/2) * 0.8113)
-             = 0.1887
+    G(Smell) = MajorityError - ((1/2) * 1/4 + (1/2) * 1/4)
+             = 0.5 - ((1/2) * 1/4 + (1/2) * 1/4)
+             = 0.25
 
 Time:
     S = Time; A = One
         pFalse = 1/3; pTrue = 2/3; Samples: 3/8
-        E(Time, One) = - (1/3) * log2(1/3) - (2/3) * log2(2/3) = 0.918
+        E(Time, One) = 1 - max(1/3, 2/3) = 1/3
 
     S = Time; A = Two
         pFalse = 3/5; pTrue = 2/5; Samples: 5/8
-        E(Time, Two) = - (3/5) * log2(3/5) - (2/5) * log2(2/5) = 0.971
+        E(Time, Two) = 1 - max(3/5, 2/5) = 2/5
 
-    G(Time) = E - ((3/8) * 0.918 + (5/8) * 0.971)
-             = 1 - ((3/8) * 0.918 + (5/8) * 0.971)
-             = 0.048875
+    G(Time) = MajorityError - ((3/8) * 1/3 + (5/8) * 2/5)
+            = 0.5 - ((3/8) * 1/3 + (5/8) * 2/5)
+            = 0.125

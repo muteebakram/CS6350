@@ -2,7 +2,6 @@ import math
 import pandas as pd
 from full_trees import get_data_frame_subset, get_entropy, get_max_key_by_value
 
-
 attribute_cost = {
     "shape": 10,
     "color": 30,
