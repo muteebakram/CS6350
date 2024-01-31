@@ -121,11 +121,21 @@ def tree_walk(row, tree):
         new_key = row[key]
         # print(f"key: {key} -> new_key: {new_key}", end="  ")
         if new_key not in tree[key]:
-            # TODO limiting tree does not have all possible attributes in test folds.
-            # print(f"new_key: {new_key} not in tree.")
-            return None
+            # print(f"for key: {key} new_key: {new_key} not in tree.")
+            return "NoPath"
 
         return tree_walk(row, tree[key][new_key])
+
+
+def get_majority_label(df, p_label="e", n_label="p"):
+    edible_count = df["label"].value_counts()["e"] if "e" in df["label"].value_counts() else 0
+    poison_count = df["label"].value_counts()["p"] if "p" in df["label"].value_counts() else 0
+
+    # print(f"edible_count: {edible_count}, poison_count: {poison_count}, total: {edible_count + poison_count}")
+    if edible_count >= poison_count:  # When equal take gamble and decide to eat :).
+        return "e"
+    else:
+        return "p"
 
 
 def test_accuracy(df, tree):
@@ -142,9 +152,11 @@ def test_accuracy(df, tree):
 
     for index, row in df.iterrows():
         predicted_label = tree_walk(row=dict_rows[index], tree=tree)
-        if predicted_label is None:
-            # print("Failed to predict for row: ", row)
-            continue
+
+        # When there is no path in the Tree take the majority label.
+        # Decided to go with this because model needs to predict when it see new examples.
+        if predicted_label == "NoPath":
+            predicted_label = get_majority_label(df)
 
         if row["label"] == predicted_label:
             correct_prediction += 1
@@ -157,29 +169,31 @@ if __name__ == "__main__":
     df = pd.read_csv("./data/train.csv")
     root_feature, info_gain = get_best_info_gain_attribute(df)
 
-    print("(a) [2 points] The root feature that is selected by your algorithm")
-    print(root_feature)
+    # print("(a) [2 points] The root feature that is selected by your algorithm")
+    # print(root_feature)
 
-    print("\n(b) [2 point] Information gain for the root feature")
-    print(info_gain)
+    # print("\n(b) [2 point] Information gain for the root feature")
+    # print(info_gain)
 
     tree, depth = id3(df)
     with open("tree.json", "w") as f:
         json.dump(tree, f, indent=4)
 
+    print("(a) Entropy of the data")
+    print(f"Train Data: {get_entropy(df, p_value='e', n_value='p')}")
+
+    print("\n(b) Best feature and its information gain")
+    print(f"Train Data Best feature: {root_feature} Information Gain: {info_gain}")
+
     print("\n(c) [2 points] Maximum depth of the tree that your implementation gives")
     print(depth + 1)  # Need to count label for depth
 
     print("\n(d) [3 points] Accuracy on the training set")
-    print(test_accuracy(df, tree))
+    accuracy = test_accuracy(df, tree)
+    print(f"{accuracy}  ({round(accuracy * 100, 3)} %)")
 
     print("\n(e) [5 points] Accuracy on the test set")
     df = pd.read_csv("./data/test.csv")
     tree, depth = id3(df)
-    print(test_accuracy(df, tree))
-
-    print("\n(a) Entropy of the data")
-    print(get_entropy(df, p_value="e", n_value="p"))
-
-    print("\n(b) Best feature and its information gain")
-    print(f"{root_feature}: {info_gain}")
+    accuracy = test_accuracy(df, tree)
+    print(f"{accuracy}  ({round(accuracy * 100, 3)} %)")
