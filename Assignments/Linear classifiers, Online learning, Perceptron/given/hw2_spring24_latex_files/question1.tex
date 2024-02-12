@@ -1,0 +1,59 @@
+\section{Warmup: Boolean Functions}
+\label{sec:boolean-functions}
+
+\begin{enumerate}
+\item ~[3 points] Table \ref{tab:boolean-function-data-1} shows
+  several data points (the $x$'s) along with corresponding labels
+  ($y$). (That is, each row is an example with a label.) Write down
+  three different Boolean functions, all of which can produce the
+  label $y$ when given the inputs $x$.
+
+  \begin{table}[h]
+    \centering
+    \begin{tabular}{ccccc}
+      \toprule
+      y & $x1$ & $x2$ & $x3$ & $x4$ \\
+      \midrule
+      0 & 0    & 1    & 1    & 0    \\
+      0 & 1    & 1    & 1    & 0    \\
+      1 & 0    & 1    & 1    & 1    \\
+      \bottomrule
+    \end{tabular}
+    \caption{Initial data set}
+    \label{tab:boolean-function-data-1}
+  \end{table}
+  
+\item ~[5 points] Now the Table \ref{tab:boolean-function-data-1} is
+  expanded to Table \ref{tab:boolean-function-data-2} by adding more
+  data points. How many errors will each of your functions from the
+  previous questions make on the expanded data set.
+
+  \begin{table}[h]
+    \centering
+    \begin{tabular}{ccccc}
+      \toprule
+      $y$ & $x1$ & $x2$ & $x3$ & $x4$ \\
+      \midrule
+      0 & 0    & 1    & 1    & 0    \\
+      0 & 1    & 1    & 1    & 0    \\
+      1 & 0    & 1    & 1    & 1    \\
+      1 & 1    & 0    & 1    & 1    \\
+      0 & 0    & 1    & 1    & 0    \\
+      1 & 1    & 1    & 0    & 1    \\
+      \bottomrule
+    \end{tabular}
+    \caption{Expanded data set}
+    \label{tab:boolean-function-data-2}
+  \end{table}
+  
+\item ~[5 points] Is the function in Table
+  \ref{tab:boolean-function-data-2} linearly separable? If so, write
+  down a linear threshold function that classifies the data. If not,
+  prove that there is no linear threshold function that can classify
+  the data.
+\end{enumerate}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "hw2"
+%%% End:

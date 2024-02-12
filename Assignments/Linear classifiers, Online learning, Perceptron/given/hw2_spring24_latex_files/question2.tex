@@ -1,0 +1,25 @@
+\section{Feature transformations}\label{sec:q2}
+
+[10 points] Consider the concept class $C$ consisting of functions $f_r$ defined by a radius $r$ as follows:
+
+\begin{equation*}
+            f_r(x_1,x_2) = \begin{cases}
+                +1 \quad 24x_1^{2024}-23x_2^{2023}\leq r \\
+                -1 \quad \text{otherwise}
+            \end{cases}
+            \label{eq-0}
+        \end{equation*}
+
+Note that the hypothesis class is \textit{not} linearly separable in $\mathbb{R}^2$.\\
+
+Construct a function $\phi(x_1,x_2)$ that maps examples to a new \emph{two-dimensional} space, such that the positive and negative examples are linearly separable in that space. The answer to this question should consist of two parts: 
+\begin{enumerate}
+\item A function $\phi$ that maps examples to a new space.
+\item A proof that in the new space, the positive and negative points are linearly separated. You can show this by producing such a hyperplane in the new space (i.e. find a weight vector \textbf{w} and a bias $b$ such that $\textbf{w}^T\phi(x_1,x_2)\geq b$ if, and only if, $f_r(x_1,x_2)=+1$.
+\end{enumerate}
+Hint: The feature transformation $\phi$ should not depend on $r$.
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "hw2"
+%%% End:

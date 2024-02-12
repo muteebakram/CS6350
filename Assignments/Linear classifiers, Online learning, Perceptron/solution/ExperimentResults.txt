@@ -1,0 +1,188 @@
+Cross Validation Training
+--------------------------------------------------
+Learning rate: 1
+
+  Cross validation 0
+    Epoch: 1    Accuracy: 0.5533333333333333
+    Epoch: 2    Accuracy: 0.4866666666666667
+    Epoch: 3    Accuracy: 0.44666666666666666
+    Epoch: 4    Accuracy: 0.4866666666666667
+    Epoch: 5    Accuracy: 0.44666666666666666
+    Epoch: 6    Accuracy: 0.4866666666666667
+    Epoch: 7    Accuracy: 0.4866666666666667
+    Epoch: 8    Accuracy: 0.4866666666666667
+    Epoch: 9    Accuracy: 0.44666666666666666
+    Epoch: 10   Accuracy: 0.4866666666666667
+
+  Cross validation 1
+    Epoch: 1    Accuracy: 0.4266666666666667
+    Epoch: 2    Accuracy: 0.5066666666666667
+    Epoch: 3    Accuracy: 0.4266666666666667
+    Epoch: 4    Accuracy: 0.5066666666666667
+    Epoch: 5    Accuracy: 0.4266666666666667
+    Epoch: 6    Accuracy: 0.4266666666666667
+    Epoch: 7    Accuracy: 0.5066666666666667
+    Epoch: 8    Accuracy: 0.5066666666666667
+    Epoch: 9    Accuracy: 0.5066666666666667
+    Epoch: 10   Accuracy: 0.4266666666666667
+
+  Cross validation 2
+    Epoch: 1    Accuracy: 0.58
+    Epoch: 2    Accuracy: 0.58
+    Epoch: 3    Accuracy: 0.58
+    Epoch: 4    Accuracy: 0.58
+    Epoch: 5    Accuracy: 0.58
+    Epoch: 6    Accuracy: 0.58
+    Epoch: 7    Accuracy: 0.5666666666666667
+    Epoch: 8    Accuracy: 0.5666666666666667
+    Epoch: 9    Accuracy: 0.3933333333333333
+    Epoch: 10   Accuracy: 0.3933333333333333
+
+  Cross validation 3
+    Epoch: 1    Accuracy: 0.5733333333333334
+    Epoch: 2    Accuracy: 0.5533333333333333
+    Epoch: 3    Accuracy: 0.5533333333333333
+    Epoch: 4    Accuracy: 0.49333333333333335
+    Epoch: 5    Accuracy: 0.5533333333333333
+    Epoch: 6    Accuracy: 0.4666666666666667
+    Epoch: 7    Accuracy: 0.49333333333333335
+    Epoch: 8    Accuracy: 0.5533333333333333
+    Epoch: 9    Accuracy: 0.49333333333333335
+    Epoch: 10   Accuracy: 0.5733333333333334
+
+  Cross validation 4
+    Epoch: 1    Accuracy: 0.5466666666666666
+    Epoch: 2    Accuracy: 0.47333333333333333
+    Epoch: 3    Accuracy: 0.5
+    Epoch: 4    Accuracy: 0.5466666666666666
+    Epoch: 5    Accuracy: 0.47333333333333333
+    Epoch: 6    Accuracy: 0.5466666666666666
+    Epoch: 7    Accuracy: 0.5466666666666666
+    Epoch: 8    Accuracy: 0.47333333333333333
+    Epoch: 9    Accuracy: 0.47333333333333333
+    Epoch: 10   Accuracy: 0.47333333333333333
+
+Learning rate: 0.1
+
+  Cross validation 0
+    Epoch: 1    Accuracy: 0.44666666666666666
+    Epoch: 2    Accuracy: 0.44666666666666666
+    Epoch: 3    Accuracy: 0.42
+    Epoch: 4    Accuracy: 0.4266666666666667
+    Epoch: 5    Accuracy: 0.47333333333333333
+    Epoch: 6    Accuracy: 0.42
+    Epoch: 7    Accuracy: 0.42
+    Epoch: 8    Accuracy: 0.42
+    Epoch: 9    Accuracy: 0.4266666666666667
+    Epoch: 10   Accuracy: 0.42
+
+  Cross validation 1
+    Epoch: 1    Accuracy: 0.5266666666666666
+    Epoch: 2    Accuracy: 0.4666666666666667
+    Epoch: 3    Accuracy: 0.5266666666666666
+    Epoch: 4    Accuracy: 0.4666666666666667
+    Epoch: 5    Accuracy: 0.48
+    Epoch: 6    Accuracy: 0.5266666666666666
+    Epoch: 7    Accuracy: 0.4666666666666667
+    Epoch: 8    Accuracy: 0.4666666666666667
+    Epoch: 9    Accuracy: 0.5266666666666666
+    Epoch: 10   Accuracy: 0.48
+
+  Cross validation 2
+    Epoch: 1    Accuracy: 0.52
+    Epoch: 2    Accuracy: 0.56
+    Epoch: 3    Accuracy: 0.5333333333333333
+    Epoch: 4    Accuracy: 0.58
+    Epoch: 5    Accuracy: 0.58
+    Epoch: 6    Accuracy: 0.58
+    Epoch: 7    Accuracy: 0.58
+    Epoch: 8    Accuracy: 0.56
+    Epoch: 9    Accuracy: 0.5333333333333333
+    Epoch: 10   Accuracy: 0.5333333333333333
+
+  Cross validation 3
+    Epoch: 1    Accuracy: 0.5666666666666667
+    Epoch: 2    Accuracy: 0.5266666666666666
+    Epoch: 3    Accuracy: 0.5266666666666666
+    Epoch: 4    Accuracy: 0.5666666666666667
+    Epoch: 5    Accuracy: 0.5266666666666666
+    Epoch: 6    Accuracy: 0.5266666666666666
+    Epoch: 7    Accuracy: 0.5266666666666666
+    Epoch: 8    Accuracy: 0.5266666666666666
+    Epoch: 9    Accuracy: 0.5266666666666666
+    Epoch: 10   Accuracy: 0.5533333333333333
+
+  Cross validation 4
+    Epoch: 1    Accuracy: 0.48
+    Epoch: 2    Accuracy: 0.4666666666666667
+    Epoch: 3    Accuracy: 0.4666666666666667
+    Epoch: 4    Accuracy: 0.4533333333333333
+    Epoch: 5    Accuracy: 0.46
+    Epoch: 6    Accuracy: 0.43333333333333335
+    Epoch: 7    Accuracy: 0.48
+    Epoch: 8    Accuracy: 0.48
+    Epoch: 9    Accuracy: 0.46
+    Epoch: 10   Accuracy: 0.46
+
+Learning rate: 0.01
+
+  Cross validation 0
+    Epoch: 1    Accuracy: 0.5266666666666666
+    Epoch: 2    Accuracy: 0.5466666666666666
+    Epoch: 3    Accuracy: 0.5466666666666666
+    Epoch: 4    Accuracy: 0.5266666666666666
+    Epoch: 5    Accuracy: 0.52
+    Epoch: 6    Accuracy: 0.52
+    Epoch: 7    Accuracy: 0.5466666666666666
+    Epoch: 8    Accuracy: 0.5266666666666666
+    Epoch: 9    Accuracy: 0.52
+    Epoch: 10   Accuracy: 0.52
+
+  Cross validation 1
+    Epoch: 1    Accuracy: 0.46
+    Epoch: 2    Accuracy: 0.47333333333333333
+    Epoch: 3    Accuracy: 0.48
+    Epoch: 4    Accuracy: 0.48
+    Epoch: 5    Accuracy: 0.47333333333333333
+    Epoch: 6    Accuracy: 0.48
+    Epoch: 7    Accuracy: 0.48
+    Epoch: 8    Accuracy: 0.4666666666666667
+    Epoch: 9    Accuracy: 0.48
+    Epoch: 10   Accuracy: 0.48
+
+  Cross validation 2
+    Epoch: 1    Accuracy: 0.5533333333333333
+    Epoch: 2    Accuracy: 0.56
+    Epoch: 3    Accuracy: 0.5733333333333334
+    Epoch: 4    Accuracy: 0.5666666666666667
+    Epoch: 5    Accuracy: 0.5733333333333334
+    Epoch: 6    Accuracy: 0.56
+    Epoch: 7    Accuracy: 0.5533333333333333
+    Epoch: 8    Accuracy: 0.5466666666666666
+    Epoch: 9    Accuracy: 0.5466666666666666
+    Epoch: 10   Accuracy: 0.5733333333333334
+
+  Cross validation 3
+    Epoch: 1    Accuracy: 0.5933333333333334
+    Epoch: 2    Accuracy: 0.5933333333333334
+    Epoch: 3    Accuracy: 0.6066666666666667
+    Epoch: 4    Accuracy: 0.5933333333333334
+    Epoch: 5    Accuracy: 0.6
+    Epoch: 6    Accuracy: 0.5933333333333334
+    Epoch: 7    Accuracy: 0.5933333333333334
+    Epoch: 8    Accuracy: 0.6066666666666667
+    Epoch: 9    Accuracy: 0.5933333333333334
+    Epoch: 10   Accuracy: 0.5933333333333334
+
+  Cross validation 4
+    Epoch: 1    Accuracy: 0.42
+    Epoch: 2    Accuracy: 0.4533333333333333
+    Epoch: 3    Accuracy: 0.47333333333333333
+    Epoch: 4    Accuracy: 0.42
+    Epoch: 5    Accuracy: 0.46
+    Epoch: 6    Accuracy: 0.4533333333333333
+    Epoch: 7    Accuracy: 0.4666666666666667
+    Epoch: 8    Accuracy: 0.44666666666666666
+    Epoch: 9    Accuracy: 0.44666666666666666
+    Epoch: 10   Accuracy: 0.42
+
