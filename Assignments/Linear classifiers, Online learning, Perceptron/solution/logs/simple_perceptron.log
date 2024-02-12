@@ -1,0 +1,233 @@
+2024-02-12 14:46:20,662  DEBUG              utils.py# 29  Start logging
+2024-02-12 14:46:20,673  DEBUG  simple_perceptron.py#129  --------------------------------------------------
+2024-02-12 14:46:20,673  DEBUG  simple_perceptron.py#130  Cross Validation Training
+2024-02-12 14:46:20,673  DEBUG  simple_perceptron.py#137  Learning rate: 1
+2024-02-12 14:46:20,673  DEBUG  simple_perceptron.py#142    Cross validation 0
+2024-02-12 14:46:20,683  DEBUG  simple_perceptron.py# 66      Epoch:  1    Accuracy: 0.4666666666666667
+2024-02-12 14:46:20,693  DEBUG  simple_perceptron.py# 66      Epoch:  2    Accuracy: 0.5533333333333333
+2024-02-12 14:46:20,703  DEBUG  simple_perceptron.py# 66      Epoch:  3    Accuracy: 0.4666666666666667
+2024-02-12 14:46:20,713  DEBUG  simple_perceptron.py# 66      Epoch:  4    Accuracy: 0.5533333333333333
+2024-02-12 14:46:20,723  DEBUG  simple_perceptron.py# 66      Epoch:  5    Accuracy: 0.5533333333333333
+2024-02-12 14:46:20,733  DEBUG  simple_perceptron.py# 66      Epoch:  6    Accuracy: 0.5533333333333333
+2024-02-12 14:46:20,743  DEBUG  simple_perceptron.py# 66      Epoch:  7    Accuracy: 0.4666666666666667
+2024-02-12 14:46:20,753  DEBUG  simple_perceptron.py# 66      Epoch:  8    Accuracy: 0.4666666666666667
+2024-02-12 14:46:20,762  DEBUG  simple_perceptron.py# 66      Epoch:  9    Accuracy: 0.44666666666666666
+2024-02-12 14:46:20,772  DEBUG  simple_perceptron.py# 66      Epoch: 10    Accuracy: 0.5533333333333333
+2024-02-12 14:46:20,772  DEBUG  simple_perceptron.py# 73      Best Epoch: 10    Test Accuracy: 0.5533333333333333
+2024-02-12 14:46:20,772  DEBUG  simple_perceptron.py#152  
+2024-02-12 14:46:20,772  DEBUG  simple_perceptron.py#142    Cross validation 1
+2024-02-12 14:46:20,782  DEBUG  simple_perceptron.py# 66      Epoch:  1    Accuracy: 0.5733333333333334
+2024-02-12 14:46:20,792  DEBUG  simple_perceptron.py# 66      Epoch:  2    Accuracy: 0.44
+2024-02-12 14:46:20,802  DEBUG  simple_perceptron.py# 66      Epoch:  3    Accuracy: 0.44
+2024-02-12 14:46:20,812  DEBUG  simple_perceptron.py# 66      Epoch:  4    Accuracy: 0.44
+2024-02-12 14:46:20,822  DEBUG  simple_perceptron.py# 66      Epoch:  5    Accuracy: 0.44
+2024-02-12 14:46:20,832  DEBUG  simple_perceptron.py# 66      Epoch:  6    Accuracy: 0.5733333333333334
+2024-02-12 14:46:20,841  DEBUG  simple_perceptron.py# 66      Epoch:  7    Accuracy: 0.5733333333333334
+2024-02-12 14:46:20,851  DEBUG  simple_perceptron.py# 66      Epoch:  8    Accuracy: 0.44
+2024-02-12 14:46:20,861  DEBUG  simple_perceptron.py# 66      Epoch:  9    Accuracy: 0.5733333333333334
+2024-02-12 14:46:20,871  DEBUG  simple_perceptron.py# 66      Epoch: 10    Accuracy: 0.5733333333333334
+2024-02-12 14:46:20,871  DEBUG  simple_perceptron.py# 73      Best Epoch: 10    Test Accuracy: 0.5733333333333334
+2024-02-12 14:46:20,871  DEBUG  simple_perceptron.py#152  
+2024-02-12 14:46:20,871  DEBUG  simple_perceptron.py#142    Cross validation 2
+2024-02-12 14:46:20,881  DEBUG  simple_perceptron.py# 66      Epoch:  1    Accuracy: 0.43333333333333335
+2024-02-12 14:46:20,891  DEBUG  simple_perceptron.py# 66      Epoch:  2    Accuracy: 0.6066666666666667
+2024-02-12 14:46:20,900  DEBUG  simple_perceptron.py# 66      Epoch:  3    Accuracy: 0.6066666666666667
+2024-02-12 14:46:20,910  DEBUG  simple_perceptron.py# 66      Epoch:  4    Accuracy: 0.43333333333333335
+2024-02-12 14:46:20,920  DEBUG  simple_perceptron.py# 66      Epoch:  5    Accuracy: 0.6066666666666667
+2024-02-12 14:46:20,930  DEBUG  simple_perceptron.py# 66      Epoch:  6    Accuracy: 0.43333333333333335
+2024-02-12 14:46:20,940  DEBUG  simple_perceptron.py# 66      Epoch:  7    Accuracy: 0.6066666666666667
+2024-02-12 14:46:20,950  DEBUG  simple_perceptron.py# 66      Epoch:  8    Accuracy: 0.6066666666666667
+2024-02-12 14:46:20,960  DEBUG  simple_perceptron.py# 66      Epoch:  9    Accuracy: 0.6066666666666667
+2024-02-12 14:46:20,970  DEBUG  simple_perceptron.py# 66      Epoch: 10    Accuracy: 0.43333333333333335
+2024-02-12 14:46:20,970  DEBUG  simple_perceptron.py# 73      Best Epoch:  9    Test Accuracy: 0.6066666666666667
+2024-02-12 14:46:20,970  DEBUG  simple_perceptron.py#152  
+2024-02-12 14:46:20,970  DEBUG  simple_perceptron.py#142    Cross validation 3
+2024-02-12 14:46:20,979  DEBUG  simple_perceptron.py# 66      Epoch:  1    Accuracy: 0.44666666666666666
+2024-02-12 14:46:20,989  DEBUG  simple_perceptron.py# 66      Epoch:  2    Accuracy: 0.5333333333333333
+2024-02-12 14:46:20,999  DEBUG  simple_perceptron.py# 66      Epoch:  3    Accuracy: 0.5333333333333333
+2024-02-12 14:46:21,009  DEBUG  simple_perceptron.py# 66      Epoch:  4    Accuracy: 0.44666666666666666
+2024-02-12 14:46:21,019  DEBUG  simple_perceptron.py# 66      Epoch:  5    Accuracy: 0.44666666666666666
+2024-02-12 14:46:21,029  DEBUG  simple_perceptron.py# 66      Epoch:  6    Accuracy: 0.5333333333333333
+2024-02-12 14:46:21,039  DEBUG  simple_perceptron.py# 66      Epoch:  7    Accuracy: 0.44666666666666666
+2024-02-12 14:46:21,049  DEBUG  simple_perceptron.py# 66      Epoch:  8    Accuracy: 0.5333333333333333
+2024-02-12 14:46:21,058  DEBUG  simple_perceptron.py# 66      Epoch:  9    Accuracy: 0.5333333333333333
+2024-02-12 14:46:21,068  DEBUG  simple_perceptron.py# 66      Epoch: 10    Accuracy: 0.44666666666666666
+2024-02-12 14:46:21,068  DEBUG  simple_perceptron.py# 73      Best Epoch:  9    Test Accuracy: 0.5333333333333333
+2024-02-12 14:46:21,068  DEBUG  simple_perceptron.py#152  
+2024-02-12 14:46:21,068  DEBUG  simple_perceptron.py#142    Cross validation 4
+2024-02-12 14:46:21,078  DEBUG  simple_perceptron.py# 66      Epoch:  1    Accuracy: 0.5466666666666666
+2024-02-12 14:46:21,088  DEBUG  simple_perceptron.py# 66      Epoch:  2    Accuracy: 0.49333333333333335
+2024-02-12 14:46:21,098  DEBUG  simple_perceptron.py# 66      Epoch:  3    Accuracy: 0.49333333333333335
+2024-02-12 14:46:21,108  DEBUG  simple_perceptron.py# 66      Epoch:  4    Accuracy: 0.5466666666666666
+2024-02-12 14:46:21,118  DEBUG  simple_perceptron.py# 66      Epoch:  5    Accuracy: 0.5466666666666666
+2024-02-12 14:46:21,128  DEBUG  simple_perceptron.py# 66      Epoch:  6    Accuracy: 0.49333333333333335
+2024-02-12 14:46:21,138  DEBUG  simple_perceptron.py# 66      Epoch:  7    Accuracy: 0.5
+2024-02-12 14:46:21,148  DEBUG  simple_perceptron.py# 66      Epoch:  8    Accuracy: 0.5466666666666666
+2024-02-12 14:46:21,157  DEBUG  simple_perceptron.py# 66      Epoch:  9    Accuracy: 0.49333333333333335
+2024-02-12 14:46:21,167  DEBUG  simple_perceptron.py# 66      Epoch: 10    Accuracy: 0.5466666666666666
+2024-02-12 14:46:21,167  DEBUG  simple_perceptron.py# 73      Best Epoch: 10    Test Accuracy: 0.5466666666666666
+2024-02-12 14:46:21,167  DEBUG  simple_perceptron.py#152  
+2024-02-12 14:46:21,167  DEBUG  simple_perceptron.py#154  
+2024-02-12 14:46:21,167  DEBUG  simple_perceptron.py#137  Learning rate: 0.1
+2024-02-12 14:46:21,167  DEBUG  simple_perceptron.py#142    Cross validation 0
+2024-02-12 14:46:21,177  DEBUG  simple_perceptron.py# 66      Epoch:  1    Accuracy: 0.44666666666666666
+2024-02-12 14:46:21,187  DEBUG  simple_perceptron.py# 66      Epoch:  2    Accuracy: 0.44666666666666666
+2024-02-12 14:46:21,197  DEBUG  simple_perceptron.py# 66      Epoch:  3    Accuracy: 0.46
+2024-02-12 14:46:21,207  DEBUG  simple_perceptron.py# 66      Epoch:  4    Accuracy: 0.46
+2024-02-12 14:46:21,217  DEBUG  simple_perceptron.py# 66      Epoch:  5    Accuracy: 0.44666666666666666
+2024-02-12 14:46:21,226  DEBUG  simple_perceptron.py# 66      Epoch:  6    Accuracy: 0.5
+2024-02-12 14:46:21,236  DEBUG  simple_perceptron.py# 66      Epoch:  7    Accuracy: 0.46
+2024-02-12 14:46:21,246  DEBUG  simple_perceptron.py# 66      Epoch:  8    Accuracy: 0.46
+2024-02-12 14:46:21,256  DEBUG  simple_perceptron.py# 66      Epoch:  9    Accuracy: 0.46
+2024-02-12 14:46:21,266  DEBUG  simple_perceptron.py# 66      Epoch: 10    Accuracy: 0.44666666666666666
+2024-02-12 14:46:21,266  DEBUG  simple_perceptron.py# 73      Best Epoch:  6    Test Accuracy: 0.5
+2024-02-12 14:46:21,266  DEBUG  simple_perceptron.py#152  
+2024-02-12 14:46:21,266  DEBUG  simple_perceptron.py#142    Cross validation 1
+2024-02-12 14:46:21,276  DEBUG  simple_perceptron.py# 66      Epoch:  1    Accuracy: 0.48
+2024-02-12 14:46:21,286  DEBUG  simple_perceptron.py# 66      Epoch:  2    Accuracy: 0.48
+2024-02-12 14:46:21,295  DEBUG  simple_perceptron.py# 66      Epoch:  3    Accuracy: 0.46
+2024-02-12 14:46:21,305  DEBUG  simple_perceptron.py# 66      Epoch:  4    Accuracy: 0.4866666666666667
+2024-02-12 14:46:21,315  DEBUG  simple_perceptron.py# 66      Epoch:  5    Accuracy: 0.4866666666666667
+2024-02-12 14:46:21,325  DEBUG  simple_perceptron.py# 66      Epoch:  6    Accuracy: 0.4866666666666667
+2024-02-12 14:46:21,335  DEBUG  simple_perceptron.py# 66      Epoch:  7    Accuracy: 0.4266666666666667
+2024-02-12 14:46:21,345  DEBUG  simple_perceptron.py# 66      Epoch:  8    Accuracy: 0.4266666666666667
+2024-02-12 14:46:21,355  DEBUG  simple_perceptron.py# 66      Epoch:  9    Accuracy: 0.4266666666666667
+2024-02-12 14:46:21,365  DEBUG  simple_perceptron.py# 66      Epoch: 10    Accuracy: 0.46
+2024-02-12 14:46:21,365  DEBUG  simple_perceptron.py# 73      Best Epoch:  6    Test Accuracy: 0.4866666666666667
+2024-02-12 14:46:21,365  DEBUG  simple_perceptron.py#152  
+2024-02-12 14:46:21,365  DEBUG  simple_perceptron.py#142    Cross validation 2
+2024-02-12 14:46:21,374  DEBUG  simple_perceptron.py# 66      Epoch:  1    Accuracy: 0.47333333333333333
+2024-02-12 14:46:21,384  DEBUG  simple_perceptron.py# 66      Epoch:  2    Accuracy: 0.46
+2024-02-12 14:46:21,394  DEBUG  simple_perceptron.py# 66      Epoch:  3    Accuracy: 0.49333333333333335
+2024-02-12 14:46:21,404  DEBUG  simple_perceptron.py# 66      Epoch:  4    Accuracy: 0.56
+2024-02-12 14:46:21,414  DEBUG  simple_perceptron.py# 66      Epoch:  5    Accuracy: 0.5333333333333333
+2024-02-12 14:46:21,424  DEBUG  simple_perceptron.py# 66      Epoch:  6    Accuracy: 0.49333333333333335
+2024-02-12 14:46:21,434  DEBUG  simple_perceptron.py# 66      Epoch:  7    Accuracy: 0.49333333333333335
+2024-02-12 14:46:21,443  DEBUG  simple_perceptron.py# 66      Epoch:  8    Accuracy: 0.43333333333333335
+2024-02-12 14:46:21,453  DEBUG  simple_perceptron.py# 66      Epoch:  9    Accuracy: 0.43333333333333335
+2024-02-12 14:46:21,463  DEBUG  simple_perceptron.py# 66      Epoch: 10    Accuracy: 0.49333333333333335
+2024-02-12 14:46:21,463  DEBUG  simple_perceptron.py# 73      Best Epoch:  4    Test Accuracy: 0.56
+2024-02-12 14:46:21,463  DEBUG  simple_perceptron.py#152  
+2024-02-12 14:46:21,463  DEBUG  simple_perceptron.py#142    Cross validation 3
+2024-02-12 14:46:21,473  DEBUG  simple_perceptron.py# 66      Epoch:  1    Accuracy: 0.42
+2024-02-12 14:46:21,483  DEBUG  simple_perceptron.py# 66      Epoch:  2    Accuracy: 0.41333333333333333
+2024-02-12 14:46:21,493  DEBUG  simple_perceptron.py# 66      Epoch:  3    Accuracy: 0.41333333333333333
+2024-02-12 14:46:21,502  DEBUG  simple_perceptron.py# 66      Epoch:  4    Accuracy: 0.41333333333333333
+2024-02-12 14:46:21,512  DEBUG  simple_perceptron.py# 66      Epoch:  5    Accuracy: 0.3933333333333333
+2024-02-12 14:46:21,522  DEBUG  simple_perceptron.py# 66      Epoch:  6    Accuracy: 0.3933333333333333
+2024-02-12 14:46:21,532  DEBUG  simple_perceptron.py# 66      Epoch:  7    Accuracy: 0.3933333333333333
+2024-02-12 14:46:21,542  DEBUG  simple_perceptron.py# 66      Epoch:  8    Accuracy: 0.41333333333333333
+2024-02-12 14:46:21,552  DEBUG  simple_perceptron.py# 66      Epoch:  9    Accuracy: 0.3933333333333333
+2024-02-12 14:46:21,561  DEBUG  simple_perceptron.py# 66      Epoch: 10    Accuracy: 0.4
+2024-02-12 14:46:21,561  DEBUG  simple_perceptron.py# 73      Best Epoch:  1    Test Accuracy: 0.42
+2024-02-12 14:46:21,561  DEBUG  simple_perceptron.py#152  
+2024-02-12 14:46:21,561  DEBUG  simple_perceptron.py#142    Cross validation 4
+2024-02-12 14:46:21,571  DEBUG  simple_perceptron.py# 66      Epoch:  1    Accuracy: 0.5
+2024-02-12 14:46:21,581  DEBUG  simple_perceptron.py# 66      Epoch:  2    Accuracy: 0.52
+2024-02-12 14:46:21,591  DEBUG  simple_perceptron.py# 66      Epoch:  3    Accuracy: 0.4666666666666667
+2024-02-12 14:46:21,601  DEBUG  simple_perceptron.py# 66      Epoch:  4    Accuracy: 0.5
+2024-02-12 14:46:21,611  DEBUG  simple_perceptron.py# 66      Epoch:  5    Accuracy: 0.5
+2024-02-12 14:46:21,620  DEBUG  simple_perceptron.py# 66      Epoch:  6    Accuracy: 0.52
+2024-02-12 14:46:21,630  DEBUG  simple_perceptron.py# 66      Epoch:  7    Accuracy: 0.5333333333333333
+2024-02-12 14:46:21,640  DEBUG  simple_perceptron.py# 66      Epoch:  8    Accuracy: 0.52
+2024-02-12 14:46:21,650  DEBUG  simple_perceptron.py# 66      Epoch:  9    Accuracy: 0.5
+2024-02-12 14:46:21,660  DEBUG  simple_perceptron.py# 66      Epoch: 10    Accuracy: 0.52
+2024-02-12 14:46:21,660  DEBUG  simple_perceptron.py# 73      Best Epoch:  7    Test Accuracy: 0.5333333333333333
+2024-02-12 14:46:21,660  DEBUG  simple_perceptron.py#152  
+2024-02-12 14:46:21,660  DEBUG  simple_perceptron.py#154  
+2024-02-12 14:46:21,660  DEBUG  simple_perceptron.py#137  Learning rate: 0.01
+2024-02-12 14:46:21,660  DEBUG  simple_perceptron.py#142    Cross validation 0
+2024-02-12 14:46:21,670  DEBUG  simple_perceptron.py# 66      Epoch:  1    Accuracy: 0.44666666666666666
+2024-02-12 14:46:21,679  DEBUG  simple_perceptron.py# 66      Epoch:  2    Accuracy: 0.44666666666666666
+2024-02-12 14:46:21,689  DEBUG  simple_perceptron.py# 66      Epoch:  3    Accuracy: 0.44666666666666666
+2024-02-12 14:46:21,699  DEBUG  simple_perceptron.py# 66      Epoch:  4    Accuracy: 0.43333333333333335
+2024-02-12 14:46:21,709  DEBUG  simple_perceptron.py# 66      Epoch:  5    Accuracy: 0.44
+2024-02-12 14:46:21,719  DEBUG  simple_perceptron.py# 66      Epoch:  6    Accuracy: 0.44666666666666666
+2024-02-12 14:46:21,728  DEBUG  simple_perceptron.py# 66      Epoch:  7    Accuracy: 0.44666666666666666
+2024-02-12 14:46:21,738  DEBUG  simple_perceptron.py# 66      Epoch:  8    Accuracy: 0.44
+2024-02-12 14:46:21,748  DEBUG  simple_perceptron.py# 66      Epoch:  9    Accuracy: 0.44
+2024-02-12 14:46:21,758  DEBUG  simple_perceptron.py# 66      Epoch: 10    Accuracy: 0.44
+2024-02-12 14:46:21,758  DEBUG  simple_perceptron.py# 73      Best Epoch:  7    Test Accuracy: 0.44666666666666666
+2024-02-12 14:46:21,758  DEBUG  simple_perceptron.py#152  
+2024-02-12 14:46:21,758  DEBUG  simple_perceptron.py#142    Cross validation 1
+2024-02-12 14:46:21,768  DEBUG  simple_perceptron.py# 66      Epoch:  1    Accuracy: 0.46
+2024-02-12 14:46:21,778  DEBUG  simple_perceptron.py# 66      Epoch:  2    Accuracy: 0.4666666666666667
+2024-02-12 14:46:21,788  DEBUG  simple_perceptron.py# 66      Epoch:  3    Accuracy: 0.48
+2024-02-12 14:46:21,797  DEBUG  simple_perceptron.py# 66      Epoch:  4    Accuracy: 0.47333333333333333
+2024-02-12 14:46:21,807  DEBUG  simple_perceptron.py# 66      Epoch:  5    Accuracy: 0.4866666666666667
+2024-02-12 14:46:21,817  DEBUG  simple_perceptron.py# 66      Epoch:  6    Accuracy: 0.49333333333333335
+2024-02-12 14:46:21,827  DEBUG  simple_perceptron.py# 66      Epoch:  7    Accuracy: 0.47333333333333333
+2024-02-12 14:46:21,837  DEBUG  simple_perceptron.py# 66      Epoch:  8    Accuracy: 0.46
+2024-02-12 14:46:21,847  DEBUG  simple_perceptron.py# 66      Epoch:  9    Accuracy: 0.46
+2024-02-12 14:46:21,856  DEBUG  simple_perceptron.py# 66      Epoch: 10    Accuracy: 0.4666666666666667
+2024-02-12 14:46:21,856  DEBUG  simple_perceptron.py# 73      Best Epoch:  6    Test Accuracy: 0.49333333333333335
+2024-02-12 14:46:21,856  DEBUG  simple_perceptron.py#152  
+2024-02-12 14:46:21,856  DEBUG  simple_perceptron.py#142    Cross validation 2
+2024-02-12 14:46:21,866  DEBUG  simple_perceptron.py# 66      Epoch:  1    Accuracy: 0.5333333333333333
+2024-02-12 14:46:21,876  DEBUG  simple_perceptron.py# 66      Epoch:  2    Accuracy: 0.49333333333333335
+2024-02-12 14:46:21,886  DEBUG  simple_perceptron.py# 66      Epoch:  3    Accuracy: 0.49333333333333335
+2024-02-12 14:46:21,896  DEBUG  simple_perceptron.py# 66      Epoch:  4    Accuracy: 0.5066666666666667
+2024-02-12 14:46:21,906  DEBUG  simple_perceptron.py# 66      Epoch:  5    Accuracy: 0.4866666666666667
+2024-02-12 14:46:21,916  DEBUG  simple_perceptron.py# 66      Epoch:  6    Accuracy: 0.4866666666666667
+2024-02-12 14:46:21,925  DEBUG  simple_perceptron.py# 66      Epoch:  7    Accuracy: 0.4866666666666667
+2024-02-12 14:46:21,935  DEBUG  simple_perceptron.py# 66      Epoch:  8    Accuracy: 0.5066666666666667
+2024-02-12 14:46:21,945  DEBUG  simple_perceptron.py# 66      Epoch:  9    Accuracy: 0.5333333333333333
+2024-02-12 14:46:21,955  DEBUG  simple_perceptron.py# 66      Epoch: 10    Accuracy: 0.5
+2024-02-12 14:46:21,955  DEBUG  simple_perceptron.py# 73      Best Epoch:  9    Test Accuracy: 0.5333333333333333
+2024-02-12 14:46:21,955  DEBUG  simple_perceptron.py#152  
+2024-02-12 14:46:21,955  DEBUG  simple_perceptron.py#142    Cross validation 3
+2024-02-12 14:46:21,965  DEBUG  simple_perceptron.py# 66      Epoch:  1    Accuracy: 0.4266666666666667
+2024-02-12 14:46:21,975  DEBUG  simple_perceptron.py# 66      Epoch:  2    Accuracy: 0.42
+2024-02-12 14:46:21,985  DEBUG  simple_perceptron.py# 66      Epoch:  3    Accuracy: 0.4266666666666667
+2024-02-12 14:46:21,994  DEBUG  simple_perceptron.py# 66      Epoch:  4    Accuracy: 0.41333333333333333
+2024-02-12 14:46:22,004  DEBUG  simple_perceptron.py# 66      Epoch:  5    Accuracy: 0.41333333333333333
+2024-02-12 14:46:22,014  DEBUG  simple_perceptron.py# 66      Epoch:  6    Accuracy: 0.41333333333333333
+2024-02-12 14:46:22,024  DEBUG  simple_perceptron.py# 66      Epoch:  7    Accuracy: 0.4266666666666667
+2024-02-12 14:46:22,034  DEBUG  simple_perceptron.py# 66      Epoch:  8    Accuracy: 0.42
+2024-02-12 14:46:22,043  DEBUG  simple_perceptron.py# 66      Epoch:  9    Accuracy: 0.41333333333333333
+2024-02-12 14:46:22,053  DEBUG  simple_perceptron.py# 66      Epoch: 10    Accuracy: 0.4066666666666667
+2024-02-12 14:46:22,053  DEBUG  simple_perceptron.py# 73      Best Epoch:  7    Test Accuracy: 0.4266666666666667
+2024-02-12 14:46:22,053  DEBUG  simple_perceptron.py#152  
+2024-02-12 14:46:22,053  DEBUG  simple_perceptron.py#142    Cross validation 4
+2024-02-12 14:46:22,063  DEBUG  simple_perceptron.py# 66      Epoch:  1    Accuracy: 0.5
+2024-02-12 14:46:22,073  DEBUG  simple_perceptron.py# 66      Epoch:  2    Accuracy: 0.4866666666666667
+2024-02-12 14:46:22,083  DEBUG  simple_perceptron.py# 66      Epoch:  3    Accuracy: 0.5
+2024-02-12 14:46:22,093  DEBUG  simple_perceptron.py# 66      Epoch:  4    Accuracy: 0.47333333333333333
+2024-02-12 14:46:22,102  DEBUG  simple_perceptron.py# 66      Epoch:  5    Accuracy: 0.47333333333333333
+2024-02-12 14:46:22,112  DEBUG  simple_perceptron.py# 66      Epoch:  6    Accuracy: 0.5
+2024-02-12 14:46:22,122  DEBUG  simple_perceptron.py# 66      Epoch:  7    Accuracy: 0.5
+2024-02-12 14:46:22,132  DEBUG  simple_perceptron.py# 66      Epoch:  8    Accuracy: 0.5
+2024-02-12 14:46:22,142  DEBUG  simple_perceptron.py# 66      Epoch:  9    Accuracy: 0.5
+2024-02-12 14:46:22,152  DEBUG  simple_perceptron.py# 66      Epoch: 10    Accuracy: 0.5
+2024-02-12 14:46:22,152  DEBUG  simple_perceptron.py# 73      Best Epoch: 10    Test Accuracy: 0.5
+2024-02-12 14:46:22,152  DEBUG  simple_perceptron.py#152  
+2024-02-12 14:46:22,152  DEBUG  simple_perceptron.py#154  
+2024-02-12 14:46:22,152  DEBUG  simple_perceptron.py#156  All CV accuracy dictionary: {1: [0.5533333333333333, 0.5733333333333334, 0.6066666666666667, 0.5333333333333333, 0.5466666666666666], 0.1: [0.5, 0.4866666666666667, 0.56, 0.42, 0.5333333333333333], 0.01: [0.44666666666666666, 0.49333333333333335, 0.5333333333333333, 0.4266666666666667, 0.5]}
+2024-02-12 14:46:22,152  DEBUG  simple_perceptron.py#169  Average accuracy of all folds with learning rate 1 is 0.5626666666666666
+2024-02-12 14:46:22,152  DEBUG  simple_perceptron.py#169  Average accuracy of all folds with learning rate 0.1 is 0.5
+2024-02-12 14:46:22,152  DEBUG  simple_perceptron.py#169  Average accuracy of all folds with learning rate 0.01 is 0.48
+2024-02-12 14:46:22,152  DEBUG  simple_perceptron.py#176  --------------------------------------------------
+2024-02-12 14:46:22,152  DEBUG  simple_perceptron.py#177  Online Training
+2024-02-12 14:46:22,152  DEBUG  simple_perceptron.py# 85  Learning rate: 1
+2024-02-12 14:46:22,166  DEBUG  simple_perceptron.py# 95    Epoch:  1    Dev Accuracy: 0.43
+2024-02-12 14:46:22,179  DEBUG  simple_perceptron.py# 95    Epoch:  2    Dev Accuracy: 0.43
+2024-02-12 14:46:22,191  DEBUG  simple_perceptron.py# 95    Epoch:  3    Dev Accuracy: 0.56
+2024-02-12 14:46:22,204  DEBUG  simple_perceptron.py# 95    Epoch:  4    Dev Accuracy: 0.56
+2024-02-12 14:46:22,217  DEBUG  simple_perceptron.py# 95    Epoch:  5    Dev Accuracy: 0.43
+2024-02-12 14:46:22,229  DEBUG  simple_perceptron.py# 95    Epoch:  6    Dev Accuracy: 0.43
+2024-02-12 14:46:22,242  DEBUG  simple_perceptron.py# 95    Epoch:  7    Dev Accuracy: 0.56
+2024-02-12 14:46:22,254  DEBUG  simple_perceptron.py# 95    Epoch:  8    Dev Accuracy: 0.56
+2024-02-12 14:46:22,267  DEBUG  simple_perceptron.py# 95    Epoch:  9    Dev Accuracy: 0.44
+2024-02-12 14:46:22,280  DEBUG  simple_perceptron.py# 95    Epoch: 10    Dev Accuracy: 0.43
+2024-02-12 14:46:22,292  DEBUG  simple_perceptron.py# 95    Epoch: 11    Dev Accuracy: 0.43
+2024-02-12 14:46:22,305  DEBUG  simple_perceptron.py# 95    Epoch: 12    Dev Accuracy: 0.43
+2024-02-12 14:46:22,317  DEBUG  simple_perceptron.py# 95    Epoch: 13    Dev Accuracy: 0.56
+2024-02-12 14:46:22,330  DEBUG  simple_perceptron.py# 95    Epoch: 14    Dev Accuracy: 0.43
+2024-02-12 14:46:22,343  DEBUG  simple_perceptron.py# 95    Epoch: 15    Dev Accuracy: 0.43
+2024-02-12 14:46:22,355  DEBUG  simple_perceptron.py# 95    Epoch: 16    Dev Accuracy: 0.56
+2024-02-12 14:46:22,368  DEBUG  simple_perceptron.py# 95    Epoch: 17    Dev Accuracy: 0.43
+2024-02-12 14:46:22,380  DEBUG  simple_perceptron.py# 95    Epoch: 18    Dev Accuracy: 0.56
+2024-02-12 14:46:22,393  DEBUG  simple_perceptron.py# 95    Epoch: 19    Dev Accuracy: 0.43
+2024-02-12 14:46:22,406  DEBUG  simple_perceptron.py# 95    Epoch: 20    Dev Accuracy: 0.56
+2024-02-12 14:46:22,406  DEBUG  simple_perceptron.py#106    Best Epoch: 20    Dev Accuracy: 0.56
+2024-02-12 14:46:22,408  DEBUG  simple_perceptron.py#190  Test set accuracy for best hyper parameter (1) is 0.5223880597014925
