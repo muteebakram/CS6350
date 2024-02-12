@@ -73,11 +73,13 @@ def cv_setup(train_fold_df, test_fold_df, learning_rate, epochs):
         # shuffle the whole data frame.
         train_fold_df = train_fold_df.sample(frac=1)
 
+        new_learning_rate = learning_rate / (1 + epoch)
+
         # each epoch produce new weight and bias which is input to next epoch.
-        weights, bias = perceptron(df=train_fold_df, learning_rate=learning_rate, weights=weights, bias=bias)
+        weights, bias = perceptron(df=train_fold_df, learning_rate=new_learning_rate, weights=weights, bias=bias)
 
         accuracy = test_accuracy(df=test_fold_df, weights=weights, bias=bias)
-        print(f"    Epoch: {epoch + 1:>2}    Accuracy: {accuracy}")
+        print(f"    Epoch: {epoch + 1:>2}    Learning rate: {round(new_learning_rate, 5):<8}    Accuracy: {accuracy}")
 
 
 def online_setup(train_df, dev_df, test_df, learning_rate, epochs):
@@ -89,19 +91,21 @@ def online_setup(train_df, dev_df, test_df, learning_rate, epochs):
     for _ in range(train_df.shape[1] - 1):
         weights.append(random.uniform(rand_start, rand_end))
 
-    best_bias = 0
-    best_weights = 0
     best_epoch = 0
     best_accuracy = 0
+    best_bias = 0
+    best_weights = 0
     for epoch in range(epochs):
         # shuffle the whole data frame.
         train_df = train_df.sample(frac=1)
 
+        new_learning_rate = learning_rate / (1 + epoch)
+
         # each epoch produce new weight and bias which is input to next epoch.
-        weights, bias = perceptron(df=train_df, learning_rate=learning_rate, weights=weights, bias=bias)
+        weights, bias = perceptron(df=train_df, learning_rate=new_learning_rate, weights=weights, bias=bias)
 
         accuracy = test_accuracy(df=dev_df, weights=weights, bias=bias)
-        print(f"  Epoch: {epoch + 1:>2}    Accuracy: {accuracy}")
+        print(f"  Epoch: {epoch + 1:>2}    Learning rate: {round(new_learning_rate, 5):<8}    Accuracy: {accuracy}")
 
         if accuracy > best_accuracy:
             best_accuracy = accuracy
