@@ -70,7 +70,7 @@ def cv_setup(train_fold_df, test_fold_df, learning_rate, weights, bias, epochs):
             best_accuracy = accuracy
             best_epoch = epoch
 
-    log.debug(f"    Best Epoch: {best_epoch + 1:>2}    Test Accuracy: {best_accuracy}")
+    log.debug(f"    Best Epoch: {best_epoch + 1:>2}    Test Fold Accuracy: {best_accuracy}")
     return best_accuracy
 
 
@@ -115,7 +115,6 @@ if __name__ == "__main__":
     log = init_logger(log_path="./logs", log_file_name=f"{perceptron_type.replace(' ', '_').lower()}.log")
 
     train_folds, test_folds = prepare_train_test_folds(dfs=dfs)
-    # log.debug(train_folds[0])
 
     # I plan to use same initial setting for CV and online learning.
     initial_weights, initial_bias = initialize_weights_bias(

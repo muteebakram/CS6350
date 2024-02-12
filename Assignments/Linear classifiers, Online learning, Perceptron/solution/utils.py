@@ -9,7 +9,7 @@ from logging.handlers import RotatingFileHandler
 
 def init_logger(log_path, log_file_name):
     try:
-        log_formatter = logging.Formatter("%(asctime)s  %(levelname)5.5s  %(filename)20s#%(lineno)3s  %(message)s")
+        log_formatter = logging.Formatter("%(asctime)s  %(levelname)5.5s  %(filename)25s#%(lineno)3s  %(message)s")
 
         handler = RotatingFileHandler(
             filename=os.path.join(log_path, log_file_name),

@@ -1,7 +1,5 @@
 #!/bin/sh
 
-mkdir logs figs
-
 printf "Baseline\n"
 printf "******************************************************************\n"
 python3 ./baseline.py
