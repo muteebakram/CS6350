@@ -5,6 +5,7 @@ import pandas as pd
 rand_start = -0.01
 rand_end = 0.01
 
+margins = [1, 0.1, 0.01]
 learning_rates = [1, 0.1, 0.01]
 
 df0 = pd.read_csv("./hw2_data/CVSplits/train0.csv")
@@ -42,7 +43,7 @@ def test_accuracy(df, weights, bias):
     return correct_prediction / total
 
 
-def perceptron(df, learning_rate, weights, bias):
+def perceptron(df, margin, learning_rate, weights, bias):
     for index, row in df.iterrows():
         example = row.tolist()
         actual_label = example[0]  # y
@@ -52,7 +53,7 @@ def perceptron(df, learning_rate, weights, bias):
         value = actual_label * (np.dot(weights, example) + bias)
 
         # update
-        if value < 0:
+        if value < margin:
             bias += learning_rate * actual_label
             for index, w in enumerate(weights):
                 w += learning_rate * actual_label * example[index]
@@ -60,7 +61,7 @@ def perceptron(df, learning_rate, weights, bias):
     return weights, bias
 
 
-def cv_setup(train_fold_df, test_fold_df, learning_rate, epochs):
+def cv_setup(train_fold_df, test_fold_df, margin, learning_rate, epochs):
     # Initial random bias
     bias = random.uniform(rand_start, rand_end)
 
@@ -73,14 +74,16 @@ def cv_setup(train_fold_df, test_fold_df, learning_rate, epochs):
         # shuffle the whole data frame.
         train_fold_df = train_fold_df.sample(frac=1)
 
+        new_learning_rate = learning_rate / (1 + epoch)
+
         # each epoch produce new weight and bias which is input to next epoch.
-        weights, bias = perceptron(df=train_fold_df, learning_rate=learning_rate, weights=weights, bias=bias)
+        weights, bias = perceptron(df=train_fold_df, margin=margin, learning_rate=new_learning_rate, weights=weights, bias=bias)
 
         accuracy = test_accuracy(df=test_fold_df, weights=weights, bias=bias)
-        print(f"    Epoch: {epoch + 1:>2}    Accuracy: {accuracy}")
+        print(f"    Epoch: {epoch + 1:>2}    Learning rate: {round(new_learning_rate, 5):<8}    Accuracy: {accuracy}")
 
 
-def online_setup(train_df, dev_df, test_df, learning_rate, epochs):
+def online_setup(train_df, dev_df, test_df, margin, learning_rate, epochs):
     # Initial random bias
     bias = random.uniform(rand_start, rand_end)
 
@@ -89,19 +92,21 @@ def online_setup(train_df, dev_df, test_df, learning_rate, epochs):
     for _ in range(train_df.shape[1] - 1):
         weights.append(random.uniform(rand_start, rand_end))
 
-    best_bias = 0
-    best_weights = 0
     best_epoch = 0
     best_accuracy = 0
+    best_bias = 0
+    best_weights = 0
     for epoch in range(epochs):
         # shuffle the whole data frame.
         train_df = train_df.sample(frac=1)
 
+        new_learning_rate = learning_rate / (1 + epoch)
+
         # each epoch produce new weight and bias which is input to next epoch.
-        weights, bias = perceptron(df=train_df, learning_rate=learning_rate, weights=weights, bias=bias)
+        weights, bias = perceptron(df=train_df, margin=margin, learning_rate=new_learning_rate, weights=weights, bias=bias)
 
         accuracy = test_accuracy(df=dev_df, weights=weights, bias=bias)
-        print(f"  Epoch: {epoch + 1:>2}    Accuracy: {accuracy}")
+        print(f"  Epoch: {epoch + 1:>2}    Learning rate: {round(new_learning_rate, 5):<8}    Accuracy: {accuracy}")
 
         if accuracy >= best_accuracy:
             best_accuracy = accuracy
@@ -140,18 +145,20 @@ if __name__ == "__main__":
 
     print("Cross Validation Training")
     print(50 * "-")
-    for learning_rate in learning_rates:
-        print(f"Learning rate: {learning_rate}")
-        for i in range(len(dfs)):
-            print(f"  Cross validation {i}")
-            cv_setup(train_fold_df=train_folds[i], test_fold_df=test_folds[i], learning_rate=learning_rate, epochs=10)
-            print()
+    for margin in margins:
+        for learning_rate in learning_rates:
+            print(f"Margin: {margin}   Learning rate: {learning_rate}")
+            for i in range(len(dfs)):
+                print(f"  Cross validation {i}")
+                cv_setup(train_fold_df=train_folds[i], test_fold_df=test_folds[i], margin=margin, learning_rate=learning_rate, epochs=10)
+                print()
 
-        print()
+            print()
 
     print("Online Training")
     print(50 * "-")
-    for learning_rate in learning_rates:
-        print(f"Learning rate: {learning_rate}")
-        online_setup(train_df=train_df, dev_df=dev_df, test_df=test_df, learning_rate=learning_rate, epochs=20)
-        print()
+    for margin in margins:
+        for learning_rate in learning_rates:
+            print(f"Margin: {margin}   Learning rate: {learning_rate}")
+            online_setup(train_df=train_df, dev_df=dev_df, test_df=test_df, margin=margin, learning_rate=learning_rate, epochs=20)
+            print()

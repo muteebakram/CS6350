@@ -107,15 +107,15 @@ def online_setup(train_df, dev_df, test_df, learning_rate, epochs):
         accuracy = test_accuracy(df=dev_df, weights=weights, bias=bias)
         print(f"  Epoch: {epoch + 1:>2}    Learning rate: {round(new_learning_rate, 5):<8}    Accuracy: {accuracy}")
 
-        if accuracy > best_accuracy:
+        if accuracy >= best_accuracy:
             best_accuracy = accuracy
             best_epoch = epoch
 
             best_bias = bias
             best_weights = weights
 
-    train_accuracy = test_accuracy(df=train_df, weights=best_weights, bias=best_bias)
-    print(f"\n  Best Epoch: {best_epoch + 1:>2}    Accuracy: {train_accuracy}")
+    test_data_accuracy = test_accuracy(df=test_df, weights=best_weights, bias=best_bias)
+    print(f"\n  Best Epoch: {best_epoch + 1:>2}    Test Accuracy: {test_data_accuracy}")
 
 
 def prepare_train_test_folds():
