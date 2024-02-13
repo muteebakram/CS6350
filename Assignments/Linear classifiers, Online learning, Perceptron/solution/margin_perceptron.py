@@ -133,6 +133,8 @@ if __name__ == "__main__":
     initial_weights, initial_bias = initialize_weights_bias(
         rand_start=rand_start, rand_end=rand_end, feature_count=train_df.shape[1] - 1
     )
+    log.debug(f"Initial bias: {initial_bias}")
+    log.debug(f"Initial weights: {initial_weights}")
 
     print("2. Majority Baseline")
     baseline_accuracy(test_df=test_df, dev_df=dev_df)

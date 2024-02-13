@@ -20,9 +20,31 @@ Given: This Phi func should not have radius.
 
 ## Answers
 
-### 3
+### 1. Boolean Functions
 
-1a. n
+1. Three boolean functions
+
+- x2 ^ x4
+- x3 ^ x4
+- x2 ^ x3 ^ x4
+
+2. Adding more data points
+
+- 1
+- 1
+- 3
+
+3. Is linearly separable?
+
+- Yes linearly seperable. y = x4
+
+### 2. Feature transformations
+
+
+
+### 3. Mistake Bound Model of Learning
+
+1a. n. Every instance of z has a unique function. Thus, the number of instance (n) of z is possible member of concept class.
 
 1b.
 
@@ -45,6 +67,6 @@ An algo is mistake bound if makes at most polynomial mistake.
 
 |c2| - 1. If it never picks the right feature.
 
-2b. Halving: 
+2b. Halving:
 
 log n
