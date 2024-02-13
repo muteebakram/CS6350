@@ -59,7 +59,7 @@ def cv_setup(train_fold_df, test_fold_df, margin, learning_rate, weights, bias, 
     best_accuracy = 0
     for epoch in range(epochs):
         # shuffle the whole data frame.
-        train_fold_df = train_fold_df.sample(frac=1)
+        train_fold_df = train_fold_df.sample(frac=1, random_state=1)
 
         new_learning_rate = learning_rate / (1 + epoch)
 
@@ -93,7 +93,7 @@ def online_setup(train_df, dev_df, margin, learning_rate, weights, bias, epochs)
     log.debug(f"Learning rate: {learning_rate}")
     for epoch in range(epochs):
         # shuffle the whole data frame.
-        train_df = train_df.sample(frac=1)
+        train_df = train_df.sample(frac=1, random_state=1)
 
         new_learning_rate = learning_rate / (1 + epoch)
 

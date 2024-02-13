@@ -1,641 +1,641 @@
-2024-02-12 17:28:18,367  DEBUG                   utils.py# 29  Start logging
-2024-02-12 17:28:18,377  DEBUG       margin_perceptron.py#140  --------------------------------------------------
-2024-02-12 17:28:18,377  DEBUG       margin_perceptron.py#141  Cross Validation Training
-2024-02-12 17:28:18,377  DEBUG       margin_perceptron.py#153  Margin: 1   Learning rate: 1
-2024-02-12 17:28:18,377  DEBUG       margin_perceptron.py#158    Cross validation 0
-2024-02-12 17:28:18,388  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 1.0        Accuracy: 0.56
-2024-02-12 17:28:18,398  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.5        Accuracy: 0.6066666666666667
-2024-02-12 17:28:18,408  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.6066666666666667
-2024-02-12 17:28:18,419  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.25       Accuracy: 0.58
-2024-02-12 17:28:18,429  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.2        Accuracy: 0.6266666666666667
-2024-02-12 17:28:18,439  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.6
-2024-02-12 17:28:18,449  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.58
-2024-02-12 17:28:18,459  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.125      Accuracy: 0.6266666666666667
-2024-02-12 17:28:18,469  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.58
-2024-02-12 17:28:18,479  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.1        Accuracy: 0.6133333333333333
-2024-02-12 17:28:18,479  DEBUG       margin_perceptron.py# 81      Best Epoch:  8    Test Fold Accuracy: 0.6266666666666667
-2024-02-12 17:28:18,479  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:18,479  DEBUG       margin_perceptron.py#158    Cross validation 1
-2024-02-12 17:28:18,490  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 1.0        Accuracy: 0.5866666666666667
-2024-02-12 17:28:18,500  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.5        Accuracy: 0.5933333333333334
-2024-02-12 17:28:18,510  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.7133333333333334
-2024-02-12 17:28:18,520  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.25       Accuracy: 0.43333333333333335
-2024-02-12 17:28:18,530  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.2        Accuracy: 0.43333333333333335
-2024-02-12 17:28:18,540  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.7333333333333333
-2024-02-12 17:28:18,550  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.72
-2024-02-12 17:28:18,560  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.125      Accuracy: 0.5666666666666667
-2024-02-12 17:28:18,570  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.52
-2024-02-12 17:28:18,580  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.1        Accuracy: 0.6866666666666666
-2024-02-12 17:28:18,580  DEBUG       margin_perceptron.py# 81      Best Epoch:  6    Test Fold Accuracy: 0.7333333333333333
-2024-02-12 17:28:18,580  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:18,580  DEBUG       margin_perceptron.py#158    Cross validation 2
-2024-02-12 17:28:18,591  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 1.0        Accuracy: 0.42
-2024-02-12 17:28:18,601  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.5        Accuracy: 0.6066666666666667
-2024-02-12 17:28:18,611  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.6466666666666666
-2024-02-12 17:28:18,621  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.25       Accuracy: 0.7066666666666667
-2024-02-12 17:28:18,631  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.2        Accuracy: 0.68
-2024-02-12 17:28:18,641  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.7066666666666667
-2024-02-12 17:28:18,651  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.7
-2024-02-12 17:28:18,661  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.125      Accuracy: 0.74
-2024-02-12 17:28:18,671  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.68
-2024-02-12 17:28:18,681  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.1        Accuracy: 0.6666666666666666
-2024-02-12 17:28:18,681  DEBUG       margin_perceptron.py# 81      Best Epoch:  8    Test Fold Accuracy: 0.74
-2024-02-12 17:28:18,681  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:18,681  DEBUG       margin_perceptron.py#158    Cross validation 3
-2024-02-12 17:28:18,691  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 1.0        Accuracy: 0.6
-2024-02-12 17:28:18,701  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.5        Accuracy: 0.6733333333333333
-2024-02-12 17:28:18,712  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.64
-2024-02-12 17:28:18,722  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.25       Accuracy: 0.7066666666666667
-2024-02-12 17:28:18,732  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.2        Accuracy: 0.7066666666666667
-2024-02-12 17:28:18,742  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.6666666666666666
-2024-02-12 17:28:18,752  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.6866666666666666
-2024-02-12 17:28:18,762  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.125      Accuracy: 0.7
-2024-02-12 17:28:18,772  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.6933333333333334
-2024-02-12 17:28:18,782  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.1        Accuracy: 0.72
-2024-02-12 17:28:18,782  DEBUG       margin_perceptron.py# 81      Best Epoch: 10    Test Fold Accuracy: 0.72
-2024-02-12 17:28:18,782  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:18,782  DEBUG       margin_perceptron.py#158    Cross validation 4
-2024-02-12 17:28:18,792  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 1.0        Accuracy: 0.5066666666666667
-2024-02-12 17:28:18,802  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.5        Accuracy: 0.6066666666666667
-2024-02-12 17:28:18,812  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.7133333333333334
-2024-02-12 17:28:18,822  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.25       Accuracy: 0.5533333333333333
-2024-02-12 17:28:18,832  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.2        Accuracy: 0.72
-2024-02-12 17:28:18,842  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.6933333333333334
-2024-02-12 17:28:18,852  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.72
-2024-02-12 17:28:18,862  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.125      Accuracy: 0.72
-2024-02-12 17:28:18,872  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.72
-2024-02-12 17:28:18,882  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.1        Accuracy: 0.6933333333333334
-2024-02-12 17:28:18,882  DEBUG       margin_perceptron.py# 81      Best Epoch:  9    Test Fold Accuracy: 0.72
-2024-02-12 17:28:18,882  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:18,882  DEBUG       margin_perceptron.py#171  
-2024-02-12 17:28:18,882  DEBUG       margin_perceptron.py#153  Margin: 1   Learning rate: 0.1
-2024-02-12 17:28:18,882  DEBUG       margin_perceptron.py#158    Cross validation 0
-2024-02-12 17:28:18,892  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.1        Accuracy: 0.7133333333333334
-2024-02-12 17:28:18,902  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.05       Accuracy: 0.74
-2024-02-12 17:28:18,912  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.74
-2024-02-12 17:28:18,922  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.025      Accuracy: 0.7333333333333333
-2024-02-12 17:28:18,932  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.02       Accuracy: 0.7266666666666667
-2024-02-12 17:28:18,942  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.74
-2024-02-12 17:28:18,952  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.7333333333333333
-2024-02-12 17:28:18,962  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.7533333333333333
-2024-02-12 17:28:18,972  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.7533333333333333
-2024-02-12 17:28:18,982  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.01       Accuracy: 0.72
-2024-02-12 17:28:18,982  DEBUG       margin_perceptron.py# 81      Best Epoch:  9    Test Fold Accuracy: 0.7533333333333333
-2024-02-12 17:28:18,982  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:18,982  DEBUG       margin_perceptron.py#158    Cross validation 1
-2024-02-12 17:28:18,992  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.1        Accuracy: 0.7466666666666667
-2024-02-12 17:28:19,002  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.05       Accuracy: 0.6466666666666666
-2024-02-12 17:28:19,012  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.7
-2024-02-12 17:28:19,022  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.025      Accuracy: 0.74
-2024-02-12 17:28:19,032  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.02       Accuracy: 0.6066666666666667
-2024-02-12 17:28:19,042  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.7133333333333334
-2024-02-12 17:28:19,052  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.74
-2024-02-12 17:28:19,062  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.7333333333333333
-2024-02-12 17:28:19,072  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.6933333333333334
-2024-02-12 17:28:19,082  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.01       Accuracy: 0.7066666666666667
-2024-02-12 17:28:19,082  DEBUG       margin_perceptron.py# 81      Best Epoch:  1    Test Fold Accuracy: 0.7466666666666667
-2024-02-12 17:28:19,082  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:19,082  DEBUG       margin_perceptron.py#158    Cross validation 2
-2024-02-12 17:28:19,092  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.1        Accuracy: 0.6933333333333334
-2024-02-12 17:28:19,102  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.05       Accuracy: 0.72
-2024-02-12 17:28:19,112  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.7466666666666667
-2024-02-12 17:28:19,122  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.025      Accuracy: 0.7133333333333334
-2024-02-12 17:28:19,132  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.02       Accuracy: 0.7333333333333333
-2024-02-12 17:28:19,142  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.7333333333333333
-2024-02-12 17:28:19,152  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.74
-2024-02-12 17:28:19,162  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.7466666666666667
-2024-02-12 17:28:19,172  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.7533333333333333
-2024-02-12 17:28:19,182  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.01       Accuracy: 0.7533333333333333
-2024-02-12 17:28:19,182  DEBUG       margin_perceptron.py# 81      Best Epoch: 10    Test Fold Accuracy: 0.7533333333333333
-2024-02-12 17:28:19,182  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:19,182  DEBUG       margin_perceptron.py#158    Cross validation 3
-2024-02-12 17:28:19,192  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.1        Accuracy: 0.6933333333333334
-2024-02-12 17:28:19,202  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.05       Accuracy: 0.72
-2024-02-12 17:28:19,212  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.64
-2024-02-12 17:28:19,222  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.025      Accuracy: 0.7
-2024-02-12 17:28:19,232  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.02       Accuracy: 0.68
-2024-02-12 17:28:19,242  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.7466666666666667
-2024-02-12 17:28:19,252  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.72
-2024-02-12 17:28:19,262  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.7466666666666667
-2024-02-12 17:28:19,271  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.7266666666666667
-2024-02-12 17:28:19,281  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.01       Accuracy: 0.7266666666666667
-2024-02-12 17:28:19,281  DEBUG       margin_perceptron.py# 81      Best Epoch:  8    Test Fold Accuracy: 0.7466666666666667
-2024-02-12 17:28:19,282  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:19,282  DEBUG       margin_perceptron.py#158    Cross validation 4
-2024-02-12 17:28:19,292  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.1        Accuracy: 0.78
-2024-02-12 17:28:19,302  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.05       Accuracy: 0.7466666666666667
-2024-02-12 17:28:19,312  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.7266666666666667
-2024-02-12 17:28:19,322  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.025      Accuracy: 0.7533333333333333
-2024-02-12 17:28:19,332  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.02       Accuracy: 0.7333333333333333
-2024-02-12 17:28:19,342  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.7666666666666667
-2024-02-12 17:28:19,352  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.74
-2024-02-12 17:28:19,362  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.7333333333333333
-2024-02-12 17:28:19,371  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.7866666666666666
-2024-02-12 17:28:19,382  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.01       Accuracy: 0.7666666666666667
-2024-02-12 17:28:19,382  DEBUG       margin_perceptron.py# 81      Best Epoch:  9    Test Fold Accuracy: 0.7866666666666666
-2024-02-12 17:28:19,382  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:19,382  DEBUG       margin_perceptron.py#171  
-2024-02-12 17:28:19,382  DEBUG       margin_perceptron.py#153  Margin: 1   Learning rate: 0.01
-2024-02-12 17:28:19,382  DEBUG       margin_perceptron.py#158    Cross validation 0
-2024-02-12 17:28:19,392  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.01       Accuracy: 0.76
-2024-02-12 17:28:19,402  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.005      Accuracy: 0.7666666666666667
-2024-02-12 17:28:19,412  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.7533333333333333
-2024-02-12 17:28:19,422  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.7533333333333333
-2024-02-12 17:28:19,432  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.002      Accuracy: 0.7466666666666667
-2024-02-12 17:28:19,442  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.7533333333333333
-2024-02-12 17:28:19,452  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.76
-2024-02-12 17:28:19,462  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.76
-2024-02-12 17:28:19,471  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.7533333333333333
-2024-02-12 17:28:19,481  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.001      Accuracy: 0.7533333333333333
-2024-02-12 17:28:19,482  DEBUG       margin_perceptron.py# 81      Best Epoch:  2    Test Fold Accuracy: 0.7666666666666667
-2024-02-12 17:28:19,482  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:19,482  DEBUG       margin_perceptron.py#158    Cross validation 1
-2024-02-12 17:28:19,492  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.01       Accuracy: 0.7133333333333334
-2024-02-12 17:28:19,503  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.005      Accuracy: 0.6933333333333334
-2024-02-12 17:28:19,513  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.7
-2024-02-12 17:28:19,523  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.6933333333333334
-2024-02-12 17:28:19,533  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.002      Accuracy: 0.72
-2024-02-12 17:28:19,543  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.7066666666666667
-2024-02-12 17:28:19,553  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.7066666666666667
-2024-02-12 17:28:19,563  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.7066666666666667
-2024-02-12 17:28:19,573  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.72
-2024-02-12 17:28:19,583  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.001      Accuracy: 0.72
-2024-02-12 17:28:19,583  DEBUG       margin_perceptron.py# 81      Best Epoch: 10    Test Fold Accuracy: 0.72
-2024-02-12 17:28:19,583  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:19,583  DEBUG       margin_perceptron.py#158    Cross validation 2
-2024-02-12 17:28:19,593  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.01       Accuracy: 0.7333333333333333
-2024-02-12 17:28:19,603  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.005      Accuracy: 0.7333333333333333
-2024-02-12 17:28:19,613  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.7333333333333333
-2024-02-12 17:28:19,623  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.7333333333333333
-2024-02-12 17:28:19,633  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.002      Accuracy: 0.7266666666666667
-2024-02-12 17:28:19,643  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.76
-2024-02-12 17:28:19,653  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.76
-2024-02-12 17:28:19,663  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.76
-2024-02-12 17:28:19,673  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.76
-2024-02-12 17:28:19,683  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.001      Accuracy: 0.76
-2024-02-12 17:28:19,683  DEBUG       margin_perceptron.py# 81      Best Epoch: 10    Test Fold Accuracy: 0.76
-2024-02-12 17:28:19,683  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:19,683  DEBUG       margin_perceptron.py#158    Cross validation 3
-2024-02-12 17:28:19,693  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.01       Accuracy: 0.7533333333333333
-2024-02-12 17:28:19,703  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.005      Accuracy: 0.74
-2024-02-12 17:28:19,713  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.7266666666666667
-2024-02-12 17:28:19,723  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.7466666666666667
-2024-02-12 17:28:19,733  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.002      Accuracy: 0.7533333333333333
-2024-02-12 17:28:19,743  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.7533333333333333
-2024-02-12 17:28:19,753  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.7466666666666667
-2024-02-12 17:28:19,763  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.7466666666666667
-2024-02-12 17:28:19,773  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.7466666666666667
-2024-02-12 17:28:19,783  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.001      Accuracy: 0.7466666666666667
-2024-02-12 17:28:19,783  DEBUG       margin_perceptron.py# 81      Best Epoch:  6    Test Fold Accuracy: 0.7533333333333333
-2024-02-12 17:28:19,783  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:19,783  DEBUG       margin_perceptron.py#158    Cross validation 4
-2024-02-12 17:28:19,793  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.01       Accuracy: 0.7733333333333333
-2024-02-12 17:28:19,803  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.005      Accuracy: 0.7133333333333334
-2024-02-12 17:28:19,813  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.7466666666666667
-2024-02-12 17:28:19,823  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.76
-2024-02-12 17:28:19,833  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.002      Accuracy: 0.7666666666666667
-2024-02-12 17:28:19,843  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.76
-2024-02-12 17:28:19,852  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.76
-2024-02-12 17:28:19,862  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.7533333333333333
-2024-02-12 17:28:19,872  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.7666666666666667
-2024-02-12 17:28:19,882  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.001      Accuracy: 0.76
-2024-02-12 17:28:19,882  DEBUG       margin_perceptron.py# 81      Best Epoch:  1    Test Fold Accuracy: 0.7733333333333333
-2024-02-12 17:28:19,882  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:19,882  DEBUG       margin_perceptron.py#171  
-2024-02-12 17:28:19,882  DEBUG       margin_perceptron.py#153  Margin: 0.1   Learning rate: 1
-2024-02-12 17:28:19,882  DEBUG       margin_perceptron.py#158    Cross validation 0
-2024-02-12 17:28:19,893  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 1.0        Accuracy: 0.5
-2024-02-12 17:28:19,903  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.5        Accuracy: 0.6666666666666666
-2024-02-12 17:28:19,913  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.6933333333333334
-2024-02-12 17:28:19,923  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.25       Accuracy: 0.64
-2024-02-12 17:28:19,933  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.2        Accuracy: 0.7266666666666667
-2024-02-12 17:28:19,943  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.68
-2024-02-12 17:28:19,953  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.72
-2024-02-12 17:28:19,963  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.125      Accuracy: 0.6466666666666666
-2024-02-12 17:28:19,973  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.68
-2024-02-12 17:28:19,983  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.1        Accuracy: 0.7466666666666667
-2024-02-12 17:28:19,983  DEBUG       margin_perceptron.py# 81      Best Epoch: 10    Test Fold Accuracy: 0.7466666666666667
-2024-02-12 17:28:19,983  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:19,983  DEBUG       margin_perceptron.py#158    Cross validation 1
-2024-02-12 17:28:19,993  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 1.0        Accuracy: 0.43333333333333335
-2024-02-12 17:28:20,003  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.5        Accuracy: 0.5733333333333334
-2024-02-12 17:28:20,013  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.6333333333333333
-2024-02-12 17:28:20,023  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.25       Accuracy: 0.4533333333333333
-2024-02-12 17:28:20,033  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.2        Accuracy: 0.6066666666666667
-2024-02-12 17:28:20,043  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.74
-2024-02-12 17:28:20,053  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.7
-2024-02-12 17:28:20,063  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.125      Accuracy: 0.66
-2024-02-12 17:28:20,073  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.68
-2024-02-12 17:28:20,083  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.1        Accuracy: 0.6666666666666666
-2024-02-12 17:28:20,083  DEBUG       margin_perceptron.py# 81      Best Epoch:  6    Test Fold Accuracy: 0.74
-2024-02-12 17:28:20,083  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:20,083  DEBUG       margin_perceptron.py#158    Cross validation 2
-2024-02-12 17:28:20,093  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 1.0        Accuracy: 0.6066666666666667
-2024-02-12 17:28:20,103  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.5        Accuracy: 0.5933333333333334
-2024-02-12 17:28:20,113  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.6666666666666666
-2024-02-12 17:28:20,123  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.25       Accuracy: 0.74
-2024-02-12 17:28:20,133  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.2        Accuracy: 0.7266666666666667
-2024-02-12 17:28:20,144  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.72
-2024-02-12 17:28:20,153  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.6733333333333333
-2024-02-12 17:28:20,164  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.125      Accuracy: 0.7066666666666667
-2024-02-12 17:28:20,174  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.6933333333333334
-2024-02-12 17:28:20,184  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.1        Accuracy: 0.7
-2024-02-12 17:28:20,184  DEBUG       margin_perceptron.py# 81      Best Epoch:  4    Test Fold Accuracy: 0.74
-2024-02-12 17:28:20,184  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:20,184  DEBUG       margin_perceptron.py#158    Cross validation 3
-2024-02-12 17:28:20,194  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 1.0        Accuracy: 0.5333333333333333
-2024-02-12 17:28:20,204  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.5        Accuracy: 0.5866666666666667
-2024-02-12 17:28:20,214  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.66
-2024-02-12 17:28:20,224  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.25       Accuracy: 0.6466666666666666
-2024-02-12 17:28:20,234  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.2        Accuracy: 0.6466666666666666
-2024-02-12 17:28:20,244  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.66
-2024-02-12 17:28:20,254  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.66
-2024-02-12 17:28:20,264  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.125      Accuracy: 0.68
-2024-02-12 17:28:20,274  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.6466666666666666
-2024-02-12 17:28:20,284  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.1        Accuracy: 0.7133333333333334
-2024-02-12 17:28:20,284  DEBUG       margin_perceptron.py# 81      Best Epoch: 10    Test Fold Accuracy: 0.7133333333333334
-2024-02-12 17:28:20,284  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:20,284  DEBUG       margin_perceptron.py#158    Cross validation 4
-2024-02-12 17:28:20,294  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 1.0        Accuracy: 0.6066666666666667
-2024-02-12 17:28:20,304  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.5        Accuracy: 0.68
-2024-02-12 17:28:20,314  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.7066666666666667
-2024-02-12 17:28:20,324  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.25       Accuracy: 0.7533333333333333
-2024-02-12 17:28:20,334  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.2        Accuracy: 0.7733333333333333
-2024-02-12 17:28:20,344  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.8066666666666666
-2024-02-12 17:28:20,354  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.6
-2024-02-12 17:28:20,364  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.125      Accuracy: 0.76
-2024-02-12 17:28:20,374  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.6866666666666666
-2024-02-12 17:28:20,384  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.1        Accuracy: 0.68
-2024-02-12 17:28:20,384  DEBUG       margin_perceptron.py# 81      Best Epoch:  6    Test Fold Accuracy: 0.8066666666666666
-2024-02-12 17:28:20,384  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:20,384  DEBUG       margin_perceptron.py#171  
-2024-02-12 17:28:20,384  DEBUG       margin_perceptron.py#153  Margin: 0.1   Learning rate: 0.1
-2024-02-12 17:28:20,384  DEBUG       margin_perceptron.py#158    Cross validation 0
-2024-02-12 17:28:20,394  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.1        Accuracy: 0.7266666666666667
-2024-02-12 17:28:20,404  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.05       Accuracy: 0.7333333333333333
-2024-02-12 17:28:20,414  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.7466666666666667
-2024-02-12 17:28:20,424  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.025      Accuracy: 0.74
-2024-02-12 17:28:20,434  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.02       Accuracy: 0.74
-2024-02-12 17:28:20,444  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.7466666666666667
-2024-02-12 17:28:20,454  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.7333333333333333
-2024-02-12 17:28:20,464  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.74
-2024-02-12 17:28:20,474  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.76
-2024-02-12 17:28:20,484  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.01       Accuracy: 0.7466666666666667
-2024-02-12 17:28:20,484  DEBUG       margin_perceptron.py# 81      Best Epoch:  9    Test Fold Accuracy: 0.76
-2024-02-12 17:28:20,484  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:20,484  DEBUG       margin_perceptron.py#158    Cross validation 1
-2024-02-12 17:28:20,494  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.1        Accuracy: 0.56
-2024-02-12 17:28:20,504  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.05       Accuracy: 0.7133333333333334
-2024-02-12 17:28:20,514  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.74
-2024-02-12 17:28:20,524  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.025      Accuracy: 0.66
-2024-02-12 17:28:20,534  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.02       Accuracy: 0.7266666666666667
-2024-02-12 17:28:20,544  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.68
-2024-02-12 17:28:20,553  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.6933333333333334
-2024-02-12 17:28:20,564  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.7466666666666667
-2024-02-12 17:28:20,573  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.6733333333333333
-2024-02-12 17:28:20,583  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.01       Accuracy: 0.7066666666666667
-2024-02-12 17:28:20,583  DEBUG       margin_perceptron.py# 81      Best Epoch:  8    Test Fold Accuracy: 0.7466666666666667
-2024-02-12 17:28:20,583  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:20,583  DEBUG       margin_perceptron.py#158    Cross validation 2
-2024-02-12 17:28:20,593  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.1        Accuracy: 0.6466666666666666
-2024-02-12 17:28:20,603  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.05       Accuracy: 0.7066666666666667
-2024-02-12 17:28:20,613  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.74
-2024-02-12 17:28:20,623  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.025      Accuracy: 0.74
-2024-02-12 17:28:20,633  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.02       Accuracy: 0.72
-2024-02-12 17:28:20,643  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.7333333333333333
-2024-02-12 17:28:20,653  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.7266666666666667
-2024-02-12 17:28:20,663  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.7266666666666667
-2024-02-12 17:28:20,673  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.74
-2024-02-12 17:28:20,683  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.01       Accuracy: 0.7533333333333333
-2024-02-12 17:28:20,683  DEBUG       margin_perceptron.py# 81      Best Epoch: 10    Test Fold Accuracy: 0.7533333333333333
-2024-02-12 17:28:20,683  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:20,683  DEBUG       margin_perceptron.py#158    Cross validation 3
-2024-02-12 17:28:20,693  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.1        Accuracy: 0.72
-2024-02-12 17:28:20,703  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.05       Accuracy: 0.72
-2024-02-12 17:28:20,713  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.7466666666666667
-2024-02-12 17:28:20,723  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.025      Accuracy: 0.7533333333333333
-2024-02-12 17:28:20,733  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.02       Accuracy: 0.66
-2024-02-12 17:28:20,743  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.7133333333333334
-2024-02-12 17:28:20,753  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.68
-2024-02-12 17:28:20,763  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.72
-2024-02-12 17:28:20,773  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.7266666666666667
-2024-02-12 17:28:20,783  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.01       Accuracy: 0.6933333333333334
-2024-02-12 17:28:20,783  DEBUG       margin_perceptron.py# 81      Best Epoch:  4    Test Fold Accuracy: 0.7533333333333333
-2024-02-12 17:28:20,783  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:20,783  DEBUG       margin_perceptron.py#158    Cross validation 4
-2024-02-12 17:28:20,793  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.1        Accuracy: 0.6266666666666667
-2024-02-12 17:28:20,803  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.05       Accuracy: 0.7133333333333334
-2024-02-12 17:28:20,813  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.7133333333333334
-2024-02-12 17:28:20,823  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.025      Accuracy: 0.7466666666666667
-2024-02-12 17:28:20,833  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.02       Accuracy: 0.7066666666666667
-2024-02-12 17:28:20,843  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.7466666666666667
-2024-02-12 17:28:20,852  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.7266666666666667
-2024-02-12 17:28:20,863  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.7733333333333333
-2024-02-12 17:28:20,873  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.74
-2024-02-12 17:28:20,883  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.01       Accuracy: 0.8066666666666666
-2024-02-12 17:28:20,883  DEBUG       margin_perceptron.py# 81      Best Epoch: 10    Test Fold Accuracy: 0.8066666666666666
-2024-02-12 17:28:20,883  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:20,883  DEBUG       margin_perceptron.py#171  
-2024-02-12 17:28:20,883  DEBUG       margin_perceptron.py#153  Margin: 0.1   Learning rate: 0.01
-2024-02-12 17:28:20,883  DEBUG       margin_perceptron.py#158    Cross validation 0
-2024-02-12 17:28:20,893  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.01       Accuracy: 0.7733333333333333
-2024-02-12 17:28:20,903  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.005      Accuracy: 0.7466666666666667
-2024-02-12 17:28:20,913  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.7666666666666667
-2024-02-12 17:28:20,923  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.7666666666666667
-2024-02-12 17:28:20,933  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.002      Accuracy: 0.7733333333333333
-2024-02-12 17:28:20,943  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.7466666666666667
-2024-02-12 17:28:20,953  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.7733333333333333
-2024-02-12 17:28:20,963  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.7666666666666667
-2024-02-12 17:28:20,973  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.7666666666666667
-2024-02-12 17:28:20,983  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.001      Accuracy: 0.7666666666666667
-2024-02-12 17:28:20,983  DEBUG       margin_perceptron.py# 81      Best Epoch:  7    Test Fold Accuracy: 0.7733333333333333
-2024-02-12 17:28:20,983  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:20,983  DEBUG       margin_perceptron.py#158    Cross validation 1
-2024-02-12 17:28:20,993  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.01       Accuracy: 0.72
-2024-02-12 17:28:21,003  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.005      Accuracy: 0.7133333333333334
-2024-02-12 17:28:21,013  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.7266666666666667
-2024-02-12 17:28:21,023  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.72
-2024-02-12 17:28:21,033  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.002      Accuracy: 0.7066666666666667
-2024-02-12 17:28:21,043  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.72
-2024-02-12 17:28:21,054  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.7
-2024-02-12 17:28:21,064  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.7
-2024-02-12 17:28:21,074  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.7
-2024-02-12 17:28:21,084  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.001      Accuracy: 0.7133333333333334
-2024-02-12 17:28:21,084  DEBUG       margin_perceptron.py# 81      Best Epoch:  3    Test Fold Accuracy: 0.7266666666666667
-2024-02-12 17:28:21,084  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:21,084  DEBUG       margin_perceptron.py#158    Cross validation 2
-2024-02-12 17:28:21,094  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.01       Accuracy: 0.7266666666666667
-2024-02-12 17:28:21,104  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.005      Accuracy: 0.74
-2024-02-12 17:28:21,114  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.7333333333333333
-2024-02-12 17:28:21,124  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.72
-2024-02-12 17:28:21,134  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.002      Accuracy: 0.7333333333333333
-2024-02-12 17:28:21,144  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.7333333333333333
-2024-02-12 17:28:21,154  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.72
-2024-02-12 17:28:21,164  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.74
-2024-02-12 17:28:21,174  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.74
-2024-02-12 17:28:21,184  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.001      Accuracy: 0.7333333333333333
-2024-02-12 17:28:21,184  DEBUG       margin_perceptron.py# 81      Best Epoch:  9    Test Fold Accuracy: 0.74
-2024-02-12 17:28:21,184  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:21,184  DEBUG       margin_perceptron.py#158    Cross validation 3
-2024-02-12 17:28:21,194  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.01       Accuracy: 0.7133333333333334
-2024-02-12 17:28:21,204  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.005      Accuracy: 0.72
-2024-02-12 17:28:21,214  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.76
-2024-02-12 17:28:21,224  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.76
-2024-02-12 17:28:21,234  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.002      Accuracy: 0.76
-2024-02-12 17:28:21,244  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.76
-2024-02-12 17:28:21,253  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.76
-2024-02-12 17:28:21,263  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.76
-2024-02-12 17:28:21,273  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.76
-2024-02-12 17:28:21,283  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.001      Accuracy: 0.76
-2024-02-12 17:28:21,283  DEBUG       margin_perceptron.py# 81      Best Epoch: 10    Test Fold Accuracy: 0.76
-2024-02-12 17:28:21,283  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:21,283  DEBUG       margin_perceptron.py#158    Cross validation 4
-2024-02-12 17:28:21,293  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.01       Accuracy: 0.7933333333333333
-2024-02-12 17:28:21,303  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.005      Accuracy: 0.7733333333333333
-2024-02-12 17:28:21,313  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.74
-2024-02-12 17:28:21,323  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.7666666666666667
-2024-02-12 17:28:21,333  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.002      Accuracy: 0.7733333333333333
-2024-02-12 17:28:21,343  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.7333333333333333
-2024-02-12 17:28:21,353  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.7666666666666667
-2024-02-12 17:28:21,363  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.76
-2024-02-12 17:28:21,373  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.76
-2024-02-12 17:28:21,383  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.001      Accuracy: 0.7666666666666667
-2024-02-12 17:28:21,383  DEBUG       margin_perceptron.py# 81      Best Epoch:  1    Test Fold Accuracy: 0.7933333333333333
-2024-02-12 17:28:21,383  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:21,383  DEBUG       margin_perceptron.py#171  
-2024-02-12 17:28:21,383  DEBUG       margin_perceptron.py#153  Margin: 0.01   Learning rate: 1
-2024-02-12 17:28:21,383  DEBUG       margin_perceptron.py#158    Cross validation 0
-2024-02-12 17:28:21,393  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 1.0        Accuracy: 0.5533333333333333
-2024-02-12 17:28:21,403  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.5        Accuracy: 0.7
-2024-02-12 17:28:21,413  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.7266666666666667
-2024-02-12 17:28:21,423  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.25       Accuracy: 0.6466666666666666
-2024-02-12 17:28:21,433  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.2        Accuracy: 0.64
-2024-02-12 17:28:21,443  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.6333333333333333
-2024-02-12 17:28:21,453  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.68
-2024-02-12 17:28:21,463  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.125      Accuracy: 0.6866666666666666
-2024-02-12 17:28:21,473  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.6266666666666667
-2024-02-12 17:28:21,483  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.1        Accuracy: 0.7466666666666667
-2024-02-12 17:28:21,483  DEBUG       margin_perceptron.py# 81      Best Epoch: 10    Test Fold Accuracy: 0.7466666666666667
-2024-02-12 17:28:21,483  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:21,483  DEBUG       margin_perceptron.py#158    Cross validation 1
-2024-02-12 17:28:21,493  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 1.0        Accuracy: 0.6533333333333333
-2024-02-12 17:28:21,503  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.5        Accuracy: 0.62
-2024-02-12 17:28:21,513  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.43333333333333335
-2024-02-12 17:28:21,523  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.25       Accuracy: 0.7533333333333333
-2024-02-12 17:28:21,533  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.2        Accuracy: 0.7066666666666667
-2024-02-12 17:28:21,543  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.66
-2024-02-12 17:28:21,553  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.7466666666666667
-2024-02-12 17:28:21,563  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.125      Accuracy: 0.7533333333333333
-2024-02-12 17:28:21,573  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.6733333333333333
-2024-02-12 17:28:21,583  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.1        Accuracy: 0.7266666666666667
-2024-02-12 17:28:21,583  DEBUG       margin_perceptron.py# 81      Best Epoch:  8    Test Fold Accuracy: 0.7533333333333333
-2024-02-12 17:28:21,583  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:21,583  DEBUG       margin_perceptron.py#158    Cross validation 2
-2024-02-12 17:28:21,593  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 1.0        Accuracy: 0.6333333333333333
-2024-02-12 17:28:21,603  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.5        Accuracy: 0.6333333333333333
-2024-02-12 17:28:21,613  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.7066666666666667
-2024-02-12 17:28:21,623  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.25       Accuracy: 0.74
-2024-02-12 17:28:21,633  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.2        Accuracy: 0.7466666666666667
-2024-02-12 17:28:21,643  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.7333333333333333
-2024-02-12 17:28:21,653  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.7533333333333333
-2024-02-12 17:28:21,663  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.125      Accuracy: 0.7066666666666667
-2024-02-12 17:28:21,673  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.6933333333333334
-2024-02-12 17:28:21,683  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.1        Accuracy: 0.74
-2024-02-12 17:28:21,683  DEBUG       margin_perceptron.py# 81      Best Epoch:  7    Test Fold Accuracy: 0.7533333333333333
-2024-02-12 17:28:21,683  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:21,683  DEBUG       margin_perceptron.py#158    Cross validation 3
-2024-02-12 17:28:21,693  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 1.0        Accuracy: 0.54
-2024-02-12 17:28:21,703  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.5        Accuracy: 0.68
-2024-02-12 17:28:21,713  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.6133333333333333
-2024-02-12 17:28:21,723  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.25       Accuracy: 0.7
-2024-02-12 17:28:21,733  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.2        Accuracy: 0.66
-2024-02-12 17:28:21,743  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.6733333333333333
-2024-02-12 17:28:21,753  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.68
-2024-02-12 17:28:21,763  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.125      Accuracy: 0.7266666666666667
-2024-02-12 17:28:21,773  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.74
-2024-02-12 17:28:21,783  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.1        Accuracy: 0.6466666666666666
-2024-02-12 17:28:21,783  DEBUG       margin_perceptron.py# 81      Best Epoch:  9    Test Fold Accuracy: 0.74
-2024-02-12 17:28:21,783  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:21,783  DEBUG       margin_perceptron.py#158    Cross validation 4
-2024-02-12 17:28:21,793  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 1.0        Accuracy: 0.7666666666666667
-2024-02-12 17:28:21,803  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.5        Accuracy: 0.74
-2024-02-12 17:28:21,813  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.6933333333333334
-2024-02-12 17:28:21,823  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.25       Accuracy: 0.72
-2024-02-12 17:28:21,833  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.2        Accuracy: 0.66
-2024-02-12 17:28:21,843  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.6133333333333333
-2024-02-12 17:28:21,853  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.7
-2024-02-12 17:28:21,863  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.125      Accuracy: 0.82
-2024-02-12 17:28:21,873  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.7533333333333333
-2024-02-12 17:28:21,883  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.1        Accuracy: 0.7666666666666667
-2024-02-12 17:28:21,883  DEBUG       margin_perceptron.py# 81      Best Epoch:  8    Test Fold Accuracy: 0.82
-2024-02-12 17:28:21,883  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:21,883  DEBUG       margin_perceptron.py#171  
-2024-02-12 17:28:21,883  DEBUG       margin_perceptron.py#153  Margin: 0.01   Learning rate: 0.1
-2024-02-12 17:28:21,883  DEBUG       margin_perceptron.py#158    Cross validation 0
-2024-02-12 17:28:21,893  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.1        Accuracy: 0.7133333333333334
-2024-02-12 17:28:21,903  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.05       Accuracy: 0.72
-2024-02-12 17:28:21,913  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.7733333333333333
-2024-02-12 17:28:21,923  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.025      Accuracy: 0.7466666666666667
-2024-02-12 17:28:21,933  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.02       Accuracy: 0.7466666666666667
-2024-02-12 17:28:21,943  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.74
-2024-02-12 17:28:21,953  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.7466666666666667
-2024-02-12 17:28:21,963  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.7733333333333333
-2024-02-12 17:28:21,973  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.7866666666666666
-2024-02-12 17:28:21,982  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.01       Accuracy: 0.7533333333333333
-2024-02-12 17:28:21,982  DEBUG       margin_perceptron.py# 81      Best Epoch:  9    Test Fold Accuracy: 0.7866666666666666
-2024-02-12 17:28:21,983  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:21,983  DEBUG       margin_perceptron.py#158    Cross validation 1
-2024-02-12 17:28:21,993  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.1        Accuracy: 0.6666666666666666
-2024-02-12 17:28:22,002  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.05       Accuracy: 0.7333333333333333
-2024-02-12 17:28:22,012  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.72
-2024-02-12 17:28:22,022  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.025      Accuracy: 0.7466666666666667
-2024-02-12 17:28:22,032  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.02       Accuracy: 0.7333333333333333
-2024-02-12 17:28:22,042  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.7333333333333333
-2024-02-12 17:28:22,052  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.76
-2024-02-12 17:28:22,062  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.72
-2024-02-12 17:28:22,072  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.7133333333333334
-2024-02-12 17:28:22,082  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.01       Accuracy: 0.7466666666666667
-2024-02-12 17:28:22,082  DEBUG       margin_perceptron.py# 81      Best Epoch:  7    Test Fold Accuracy: 0.76
-2024-02-12 17:28:22,082  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:22,082  DEBUG       margin_perceptron.py#158    Cross validation 2
-2024-02-12 17:28:22,092  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.1        Accuracy: 0.6733333333333333
-2024-02-12 17:28:22,102  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.05       Accuracy: 0.74
-2024-02-12 17:28:22,112  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.72
-2024-02-12 17:28:22,122  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.025      Accuracy: 0.7266666666666667
-2024-02-12 17:28:22,132  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.02       Accuracy: 0.7333333333333333
-2024-02-12 17:28:22,142  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.7266666666666667
-2024-02-12 17:28:22,151  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.7333333333333333
-2024-02-12 17:28:22,162  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.74
-2024-02-12 17:28:22,171  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.7333333333333333
-2024-02-12 17:28:22,181  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.01       Accuracy: 0.7333333333333333
-2024-02-12 17:28:22,181  DEBUG       margin_perceptron.py# 81      Best Epoch:  8    Test Fold Accuracy: 0.74
-2024-02-12 17:28:22,181  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:22,181  DEBUG       margin_perceptron.py#158    Cross validation 3
-2024-02-12 17:28:22,191  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.1        Accuracy: 0.7133333333333334
-2024-02-12 17:28:22,201  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.05       Accuracy: 0.78
-2024-02-12 17:28:22,211  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.7066666666666667
-2024-02-12 17:28:22,221  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.025      Accuracy: 0.7333333333333333
-2024-02-12 17:28:22,231  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.02       Accuracy: 0.7266666666666667
-2024-02-12 17:28:22,241  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.7533333333333333
-2024-02-12 17:28:22,251  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.74
-2024-02-12 17:28:22,261  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.72
-2024-02-12 17:28:22,271  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.74
-2024-02-12 17:28:22,281  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.01       Accuracy: 0.7333333333333333
-2024-02-12 17:28:22,281  DEBUG       margin_perceptron.py# 81      Best Epoch:  2    Test Fold Accuracy: 0.78
-2024-02-12 17:28:22,281  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:22,281  DEBUG       margin_perceptron.py#158    Cross validation 4
-2024-02-12 17:28:22,291  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.1        Accuracy: 0.78
-2024-02-12 17:28:22,301  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.05       Accuracy: 0.7266666666666667
-2024-02-12 17:28:22,311  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.7533333333333333
-2024-02-12 17:28:22,321  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.025      Accuracy: 0.8066666666666666
-2024-02-12 17:28:22,331  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.02       Accuracy: 0.74
-2024-02-12 17:28:22,341  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.8133333333333334
-2024-02-12 17:28:22,351  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.7666666666666667
-2024-02-12 17:28:22,361  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.7133333333333334
-2024-02-12 17:28:22,371  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.7266666666666667
-2024-02-12 17:28:22,381  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.01       Accuracy: 0.7533333333333333
-2024-02-12 17:28:22,381  DEBUG       margin_perceptron.py# 81      Best Epoch:  6    Test Fold Accuracy: 0.8133333333333334
-2024-02-12 17:28:22,381  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:22,381  DEBUG       margin_perceptron.py#171  
-2024-02-12 17:28:22,381  DEBUG       margin_perceptron.py#153  Margin: 0.01   Learning rate: 0.01
-2024-02-12 17:28:22,381  DEBUG       margin_perceptron.py#158    Cross validation 0
-2024-02-12 17:28:22,391  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.01       Accuracy: 0.7533333333333333
-2024-02-12 17:28:22,401  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.005      Accuracy: 0.7733333333333333
-2024-02-12 17:28:22,411  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.7533333333333333
-2024-02-12 17:28:22,421  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.78
-2024-02-12 17:28:22,431  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.002      Accuracy: 0.7733333333333333
-2024-02-12 17:28:22,441  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.7733333333333333
-2024-02-12 17:28:22,451  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.7466666666666667
-2024-02-12 17:28:22,461  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.7733333333333333
-2024-02-12 17:28:22,471  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.7733333333333333
-2024-02-12 17:28:22,481  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.001      Accuracy: 0.7533333333333333
-2024-02-12 17:28:22,481  DEBUG       margin_perceptron.py# 81      Best Epoch:  4    Test Fold Accuracy: 0.78
-2024-02-12 17:28:22,481  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:22,481  DEBUG       margin_perceptron.py#158    Cross validation 1
-2024-02-12 17:28:22,491  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.01       Accuracy: 0.7
-2024-02-12 17:28:22,501  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.005      Accuracy: 0.7066666666666667
-2024-02-12 17:28:22,511  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.72
-2024-02-12 17:28:22,521  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.7133333333333334
-2024-02-12 17:28:22,531  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.002      Accuracy: 0.7266666666666667
-2024-02-12 17:28:22,541  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.7066666666666667
-2024-02-12 17:28:22,551  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.72
-2024-02-12 17:28:22,561  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.7
-2024-02-12 17:28:22,570  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.72
-2024-02-12 17:28:22,581  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.001      Accuracy: 0.72
-2024-02-12 17:28:22,581  DEBUG       margin_perceptron.py# 81      Best Epoch:  5    Test Fold Accuracy: 0.7266666666666667
-2024-02-12 17:28:22,581  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:22,581  DEBUG       margin_perceptron.py#158    Cross validation 2
-2024-02-12 17:28:22,591  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.01       Accuracy: 0.7333333333333333
-2024-02-12 17:28:22,601  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.005      Accuracy: 0.7266666666666667
-2024-02-12 17:28:22,611  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.7266666666666667
-2024-02-12 17:28:22,620  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.7466666666666667
-2024-02-12 17:28:22,631  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.002      Accuracy: 0.7266666666666667
-2024-02-12 17:28:22,641  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.7466666666666667
-2024-02-12 17:28:22,650  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.74
-2024-02-12 17:28:22,661  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.7333333333333333
-2024-02-12 17:28:22,670  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.7333333333333333
-2024-02-12 17:28:22,681  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.001      Accuracy: 0.7333333333333333
-2024-02-12 17:28:22,681  DEBUG       margin_perceptron.py# 81      Best Epoch:  6    Test Fold Accuracy: 0.7466666666666667
-2024-02-12 17:28:22,681  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:22,681  DEBUG       margin_perceptron.py#158    Cross validation 3
-2024-02-12 17:28:22,691  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.01       Accuracy: 0.7733333333333333
-2024-02-12 17:28:22,701  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.005      Accuracy: 0.7
-2024-02-12 17:28:22,711  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.7733333333333333
-2024-02-12 17:28:22,720  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.74
-2024-02-12 17:28:22,731  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.002      Accuracy: 0.7733333333333333
-2024-02-12 17:28:22,741  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.76
-2024-02-12 17:28:22,751  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.74
-2024-02-12 17:28:22,761  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.7266666666666667
-2024-02-12 17:28:22,770  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.7533333333333333
-2024-02-12 17:28:22,781  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.001      Accuracy: 0.7533333333333333
-2024-02-12 17:28:22,781  DEBUG       margin_perceptron.py# 81      Best Epoch:  5    Test Fold Accuracy: 0.7733333333333333
-2024-02-12 17:28:22,781  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:22,781  DEBUG       margin_perceptron.py#158    Cross validation 4
-2024-02-12 17:28:22,791  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.01       Accuracy: 0.7666666666666667
-2024-02-12 17:28:22,801  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.005      Accuracy: 0.76
-2024-02-12 17:28:22,811  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.7533333333333333
-2024-02-12 17:28:22,821  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.74
-2024-02-12 17:28:22,831  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.002      Accuracy: 0.76
-2024-02-12 17:28:22,841  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.7666666666666667
-2024-02-12 17:28:22,851  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.76
-2024-02-12 17:28:22,861  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.7533333333333333
-2024-02-12 17:28:22,871  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.76
-2024-02-12 17:28:22,881  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.001      Accuracy: 0.76
-2024-02-12 17:28:22,881  DEBUG       margin_perceptron.py# 81      Best Epoch:  6    Test Fold Accuracy: 0.7666666666666667
-2024-02-12 17:28:22,881  DEBUG       margin_perceptron.py#169  
-2024-02-12 17:28:22,881  DEBUG       margin_perceptron.py#171  
-2024-02-12 17:28:22,881  DEBUG       margin_perceptron.py#173  All CV accuracy dictionary: {1: {1: [0.6266666666666667, 0.7333333333333333, 0.74, 0.72, 0.72], 0.1: [0.7533333333333333, 0.7466666666666667, 0.7533333333333333, 0.7466666666666667, 0.7866666666666666], 0.01: [0.7666666666666667, 0.72, 0.76, 0.7533333333333333, 0.7733333333333333]}, 0.1: {1: [0.7466666666666667, 0.74, 0.74, 0.7133333333333334, 0.8066666666666666], 0.1: [0.76, 0.7466666666666667, 0.7533333333333333, 0.7533333333333333, 0.8066666666666666], 0.01: [0.7733333333333333, 0.7266666666666667, 0.74, 0.76, 0.7933333333333333]}, 0.01: {1: [0.7466666666666667, 0.7533333333333333, 0.7533333333333333, 0.74, 0.82], 0.1: [0.7866666666666666, 0.76, 0.74, 0.78, 0.8133333333333334], 0.01: [0.78, 0.7266666666666667, 0.7466666666666667, 0.7733333333333333, 0.7666666666666667]}}
-2024-02-12 17:28:22,881  DEBUG       margin_perceptron.py#189  Average accuracy of all folds with margin 1 & learning rate 1 is 0.7079999999999999
-2024-02-12 17:28:22,881  DEBUG       margin_perceptron.py#189  Average accuracy of all folds with margin 1 & learning rate 0.1 is 0.7573333333333333
-2024-02-12 17:28:22,881  DEBUG       margin_perceptron.py#189  Average accuracy of all folds with margin 1 & learning rate 0.01 is 0.7546666666666668
-2024-02-12 17:28:22,881  DEBUG       margin_perceptron.py#189  Average accuracy of all folds with margin 0.1 & learning rate 1 is 0.7493333333333333
-2024-02-12 17:28:22,881  DEBUG       margin_perceptron.py#189  Average accuracy of all folds with margin 0.1 & learning rate 0.1 is 0.764
-2024-02-12 17:28:22,881  DEBUG       margin_perceptron.py#189  Average accuracy of all folds with margin 0.1 & learning rate 0.01 is 0.7586666666666667
-2024-02-12 17:28:22,881  DEBUG       margin_perceptron.py#189  Average accuracy of all folds with margin 0.01 & learning rate 1 is 0.7626666666666666
-2024-02-12 17:28:22,881  DEBUG       margin_perceptron.py#189  Average accuracy of all folds with margin 0.01 & learning rate 0.1 is 0.776
-2024-02-12 17:28:22,881  DEBUG       margin_perceptron.py#189  Average accuracy of all folds with margin 0.01 & learning rate 0.01 is 0.7586666666666667
-2024-02-12 17:28:22,881  DEBUG       margin_perceptron.py#200  --------------------------------------------------
-2024-02-12 17:28:22,881  DEBUG       margin_perceptron.py#201  Online Training
-2024-02-12 17:28:22,881  DEBUG       margin_perceptron.py# 93  Learning rate: 1
-2024-02-12 17:28:22,894  DEBUG       margin_perceptron.py#107    Epoch:  1    Learning rate: 1.0        Accuracy: 0.55
-2024-02-12 17:28:22,907  DEBUG       margin_perceptron.py#107    Epoch:  2    Learning rate: 0.5        Accuracy: 0.755
-2024-02-12 17:28:22,919  DEBUG       margin_perceptron.py#107    Epoch:  3    Learning rate: 0.33333    Accuracy: 0.75
-2024-02-12 17:28:22,932  DEBUG       margin_perceptron.py#107    Epoch:  4    Learning rate: 0.25       Accuracy: 0.73
-2024-02-12 17:28:22,945  DEBUG       margin_perceptron.py#107    Epoch:  5    Learning rate: 0.2        Accuracy: 0.785
-2024-02-12 17:28:22,957  DEBUG       margin_perceptron.py#107    Epoch:  6    Learning rate: 0.16667    Accuracy: 0.675
-2024-02-12 17:28:22,970  DEBUG       margin_perceptron.py#107    Epoch:  7    Learning rate: 0.14286    Accuracy: 0.7
-2024-02-12 17:28:22,983  DEBUG       margin_perceptron.py#107    Epoch:  8    Learning rate: 0.125      Accuracy: 0.755
-2024-02-12 17:28:22,996  DEBUG       margin_perceptron.py#107    Epoch:  9    Learning rate: 0.11111    Accuracy: 0.755
-2024-02-12 17:28:23,008  DEBUG       margin_perceptron.py#107    Epoch: 10    Learning rate: 0.1        Accuracy: 0.72
-2024-02-12 17:28:23,021  DEBUG       margin_perceptron.py#107    Epoch: 11    Learning rate: 0.09091    Accuracy: 0.71
-2024-02-12 17:28:23,034  DEBUG       margin_perceptron.py#107    Epoch: 12    Learning rate: 0.08333    Accuracy: 0.725
-2024-02-12 17:28:23,046  DEBUG       margin_perceptron.py#107    Epoch: 13    Learning rate: 0.07692    Accuracy: 0.755
-2024-02-12 17:28:23,060  DEBUG       margin_perceptron.py#107    Epoch: 14    Learning rate: 0.07143    Accuracy: 0.71
-2024-02-12 17:28:23,073  DEBUG       margin_perceptron.py#107    Epoch: 15    Learning rate: 0.06667    Accuracy: 0.75
-2024-02-12 17:28:23,085  DEBUG       margin_perceptron.py#107    Epoch: 16    Learning rate: 0.0625     Accuracy: 0.68
-2024-02-12 17:28:23,098  DEBUG       margin_perceptron.py#107    Epoch: 17    Learning rate: 0.05882    Accuracy: 0.76
-2024-02-12 17:28:23,111  DEBUG       margin_perceptron.py#107    Epoch: 18    Learning rate: 0.05556    Accuracy: 0.76
-2024-02-12 17:28:23,124  DEBUG       margin_perceptron.py#107    Epoch: 19    Learning rate: 0.05263    Accuracy: 0.76
-2024-02-12 17:28:23,136  DEBUG       margin_perceptron.py#107    Epoch: 20    Learning rate: 0.05       Accuracy: 0.685
-2024-02-12 17:28:23,136  DEBUG       margin_perceptron.py#118    Best Epoch:  5    Dev Accuracy: 0.785
-2024-02-12 17:28:23,139  DEBUG       margin_perceptron.py#215  Test set accuracy for best hyper parameter (margin 0.01 & learning rate 1) is 0.7412935323383084
+2024-02-12 17:59:36,611  DEBUG                   utils.py# 29  Start logging
+2024-02-12 17:59:36,621  DEBUG       margin_perceptron.py#140  --------------------------------------------------
+2024-02-12 17:59:36,621  DEBUG       margin_perceptron.py#141  Cross Validation Training
+2024-02-12 17:59:36,621  DEBUG       margin_perceptron.py#153  Margin: 1   Learning rate: 1
+2024-02-12 17:59:36,621  DEBUG       margin_perceptron.py#158    Cross validation 0
+2024-02-12 17:59:36,632  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 1.0        Accuracy: 0.5133333333333333
+2024-02-12 17:59:36,642  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.5        Accuracy: 0.6066666666666667
+2024-02-12 17:59:36,652  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.56
+2024-02-12 17:59:36,662  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.25       Accuracy: 0.6066666666666667
+2024-02-12 17:59:36,672  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.2        Accuracy: 0.6
+2024-02-12 17:59:36,682  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.56
+2024-02-12 17:59:36,692  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.64
+2024-02-12 17:59:36,702  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.125      Accuracy: 0.62
+2024-02-12 17:59:36,712  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.64
+2024-02-12 17:59:36,722  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.1        Accuracy: 0.6333333333333333
+2024-02-12 17:59:36,722  DEBUG       margin_perceptron.py# 81      Best Epoch:  9    Test Fold Accuracy: 0.64
+2024-02-12 17:59:36,722  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:36,722  DEBUG       margin_perceptron.py#158    Cross validation 1
+2024-02-12 17:59:36,733  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 1.0        Accuracy: 0.52
+2024-02-12 17:59:36,743  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.5        Accuracy: 0.6866666666666666
+2024-02-12 17:59:36,753  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.7133333333333334
+2024-02-12 17:59:36,763  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.25       Accuracy: 0.64
+2024-02-12 17:59:36,773  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.2        Accuracy: 0.43333333333333335
+2024-02-12 17:59:36,783  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.54
+2024-02-12 17:59:36,793  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.6733333333333333
+2024-02-12 17:59:36,803  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.125      Accuracy: 0.6666666666666666
+2024-02-12 17:59:36,813  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.6
+2024-02-12 17:59:36,823  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.1        Accuracy: 0.74
+2024-02-12 17:59:36,823  DEBUG       margin_perceptron.py# 81      Best Epoch: 10    Test Fold Accuracy: 0.74
+2024-02-12 17:59:36,823  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:36,823  DEBUG       margin_perceptron.py#158    Cross validation 2
+2024-02-12 17:59:36,833  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 1.0        Accuracy: 0.6133333333333333
+2024-02-12 17:59:36,843  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.5        Accuracy: 0.6133333333333333
+2024-02-12 17:59:36,853  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.6533333333333333
+2024-02-12 17:59:36,863  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.25       Accuracy: 0.6933333333333334
+2024-02-12 17:59:36,873  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.2        Accuracy: 0.7466666666666667
+2024-02-12 17:59:36,883  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.72
+2024-02-12 17:59:36,893  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.7466666666666667
+2024-02-12 17:59:36,903  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.125      Accuracy: 0.6866666666666666
+2024-02-12 17:59:36,913  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.7066666666666667
+2024-02-12 17:59:36,923  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.1        Accuracy: 0.76
+2024-02-12 17:59:36,923  DEBUG       margin_perceptron.py# 81      Best Epoch: 10    Test Fold Accuracy: 0.76
+2024-02-12 17:59:36,923  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:36,923  DEBUG       margin_perceptron.py#158    Cross validation 3
+2024-02-12 17:59:36,933  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 1.0        Accuracy: 0.68
+2024-02-12 17:59:36,943  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.5        Accuracy: 0.6933333333333334
+2024-02-12 17:59:36,953  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.62
+2024-02-12 17:59:36,963  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.25       Accuracy: 0.7
+2024-02-12 17:59:36,973  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.2        Accuracy: 0.6866666666666666
+2024-02-12 17:59:36,983  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.6733333333333333
+2024-02-12 17:59:36,993  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.68
+2024-02-12 17:59:37,003  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.125      Accuracy: 0.6933333333333334
+2024-02-12 17:59:37,013  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.72
+2024-02-12 17:59:37,023  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.1        Accuracy: 0.64
+2024-02-12 17:59:37,023  DEBUG       margin_perceptron.py# 81      Best Epoch:  9    Test Fold Accuracy: 0.72
+2024-02-12 17:59:37,023  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:37,023  DEBUG       margin_perceptron.py#158    Cross validation 4
+2024-02-12 17:59:37,033  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 1.0        Accuracy: 0.5533333333333333
+2024-02-12 17:59:37,043  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.5        Accuracy: 0.7333333333333333
+2024-02-12 17:59:37,053  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.5666666666666667
+2024-02-12 17:59:37,063  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.25       Accuracy: 0.5533333333333333
+2024-02-12 17:59:37,073  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.2        Accuracy: 0.72
+2024-02-12 17:59:37,083  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.5933333333333334
+2024-02-12 17:59:37,093  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.76
+2024-02-12 17:59:37,103  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.125      Accuracy: 0.6533333333333333
+2024-02-12 17:59:37,113  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.7
+2024-02-12 17:59:37,123  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.1        Accuracy: 0.7333333333333333
+2024-02-12 17:59:37,123  DEBUG       margin_perceptron.py# 81      Best Epoch:  7    Test Fold Accuracy: 0.76
+2024-02-12 17:59:37,123  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:37,123  DEBUG       margin_perceptron.py#171  
+2024-02-12 17:59:37,123  DEBUG       margin_perceptron.py#153  Margin: 1   Learning rate: 0.1
+2024-02-12 17:59:37,123  DEBUG       margin_perceptron.py#158    Cross validation 0
+2024-02-12 17:59:37,133  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.1        Accuracy: 0.72
+2024-02-12 17:59:37,143  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.05       Accuracy: 0.7466666666666667
+2024-02-12 17:59:37,153  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.7333333333333333
+2024-02-12 17:59:37,162  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.025      Accuracy: 0.72
+2024-02-12 17:59:37,172  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.02       Accuracy: 0.7333333333333333
+2024-02-12 17:59:37,182  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.7266666666666667
+2024-02-12 17:59:37,192  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.7266666666666667
+2024-02-12 17:59:37,202  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.74
+2024-02-12 17:59:37,212  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.72
+2024-02-12 17:59:37,222  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.01       Accuracy: 0.7266666666666667
+2024-02-12 17:59:37,222  DEBUG       margin_perceptron.py# 81      Best Epoch:  2    Test Fold Accuracy: 0.7466666666666667
+2024-02-12 17:59:37,222  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:37,222  DEBUG       margin_perceptron.py#158    Cross validation 1
+2024-02-12 17:59:37,232  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.1        Accuracy: 0.72
+2024-02-12 17:59:37,242  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.05       Accuracy: 0.5666666666666667
+2024-02-12 17:59:37,252  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.7133333333333334
+2024-02-12 17:59:37,262  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.025      Accuracy: 0.74
+2024-02-12 17:59:37,271  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.02       Accuracy: 0.7333333333333333
+2024-02-12 17:59:37,281  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.68
+2024-02-12 17:59:37,291  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.7066666666666667
+2024-02-12 17:59:37,301  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.7466666666666667
+2024-02-12 17:59:37,311  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.7466666666666667
+2024-02-12 17:59:37,321  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.01       Accuracy: 0.68
+2024-02-12 17:59:37,321  DEBUG       margin_perceptron.py# 81      Best Epoch:  9    Test Fold Accuracy: 0.7466666666666667
+2024-02-12 17:59:37,321  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:37,321  DEBUG       margin_perceptron.py#158    Cross validation 2
+2024-02-12 17:59:37,331  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.1        Accuracy: 0.68
+2024-02-12 17:59:37,341  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.05       Accuracy: 0.6933333333333334
+2024-02-12 17:59:37,351  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.74
+2024-02-12 17:59:37,361  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.025      Accuracy: 0.7266666666666667
+2024-02-12 17:59:37,371  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.02       Accuracy: 0.7466666666666667
+2024-02-12 17:59:37,381  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.72
+2024-02-12 17:59:37,391  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.7466666666666667
+2024-02-12 17:59:37,401  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.7133333333333334
+2024-02-12 17:59:37,410  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.7466666666666667
+2024-02-12 17:59:37,420  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.01       Accuracy: 0.74
+2024-02-12 17:59:37,420  DEBUG       margin_perceptron.py# 81      Best Epoch:  9    Test Fold Accuracy: 0.7466666666666667
+2024-02-12 17:59:37,420  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:37,420  DEBUG       margin_perceptron.py#158    Cross validation 3
+2024-02-12 17:59:37,430  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.1        Accuracy: 0.6466666666666666
+2024-02-12 17:59:37,440  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.05       Accuracy: 0.7133333333333334
+2024-02-12 17:59:37,450  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.74
+2024-02-12 17:59:37,460  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.025      Accuracy: 0.7533333333333333
+2024-02-12 17:59:37,470  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.02       Accuracy: 0.7466666666666667
+2024-02-12 17:59:37,480  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.74
+2024-02-12 17:59:37,489  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.7
+2024-02-12 17:59:37,499  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.72
+2024-02-12 17:59:37,509  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.74
+2024-02-12 17:59:37,519  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.01       Accuracy: 0.7466666666666667
+2024-02-12 17:59:37,519  DEBUG       margin_perceptron.py# 81      Best Epoch:  4    Test Fold Accuracy: 0.7533333333333333
+2024-02-12 17:59:37,519  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:37,519  DEBUG       margin_perceptron.py#158    Cross validation 4
+2024-02-12 17:59:37,529  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.1        Accuracy: 0.7466666666666667
+2024-02-12 17:59:37,539  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.05       Accuracy: 0.7866666666666666
+2024-02-12 17:59:37,549  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.66
+2024-02-12 17:59:37,559  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.025      Accuracy: 0.76
+2024-02-12 17:59:37,569  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.02       Accuracy: 0.7466666666666667
+2024-02-12 17:59:37,579  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.7466666666666667
+2024-02-12 17:59:37,589  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.7866666666666666
+2024-02-12 17:59:37,598  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.7533333333333333
+2024-02-12 17:59:37,608  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.7466666666666667
+2024-02-12 17:59:37,618  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.01       Accuracy: 0.76
+2024-02-12 17:59:37,618  DEBUG       margin_perceptron.py# 81      Best Epoch:  7    Test Fold Accuracy: 0.7866666666666666
+2024-02-12 17:59:37,618  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:37,618  DEBUG       margin_perceptron.py#171  
+2024-02-12 17:59:37,618  DEBUG       margin_perceptron.py#153  Margin: 1   Learning rate: 0.01
+2024-02-12 17:59:37,618  DEBUG       margin_perceptron.py#158    Cross validation 0
+2024-02-12 17:59:37,628  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.01       Accuracy: 0.76
+2024-02-12 17:59:37,638  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.005      Accuracy: 0.74
+2024-02-12 17:59:37,648  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.74
+2024-02-12 17:59:37,658  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.76
+2024-02-12 17:59:37,668  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.002      Accuracy: 0.7466666666666667
+2024-02-12 17:59:37,678  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.7466666666666667
+2024-02-12 17:59:37,688  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.76
+2024-02-12 17:59:37,697  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.7466666666666667
+2024-02-12 17:59:37,707  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.7466666666666667
+2024-02-12 17:59:37,717  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.001      Accuracy: 0.7466666666666667
+2024-02-12 17:59:37,717  DEBUG       margin_perceptron.py# 81      Best Epoch:  7    Test Fold Accuracy: 0.76
+2024-02-12 17:59:37,717  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:37,717  DEBUG       margin_perceptron.py#158    Cross validation 1
+2024-02-12 17:59:37,727  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.01       Accuracy: 0.74
+2024-02-12 17:59:37,737  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.005      Accuracy: 0.7066666666666667
+2024-02-12 17:59:37,747  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.72
+2024-02-12 17:59:37,757  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.72
+2024-02-12 17:59:37,766  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.002      Accuracy: 0.72
+2024-02-12 17:59:37,776  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.7133333333333334
+2024-02-12 17:59:37,786  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.7133333333333334
+2024-02-12 17:59:37,796  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.7266666666666667
+2024-02-12 17:59:37,806  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.72
+2024-02-12 17:59:37,816  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.001      Accuracy: 0.7133333333333334
+2024-02-12 17:59:37,816  DEBUG       margin_perceptron.py# 81      Best Epoch:  1    Test Fold Accuracy: 0.74
+2024-02-12 17:59:37,816  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:37,816  DEBUG       margin_perceptron.py#158    Cross validation 2
+2024-02-12 17:59:37,826  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.01       Accuracy: 0.7333333333333333
+2024-02-12 17:59:37,836  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.005      Accuracy: 0.7266666666666667
+2024-02-12 17:59:37,845  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.7266666666666667
+2024-02-12 17:59:37,856  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.7333333333333333
+2024-02-12 17:59:37,865  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.002      Accuracy: 0.7533333333333333
+2024-02-12 17:59:37,875  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.76
+2024-02-12 17:59:37,885  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.74
+2024-02-12 17:59:37,895  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.74
+2024-02-12 17:59:37,905  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.74
+2024-02-12 17:59:37,915  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.001      Accuracy: 0.7466666666666667
+2024-02-12 17:59:37,915  DEBUG       margin_perceptron.py# 81      Best Epoch:  6    Test Fold Accuracy: 0.76
+2024-02-12 17:59:37,915  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:37,915  DEBUG       margin_perceptron.py#158    Cross validation 3
+2024-02-12 17:59:37,925  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.01       Accuracy: 0.7133333333333334
+2024-02-12 17:59:37,935  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.005      Accuracy: 0.7333333333333333
+2024-02-12 17:59:37,944  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.7266666666666667
+2024-02-12 17:59:37,954  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.7466666666666667
+2024-02-12 17:59:37,964  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.002      Accuracy: 0.7466666666666667
+2024-02-12 17:59:37,974  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.74
+2024-02-12 17:59:37,984  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.7466666666666667
+2024-02-12 17:59:37,994  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.74
+2024-02-12 17:59:38,004  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.74
+2024-02-12 17:59:38,013  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.001      Accuracy: 0.74
+2024-02-12 17:59:38,013  DEBUG       margin_perceptron.py# 81      Best Epoch:  7    Test Fold Accuracy: 0.7466666666666667
+2024-02-12 17:59:38,013  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:38,013  DEBUG       margin_perceptron.py#158    Cross validation 4
+2024-02-12 17:59:38,023  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.01       Accuracy: 0.7266666666666667
+2024-02-12 17:59:38,033  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.005      Accuracy: 0.7466666666666667
+2024-02-12 17:59:38,043  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.7333333333333333
+2024-02-12 17:59:38,053  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.74
+2024-02-12 17:59:38,063  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.002      Accuracy: 0.7666666666666667
+2024-02-12 17:59:38,073  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.76
+2024-02-12 17:59:38,082  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.7733333333333333
+2024-02-12 17:59:38,092  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.7533333333333333
+2024-02-12 17:59:38,102  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.7666666666666667
+2024-02-12 17:59:38,112  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.001      Accuracy: 0.76
+2024-02-12 17:59:38,112  DEBUG       margin_perceptron.py# 81      Best Epoch:  7    Test Fold Accuracy: 0.7733333333333333
+2024-02-12 17:59:38,112  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:38,112  DEBUG       margin_perceptron.py#171  
+2024-02-12 17:59:38,112  DEBUG       margin_perceptron.py#153  Margin: 0.1   Learning rate: 1
+2024-02-12 17:59:38,112  DEBUG       margin_perceptron.py#158    Cross validation 0
+2024-02-12 17:59:38,122  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 1.0        Accuracy: 0.5933333333333334
+2024-02-12 17:59:38,132  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.5        Accuracy: 0.5866666666666667
+2024-02-12 17:59:38,142  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.6333333333333333
+2024-02-12 17:59:38,152  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.25       Accuracy: 0.7
+2024-02-12 17:59:38,162  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.2        Accuracy: 0.72
+2024-02-12 17:59:38,172  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.6733333333333333
+2024-02-12 17:59:38,182  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.7133333333333334
+2024-02-12 17:59:38,192  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.125      Accuracy: 0.7266666666666667
+2024-02-12 17:59:38,202  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.68
+2024-02-12 17:59:38,212  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.1        Accuracy: 0.7266666666666667
+2024-02-12 17:59:38,212  DEBUG       margin_perceptron.py# 81      Best Epoch: 10    Test Fold Accuracy: 0.7266666666666667
+2024-02-12 17:59:38,212  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:38,212  DEBUG       margin_perceptron.py#158    Cross validation 1
+2024-02-12 17:59:38,222  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 1.0        Accuracy: 0.66
+2024-02-12 17:59:38,232  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.5        Accuracy: 0.47333333333333333
+2024-02-12 17:59:38,242  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.7066666666666667
+2024-02-12 17:59:38,252  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.25       Accuracy: 0.7066666666666667
+2024-02-12 17:59:38,261  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.2        Accuracy: 0.5866666666666667
+2024-02-12 17:59:38,271  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.68
+2024-02-12 17:59:38,281  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.74
+2024-02-12 17:59:38,291  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.125      Accuracy: 0.7266666666666667
+2024-02-12 17:59:38,301  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.6666666666666666
+2024-02-12 17:59:38,311  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.1        Accuracy: 0.7266666666666667
+2024-02-12 17:59:38,311  DEBUG       margin_perceptron.py# 81      Best Epoch:  7    Test Fold Accuracy: 0.74
+2024-02-12 17:59:38,311  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:38,311  DEBUG       margin_perceptron.py#158    Cross validation 2
+2024-02-12 17:59:38,321  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 1.0        Accuracy: 0.5133333333333333
+2024-02-12 17:59:38,331  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.5        Accuracy: 0.6533333333333333
+2024-02-12 17:59:38,341  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.74
+2024-02-12 17:59:38,351  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.25       Accuracy: 0.6866666666666666
+2024-02-12 17:59:38,361  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.2        Accuracy: 0.6866666666666666
+2024-02-12 17:59:38,371  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.76
+2024-02-12 17:59:38,380  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.7466666666666667
+2024-02-12 17:59:38,390  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.125      Accuracy: 0.7
+2024-02-12 17:59:38,400  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.7666666666666667
+2024-02-12 17:59:38,410  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.1        Accuracy: 0.68
+2024-02-12 17:59:38,410  DEBUG       margin_perceptron.py# 81      Best Epoch:  9    Test Fold Accuracy: 0.7666666666666667
+2024-02-12 17:59:38,410  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:38,410  DEBUG       margin_perceptron.py#158    Cross validation 3
+2024-02-12 17:59:38,420  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 1.0        Accuracy: 0.49333333333333335
+2024-02-12 17:59:38,430  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.5        Accuracy: 0.52
+2024-02-12 17:59:38,440  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.6466666666666666
+2024-02-12 17:59:38,450  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.25       Accuracy: 0.66
+2024-02-12 17:59:38,460  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.2        Accuracy: 0.6866666666666666
+2024-02-12 17:59:38,470  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.7133333333333334
+2024-02-12 17:59:38,480  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.6866666666666666
+2024-02-12 17:59:38,490  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.125      Accuracy: 0.72
+2024-02-12 17:59:38,499  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.7333333333333333
+2024-02-12 17:59:38,509  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.1        Accuracy: 0.6533333333333333
+2024-02-12 17:59:38,509  DEBUG       margin_perceptron.py# 81      Best Epoch:  9    Test Fold Accuracy: 0.7333333333333333
+2024-02-12 17:59:38,509  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:38,509  DEBUG       margin_perceptron.py#158    Cross validation 4
+2024-02-12 17:59:38,519  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 1.0        Accuracy: 0.5266666666666666
+2024-02-12 17:59:38,529  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.5        Accuracy: 0.68
+2024-02-12 17:59:38,539  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.54
+2024-02-12 17:59:38,549  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.25       Accuracy: 0.6666666666666666
+2024-02-12 17:59:38,559  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.2        Accuracy: 0.74
+2024-02-12 17:59:38,569  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.6733333333333333
+2024-02-12 17:59:38,579  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.7333333333333333
+2024-02-12 17:59:38,589  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.125      Accuracy: 0.78
+2024-02-12 17:59:38,599  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.7866666666666666
+2024-02-12 17:59:38,609  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.1        Accuracy: 0.76
+2024-02-12 17:59:38,609  DEBUG       margin_perceptron.py# 81      Best Epoch:  9    Test Fold Accuracy: 0.7866666666666666
+2024-02-12 17:59:38,609  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:38,609  DEBUG       margin_perceptron.py#171  
+2024-02-12 17:59:38,609  DEBUG       margin_perceptron.py#153  Margin: 0.1   Learning rate: 0.1
+2024-02-12 17:59:38,609  DEBUG       margin_perceptron.py#158    Cross validation 0
+2024-02-12 17:59:38,619  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.1        Accuracy: 0.7
+2024-02-12 17:59:38,629  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.05       Accuracy: 0.7466666666666667
+2024-02-12 17:59:38,638  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.74
+2024-02-12 17:59:38,648  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.025      Accuracy: 0.72
+2024-02-12 17:59:38,658  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.02       Accuracy: 0.7333333333333333
+2024-02-12 17:59:38,668  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.7333333333333333
+2024-02-12 17:59:38,678  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.7333333333333333
+2024-02-12 17:59:38,688  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.74
+2024-02-12 17:59:38,698  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.7266666666666667
+2024-02-12 17:59:38,708  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.01       Accuracy: 0.7266666666666667
+2024-02-12 17:59:38,708  DEBUG       margin_perceptron.py# 81      Best Epoch:  2    Test Fold Accuracy: 0.7466666666666667
+2024-02-12 17:59:38,708  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:38,708  DEBUG       margin_perceptron.py#158    Cross validation 1
+2024-02-12 17:59:38,718  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.1        Accuracy: 0.72
+2024-02-12 17:59:38,727  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.05       Accuracy: 0.5933333333333334
+2024-02-12 17:59:38,737  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.7133333333333334
+2024-02-12 17:59:38,747  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.025      Accuracy: 0.7333333333333333
+2024-02-12 17:59:38,757  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.02       Accuracy: 0.7466666666666667
+2024-02-12 17:59:38,767  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.6866666666666666
+2024-02-12 17:59:38,777  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.7
+2024-02-12 17:59:38,787  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.76
+2024-02-12 17:59:38,797  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.7133333333333334
+2024-02-12 17:59:38,807  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.01       Accuracy: 0.7
+2024-02-12 17:59:38,807  DEBUG       margin_perceptron.py# 81      Best Epoch:  8    Test Fold Accuracy: 0.76
+2024-02-12 17:59:38,807  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:38,807  DEBUG       margin_perceptron.py#158    Cross validation 2
+2024-02-12 17:59:38,817  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.1        Accuracy: 0.7
+2024-02-12 17:59:38,827  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.05       Accuracy: 0.7533333333333333
+2024-02-12 17:59:38,837  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.7533333333333333
+2024-02-12 17:59:38,847  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.025      Accuracy: 0.7266666666666667
+2024-02-12 17:59:38,858  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.02       Accuracy: 0.7266666666666667
+2024-02-12 17:59:38,869  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.74
+2024-02-12 17:59:38,879  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.72
+2024-02-12 17:59:38,889  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.7133333333333334
+2024-02-12 17:59:38,900  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.72
+2024-02-12 17:59:38,910  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.01       Accuracy: 0.7333333333333333
+2024-02-12 17:59:38,910  DEBUG       margin_perceptron.py# 81      Best Epoch:  3    Test Fold Accuracy: 0.7533333333333333
+2024-02-12 17:59:38,910  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:38,910  DEBUG       margin_perceptron.py#158    Cross validation 3
+2024-02-12 17:59:38,920  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.1        Accuracy: 0.64
+2024-02-12 17:59:38,930  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.05       Accuracy: 0.7
+2024-02-12 17:59:38,940  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.74
+2024-02-12 17:59:38,950  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.025      Accuracy: 0.76
+2024-02-12 17:59:38,960  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.02       Accuracy: 0.76
+2024-02-12 17:59:38,970  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.7733333333333333
+2024-02-12 17:59:38,979  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.7266666666666667
+2024-02-12 17:59:38,990  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.72
+2024-02-12 17:59:38,999  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.7266666666666667
+2024-02-12 17:59:39,009  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.01       Accuracy: 0.7333333333333333
+2024-02-12 17:59:39,009  DEBUG       margin_perceptron.py# 81      Best Epoch:  6    Test Fold Accuracy: 0.7733333333333333
+2024-02-12 17:59:39,009  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:39,009  DEBUG       margin_perceptron.py#158    Cross validation 4
+2024-02-12 17:59:39,019  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.1        Accuracy: 0.7466666666666667
+2024-02-12 17:59:39,029  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.05       Accuracy: 0.7666666666666667
+2024-02-12 17:59:39,039  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.7466666666666667
+2024-02-12 17:59:39,049  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.025      Accuracy: 0.78
+2024-02-12 17:59:39,059  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.02       Accuracy: 0.76
+2024-02-12 17:59:39,069  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.74
+2024-02-12 17:59:39,079  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.8266666666666667
+2024-02-12 17:59:39,089  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.78
+2024-02-12 17:59:39,099  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.7666666666666667
+2024-02-12 17:59:39,109  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.01       Accuracy: 0.7666666666666667
+2024-02-12 17:59:39,109  DEBUG       margin_perceptron.py# 81      Best Epoch:  7    Test Fold Accuracy: 0.8266666666666667
+2024-02-12 17:59:39,109  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:39,109  DEBUG       margin_perceptron.py#171  
+2024-02-12 17:59:39,109  DEBUG       margin_perceptron.py#153  Margin: 0.1   Learning rate: 0.01
+2024-02-12 17:59:39,109  DEBUG       margin_perceptron.py#158    Cross validation 0
+2024-02-12 17:59:39,119  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.01       Accuracy: 0.7733333333333333
+2024-02-12 17:59:39,129  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.005      Accuracy: 0.76
+2024-02-12 17:59:39,139  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.7733333333333333
+2024-02-12 17:59:39,149  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.76
+2024-02-12 17:59:39,159  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.002      Accuracy: 0.7533333333333333
+2024-02-12 17:59:39,169  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.76
+2024-02-12 17:59:39,179  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.7733333333333333
+2024-02-12 17:59:39,189  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.76
+2024-02-12 17:59:39,198  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.76
+2024-02-12 17:59:39,208  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.001      Accuracy: 0.7666666666666667
+2024-02-12 17:59:39,208  DEBUG       margin_perceptron.py# 81      Best Epoch:  7    Test Fold Accuracy: 0.7733333333333333
+2024-02-12 17:59:39,208  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:39,208  DEBUG       margin_perceptron.py#158    Cross validation 1
+2024-02-12 17:59:39,218  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.01       Accuracy: 0.7333333333333333
+2024-02-12 17:59:39,228  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.005      Accuracy: 0.7066666666666667
+2024-02-12 17:59:39,238  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.7066666666666667
+2024-02-12 17:59:39,248  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.7066666666666667
+2024-02-12 17:59:39,257  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.002      Accuracy: 0.7066666666666667
+2024-02-12 17:59:39,267  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.7066666666666667
+2024-02-12 17:59:39,277  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.7
+2024-02-12 17:59:39,287  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.72
+2024-02-12 17:59:39,297  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.72
+2024-02-12 17:59:39,307  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.001      Accuracy: 0.7066666666666667
+2024-02-12 17:59:39,307  DEBUG       margin_perceptron.py# 81      Best Epoch:  1    Test Fold Accuracy: 0.7333333333333333
+2024-02-12 17:59:39,307  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:39,307  DEBUG       margin_perceptron.py#158    Cross validation 2
+2024-02-12 17:59:39,317  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.01       Accuracy: 0.72
+2024-02-12 17:59:39,326  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.005      Accuracy: 0.7066666666666667
+2024-02-12 17:59:39,336  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.72
+2024-02-12 17:59:39,346  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.72
+2024-02-12 17:59:39,356  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.002      Accuracy: 0.72
+2024-02-12 17:59:39,366  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.72
+2024-02-12 17:59:39,376  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.72
+2024-02-12 17:59:39,385  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.7333333333333333
+2024-02-12 17:59:39,395  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.7333333333333333
+2024-02-12 17:59:39,405  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.001      Accuracy: 0.7266666666666667
+2024-02-12 17:59:39,405  DEBUG       margin_perceptron.py# 81      Best Epoch:  9    Test Fold Accuracy: 0.7333333333333333
+2024-02-12 17:59:39,405  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:39,405  DEBUG       margin_perceptron.py#158    Cross validation 3
+2024-02-12 17:59:39,415  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.01       Accuracy: 0.72
+2024-02-12 17:59:39,425  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.005      Accuracy: 0.74
+2024-02-12 17:59:39,435  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.7533333333333333
+2024-02-12 17:59:39,445  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.7533333333333333
+2024-02-12 17:59:39,455  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.002      Accuracy: 0.76
+2024-02-12 17:59:39,464  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.7533333333333333
+2024-02-12 17:59:39,474  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.7533333333333333
+2024-02-12 17:59:39,484  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.7533333333333333
+2024-02-12 17:59:39,494  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.7466666666666667
+2024-02-12 17:59:39,504  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.001      Accuracy: 0.7533333333333333
+2024-02-12 17:59:39,504  DEBUG       margin_perceptron.py# 81      Best Epoch:  5    Test Fold Accuracy: 0.76
+2024-02-12 17:59:39,504  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:39,504  DEBUG       margin_perceptron.py#158    Cross validation 4
+2024-02-12 17:59:39,514  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.01       Accuracy: 0.7533333333333333
+2024-02-12 17:59:39,523  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.005      Accuracy: 0.76
+2024-02-12 17:59:39,533  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.7333333333333333
+2024-02-12 17:59:39,543  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.7466666666666667
+2024-02-12 17:59:39,553  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.002      Accuracy: 0.7533333333333333
+2024-02-12 17:59:39,563  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.7666666666666667
+2024-02-12 17:59:39,572  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.7733333333333333
+2024-02-12 17:59:39,582  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.76
+2024-02-12 17:59:39,592  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.7733333333333333
+2024-02-12 17:59:39,602  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.001      Accuracy: 0.7733333333333333
+2024-02-12 17:59:39,602  DEBUG       margin_perceptron.py# 81      Best Epoch: 10    Test Fold Accuracy: 0.7733333333333333
+2024-02-12 17:59:39,602  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:39,602  DEBUG       margin_perceptron.py#171  
+2024-02-12 17:59:39,602  DEBUG       margin_perceptron.py#153  Margin: 0.01   Learning rate: 1
+2024-02-12 17:59:39,602  DEBUG       margin_perceptron.py#158    Cross validation 0
+2024-02-12 17:59:39,612  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 1.0        Accuracy: 0.6
+2024-02-12 17:59:39,622  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.5        Accuracy: 0.6466666666666666
+2024-02-12 17:59:39,632  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.6733333333333333
+2024-02-12 17:59:39,642  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.25       Accuracy: 0.7066666666666667
+2024-02-12 17:59:39,652  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.2        Accuracy: 0.62
+2024-02-12 17:59:39,661  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.6866666666666666
+2024-02-12 17:59:39,671  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.7133333333333334
+2024-02-12 17:59:39,681  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.125      Accuracy: 0.72
+2024-02-12 17:59:39,691  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.7133333333333334
+2024-02-12 17:59:39,701  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.1        Accuracy: 0.7466666666666667
+2024-02-12 17:59:39,701  DEBUG       margin_perceptron.py# 81      Best Epoch: 10    Test Fold Accuracy: 0.7466666666666667
+2024-02-12 17:59:39,701  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:39,701  DEBUG       margin_perceptron.py#158    Cross validation 1
+2024-02-12 17:59:39,711  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 1.0        Accuracy: 0.6866666666666666
+2024-02-12 17:59:39,721  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.5        Accuracy: 0.6666666666666666
+2024-02-12 17:59:39,731  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.7133333333333334
+2024-02-12 17:59:39,741  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.25       Accuracy: 0.5
+2024-02-12 17:59:39,751  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.2        Accuracy: 0.5933333333333334
+2024-02-12 17:59:39,760  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.7
+2024-02-12 17:59:39,770  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.66
+2024-02-12 17:59:39,780  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.125      Accuracy: 0.7066666666666667
+2024-02-12 17:59:39,790  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.7266666666666667
+2024-02-12 17:59:39,800  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.1        Accuracy: 0.6933333333333334
+2024-02-12 17:59:39,800  DEBUG       margin_perceptron.py# 81      Best Epoch:  9    Test Fold Accuracy: 0.7266666666666667
+2024-02-12 17:59:39,800  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:39,800  DEBUG       margin_perceptron.py#158    Cross validation 2
+2024-02-12 17:59:39,810  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 1.0        Accuracy: 0.4266666666666667
+2024-02-12 17:59:39,820  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.5        Accuracy: 0.6933333333333334
+2024-02-12 17:59:39,830  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.68
+2024-02-12 17:59:39,840  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.25       Accuracy: 0.7133333333333334
+2024-02-12 17:59:39,850  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.2        Accuracy: 0.7066666666666667
+2024-02-12 17:59:39,859  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.7666666666666667
+2024-02-12 17:59:39,869  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.74
+2024-02-12 17:59:39,879  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.125      Accuracy: 0.7066666666666667
+2024-02-12 17:59:39,889  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.7533333333333333
+2024-02-12 17:59:39,899  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.1        Accuracy: 0.6933333333333334
+2024-02-12 17:59:39,899  DEBUG       margin_perceptron.py# 81      Best Epoch:  6    Test Fold Accuracy: 0.7666666666666667
+2024-02-12 17:59:39,899  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:39,899  DEBUG       margin_perceptron.py#158    Cross validation 3
+2024-02-12 17:59:39,909  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 1.0        Accuracy: 0.5133333333333333
+2024-02-12 17:59:39,919  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.5        Accuracy: 0.7133333333333334
+2024-02-12 17:59:39,929  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.6733333333333333
+2024-02-12 17:59:39,939  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.25       Accuracy: 0.66
+2024-02-12 17:59:39,948  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.2        Accuracy: 0.68
+2024-02-12 17:59:39,958  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.6866666666666666
+2024-02-12 17:59:39,968  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.7133333333333334
+2024-02-12 17:59:39,978  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.125      Accuracy: 0.6733333333333333
+2024-02-12 17:59:39,988  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.7533333333333333
+2024-02-12 17:59:39,998  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.1        Accuracy: 0.66
+2024-02-12 17:59:39,998  DEBUG       margin_perceptron.py# 81      Best Epoch:  9    Test Fold Accuracy: 0.7533333333333333
+2024-02-12 17:59:39,998  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:39,998  DEBUG       margin_perceptron.py#158    Cross validation 4
+2024-02-12 17:59:40,008  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 1.0        Accuracy: 0.52
+2024-02-12 17:59:40,018  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.5        Accuracy: 0.7666666666666667
+2024-02-12 17:59:40,028  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.52
+2024-02-12 17:59:40,038  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.25       Accuracy: 0.6533333333333333
+2024-02-12 17:59:40,047  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.2        Accuracy: 0.7466666666666667
+2024-02-12 17:59:40,057  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.6666666666666666
+2024-02-12 17:59:40,067  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.8133333333333334
+2024-02-12 17:59:40,077  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.125      Accuracy: 0.6933333333333334
+2024-02-12 17:59:40,087  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.7933333333333333
+2024-02-12 17:59:40,097  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.1        Accuracy: 0.7733333333333333
+2024-02-12 17:59:40,097  DEBUG       margin_perceptron.py# 81      Best Epoch:  7    Test Fold Accuracy: 0.8133333333333334
+2024-02-12 17:59:40,097  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:40,097  DEBUG       margin_perceptron.py#171  
+2024-02-12 17:59:40,097  DEBUG       margin_perceptron.py#153  Margin: 0.01   Learning rate: 0.1
+2024-02-12 17:59:40,097  DEBUG       margin_perceptron.py#158    Cross validation 0
+2024-02-12 17:59:40,107  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.1        Accuracy: 0.76
+2024-02-12 17:59:40,116  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.05       Accuracy: 0.7533333333333333
+2024-02-12 17:59:40,126  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.7266666666666667
+2024-02-12 17:59:40,136  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.025      Accuracy: 0.7266666666666667
+2024-02-12 17:59:40,146  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.02       Accuracy: 0.7466666666666667
+2024-02-12 17:59:40,156  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.7733333333333333
+2024-02-12 17:59:40,166  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.7533333333333333
+2024-02-12 17:59:40,176  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.74
+2024-02-12 17:59:40,186  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.74
+2024-02-12 17:59:40,195  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.01       Accuracy: 0.7733333333333333
+2024-02-12 17:59:40,195  DEBUG       margin_perceptron.py# 81      Best Epoch: 10    Test Fold Accuracy: 0.7733333333333333
+2024-02-12 17:59:40,195  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:40,195  DEBUG       margin_perceptron.py#158    Cross validation 1
+2024-02-12 17:59:40,205  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.1        Accuracy: 0.7
+2024-02-12 17:59:40,215  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.05       Accuracy: 0.6133333333333333
+2024-02-12 17:59:40,225  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.7133333333333334
+2024-02-12 17:59:40,235  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.025      Accuracy: 0.7133333333333334
+2024-02-12 17:59:40,245  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.02       Accuracy: 0.7266666666666667
+2024-02-12 17:59:40,254  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.6733333333333333
+2024-02-12 17:59:40,264  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.7
+2024-02-12 17:59:40,274  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.7666666666666667
+2024-02-12 17:59:40,284  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.7066666666666667
+2024-02-12 17:59:40,294  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.01       Accuracy: 0.7133333333333334
+2024-02-12 17:59:40,294  DEBUG       margin_perceptron.py# 81      Best Epoch:  8    Test Fold Accuracy: 0.7666666666666667
+2024-02-12 17:59:40,294  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:40,294  DEBUG       margin_perceptron.py#158    Cross validation 2
+2024-02-12 17:59:40,304  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.1        Accuracy: 0.7133333333333334
+2024-02-12 17:59:40,314  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.05       Accuracy: 0.7266666666666667
+2024-02-12 17:59:40,324  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.7533333333333333
+2024-02-12 17:59:40,334  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.025      Accuracy: 0.7333333333333333
+2024-02-12 17:59:40,343  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.02       Accuracy: 0.7266666666666667
+2024-02-12 17:59:40,353  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.72
+2024-02-12 17:59:40,363  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.72
+2024-02-12 17:59:40,373  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.7466666666666667
+2024-02-12 17:59:40,383  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.72
+2024-02-12 17:59:40,393  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.01       Accuracy: 0.7266666666666667
+2024-02-12 17:59:40,393  DEBUG       margin_perceptron.py# 81      Best Epoch:  3    Test Fold Accuracy: 0.7533333333333333
+2024-02-12 17:59:40,393  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:40,393  DEBUG       margin_perceptron.py#158    Cross validation 3
+2024-02-12 17:59:40,403  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.1        Accuracy: 0.6533333333333333
+2024-02-12 17:59:40,412  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.05       Accuracy: 0.74
+2024-02-12 17:59:40,422  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.7466666666666667
+2024-02-12 17:59:40,432  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.025      Accuracy: 0.7733333333333333
+2024-02-12 17:59:40,442  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.02       Accuracy: 0.7666666666666667
+2024-02-12 17:59:40,452  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.78
+2024-02-12 17:59:40,462  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.72
+2024-02-12 17:59:40,472  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.72
+2024-02-12 17:59:40,481  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.7666666666666667
+2024-02-12 17:59:40,491  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.01       Accuracy: 0.74
+2024-02-12 17:59:40,491  DEBUG       margin_perceptron.py# 81      Best Epoch:  6    Test Fold Accuracy: 0.78
+2024-02-12 17:59:40,491  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:40,491  DEBUG       margin_perceptron.py#158    Cross validation 4
+2024-02-12 17:59:40,501  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.1        Accuracy: 0.7666666666666667
+2024-02-12 17:59:40,511  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.05       Accuracy: 0.7133333333333334
+2024-02-12 17:59:40,521  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.72
+2024-02-12 17:59:40,531  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.025      Accuracy: 0.7533333333333333
+2024-02-12 17:59:40,541  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.02       Accuracy: 0.7533333333333333
+2024-02-12 17:59:40,551  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.74
+2024-02-12 17:59:40,560  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.8
+2024-02-12 17:59:40,570  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.76
+2024-02-12 17:59:40,580  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.7466666666666667
+2024-02-12 17:59:40,590  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.01       Accuracy: 0.74
+2024-02-12 17:59:40,590  DEBUG       margin_perceptron.py# 81      Best Epoch:  7    Test Fold Accuracy: 0.8
+2024-02-12 17:59:40,590  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:40,590  DEBUG       margin_perceptron.py#171  
+2024-02-12 17:59:40,590  DEBUG       margin_perceptron.py#153  Margin: 0.01   Learning rate: 0.01
+2024-02-12 17:59:40,590  DEBUG       margin_perceptron.py#158    Cross validation 0
+2024-02-12 17:59:40,600  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.01       Accuracy: 0.7933333333333333
+2024-02-12 17:59:40,610  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.005      Accuracy: 0.76
+2024-02-12 17:59:40,620  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.7666666666666667
+2024-02-12 17:59:40,630  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.7533333333333333
+2024-02-12 17:59:40,640  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.002      Accuracy: 0.7466666666666667
+2024-02-12 17:59:40,649  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.7533333333333333
+2024-02-12 17:59:40,659  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.7733333333333333
+2024-02-12 17:59:40,669  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.76
+2024-02-12 17:59:40,679  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.7533333333333333
+2024-02-12 17:59:40,689  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.001      Accuracy: 0.7666666666666667
+2024-02-12 17:59:40,689  DEBUG       margin_perceptron.py# 81      Best Epoch:  1    Test Fold Accuracy: 0.7933333333333333
+2024-02-12 17:59:40,689  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:40,689  DEBUG       margin_perceptron.py#158    Cross validation 1
+2024-02-12 17:59:40,699  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.01       Accuracy: 0.7333333333333333
+2024-02-12 17:59:40,709  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.005      Accuracy: 0.6866666666666666
+2024-02-12 17:59:40,719  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.7133333333333334
+2024-02-12 17:59:40,728  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.7066666666666667
+2024-02-12 17:59:40,738  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.002      Accuracy: 0.7066666666666667
+2024-02-12 17:59:40,748  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.7066666666666667
+2024-02-12 17:59:40,758  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.7066666666666667
+2024-02-12 17:59:40,768  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.7333333333333333
+2024-02-12 17:59:40,778  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.74
+2024-02-12 17:59:40,788  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.001      Accuracy: 0.7066666666666667
+2024-02-12 17:59:40,788  DEBUG       margin_perceptron.py# 81      Best Epoch:  9    Test Fold Accuracy: 0.74
+2024-02-12 17:59:40,788  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:40,788  DEBUG       margin_perceptron.py#158    Cross validation 2
+2024-02-12 17:59:40,797  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.01       Accuracy: 0.7266666666666667
+2024-02-12 17:59:40,807  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.005      Accuracy: 0.7266666666666667
+2024-02-12 17:59:40,817  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.7266666666666667
+2024-02-12 17:59:40,827  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.7266666666666667
+2024-02-12 17:59:40,837  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.002      Accuracy: 0.7333333333333333
+2024-02-12 17:59:40,847  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.7333333333333333
+2024-02-12 17:59:40,857  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.7333333333333333
+2024-02-12 17:59:40,867  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.74
+2024-02-12 17:59:40,877  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.7333333333333333
+2024-02-12 17:59:40,887  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.001      Accuracy: 0.7266666666666667
+2024-02-12 17:59:40,887  DEBUG       margin_perceptron.py# 81      Best Epoch:  8    Test Fold Accuracy: 0.74
+2024-02-12 17:59:40,887  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:40,887  DEBUG       margin_perceptron.py#158    Cross validation 3
+2024-02-12 17:59:40,896  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.01       Accuracy: 0.6933333333333334
+2024-02-12 17:59:40,906  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.005      Accuracy: 0.7533333333333333
+2024-02-12 17:59:40,916  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.7533333333333333
+2024-02-12 17:59:40,926  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.7666666666666667
+2024-02-12 17:59:40,936  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.002      Accuracy: 0.76
+2024-02-12 17:59:40,946  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.7466666666666667
+2024-02-12 17:59:40,956  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.7133333333333334
+2024-02-12 17:59:40,965  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.7266666666666667
+2024-02-12 17:59:40,975  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.72
+2024-02-12 17:59:40,985  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.001      Accuracy: 0.7133333333333334
+2024-02-12 17:59:40,985  DEBUG       margin_perceptron.py# 81      Best Epoch:  4    Test Fold Accuracy: 0.7666666666666667
+2024-02-12 17:59:40,985  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:40,985  DEBUG       margin_perceptron.py#158    Cross validation 4
+2024-02-12 17:59:40,995  DEBUG       margin_perceptron.py# 72      Epoch:  1    Learning rate: 0.01       Accuracy: 0.7466666666666667
+2024-02-12 17:59:41,005  DEBUG       margin_perceptron.py# 72      Epoch:  2    Learning rate: 0.005      Accuracy: 0.7466666666666667
+2024-02-12 17:59:41,015  DEBUG       margin_perceptron.py# 72      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.7533333333333333
+2024-02-12 17:59:41,025  DEBUG       margin_perceptron.py# 72      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.7466666666666667
+2024-02-12 17:59:41,035  DEBUG       margin_perceptron.py# 72      Epoch:  5    Learning rate: 0.002      Accuracy: 0.7466666666666667
+2024-02-12 17:59:41,045  DEBUG       margin_perceptron.py# 72      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.7533333333333333
+2024-02-12 17:59:41,055  DEBUG       margin_perceptron.py# 72      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.7666666666666667
+2024-02-12 17:59:41,064  DEBUG       margin_perceptron.py# 72      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.7533333333333333
+2024-02-12 17:59:41,074  DEBUG       margin_perceptron.py# 72      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.7533333333333333
+2024-02-12 17:59:41,084  DEBUG       margin_perceptron.py# 72      Epoch: 10    Learning rate: 0.001      Accuracy: 0.7533333333333333
+2024-02-12 17:59:41,084  DEBUG       margin_perceptron.py# 81      Best Epoch:  7    Test Fold Accuracy: 0.7666666666666667
+2024-02-12 17:59:41,084  DEBUG       margin_perceptron.py#169  
+2024-02-12 17:59:41,084  DEBUG       margin_perceptron.py#171  
+2024-02-12 17:59:41,084  DEBUG       margin_perceptron.py#173  All CV accuracy dictionary: {1: {1: [0.64, 0.74, 0.76, 0.72, 0.76], 0.1: [0.7466666666666667, 0.7466666666666667, 0.7466666666666667, 0.7533333333333333, 0.7866666666666666], 0.01: [0.76, 0.74, 0.76, 0.7466666666666667, 0.7733333333333333]}, 0.1: {1: [0.7266666666666667, 0.74, 0.7666666666666667, 0.7333333333333333, 0.7866666666666666], 0.1: [0.7466666666666667, 0.76, 0.7533333333333333, 0.7733333333333333, 0.8266666666666667], 0.01: [0.7733333333333333, 0.7333333333333333, 0.7333333333333333, 0.76, 0.7733333333333333]}, 0.01: {1: [0.7466666666666667, 0.7266666666666667, 0.7666666666666667, 0.7533333333333333, 0.8133333333333334], 0.1: [0.7733333333333333, 0.7666666666666667, 0.7533333333333333, 0.78, 0.8], 0.01: [0.7933333333333333, 0.74, 0.74, 0.7666666666666667, 0.7666666666666667]}}
+2024-02-12 17:59:41,084  DEBUG       margin_perceptron.py#189  Average accuracy of all folds with margin 1 & learning rate 1 is 0.7239999999999999
+2024-02-12 17:59:41,084  DEBUG       margin_perceptron.py#189  Average accuracy of all folds with margin 1 & learning rate 0.1 is 0.756
+2024-02-12 17:59:41,085  DEBUG       margin_perceptron.py#189  Average accuracy of all folds with margin 1 & learning rate 0.01 is 0.756
+2024-02-12 17:59:41,085  DEBUG       margin_perceptron.py#189  Average accuracy of all folds with margin 0.1 & learning rate 1 is 0.7506666666666667
+2024-02-12 17:59:41,085  DEBUG       margin_perceptron.py#189  Average accuracy of all folds with margin 0.1 & learning rate 0.1 is 0.772
+2024-02-12 17:59:41,085  DEBUG       margin_perceptron.py#189  Average accuracy of all folds with margin 0.1 & learning rate 0.01 is 0.7546666666666667
+2024-02-12 17:59:41,085  DEBUG       margin_perceptron.py#189  Average accuracy of all folds with margin 0.01 & learning rate 1 is 0.7613333333333334
+2024-02-12 17:59:41,085  DEBUG       margin_perceptron.py#189  Average accuracy of all folds with margin 0.01 & learning rate 0.1 is 0.7746666666666666
+2024-02-12 17:59:41,085  DEBUG       margin_perceptron.py#189  Average accuracy of all folds with margin 0.01 & learning rate 0.01 is 0.7613333333333333
+2024-02-12 17:59:41,085  DEBUG       margin_perceptron.py#200  --------------------------------------------------
+2024-02-12 17:59:41,085  DEBUG       margin_perceptron.py#201  Online Training
+2024-02-12 17:59:41,085  DEBUG       margin_perceptron.py# 93  Learning rate: 0.1
+2024-02-12 17:59:41,097  DEBUG       margin_perceptron.py#107    Epoch:  1    Learning rate: 0.1        Accuracy: 0.735
+2024-02-12 17:59:41,110  DEBUG       margin_perceptron.py#107    Epoch:  2    Learning rate: 0.05       Accuracy: 0.705
+2024-02-12 17:59:41,122  DEBUG       margin_perceptron.py#107    Epoch:  3    Learning rate: 0.03333    Accuracy: 0.725
+2024-02-12 17:59:41,135  DEBUG       margin_perceptron.py#107    Epoch:  4    Learning rate: 0.025      Accuracy: 0.75
+2024-02-12 17:59:41,147  DEBUG       margin_perceptron.py#107    Epoch:  5    Learning rate: 0.02       Accuracy: 0.745
+2024-02-12 17:59:41,159  DEBUG       margin_perceptron.py#107    Epoch:  6    Learning rate: 0.01667    Accuracy: 0.735
+2024-02-12 17:59:41,172  DEBUG       margin_perceptron.py#107    Epoch:  7    Learning rate: 0.01429    Accuracy: 0.75
+2024-02-12 17:59:41,184  DEBUG       margin_perceptron.py#107    Epoch:  8    Learning rate: 0.0125     Accuracy: 0.735
+2024-02-12 17:59:41,197  DEBUG       margin_perceptron.py#107    Epoch:  9    Learning rate: 0.01111    Accuracy: 0.735
+2024-02-12 17:59:41,209  DEBUG       margin_perceptron.py#107    Epoch: 10    Learning rate: 0.01       Accuracy: 0.74
+2024-02-12 17:59:41,222  DEBUG       margin_perceptron.py#107    Epoch: 11    Learning rate: 0.00909    Accuracy: 0.745
+2024-02-12 17:59:41,234  DEBUG       margin_perceptron.py#107    Epoch: 12    Learning rate: 0.00833    Accuracy: 0.745
+2024-02-12 17:59:41,247  DEBUG       margin_perceptron.py#107    Epoch: 13    Learning rate: 0.00769    Accuracy: 0.74
+2024-02-12 17:59:41,259  DEBUG       margin_perceptron.py#107    Epoch: 14    Learning rate: 0.00714    Accuracy: 0.74
+2024-02-12 17:59:41,272  DEBUG       margin_perceptron.py#107    Epoch: 15    Learning rate: 0.00667    Accuracy: 0.74
+2024-02-12 17:59:41,284  DEBUG       margin_perceptron.py#107    Epoch: 16    Learning rate: 0.00625    Accuracy: 0.745
+2024-02-12 17:59:41,296  DEBUG       margin_perceptron.py#107    Epoch: 17    Learning rate: 0.00588    Accuracy: 0.735
+2024-02-12 17:59:41,309  DEBUG       margin_perceptron.py#107    Epoch: 18    Learning rate: 0.00556    Accuracy: 0.73
+2024-02-12 17:59:41,321  DEBUG       margin_perceptron.py#107    Epoch: 19    Learning rate: 0.00526    Accuracy: 0.74
+2024-02-12 17:59:41,334  DEBUG       margin_perceptron.py#107    Epoch: 20    Learning rate: 0.005      Accuracy: 0.74
+2024-02-12 17:59:41,334  DEBUG       margin_perceptron.py#118    Best Epoch:  7    Dev Accuracy: 0.75
+2024-02-12 17:59:41,336  DEBUG       margin_perceptron.py#215  Test set accuracy for best hyper parameter (margin 0.1 & learning rate 0.1) is 0.7761194029850746

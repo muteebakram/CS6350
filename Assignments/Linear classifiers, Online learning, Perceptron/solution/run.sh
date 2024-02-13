@@ -19,3 +19,7 @@ python3 ./margin_perceptron.py
 printf "\n4. Average Perceptron\n"
 printf "******************************************************************\n\n"
 python3 ./average_perceptron.py
+
+printf "\n4. Aggressive Perceptron\n"
+printf "******************************************************************\n\n"
+python3 ./aggressive_perceptron.py

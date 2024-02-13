@@ -99,7 +99,7 @@ def cv_setup(train_fold_df, test_fold_df, learning_rate, weights, bias, epochs):
 
     for epoch in range(epochs):
         # shuffle the whole data frame.
-        train_fold_df = train_fold_df.sample(frac=1)
+        train_fold_df = train_fold_df.sample(frac=1, random_state=1)
 
         # each epoch produce new weight and bias which is input to next epoch.
         weights, bias, avg_weight, avg_bias, _ = perceptron(
@@ -142,7 +142,7 @@ def online_setup(train_df, dev_df, learning_rate, weights, bias, epochs):
     log.debug(f"Learning rate: {learning_rate}")
     for epoch in range(epochs):
         # shuffle the whole data frame.
-        train_df = train_df.sample(frac=1)
+        train_df = train_df.sample(frac=1, random_state=1)
 
         # each epoch produce new weight and bias which is input to next epoch.
         weights, bias, avg_weight, avg_bias, update_count = perceptron(
