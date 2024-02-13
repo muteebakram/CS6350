@@ -34,7 +34,7 @@ test_df = pd.read_csv("./hw2_data/diabetes.test.csv")
 
 def perceptron(df, learning_rate, weights, bias):
     update_count = 0
-    for index, row in df.iterrows():
+    for _, row in df.iterrows():
         example = row.tolist()
         actual_label = example[0]  # y
         example = example[1:]  # x
@@ -46,8 +46,9 @@ def perceptron(df, learning_rate, weights, bias):
         if sign < 0:
             update_count += 1
             bias += learning_rate * actual_label
-            for index, w in enumerate(weights):
-                w += learning_rate * actual_label * example[index]
+            for index in range(len(weights)):
+                # w = w + r * y * x
+                weights[index] += learning_rate * actual_label * example[index]
 
     return weights, bias, update_count
 

@@ -43,7 +43,7 @@ def test_accuracy(df, weights, bias):
     total = df.shape[0]
     correct_prediction = 0
 
-    for index, row in df.iterrows():
+    for _, row in df.iterrows():
         example = row.tolist()
         actual_label = example[0]  # y
         example = example[1:]  # x
@@ -93,7 +93,7 @@ def baseline_accuracy(test_df, dev_df):
         total = df.shape[0]
         correct_prediction = 0
 
-        for index, row in df.iterrows():
+        for _, row in df.iterrows():
             example = row.tolist()
             actual_label = example[0]  # y
 
@@ -129,7 +129,7 @@ def plot_learning_curve(accuracies, label):
         epochs.append(i + 1)
 
     # Plot the data
-    plt.plot(epochs, accuracies, marker="x")
+    plt.plot(epochs, accuracies, marker="o")
     plt.xticks(epochs)
 
     # Label the x-axis & y-axis

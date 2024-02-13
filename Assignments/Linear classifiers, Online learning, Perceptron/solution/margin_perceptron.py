@@ -35,20 +35,21 @@ test_df = pd.read_csv("./hw2_data/diabetes.test.csv")
 
 def perceptron(df, margin, learning_rate, weights, bias):
     update_count = 0
-    for index, row in df.iterrows():
+    for _, row in df.iterrows():
         example = row.tolist()
         actual_label = example[0]  # y
         example = example[1:]  # x
 
-        # y(wT x + b)
-        value = actual_label * predict(example=example, weights=weights, bias=bias)
+        # y(wT x + b) or y * predict
+        sign = actual_label * predict(example=example, weights=weights, bias=bias)
 
         # update
-        if value < margin:
+        if sign < margin:
             update_count += 1
             bias += learning_rate * actual_label
-            for index, w in enumerate(weights):
-                w += learning_rate * actual_label * example[index]
+            for index in range(len(weights)):
+                # w = w + r * y * x
+                weights[index] += learning_rate * actual_label * example[index]
 
     return weights, bias, update_count
 
@@ -139,8 +140,9 @@ if __name__ == "__main__":
     log.debug(50 * "-")
     log.debug("Cross Validation Training")
 
-    # Key is the learning rate and values list of accuracy.
-    # For each key, the values in list represent the best cv accuracy of that fold for given learning rate.
+    # Key is the margin and values dictionary of learning rate.
+    # For each dictionary of learning rate, key is the learning rate and values list of accuracy.
+    # The values in list represent the best cv accuracy of that fold for given margin and learning rate.
     all_cv_accuracies_dict = {}
 
     for margin in margins:

@@ -6,31 +6,31 @@ Test dataset has more positive examples of accuracy: 0.5223880597014925
 Development dataset has more positive examples of accuracy: 0.56
 
 3. Variants Result
-a. The best hyper-parameters is 1
-b. The cross-validation accuracy for the best hyperparameter (1) is 0.5666666666666667
-d. Development set accuracy for best hyper parameter (1)
-   Epoch:  1    Dev Accuracy: 0.44
-   Epoch:  2    Dev Accuracy: 0.44
-   Epoch:  3    Dev Accuracy: 0.525
-   Epoch:  4    Dev Accuracy: 0.515
-   Epoch:  5    Dev Accuracy: 0.525
-   Epoch:  6    Dev Accuracy: 0.515
-   Epoch:  7    Dev Accuracy: 0.44
-   Epoch:  8    Dev Accuracy: 0.525
-   Epoch:  9    Dev Accuracy: 0.44
-   Epoch: 10    Dev Accuracy: 0.515
-   Epoch: 11    Dev Accuracy: 0.525
-   Epoch: 12    Dev Accuracy: 0.44
-   Epoch: 13    Dev Accuracy: 0.44
-   Epoch: 14    Dev Accuracy: 0.525
-   Epoch: 15    Dev Accuracy: 0.525
-   Epoch: 16    Dev Accuracy: 0.515
-   Epoch: 17    Dev Accuracy: 0.525
-   Epoch: 18    Dev Accuracy: 0.515
-   Epoch: 19    Dev Accuracy: 0.525
-   Epoch: 20    Dev Accuracy: 0.515
-c. The total number of updates the learning algorithm (learning rate 1) performs on the training set: 7864
-e. Test set accuracy for best hyper parameter (1) is 0.5472636815920398
+a. The best hyper-parameters is 0.1
+b. The cross-validation accuracy for the best hyperparameter (0.1) is 0.8
+d. Development set accuracy for best hyper parameter (0.1)
+   Epoch:  1    Dev Accuracy: 0.745
+   Epoch:  2    Dev Accuracy: 0.67
+   Epoch:  3    Dev Accuracy: 0.685
+   Epoch:  4    Dev Accuracy: 0.755
+   Epoch:  5    Dev Accuracy: 0.725
+   Epoch:  6    Dev Accuracy: 0.765
+   Epoch:  7    Dev Accuracy: 0.735
+   Epoch:  8    Dev Accuracy: 0.745
+   Epoch:  9    Dev Accuracy: 0.72
+   Epoch: 10    Dev Accuracy: 0.745
+   Epoch: 11    Dev Accuracy: 0.765
+   Epoch: 12    Dev Accuracy: 0.675
+   Epoch: 13    Dev Accuracy: 0.74
+   Epoch: 14    Dev Accuracy: 0.72
+   Epoch: 15    Dev Accuracy: 0.72
+   Epoch: 16    Dev Accuracy: 0.705
+   Epoch: 17    Dev Accuracy: 0.745
+   Epoch: 18    Dev Accuracy: 0.725
+   Epoch: 19    Dev Accuracy: 0.75
+   Epoch: 20    Dev Accuracy: 0.745
+c. The total number of updates the learning algorithm (learning rate 0.1) performs on the training set: 4254
+e. Test set accuracy for best hyper parameter (0.1) is 0.7761194029850746
 f. Plot a learning curve where the x axis is the epoch id and the y axis is the dev set accuracy using the classifier. Check figure './figs/Simple Perceptron.png'
 
 2. Decaying Learning Rate
@@ -42,30 +42,30 @@ Development dataset has more positive examples of accuracy: 0.56
 
 3. Variants Result
 a. The best hyper-parameters is 0.01
-b. The cross-validation accuracy for the best hyperparameter (0.01) is 0.5933333333333334
+b. The cross-validation accuracy for the best hyperparameter (0.01) is 0.7733333333333333
 d. Development set accuracy for best hyper parameter (0.01)
-   Epoch:  1    Dev Accuracy: 0.585
-   Epoch:  2    Dev Accuracy: 0.6
-   Epoch:  3    Dev Accuracy: 0.57
-   Epoch:  4    Dev Accuracy: 0.585
-   Epoch:  5    Dev Accuracy: 0.585
-   Epoch:  6    Dev Accuracy: 0.585
-   Epoch:  7    Dev Accuracy: 0.585
-   Epoch:  8    Dev Accuracy: 0.57
-   Epoch:  9    Dev Accuracy: 0.57
-   Epoch: 10    Dev Accuracy: 0.57
-   Epoch: 11    Dev Accuracy: 0.57
-   Epoch: 12    Dev Accuracy: 0.57
-   Epoch: 13    Dev Accuracy: 0.57
-   Epoch: 14    Dev Accuracy: 0.575
-   Epoch: 15    Dev Accuracy: 0.575
-   Epoch: 16    Dev Accuracy: 0.57
-   Epoch: 17    Dev Accuracy: 0.57
-   Epoch: 18    Dev Accuracy: 0.57
-   Epoch: 19    Dev Accuracy: 0.57
-   Epoch: 20    Dev Accuracy: 0.57
-c. The total number of updates the learning algorithm (learning rate 0.01) performs on the training set: 7180
-e. Test set accuracy for best hyper parameter (0.01) is 0.6119402985074627
+   Epoch:  1    Dev Accuracy: 0.76
+   Epoch:  2    Dev Accuracy: 0.745
+   Epoch:  3    Dev Accuracy: 0.74
+   Epoch:  4    Dev Accuracy: 0.735
+   Epoch:  5    Dev Accuracy: 0.755
+   Epoch:  6    Dev Accuracy: 0.755
+   Epoch:  7    Dev Accuracy: 0.755
+   Epoch:  8    Dev Accuracy: 0.75
+   Epoch:  9    Dev Accuracy: 0.745
+   Epoch: 10    Dev Accuracy: 0.755
+   Epoch: 11    Dev Accuracy: 0.755
+   Epoch: 12    Dev Accuracy: 0.75
+   Epoch: 13    Dev Accuracy: 0.755
+   Epoch: 14    Dev Accuracy: 0.75
+   Epoch: 15    Dev Accuracy: 0.75
+   Epoch: 16    Dev Accuracy: 0.75
+   Epoch: 17    Dev Accuracy: 0.745
+   Epoch: 18    Dev Accuracy: 0.75
+   Epoch: 19    Dev Accuracy: 0.755
+   Epoch: 20    Dev Accuracy: 0.75
+c. The total number of updates the learning algorithm (learning rate 0.01) performs on the training set: 3880
+e. Test set accuracy for best hyper parameter (0.01) is 0.7661691542288557
 f. Plot a learning curve where the x axis is the epoch id and the y axis is the dev set accuracy using the classifier. Check figure './figs/Decaying Perceptron.png'
 
 3. Margin Perceptron
@@ -77,28 +77,63 @@ Development dataset has more positive examples of accuracy: 0.56
 
 3. Variants Result
 a. The best hyper-parameters is margin 0.01 & learning rate 1
-b. The cross-validation accuracy for the best hyperparameter (margin 0.01 & learning rate 1) is 0.6466666666666666
+b. The cross-validation accuracy for the best hyperparameter (margin 0.01 & learning rate 1) is 0.82
 d. Development set accuracy for best hyper parameter (margin 0.01 & learning rate 1)
-   Epoch:  1    Dev Accuracy: 0.595
-   Epoch:  2    Dev Accuracy: 0.595
-   Epoch:  3    Dev Accuracy: 0.59
-   Epoch:  4    Dev Accuracy: 0.61
-   Epoch:  5    Dev Accuracy: 0.59
-   Epoch:  6    Dev Accuracy: 0.615
-   Epoch:  7    Dev Accuracy: 0.605
-   Epoch:  8    Dev Accuracy: 0.615
-   Epoch:  9    Dev Accuracy: 0.6
-   Epoch: 10    Dev Accuracy: 0.615
-   Epoch: 11    Dev Accuracy: 0.62
-   Epoch: 12    Dev Accuracy: 0.6
-   Epoch: 13    Dev Accuracy: 0.6
-   Epoch: 14    Dev Accuracy: 0.605
-   Epoch: 15    Dev Accuracy: 0.59
-   Epoch: 16    Dev Accuracy: 0.595
-   Epoch: 17    Dev Accuracy: 0.59
-   Epoch: 18    Dev Accuracy: 0.6
-   Epoch: 19    Dev Accuracy: 0.58
-   Epoch: 20    Dev Accuracy: 0.6
-c. The total number of updates the learning algorithm (margin 0.01 & learning rate 1) performs on the training set: 6457
-e. Test set accuracy for best hyper parameter (margin 0.01 & learning rate 1) is 0.6268656716417911
+   Epoch:  1    Dev Accuracy: 0.55
+   Epoch:  2    Dev Accuracy: 0.755
+   Epoch:  3    Dev Accuracy: 0.75
+   Epoch:  4    Dev Accuracy: 0.73
+   Epoch:  5    Dev Accuracy: 0.785
+   Epoch:  6    Dev Accuracy: 0.675
+   Epoch:  7    Dev Accuracy: 0.7
+   Epoch:  8    Dev Accuracy: 0.755
+   Epoch:  9    Dev Accuracy: 0.755
+   Epoch: 10    Dev Accuracy: 0.72
+   Epoch: 11    Dev Accuracy: 0.71
+   Epoch: 12    Dev Accuracy: 0.725
+   Epoch: 13    Dev Accuracy: 0.755
+   Epoch: 14    Dev Accuracy: 0.71
+   Epoch: 15    Dev Accuracy: 0.75
+   Epoch: 16    Dev Accuracy: 0.68
+   Epoch: 17    Dev Accuracy: 0.76
+   Epoch: 18    Dev Accuracy: 0.76
+   Epoch: 19    Dev Accuracy: 0.76
+   Epoch: 20    Dev Accuracy: 0.685
+c. The total number of updates the learning algorithm (margin 0.01 & learning rate 1) performs on the training set: 4484
+e. Test set accuracy for best hyper parameter (margin 0.01 & learning rate 1) is 0.7412935323383084
 f. Plot a learning curve where the x axis is the epoch id and the y axis is the dev set accuracy using the classifier. Check figure './figs/Margin Perceptron.png'
+
+4. Average Perceptron
+******************************************************************
+
+2. Majority Baseline
+Test dataset has more positive examples of accuracy: 0.5223880597014925
+Development dataset has more positive examples of accuracy: 0.56
+
+3. Variants Result
+a. The best hyper-parameters is 0.1
+b. The cross-validation accuracy for the best hyperparameter (0.1) is 0.8133333333333334
+d. Development set accuracy for best hyper parameter (0.1)
+   Epoch:  1    Dev Accuracy: 0.565
+   Epoch:  2    Dev Accuracy: 0.665
+   Epoch:  3    Dev Accuracy: 0.565
+   Epoch:  4    Dev Accuracy: 0.72
+   Epoch:  5    Dev Accuracy: 0.565
+   Epoch:  6    Dev Accuracy: 0.57
+   Epoch:  7    Dev Accuracy: 0.745
+   Epoch:  8    Dev Accuracy: 0.565
+   Epoch:  9    Dev Accuracy: 0.705
+   Epoch: 10    Dev Accuracy: 0.75
+   Epoch: 11    Dev Accuracy: 0.725
+   Epoch: 12    Dev Accuracy: 0.61
+   Epoch: 13    Dev Accuracy: 0.635
+   Epoch: 14    Dev Accuracy: 0.65
+   Epoch: 15    Dev Accuracy: 0.72
+   Epoch: 16    Dev Accuracy: 0.595
+   Epoch: 17    Dev Accuracy: 0.565
+   Epoch: 18    Dev Accuracy: 0.53
+   Epoch: 19    Dev Accuracy: 0.565
+   Epoch: 20    Dev Accuracy: 0.565
+c. The total number of updates the learning algorithm (learning rate 0.1) performs on the training set: 3991
+e. Test set accuracy for best hyper parameter (0.1) is 0.6119402985074627
+f. Plot a learning curve where the x axis is the epoch id and the y axis is the dev set accuracy using the classifier. Check figure './figs/Average Perceptron.png'
