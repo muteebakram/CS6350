@@ -37,7 +37,7 @@ def perceptron(df, learning_rate, weights, bias, epoch, avg_weights, avg_bias):
     example_count = 0
     # log.debug(f"Before: {avg_bias}")
     # log.debug(f"Before: {avg_weights}")
-    total_examples = df.shape[0]
+    # total_examples = df.shape[0]
 
     for _, row in df.iterrows():
         example_count += 1
@@ -57,17 +57,19 @@ def perceptron(df, learning_rate, weights, bias, epoch, avg_weights, avg_bias):
                 weights[index] += learning_rate * actual_label * example[index]
 
         # average update
-        dino = (epoch * total_examples) + example_count
-        ratio = 1 / dino
-        log.debug(
-            f"dino: {dino} epoch: {epoch}, total_examples: {total_examples}, example_count: {example_count}, ratio : {ratio}"
-        )
-        avg_bias += ratio * bias
+        # dino = (epoch * total_examples) + example_count
+        # ratio = 1 / dino
+        # log.debug(
+        #     f"dino: {dino} epoch: {epoch}, total_examples: {total_examples}, example_count: {example_count}, ratio : {ratio}"
+        # )
+        # avg_bias += ratio * bias
+        avg_bias += bias
         for index in range(len(weights)):
             # log.debug(
             #     f"first index: {index}, weights[index]: {weights[index]}, avg_weights[index]: {avg_weights[index]}"
             # )
-            avg_weights[index] = ratio * weights[index] + (1 - ratio) * avg_weights[index]
+            # avg_weights[index] = ratio * weights[index] + (1 - ratio) * avg_weights[index]
+            avg_weights[index] += weights[index]
             # log.debug(
             #     f"second index: {index}, weights[index]: {weights[index]}, avg_weights[index]: {avg_weights[index]}"
             # )
@@ -124,6 +126,7 @@ def cv_setup(train_fold_df, test_fold_df, learning_rate, weights, bias, epochs):
             best_epoch = epoch
 
     log.debug(f"    Best Epoch: {best_epoch + 1:>2}    Test Fold Accuracy: {best_accuracy}")
+    # print(avg_weight)
     return best_accuracy
 
 
@@ -132,8 +135,6 @@ def online_setup(train_df, dev_df, learning_rate, weights, bias, epochs):
     avg_bias = bias
     avg_weight = weights[:]  # Copy the list because list is mutable.
 
-    best_bias = 0
-    best_weights = 0
     best_epoch = 0
     best_accuracy = 0
     total_update_counts = 0
@@ -165,15 +166,12 @@ def online_setup(train_df, dev_df, learning_rate, weights, bias, epochs):
             best_accuracy = accuracy
             best_epoch = epoch
 
-            best_bias = bias
-            best_weights = weights
-
     log.debug(f"  Best Epoch: {best_epoch + 1:>2}    Dev Accuracy: {best_accuracy}")
 
     print(
         f"c. The total number of updates the learning algorithm (learning rate {learning_rate}) performs on the training set: {total_update_counts}"
     )
-    return best_weights, best_bias, best_epoch, dev_accuracies
+    return avg_weight, avg_bias, best_epoch, dev_accuracies
 
 
 if __name__ == "__main__":

@@ -7,6 +7,7 @@ from utils import (
     baseline_accuracy,
     init_logger,
     plot_learning_curve,
+    get_key_of_max_value,
 )
 
 
@@ -109,7 +110,7 @@ def online_setup(train_df, dev_df, learning_rate, weights, bias, epochs):
     print(
         f"c. The total number of updates the learning algorithm (learning rate {learning_rate}) performs on the training set: {total_update_counts}"
     )
-    return best_weights, best_bias, best_epoch, dev_accuracies
+    return best_weights, best_bias, dev_accuracies
 
 
 if __name__ == "__main__":
@@ -121,6 +122,8 @@ if __name__ == "__main__":
     initial_weights, initial_bias = initialize_weights_bias(
         rand_start=rand_start, rand_end=rand_end, feature_count=train_df.shape[1] - 1
     )
+    log.debug(f"Initial bias: {initial_bias}")
+    log.debug(f"Initial weights: {initial_weights}")
 
     print("2. Majority Baseline")
     baseline_accuracy(test_df=test_df, dev_df=dev_df)
@@ -155,32 +158,42 @@ if __name__ == "__main__":
 
     log.debug(f"All CV accuracy dictionary: {all_cv_accuracies_dict}")
 
-    best_cv_accuracy = 0
+    best_lr_parameter = 0
     best_hyper_parameter = 0
+    hyper_parameter_setting = {}
+
     for learning_rate, cv_accuracies in all_cv_accuracies_dict.items():
         avg_fold_accuracy = 0
-        for accuracy in cv_accuracies:
-            if accuracy >= best_cv_accuracy:
-                best_cv_accuracy = accuracy
-                best_hyper_parameter = learning_rate
+        hyper_parameter = f"learning rate {learning_rate}"
+        hyper_parameter_setting[hyper_parameter] = {"learning_rate": 0}
 
+        for accuracy in cv_accuracies:
             avg_fold_accuracy += accuracy
+
+        hyper_parameter_setting[hyper_parameter]["learning_rate"] = learning_rate
+        hyper_parameter_setting[hyper_parameter]["accuracy"] = avg_fold_accuracy / len(cv_accuracies)
 
         log.debug(f"Average accuracy of all folds with learning rate {learning_rate} is {avg_fold_accuracy / len(dfs)}")
 
+    best_hyper_parameter = get_key_of_max_value(hyper_parameter_setting)
+    best_lr_parameter = hyper_parameter_setting[best_hyper_parameter]["learning_rate"]
+    best_cv_avg_accuracy = hyper_parameter_setting[best_hyper_parameter]["accuracy"]
+
+    log.debug(f"All hyper parameter setting dictionary: {hyper_parameter_setting}")
+
     print(f"a. The best hyper-parameters is {best_hyper_parameter}")
     print(
-        f"b. The cross-validation accuracy for the best hyperparameter ({best_hyper_parameter}) is {best_cv_accuracy}"
+        f"b. The cross-validation accuracy for the best hyperparameter ({best_hyper_parameter}) is {best_cv_avg_accuracy}"
     )
 
     log.debug(50 * "-")
     log.debug("Online Training")
 
     print(f"d. Development set accuracy for best hyper parameter ({best_hyper_parameter})")
-    best_weights, best_bias, best_epoch, dev_accuracies = online_setup(
+    best_weights, best_bias, dev_accuracies = online_setup(
         train_df=train_df,
         dev_df=dev_df,
-        learning_rate=best_hyper_parameter,
+        learning_rate=best_lr_parameter,
         weights=initial_weights,
         bias=initial_bias,
         epochs=20,
@@ -194,21 +207,3 @@ if __name__ == "__main__":
     print(
         f"f. Plot a learning curve where the x axis is the epoch id and the y axis is the dev set accuracy using the classifier. Check figure './figs/{perceptron_type}.png'"
     )
-
-    # all_online_accuracies = {}
-    # for learning_rate in learning_rates:
-    #     log.debug(f"Learning rate: {learning_rate}")
-    #     if learning_rate not in all_online_accuracies:
-    #         all_online_accuracies[learning_rate] = []
-
-    #     accuracy = online_setup(
-    #         train_df=train_df,
-    #         dev_df=dev_df,
-    #         learning_rate=learning_rate,
-    #         weights=initial_weights,
-    #         bias=initial_bias,
-    #         epochs=20,
-    #     )
-
-    #     all_online_accuracies[learning_rate].append(accuracy)
-    #     log.debug("")

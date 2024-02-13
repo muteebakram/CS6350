@@ -34,6 +34,18 @@ def init_logger(log_path, log_file_name):
         return None
 
 
+def get_key_of_max_value(map):
+    max_key = ""
+    max_val = float("-inf")
+
+    for key, val in map.items():
+        if val["accuracy"] >= max_val:
+            max_val = val["accuracy"]
+            max_key = key
+
+    return max_key
+
+
 def predict(example, weights, bias):
     value = np.dot(weights, example) + bias  # wT x + b
     return 1 if value >= 0 else -1
@@ -77,13 +89,12 @@ def prepare_train_test_folds(dfs):
 
 
 def initialize_weights_bias(rand_start, rand_end, feature_count):
-    # Initial random bias
-    bias = random.uniform(rand_start, rand_end)
+    random_number = random.uniform(rand_start, rand_end)
 
-    # Initial random weights for each feature
-    weights = []
+    bias = random_number
+    weights = []  # All weights and bias should be same.
     for _ in range(feature_count):
-        weights.append(random.uniform(rand_start, rand_end))
+        weights.append(random_number)
 
     return weights, bias
 
