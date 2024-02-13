@@ -1,233 +1,234 @@
-2024-02-12 19:13:59,436  DEBUG                   utils.py# 29  Start logging
-2024-02-12 19:13:59,448  DEBUG     decaying_perceptron.py#135  --------------------------------------------------
-2024-02-12 19:13:59,448  DEBUG     decaying_perceptron.py#136  Cross Validation Training
-2024-02-12 19:13:59,448  DEBUG     decaying_perceptron.py#143  Learning rate: 1
-2024-02-12 19:13:59,448  DEBUG     decaying_perceptron.py#148    Cross validation 0
-2024-02-12 19:13:59,458  DEBUG     decaying_perceptron.py# 69      Epoch:  1    Learning rate: 1.0        Accuracy: 0.5133333333333333
-2024-02-12 19:13:59,468  DEBUG     decaying_perceptron.py# 69      Epoch:  2    Learning rate: 0.5        Accuracy: 0.6066666666666667
-2024-02-12 19:13:59,478  DEBUG     decaying_perceptron.py# 69      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.56
-2024-02-12 19:13:59,488  DEBUG     decaying_perceptron.py# 69      Epoch:  4    Learning rate: 0.25       Accuracy: 0.6066666666666667
-2024-02-12 19:13:59,498  DEBUG     decaying_perceptron.py# 69      Epoch:  5    Learning rate: 0.2        Accuracy: 0.6
-2024-02-12 19:13:59,508  DEBUG     decaying_perceptron.py# 69      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.56
-2024-02-12 19:13:59,518  DEBUG     decaying_perceptron.py# 69      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.6466666666666666
-2024-02-12 19:13:59,528  DEBUG     decaying_perceptron.py# 69      Epoch:  8    Learning rate: 0.125      Accuracy: 0.62
-2024-02-12 19:13:59,538  DEBUG     decaying_perceptron.py# 69      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.64
-2024-02-12 19:13:59,548  DEBUG     decaying_perceptron.py# 69      Epoch: 10    Learning rate: 0.1        Accuracy: 0.6333333333333333
-2024-02-12 19:13:59,548  DEBUG     decaying_perceptron.py# 76      Best Epoch:  7    Test Fold Accuracy: 0.6466666666666666
-2024-02-12 19:13:59,548  DEBUG     decaying_perceptron.py#158  
-2024-02-12 19:13:59,548  DEBUG     decaying_perceptron.py#148    Cross validation 1
-2024-02-12 19:13:59,558  DEBUG     decaying_perceptron.py# 69      Epoch:  1    Learning rate: 1.0        Accuracy: 0.52
-2024-02-12 19:13:59,568  DEBUG     decaying_perceptron.py# 69      Epoch:  2    Learning rate: 0.5        Accuracy: 0.6866666666666666
-2024-02-12 19:13:59,578  DEBUG     decaying_perceptron.py# 69      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.7133333333333334
-2024-02-12 19:13:59,588  DEBUG     decaying_perceptron.py# 69      Epoch:  4    Learning rate: 0.25       Accuracy: 0.64
-2024-02-12 19:13:59,599  DEBUG     decaying_perceptron.py# 69      Epoch:  5    Learning rate: 0.2        Accuracy: 0.43333333333333335
-2024-02-12 19:13:59,608  DEBUG     decaying_perceptron.py# 69      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.54
-2024-02-12 19:13:59,618  DEBUG     decaying_perceptron.py# 69      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.6733333333333333
-2024-02-12 19:13:59,628  DEBUG     decaying_perceptron.py# 69      Epoch:  8    Learning rate: 0.125      Accuracy: 0.68
-2024-02-12 19:13:59,638  DEBUG     decaying_perceptron.py# 69      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.7066666666666667
-2024-02-12 19:13:59,648  DEBUG     decaying_perceptron.py# 69      Epoch: 10    Learning rate: 0.1        Accuracy: 0.64
-2024-02-12 19:13:59,648  DEBUG     decaying_perceptron.py# 76      Best Epoch:  3    Test Fold Accuracy: 0.7133333333333334
-2024-02-12 19:13:59,648  DEBUG     decaying_perceptron.py#158  
-2024-02-12 19:13:59,648  DEBUG     decaying_perceptron.py#148    Cross validation 2
-2024-02-12 19:13:59,658  DEBUG     decaying_perceptron.py# 69      Epoch:  1    Learning rate: 1.0        Accuracy: 0.6066666666666667
-2024-02-12 19:13:59,668  DEBUG     decaying_perceptron.py# 69      Epoch:  2    Learning rate: 0.5        Accuracy: 0.6933333333333334
-2024-02-12 19:13:59,678  DEBUG     decaying_perceptron.py# 69      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.66
-2024-02-12 19:13:59,688  DEBUG     decaying_perceptron.py# 69      Epoch:  4    Learning rate: 0.25       Accuracy: 0.72
-2024-02-12 19:13:59,698  DEBUG     decaying_perceptron.py# 69      Epoch:  5    Learning rate: 0.2        Accuracy: 0.7333333333333333
-2024-02-12 19:13:59,708  DEBUG     decaying_perceptron.py# 69      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.7266666666666667
-2024-02-12 19:13:59,718  DEBUG     decaying_perceptron.py# 69      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.76
-2024-02-12 19:13:59,728  DEBUG     decaying_perceptron.py# 69      Epoch:  8    Learning rate: 0.125      Accuracy: 0.6733333333333333
-2024-02-12 19:13:59,738  DEBUG     decaying_perceptron.py# 69      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.7
-2024-02-12 19:13:59,748  DEBUG     decaying_perceptron.py# 69      Epoch: 10    Learning rate: 0.1        Accuracy: 0.68
-2024-02-12 19:13:59,748  DEBUG     decaying_perceptron.py# 76      Best Epoch:  7    Test Fold Accuracy: 0.76
-2024-02-12 19:13:59,748  DEBUG     decaying_perceptron.py#158  
-2024-02-12 19:13:59,748  DEBUG     decaying_perceptron.py#148    Cross validation 3
-2024-02-12 19:13:59,758  DEBUG     decaying_perceptron.py# 69      Epoch:  1    Learning rate: 1.0        Accuracy: 0.5266666666666666
-2024-02-12 19:13:59,768  DEBUG     decaying_perceptron.py# 69      Epoch:  2    Learning rate: 0.5        Accuracy: 0.58
-2024-02-12 19:13:59,778  DEBUG     decaying_perceptron.py# 69      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.66
-2024-02-12 19:13:59,788  DEBUG     decaying_perceptron.py# 69      Epoch:  4    Learning rate: 0.25       Accuracy: 0.7133333333333334
-2024-02-12 19:13:59,798  DEBUG     decaying_perceptron.py# 69      Epoch:  5    Learning rate: 0.2        Accuracy: 0.6866666666666666
-2024-02-12 19:13:59,808  DEBUG     decaying_perceptron.py# 69      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.6733333333333333
-2024-02-12 19:13:59,818  DEBUG     decaying_perceptron.py# 69      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.7133333333333334
-2024-02-12 19:13:59,828  DEBUG     decaying_perceptron.py# 69      Epoch:  8    Learning rate: 0.125      Accuracy: 0.6533333333333333
-2024-02-12 19:13:59,838  DEBUG     decaying_perceptron.py# 69      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.7266666666666667
-2024-02-12 19:13:59,848  DEBUG     decaying_perceptron.py# 69      Epoch: 10    Learning rate: 0.1        Accuracy: 0.6933333333333334
-2024-02-12 19:13:59,848  DEBUG     decaying_perceptron.py# 76      Best Epoch:  9    Test Fold Accuracy: 0.7266666666666667
-2024-02-12 19:13:59,848  DEBUG     decaying_perceptron.py#158  
-2024-02-12 19:13:59,848  DEBUG     decaying_perceptron.py#148    Cross validation 4
-2024-02-12 19:13:59,858  DEBUG     decaying_perceptron.py# 69      Epoch:  1    Learning rate: 1.0        Accuracy: 0.5333333333333333
-2024-02-12 19:13:59,868  DEBUG     decaying_perceptron.py# 69      Epoch:  2    Learning rate: 0.5        Accuracy: 0.7333333333333333
-2024-02-12 19:13:59,877  DEBUG     decaying_perceptron.py# 69      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.6066666666666667
-2024-02-12 19:13:59,887  DEBUG     decaying_perceptron.py# 69      Epoch:  4    Learning rate: 0.25       Accuracy: 0.5666666666666667
-2024-02-12 19:13:59,897  DEBUG     decaying_perceptron.py# 69      Epoch:  5    Learning rate: 0.2        Accuracy: 0.7266666666666667
-2024-02-12 19:13:59,907  DEBUG     decaying_perceptron.py# 69      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.6733333333333333
-2024-02-12 19:13:59,917  DEBUG     decaying_perceptron.py# 69      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.7266666666666667
-2024-02-12 19:13:59,927  DEBUG     decaying_perceptron.py# 69      Epoch:  8    Learning rate: 0.125      Accuracy: 0.74
-2024-02-12 19:13:59,937  DEBUG     decaying_perceptron.py# 69      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.6866666666666666
-2024-02-12 19:13:59,947  DEBUG     decaying_perceptron.py# 69      Epoch: 10    Learning rate: 0.1        Accuracy: 0.72
-2024-02-12 19:13:59,947  DEBUG     decaying_perceptron.py# 76      Best Epoch:  8    Test Fold Accuracy: 0.74
-2024-02-12 19:13:59,947  DEBUG     decaying_perceptron.py#158  
-2024-02-12 19:13:59,947  DEBUG     decaying_perceptron.py#160  
-2024-02-12 19:13:59,947  DEBUG     decaying_perceptron.py#143  Learning rate: 0.1
-2024-02-12 19:13:59,947  DEBUG     decaying_perceptron.py#148    Cross validation 0
-2024-02-12 19:13:59,957  DEBUG     decaying_perceptron.py# 69      Epoch:  1    Learning rate: 0.1        Accuracy: 0.7466666666666667
-2024-02-12 19:13:59,967  DEBUG     decaying_perceptron.py# 69      Epoch:  2    Learning rate: 0.05       Accuracy: 0.7466666666666667
-2024-02-12 19:13:59,977  DEBUG     decaying_perceptron.py# 69      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.7266666666666667
-2024-02-12 19:13:59,987  DEBUG     decaying_perceptron.py# 69      Epoch:  4    Learning rate: 0.025      Accuracy: 0.7266666666666667
-2024-02-12 19:13:59,997  DEBUG     decaying_perceptron.py# 69      Epoch:  5    Learning rate: 0.02       Accuracy: 0.72
-2024-02-12 19:14:00,007  DEBUG     decaying_perceptron.py# 69      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.7266666666666667
-2024-02-12 19:14:00,016  DEBUG     decaying_perceptron.py# 69      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.72
-2024-02-12 19:14:00,026  DEBUG     decaying_perceptron.py# 69      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.7466666666666667
-2024-02-12 19:14:00,036  DEBUG     decaying_perceptron.py# 69      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.7266666666666667
-2024-02-12 19:14:00,046  DEBUG     decaying_perceptron.py# 69      Epoch: 10    Learning rate: 0.01       Accuracy: 0.7266666666666667
-2024-02-12 19:14:00,046  DEBUG     decaying_perceptron.py# 76      Best Epoch:  8    Test Fold Accuracy: 0.7466666666666667
-2024-02-12 19:14:00,046  DEBUG     decaying_perceptron.py#158  
-2024-02-12 19:14:00,046  DEBUG     decaying_perceptron.py#148    Cross validation 1
-2024-02-12 19:14:00,056  DEBUG     decaying_perceptron.py# 69      Epoch:  1    Learning rate: 0.1        Accuracy: 0.7266666666666667
-2024-02-12 19:14:00,066  DEBUG     decaying_perceptron.py# 69      Epoch:  2    Learning rate: 0.05       Accuracy: 0.5533333333333333
-2024-02-12 19:14:00,076  DEBUG     decaying_perceptron.py# 69      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.72
-2024-02-12 19:14:00,086  DEBUG     decaying_perceptron.py# 69      Epoch:  4    Learning rate: 0.025      Accuracy: 0.74
-2024-02-12 19:14:00,096  DEBUG     decaying_perceptron.py# 69      Epoch:  5    Learning rate: 0.02       Accuracy: 0.74
-2024-02-12 19:14:00,106  DEBUG     decaying_perceptron.py# 69      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.6933333333333334
-2024-02-12 19:14:00,116  DEBUG     decaying_perceptron.py# 69      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.7133333333333334
-2024-02-12 19:14:00,126  DEBUG     decaying_perceptron.py# 69      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.7466666666666667
-2024-02-12 19:14:00,136  DEBUG     decaying_perceptron.py# 69      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.7466666666666667
-2024-02-12 19:14:00,146  DEBUG     decaying_perceptron.py# 69      Epoch: 10    Learning rate: 0.01       Accuracy: 0.6866666666666666
-2024-02-12 19:14:00,146  DEBUG     decaying_perceptron.py# 76      Best Epoch:  9    Test Fold Accuracy: 0.7466666666666667
-2024-02-12 19:14:00,146  DEBUG     decaying_perceptron.py#158  
-2024-02-12 19:14:00,146  DEBUG     decaying_perceptron.py#148    Cross validation 2
-2024-02-12 19:14:00,156  DEBUG     decaying_perceptron.py# 69      Epoch:  1    Learning rate: 0.1        Accuracy: 0.6533333333333333
-2024-02-12 19:14:00,166  DEBUG     decaying_perceptron.py# 69      Epoch:  2    Learning rate: 0.05       Accuracy: 0.7333333333333333
-2024-02-12 19:14:00,176  DEBUG     decaying_perceptron.py# 69      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.74
-2024-02-12 19:14:00,186  DEBUG     decaying_perceptron.py# 69      Epoch:  4    Learning rate: 0.025      Accuracy: 0.7266666666666667
-2024-02-12 19:14:00,195  DEBUG     decaying_perceptron.py# 69      Epoch:  5    Learning rate: 0.02       Accuracy: 0.74
-2024-02-12 19:14:00,205  DEBUG     decaying_perceptron.py# 69      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.7266666666666667
-2024-02-12 19:14:00,215  DEBUG     decaying_perceptron.py# 69      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.74
-2024-02-12 19:14:00,225  DEBUG     decaying_perceptron.py# 69      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.7066666666666667
-2024-02-12 19:14:00,235  DEBUG     decaying_perceptron.py# 69      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.7333333333333333
-2024-02-12 19:14:00,245  DEBUG     decaying_perceptron.py# 69      Epoch: 10    Learning rate: 0.01       Accuracy: 0.7333333333333333
-2024-02-12 19:14:00,245  DEBUG     decaying_perceptron.py# 76      Best Epoch:  7    Test Fold Accuracy: 0.74
-2024-02-12 19:14:00,245  DEBUG     decaying_perceptron.py#158  
-2024-02-12 19:14:00,245  DEBUG     decaying_perceptron.py#148    Cross validation 3
-2024-02-12 19:14:00,255  DEBUG     decaying_perceptron.py# 69      Epoch:  1    Learning rate: 0.1        Accuracy: 0.64
-2024-02-12 19:14:00,265  DEBUG     decaying_perceptron.py# 69      Epoch:  2    Learning rate: 0.05       Accuracy: 0.72
-2024-02-12 19:14:00,274  DEBUG     decaying_perceptron.py# 69      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.74
-2024-02-12 19:14:00,284  DEBUG     decaying_perceptron.py# 69      Epoch:  4    Learning rate: 0.025      Accuracy: 0.74
-2024-02-12 19:14:00,294  DEBUG     decaying_perceptron.py# 69      Epoch:  5    Learning rate: 0.02       Accuracy: 0.7466666666666667
-2024-02-12 19:14:00,304  DEBUG     decaying_perceptron.py# 69      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.74
-2024-02-12 19:14:00,314  DEBUG     decaying_perceptron.py# 69      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.7
-2024-02-12 19:14:00,324  DEBUG     decaying_perceptron.py# 69      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.72
-2024-02-12 19:14:00,334  DEBUG     decaying_perceptron.py# 69      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.74
-2024-02-12 19:14:00,344  DEBUG     decaying_perceptron.py# 69      Epoch: 10    Learning rate: 0.01       Accuracy: 0.74
-2024-02-12 19:14:00,344  DEBUG     decaying_perceptron.py# 76      Best Epoch:  5    Test Fold Accuracy: 0.7466666666666667
-2024-02-12 19:14:00,344  DEBUG     decaying_perceptron.py#158  
-2024-02-12 19:14:00,344  DEBUG     decaying_perceptron.py#148    Cross validation 4
-2024-02-12 19:14:00,354  DEBUG     decaying_perceptron.py# 69      Epoch:  1    Learning rate: 0.1        Accuracy: 0.7533333333333333
-2024-02-12 19:14:00,364  DEBUG     decaying_perceptron.py# 69      Epoch:  2    Learning rate: 0.05       Accuracy: 0.7466666666666667
-2024-02-12 19:14:00,374  DEBUG     decaying_perceptron.py# 69      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.6666666666666666
-2024-02-12 19:14:00,384  DEBUG     decaying_perceptron.py# 69      Epoch:  4    Learning rate: 0.025      Accuracy: 0.74
-2024-02-12 19:14:00,393  DEBUG     decaying_perceptron.py# 69      Epoch:  5    Learning rate: 0.02       Accuracy: 0.76
-2024-02-12 19:14:00,403  DEBUG     decaying_perceptron.py# 69      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.7733333333333333
-2024-02-12 19:14:00,413  DEBUG     decaying_perceptron.py# 69      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.8133333333333334
-2024-02-12 19:14:00,423  DEBUG     decaying_perceptron.py# 69      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.74
-2024-02-12 19:14:00,433  DEBUG     decaying_perceptron.py# 69      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.7266666666666667
-2024-02-12 19:14:00,443  DEBUG     decaying_perceptron.py# 69      Epoch: 10    Learning rate: 0.01       Accuracy: 0.76
-2024-02-12 19:14:00,443  DEBUG     decaying_perceptron.py# 76      Best Epoch:  7    Test Fold Accuracy: 0.8133333333333334
-2024-02-12 19:14:00,443  DEBUG     decaying_perceptron.py#158  
-2024-02-12 19:14:00,443  DEBUG     decaying_perceptron.py#160  
-2024-02-12 19:14:00,443  DEBUG     decaying_perceptron.py#143  Learning rate: 0.01
-2024-02-12 19:14:00,443  DEBUG     decaying_perceptron.py#148    Cross validation 0
-2024-02-12 19:14:00,453  DEBUG     decaying_perceptron.py# 69      Epoch:  1    Learning rate: 0.01       Accuracy: 0.7666666666666667
-2024-02-12 19:14:00,463  DEBUG     decaying_perceptron.py# 69      Epoch:  2    Learning rate: 0.005      Accuracy: 0.7466666666666667
-2024-02-12 19:14:00,472  DEBUG     decaying_perceptron.py# 69      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.7533333333333333
-2024-02-12 19:14:00,482  DEBUG     decaying_perceptron.py# 69      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.76
-2024-02-12 19:14:00,492  DEBUG     decaying_perceptron.py# 69      Epoch:  5    Learning rate: 0.002      Accuracy: 0.7533333333333333
-2024-02-12 19:14:00,502  DEBUG     decaying_perceptron.py# 69      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.7533333333333333
-2024-02-12 19:14:00,512  DEBUG     decaying_perceptron.py# 69      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.7666666666666667
-2024-02-12 19:14:00,522  DEBUG     decaying_perceptron.py# 69      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.7466666666666667
-2024-02-12 19:14:00,532  DEBUG     decaying_perceptron.py# 69      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.7466666666666667
-2024-02-12 19:14:00,541  DEBUG     decaying_perceptron.py# 69      Epoch: 10    Learning rate: 0.001      Accuracy: 0.7533333333333333
-2024-02-12 19:14:00,541  DEBUG     decaying_perceptron.py# 76      Best Epoch:  7    Test Fold Accuracy: 0.7666666666666667
-2024-02-12 19:14:00,541  DEBUG     decaying_perceptron.py#158  
-2024-02-12 19:14:00,541  DEBUG     decaying_perceptron.py#148    Cross validation 1
-2024-02-12 19:14:00,551  DEBUG     decaying_perceptron.py# 69      Epoch:  1    Learning rate: 0.01       Accuracy: 0.7333333333333333
-2024-02-12 19:14:00,561  DEBUG     decaying_perceptron.py# 69      Epoch:  2    Learning rate: 0.005      Accuracy: 0.7133333333333334
-2024-02-12 19:14:00,571  DEBUG     decaying_perceptron.py# 69      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.7066666666666667
-2024-02-12 19:14:00,581  DEBUG     decaying_perceptron.py# 69      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.72
-2024-02-12 19:14:00,591  DEBUG     decaying_perceptron.py# 69      Epoch:  5    Learning rate: 0.002      Accuracy: 0.72
-2024-02-12 19:14:00,601  DEBUG     decaying_perceptron.py# 69      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.7133333333333334
-2024-02-12 19:14:00,610  DEBUG     decaying_perceptron.py# 69      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.7
-2024-02-12 19:14:00,620  DEBUG     decaying_perceptron.py# 69      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.7266666666666667
-2024-02-12 19:14:00,630  DEBUG     decaying_perceptron.py# 69      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.7266666666666667
-2024-02-12 19:14:00,640  DEBUG     decaying_perceptron.py# 69      Epoch: 10    Learning rate: 0.001      Accuracy: 0.7066666666666667
-2024-02-12 19:14:00,640  DEBUG     decaying_perceptron.py# 76      Best Epoch:  1    Test Fold Accuracy: 0.7333333333333333
-2024-02-12 19:14:00,640  DEBUG     decaying_perceptron.py#158  
-2024-02-12 19:14:00,640  DEBUG     decaying_perceptron.py#148    Cross validation 2
-2024-02-12 19:14:00,650  DEBUG     decaying_perceptron.py# 69      Epoch:  1    Learning rate: 0.01       Accuracy: 0.7133333333333334
-2024-02-12 19:14:00,660  DEBUG     decaying_perceptron.py# 69      Epoch:  2    Learning rate: 0.005      Accuracy: 0.7266666666666667
-2024-02-12 19:14:00,670  DEBUG     decaying_perceptron.py# 69      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.74
-2024-02-12 19:14:00,680  DEBUG     decaying_perceptron.py# 69      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.74
-2024-02-12 19:14:00,690  DEBUG     decaying_perceptron.py# 69      Epoch:  5    Learning rate: 0.002      Accuracy: 0.74
-2024-02-12 19:14:00,699  DEBUG     decaying_perceptron.py# 69      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.7466666666666667
-2024-02-12 19:14:00,709  DEBUG     decaying_perceptron.py# 69      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.74
-2024-02-12 19:14:00,719  DEBUG     decaying_perceptron.py# 69      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.7333333333333333
-2024-02-12 19:14:00,729  DEBUG     decaying_perceptron.py# 69      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.7333333333333333
-2024-02-12 19:14:00,739  DEBUG     decaying_perceptron.py# 69      Epoch: 10    Learning rate: 0.001      Accuracy: 0.74
-2024-02-12 19:14:00,739  DEBUG     decaying_perceptron.py# 76      Best Epoch:  6    Test Fold Accuracy: 0.7466666666666667
-2024-02-12 19:14:00,739  DEBUG     decaying_perceptron.py#158  
-2024-02-12 19:14:00,739  DEBUG     decaying_perceptron.py#148    Cross validation 3
-2024-02-12 19:14:00,749  DEBUG     decaying_perceptron.py# 69      Epoch:  1    Learning rate: 0.01       Accuracy: 0.72
-2024-02-12 19:14:00,759  DEBUG     decaying_perceptron.py# 69      Epoch:  2    Learning rate: 0.005      Accuracy: 0.7333333333333333
-2024-02-12 19:14:00,769  DEBUG     decaying_perceptron.py# 69      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.74
-2024-02-12 19:14:00,778  DEBUG     decaying_perceptron.py# 69      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.7533333333333333
-2024-02-12 19:14:00,788  DEBUG     decaying_perceptron.py# 69      Epoch:  5    Learning rate: 0.002      Accuracy: 0.7533333333333333
-2024-02-12 19:14:00,798  DEBUG     decaying_perceptron.py# 69      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.7533333333333333
-2024-02-12 19:14:00,808  DEBUG     decaying_perceptron.py# 69      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.7466666666666667
-2024-02-12 19:14:00,818  DEBUG     decaying_perceptron.py# 69      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.7466666666666667
-2024-02-12 19:14:00,828  DEBUG     decaying_perceptron.py# 69      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.7466666666666667
-2024-02-12 19:14:00,838  DEBUG     decaying_perceptron.py# 69      Epoch: 10    Learning rate: 0.001      Accuracy: 0.7533333333333333
-2024-02-12 19:14:00,838  DEBUG     decaying_perceptron.py# 76      Best Epoch: 10    Test Fold Accuracy: 0.7533333333333333
-2024-02-12 19:14:00,838  DEBUG     decaying_perceptron.py#158  
-2024-02-12 19:14:00,838  DEBUG     decaying_perceptron.py#148    Cross validation 4
-2024-02-12 19:14:00,848  DEBUG     decaying_perceptron.py# 69      Epoch:  1    Learning rate: 0.01       Accuracy: 0.7333333333333333
-2024-02-12 19:14:00,857  DEBUG     decaying_perceptron.py# 69      Epoch:  2    Learning rate: 0.005      Accuracy: 0.7533333333333333
-2024-02-12 19:14:00,867  DEBUG     decaying_perceptron.py# 69      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.7466666666666667
-2024-02-12 19:14:00,877  DEBUG     decaying_perceptron.py# 69      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.7466666666666667
-2024-02-12 19:14:00,887  DEBUG     decaying_perceptron.py# 69      Epoch:  5    Learning rate: 0.002      Accuracy: 0.7733333333333333
-2024-02-12 19:14:00,897  DEBUG     decaying_perceptron.py# 69      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.7666666666666667
-2024-02-12 19:14:00,907  DEBUG     decaying_perceptron.py# 69      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.7733333333333333
-2024-02-12 19:14:00,917  DEBUG     decaying_perceptron.py# 69      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.7533333333333333
-2024-02-12 19:14:00,926  DEBUG     decaying_perceptron.py# 69      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.7666666666666667
-2024-02-12 19:14:00,936  DEBUG     decaying_perceptron.py# 69      Epoch: 10    Learning rate: 0.001      Accuracy: 0.7666666666666667
-2024-02-12 19:14:00,936  DEBUG     decaying_perceptron.py# 76      Best Epoch:  7    Test Fold Accuracy: 0.7733333333333333
-2024-02-12 19:14:00,936  DEBUG     decaying_perceptron.py#158  
-2024-02-12 19:14:00,936  DEBUG     decaying_perceptron.py#160  
-2024-02-12 19:14:00,936  DEBUG     decaying_perceptron.py#162  All CV accuracy dictionary: {1: [0.6466666666666666, 0.7133333333333334, 0.76, 0.7266666666666667, 0.74], 0.1: [0.7466666666666667, 0.7466666666666667, 0.74, 0.7466666666666667, 0.8133333333333334], 0.01: [0.7666666666666667, 0.7333333333333333, 0.7466666666666667, 0.7533333333333333, 0.7733333333333333]}
-2024-02-12 19:14:00,936  DEBUG     decaying_perceptron.py#175  Average accuracy of all folds with learning rate 1 is 0.7173333333333334
-2024-02-12 19:14:00,937  DEBUG     decaying_perceptron.py#175  Average accuracy of all folds with learning rate 0.1 is 0.7586666666666667
-2024-02-12 19:14:00,937  DEBUG     decaying_perceptron.py#175  Average accuracy of all folds with learning rate 0.01 is 0.7546666666666667
-2024-02-12 19:14:00,937  DEBUG     decaying_perceptron.py#182  --------------------------------------------------
-2024-02-12 19:14:00,937  DEBUG     decaying_perceptron.py#183  Online Training
-2024-02-12 19:14:00,937  DEBUG     decaying_perceptron.py# 88  Learning rate: 0.1
-2024-02-12 19:14:00,949  DEBUG     decaying_perceptron.py#102    Epoch:  1    Learning rate: 0.1        Accuracy: 0.74
-2024-02-12 19:14:00,962  DEBUG     decaying_perceptron.py#102    Epoch:  2    Learning rate: 0.05       Accuracy: 0.675
-2024-02-12 19:14:00,974  DEBUG     decaying_perceptron.py#102    Epoch:  3    Learning rate: 0.03333    Accuracy: 0.75
-2024-02-12 19:14:00,987  DEBUG     decaying_perceptron.py#102    Epoch:  4    Learning rate: 0.025      Accuracy: 0.76
-2024-02-12 19:14:00,999  DEBUG     decaying_perceptron.py#102    Epoch:  5    Learning rate: 0.02       Accuracy: 0.735
-2024-02-12 19:14:01,012  DEBUG     decaying_perceptron.py#102    Epoch:  6    Learning rate: 0.01667    Accuracy: 0.735
-2024-02-12 19:14:01,024  DEBUG     decaying_perceptron.py#102    Epoch:  7    Learning rate: 0.01429    Accuracy: 0.74
-2024-02-12 19:14:01,037  DEBUG     decaying_perceptron.py#102    Epoch:  8    Learning rate: 0.0125     Accuracy: 0.73
-2024-02-12 19:14:01,049  DEBUG     decaying_perceptron.py#102    Epoch:  9    Learning rate: 0.01111    Accuracy: 0.735
-2024-02-12 19:14:01,062  DEBUG     decaying_perceptron.py#102    Epoch: 10    Learning rate: 0.01       Accuracy: 0.725
-2024-02-12 19:14:01,074  DEBUG     decaying_perceptron.py#102    Epoch: 11    Learning rate: 0.00909    Accuracy: 0.74
-2024-02-12 19:14:01,087  DEBUG     decaying_perceptron.py#102    Epoch: 12    Learning rate: 0.00833    Accuracy: 0.74
-2024-02-12 19:14:01,099  DEBUG     decaying_perceptron.py#102    Epoch: 13    Learning rate: 0.00769    Accuracy: 0.76
-2024-02-12 19:14:01,112  DEBUG     decaying_perceptron.py#102    Epoch: 14    Learning rate: 0.00714    Accuracy: 0.745
-2024-02-12 19:14:01,124  DEBUG     decaying_perceptron.py#102    Epoch: 15    Learning rate: 0.00667    Accuracy: 0.755
-2024-02-12 19:14:01,137  DEBUG     decaying_perceptron.py#102    Epoch: 16    Learning rate: 0.00625    Accuracy: 0.755
-2024-02-12 19:14:01,149  DEBUG     decaying_perceptron.py#102    Epoch: 17    Learning rate: 0.00588    Accuracy: 0.745
-2024-02-12 19:14:01,162  DEBUG     decaying_perceptron.py#102    Epoch: 18    Learning rate: 0.00556    Accuracy: 0.74
-2024-02-12 19:14:01,174  DEBUG     decaying_perceptron.py#102    Epoch: 19    Learning rate: 0.00526    Accuracy: 0.755
-2024-02-12 19:14:01,187  DEBUG     decaying_perceptron.py#102    Epoch: 20    Learning rate: 0.005      Accuracy: 0.76
-2024-02-12 19:14:01,187  DEBUG     decaying_perceptron.py#113    Best Epoch: 20    Dev Accuracy: 0.76
-2024-02-12 19:14:01,189  DEBUG     decaying_perceptron.py#196  Test set accuracy for best hyper parameter (0.1) is 0.7661691542288557
+2024-02-12 23:04:16,168  DEBUG                   utils.py# 29  Start logging
+2024-02-12 23:04:16,179  DEBUG     decaying_perceptron.py#138  --------------------------------------------------
+2024-02-12 23:04:16,179  DEBUG     decaying_perceptron.py#139  Cross Validation Training
+2024-02-12 23:04:16,179  DEBUG     decaying_perceptron.py#146  Learning rate: 1
+2024-02-12 23:04:16,179  DEBUG     decaying_perceptron.py#151    Cross validation 0
+2024-02-12 23:04:16,190  DEBUG     decaying_perceptron.py# 70      Epoch:  1    Learning rate: 1.0        Accuracy: 0.5133333333333333
+2024-02-12 23:04:16,200  DEBUG     decaying_perceptron.py# 70      Epoch:  2    Learning rate: 0.5        Accuracy: 0.6066666666666667
+2024-02-12 23:04:16,210  DEBUG     decaying_perceptron.py# 70      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.56
+2024-02-12 23:04:16,221  DEBUG     decaying_perceptron.py# 70      Epoch:  4    Learning rate: 0.25       Accuracy: 0.6066666666666667
+2024-02-12 23:04:16,231  DEBUG     decaying_perceptron.py# 70      Epoch:  5    Learning rate: 0.2        Accuracy: 0.6
+2024-02-12 23:04:16,241  DEBUG     decaying_perceptron.py# 70      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.56
+2024-02-12 23:04:16,251  DEBUG     decaying_perceptron.py# 70      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.6466666666666666
+2024-02-12 23:04:16,261  DEBUG     decaying_perceptron.py# 70      Epoch:  8    Learning rate: 0.125      Accuracy: 0.62
+2024-02-12 23:04:16,272  DEBUG     decaying_perceptron.py# 70      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.64
+2024-02-12 23:04:16,282  DEBUG     decaying_perceptron.py# 70      Epoch: 10    Learning rate: 0.1        Accuracy: 0.6333333333333333
+2024-02-12 23:04:16,282  DEBUG     decaying_perceptron.py# 79      Best Epoch:  7    Test Fold Accuracy: 0.6466666666666666
+2024-02-12 23:04:16,282  DEBUG     decaying_perceptron.py#161  
+2024-02-12 23:04:16,282  DEBUG     decaying_perceptron.py#151    Cross validation 1
+2024-02-12 23:04:16,292  DEBUG     decaying_perceptron.py# 70      Epoch:  1    Learning rate: 1.0        Accuracy: 0.52
+2024-02-12 23:04:16,302  DEBUG     decaying_perceptron.py# 70      Epoch:  2    Learning rate: 0.5        Accuracy: 0.6866666666666666
+2024-02-12 23:04:16,312  DEBUG     decaying_perceptron.py# 70      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.7133333333333334
+2024-02-12 23:04:16,323  DEBUG     decaying_perceptron.py# 70      Epoch:  4    Learning rate: 0.25       Accuracy: 0.64
+2024-02-12 23:04:16,333  DEBUG     decaying_perceptron.py# 70      Epoch:  5    Learning rate: 0.2        Accuracy: 0.43333333333333335
+2024-02-12 23:04:16,343  DEBUG     decaying_perceptron.py# 70      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.54
+2024-02-12 23:04:16,353  DEBUG     decaying_perceptron.py# 70      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.6733333333333333
+2024-02-12 23:04:16,363  DEBUG     decaying_perceptron.py# 70      Epoch:  8    Learning rate: 0.125      Accuracy: 0.6266666666666667
+2024-02-12 23:04:16,373  DEBUG     decaying_perceptron.py# 70      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.7333333333333333
+2024-02-12 23:04:16,383  DEBUG     decaying_perceptron.py# 70      Epoch: 10    Learning rate: 0.1        Accuracy: 0.72
+2024-02-12 23:04:16,383  DEBUG     decaying_perceptron.py# 79      Best Epoch:  9    Test Fold Accuracy: 0.7333333333333333
+2024-02-12 23:04:16,383  DEBUG     decaying_perceptron.py#161  
+2024-02-12 23:04:16,383  DEBUG     decaying_perceptron.py#151    Cross validation 2
+2024-02-12 23:04:16,394  DEBUG     decaying_perceptron.py# 70      Epoch:  1    Learning rate: 1.0        Accuracy: 0.47333333333333333
+2024-02-12 23:04:16,404  DEBUG     decaying_perceptron.py# 70      Epoch:  2    Learning rate: 0.5        Accuracy: 0.6133333333333333
+2024-02-12 23:04:16,414  DEBUG     decaying_perceptron.py# 70      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.6266666666666667
+2024-02-12 23:04:16,424  DEBUG     decaying_perceptron.py# 70      Epoch:  4    Learning rate: 0.25       Accuracy: 0.6333333333333333
+2024-02-12 23:04:16,434  DEBUG     decaying_perceptron.py# 70      Epoch:  5    Learning rate: 0.2        Accuracy: 0.74
+2024-02-12 23:04:16,445  DEBUG     decaying_perceptron.py# 70      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.7266666666666667
+2024-02-12 23:04:16,455  DEBUG     decaying_perceptron.py# 70      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.76
+2024-02-12 23:04:16,465  DEBUG     decaying_perceptron.py# 70      Epoch:  8    Learning rate: 0.125      Accuracy: 0.6866666666666666
+2024-02-12 23:04:16,475  DEBUG     decaying_perceptron.py# 70      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.6866666666666666
+2024-02-12 23:04:16,485  DEBUG     decaying_perceptron.py# 70      Epoch: 10    Learning rate: 0.1        Accuracy: 0.7
+2024-02-12 23:04:16,485  DEBUG     decaying_perceptron.py# 79      Best Epoch:  7    Test Fold Accuracy: 0.76
+2024-02-12 23:04:16,485  DEBUG     decaying_perceptron.py#161  
+2024-02-12 23:04:16,485  DEBUG     decaying_perceptron.py#151    Cross validation 3
+2024-02-12 23:04:16,496  DEBUG     decaying_perceptron.py# 70      Epoch:  1    Learning rate: 1.0        Accuracy: 0.47333333333333333
+2024-02-12 23:04:16,506  DEBUG     decaying_perceptron.py# 70      Epoch:  2    Learning rate: 0.5        Accuracy: 0.6466666666666666
+2024-02-12 23:04:16,516  DEBUG     decaying_perceptron.py# 70      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.6333333333333333
+2024-02-12 23:04:16,526  DEBUG     decaying_perceptron.py# 70      Epoch:  4    Learning rate: 0.25       Accuracy: 0.5866666666666667
+2024-02-12 23:04:16,536  DEBUG     decaying_perceptron.py# 70      Epoch:  5    Learning rate: 0.2        Accuracy: 0.7
+2024-02-12 23:04:16,546  DEBUG     decaying_perceptron.py# 70      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.6933333333333334
+2024-02-12 23:04:16,556  DEBUG     decaying_perceptron.py# 70      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.7266666666666667
+2024-02-12 23:04:16,567  DEBUG     decaying_perceptron.py# 70      Epoch:  8    Learning rate: 0.125      Accuracy: 0.68
+2024-02-12 23:04:16,577  DEBUG     decaying_perceptron.py# 70      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.72
+2024-02-12 23:04:16,587  DEBUG     decaying_perceptron.py# 70      Epoch: 10    Learning rate: 0.1        Accuracy: 0.66
+2024-02-12 23:04:16,587  DEBUG     decaying_perceptron.py# 79      Best Epoch:  7    Test Fold Accuracy: 0.7266666666666667
+2024-02-12 23:04:16,587  DEBUG     decaying_perceptron.py#161  
+2024-02-12 23:04:16,587  DEBUG     decaying_perceptron.py#151    Cross validation 4
+2024-02-12 23:04:16,597  DEBUG     decaying_perceptron.py# 70      Epoch:  1    Learning rate: 1.0        Accuracy: 0.5066666666666667
+2024-02-12 23:04:16,607  DEBUG     decaying_perceptron.py# 70      Epoch:  2    Learning rate: 0.5        Accuracy: 0.76
+2024-02-12 23:04:16,617  DEBUG     decaying_perceptron.py# 70      Epoch:  3    Learning rate: 0.33333    Accuracy: 0.72
+2024-02-12 23:04:16,628  DEBUG     decaying_perceptron.py# 70      Epoch:  4    Learning rate: 0.25       Accuracy: 0.5533333333333333
+2024-02-12 23:04:16,638  DEBUG     decaying_perceptron.py# 70      Epoch:  5    Learning rate: 0.2        Accuracy: 0.7266666666666667
+2024-02-12 23:04:16,648  DEBUG     decaying_perceptron.py# 70      Epoch:  6    Learning rate: 0.16667    Accuracy: 0.6133333333333333
+2024-02-12 23:04:16,658  DEBUG     decaying_perceptron.py# 70      Epoch:  7    Learning rate: 0.14286    Accuracy: 0.7666666666666667
+2024-02-12 23:04:16,668  DEBUG     decaying_perceptron.py# 70      Epoch:  8    Learning rate: 0.125      Accuracy: 0.74
+2024-02-12 23:04:16,678  DEBUG     decaying_perceptron.py# 70      Epoch:  9    Learning rate: 0.11111    Accuracy: 0.6933333333333334
+2024-02-12 23:04:16,688  DEBUG     decaying_perceptron.py# 70      Epoch: 10    Learning rate: 0.1        Accuracy: 0.7333333333333333
+2024-02-12 23:04:16,688  DEBUG     decaying_perceptron.py# 79      Best Epoch:  7    Test Fold Accuracy: 0.7666666666666667
+2024-02-12 23:04:16,688  DEBUG     decaying_perceptron.py#161  
+2024-02-12 23:04:16,689  DEBUG     decaying_perceptron.py#163  
+2024-02-12 23:04:16,689  DEBUG     decaying_perceptron.py#146  Learning rate: 0.1
+2024-02-12 23:04:16,689  DEBUG     decaying_perceptron.py#151    Cross validation 0
+2024-02-12 23:04:16,699  DEBUG     decaying_perceptron.py# 70      Epoch:  1    Learning rate: 0.1        Accuracy: 0.7333333333333333
+2024-02-12 23:04:16,709  DEBUG     decaying_perceptron.py# 70      Epoch:  2    Learning rate: 0.05       Accuracy: 0.7333333333333333
+2024-02-12 23:04:16,719  DEBUG     decaying_perceptron.py# 70      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.72
+2024-02-12 23:04:16,729  DEBUG     decaying_perceptron.py# 70      Epoch:  4    Learning rate: 0.025      Accuracy: 0.7333333333333333
+2024-02-12 23:04:16,739  DEBUG     decaying_perceptron.py# 70      Epoch:  5    Learning rate: 0.02       Accuracy: 0.72
+2024-02-12 23:04:16,749  DEBUG     decaying_perceptron.py# 70      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.7266666666666667
+2024-02-12 23:04:16,759  DEBUG     decaying_perceptron.py# 70      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.7333333333333333
+2024-02-12 23:04:16,770  DEBUG     decaying_perceptron.py# 70      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.7466666666666667
+2024-02-12 23:04:16,780  DEBUG     decaying_perceptron.py# 70      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.72
+2024-02-12 23:04:16,790  DEBUG     decaying_perceptron.py# 70      Epoch: 10    Learning rate: 0.01       Accuracy: 0.7333333333333333
+2024-02-12 23:04:16,790  DEBUG     decaying_perceptron.py# 79      Best Epoch:  8    Test Fold Accuracy: 0.7466666666666667
+2024-02-12 23:04:16,790  DEBUG     decaying_perceptron.py#161  
+2024-02-12 23:04:16,790  DEBUG     decaying_perceptron.py#151    Cross validation 1
+2024-02-12 23:04:16,800  DEBUG     decaying_perceptron.py# 70      Epoch:  1    Learning rate: 0.1        Accuracy: 0.7
+2024-02-12 23:04:16,810  DEBUG     decaying_perceptron.py# 70      Epoch:  2    Learning rate: 0.05       Accuracy: 0.6133333333333333
+2024-02-12 23:04:16,820  DEBUG     decaying_perceptron.py# 70      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.7266666666666667
+2024-02-12 23:04:16,830  DEBUG     decaying_perceptron.py# 70      Epoch:  4    Learning rate: 0.025      Accuracy: 0.7333333333333333
+2024-02-12 23:04:16,840  DEBUG     decaying_perceptron.py# 70      Epoch:  5    Learning rate: 0.02       Accuracy: 0.7466666666666667
+2024-02-12 23:04:16,850  DEBUG     decaying_perceptron.py# 70      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.7333333333333333
+2024-02-12 23:04:16,861  DEBUG     decaying_perceptron.py# 70      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.72
+2024-02-12 23:04:16,871  DEBUG     decaying_perceptron.py# 70      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.76
+2024-02-12 23:04:16,881  DEBUG     decaying_perceptron.py# 70      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.74
+2024-02-12 23:04:16,891  DEBUG     decaying_perceptron.py# 70      Epoch: 10    Learning rate: 0.01       Accuracy: 0.7066666666666667
+2024-02-12 23:04:16,891  DEBUG     decaying_perceptron.py# 79      Best Epoch:  8    Test Fold Accuracy: 0.76
+2024-02-12 23:04:16,891  DEBUG     decaying_perceptron.py#161  
+2024-02-12 23:04:16,891  DEBUG     decaying_perceptron.py#151    Cross validation 2
+2024-02-12 23:04:16,901  DEBUG     decaying_perceptron.py# 70      Epoch:  1    Learning rate: 0.1        Accuracy: 0.6733333333333333
+2024-02-12 23:04:16,911  DEBUG     decaying_perceptron.py# 70      Epoch:  2    Learning rate: 0.05       Accuracy: 0.6866666666666666
+2024-02-12 23:04:16,921  DEBUG     decaying_perceptron.py# 70      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.74
+2024-02-12 23:04:16,931  DEBUG     decaying_perceptron.py# 70      Epoch:  4    Learning rate: 0.025      Accuracy: 0.7266666666666667
+2024-02-12 23:04:16,942  DEBUG     decaying_perceptron.py# 70      Epoch:  5    Learning rate: 0.02       Accuracy: 0.7466666666666667
+2024-02-12 23:04:16,952  DEBUG     decaying_perceptron.py# 70      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.7333333333333333
+2024-02-12 23:04:16,962  DEBUG     decaying_perceptron.py# 70      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.74
+2024-02-12 23:04:16,972  DEBUG     decaying_perceptron.py# 70      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.7066666666666667
+2024-02-12 23:04:16,982  DEBUG     decaying_perceptron.py# 70      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.7266666666666667
+2024-02-12 23:04:16,992  DEBUG     decaying_perceptron.py# 70      Epoch: 10    Learning rate: 0.01       Accuracy: 0.7333333333333333
+2024-02-12 23:04:16,992  DEBUG     decaying_perceptron.py# 79      Best Epoch:  5    Test Fold Accuracy: 0.7466666666666667
+2024-02-12 23:04:16,992  DEBUG     decaying_perceptron.py#161  
+2024-02-12 23:04:16,992  DEBUG     decaying_perceptron.py#151    Cross validation 3
+2024-02-12 23:04:17,002  DEBUG     decaying_perceptron.py# 70      Epoch:  1    Learning rate: 0.1        Accuracy: 0.6266666666666667
+2024-02-12 23:04:17,012  DEBUG     decaying_perceptron.py# 70      Epoch:  2    Learning rate: 0.05       Accuracy: 0.7133333333333334
+2024-02-12 23:04:17,022  DEBUG     decaying_perceptron.py# 70      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.7333333333333333
+2024-02-12 23:04:17,032  DEBUG     decaying_perceptron.py# 70      Epoch:  4    Learning rate: 0.025      Accuracy: 0.7266666666666667
+2024-02-12 23:04:17,043  DEBUG     decaying_perceptron.py# 70      Epoch:  5    Learning rate: 0.02       Accuracy: 0.7533333333333333
+2024-02-12 23:04:17,054  DEBUG     decaying_perceptron.py# 70      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.7466666666666667
+2024-02-12 23:04:17,064  DEBUG     decaying_perceptron.py# 70      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.7
+2024-02-12 23:04:17,075  DEBUG     decaying_perceptron.py# 70      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.72
+2024-02-12 23:04:17,085  DEBUG     decaying_perceptron.py# 70      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.74
+2024-02-12 23:04:17,096  DEBUG     decaying_perceptron.py# 70      Epoch: 10    Learning rate: 0.01       Accuracy: 0.7333333333333333
+2024-02-12 23:04:17,096  DEBUG     decaying_perceptron.py# 79      Best Epoch:  5    Test Fold Accuracy: 0.7533333333333333
+2024-02-12 23:04:17,096  DEBUG     decaying_perceptron.py#161  
+2024-02-12 23:04:17,096  DEBUG     decaying_perceptron.py#151    Cross validation 4
+2024-02-12 23:04:17,106  DEBUG     decaying_perceptron.py# 70      Epoch:  1    Learning rate: 0.1        Accuracy: 0.7266666666666667
+2024-02-12 23:04:17,117  DEBUG     decaying_perceptron.py# 70      Epoch:  2    Learning rate: 0.05       Accuracy: 0.6866666666666666
+2024-02-12 23:04:17,127  DEBUG     decaying_perceptron.py# 70      Epoch:  3    Learning rate: 0.03333    Accuracy: 0.6466666666666666
+2024-02-12 23:04:17,137  DEBUG     decaying_perceptron.py# 70      Epoch:  4    Learning rate: 0.025      Accuracy: 0.7733333333333333
+2024-02-12 23:04:17,147  DEBUG     decaying_perceptron.py# 70      Epoch:  5    Learning rate: 0.02       Accuracy: 0.7466666666666667
+2024-02-12 23:04:17,158  DEBUG     decaying_perceptron.py# 70      Epoch:  6    Learning rate: 0.01667    Accuracy: 0.76
+2024-02-12 23:04:17,168  DEBUG     decaying_perceptron.py# 70      Epoch:  7    Learning rate: 0.01429    Accuracy: 0.8
+2024-02-12 23:04:17,178  DEBUG     decaying_perceptron.py# 70      Epoch:  8    Learning rate: 0.0125     Accuracy: 0.74
+2024-02-12 23:04:17,188  DEBUG     decaying_perceptron.py# 70      Epoch:  9    Learning rate: 0.01111    Accuracy: 0.74
+2024-02-12 23:04:17,198  DEBUG     decaying_perceptron.py# 70      Epoch: 10    Learning rate: 0.01       Accuracy: 0.74
+2024-02-12 23:04:17,198  DEBUG     decaying_perceptron.py# 79      Best Epoch:  7    Test Fold Accuracy: 0.8
+2024-02-12 23:04:17,198  DEBUG     decaying_perceptron.py#161  
+2024-02-12 23:04:17,198  DEBUG     decaying_perceptron.py#163  
+2024-02-12 23:04:17,198  DEBUG     decaying_perceptron.py#146  Learning rate: 0.01
+2024-02-12 23:04:17,198  DEBUG     decaying_perceptron.py#151    Cross validation 0
+2024-02-12 23:04:17,208  DEBUG     decaying_perceptron.py# 70      Epoch:  1    Learning rate: 0.01       Accuracy: 0.7533333333333333
+2024-02-12 23:04:17,219  DEBUG     decaying_perceptron.py# 70      Epoch:  2    Learning rate: 0.005      Accuracy: 0.7333333333333333
+2024-02-12 23:04:17,229  DEBUG     decaying_perceptron.py# 70      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.76
+2024-02-12 23:04:17,239  DEBUG     decaying_perceptron.py# 70      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.7533333333333333
+2024-02-12 23:04:17,249  DEBUG     decaying_perceptron.py# 70      Epoch:  5    Learning rate: 0.002      Accuracy: 0.7533333333333333
+2024-02-12 23:04:17,259  DEBUG     decaying_perceptron.py# 70      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.7466666666666667
+2024-02-12 23:04:17,269  DEBUG     decaying_perceptron.py# 70      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.76
+2024-02-12 23:04:17,279  DEBUG     decaying_perceptron.py# 70      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.7533333333333333
+2024-02-12 23:04:17,290  DEBUG     decaying_perceptron.py# 70      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.7466666666666667
+2024-02-12 23:04:17,300  DEBUG     decaying_perceptron.py# 70      Epoch: 10    Learning rate: 0.001      Accuracy: 0.7533333333333333
+2024-02-12 23:04:17,300  DEBUG     decaying_perceptron.py# 79      Best Epoch:  7    Test Fold Accuracy: 0.76
+2024-02-12 23:04:17,300  DEBUG     decaying_perceptron.py#161  
+2024-02-12 23:04:17,300  DEBUG     decaying_perceptron.py#151    Cross validation 1
+2024-02-12 23:04:17,310  DEBUG     decaying_perceptron.py# 70      Epoch:  1    Learning rate: 0.01       Accuracy: 0.7333333333333333
+2024-02-12 23:04:17,320  DEBUG     decaying_perceptron.py# 70      Epoch:  2    Learning rate: 0.005      Accuracy: 0.7066666666666667
+2024-02-12 23:04:17,331  DEBUG     decaying_perceptron.py# 70      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.7133333333333334
+2024-02-12 23:04:17,341  DEBUG     decaying_perceptron.py# 70      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.7266666666666667
+2024-02-12 23:04:17,351  DEBUG     decaying_perceptron.py# 70      Epoch:  5    Learning rate: 0.002      Accuracy: 0.7266666666666667
+2024-02-12 23:04:17,361  DEBUG     decaying_perceptron.py# 70      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.7066666666666667
+2024-02-12 23:04:17,371  DEBUG     decaying_perceptron.py# 70      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.7066666666666667
+2024-02-12 23:04:17,381  DEBUG     decaying_perceptron.py# 70      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.74
+2024-02-12 23:04:17,392  DEBUG     decaying_perceptron.py# 70      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.7266666666666667
+2024-02-12 23:04:17,402  DEBUG     decaying_perceptron.py# 70      Epoch: 10    Learning rate: 0.001      Accuracy: 0.7133333333333334
+2024-02-12 23:04:17,402  DEBUG     decaying_perceptron.py# 79      Best Epoch:  8    Test Fold Accuracy: 0.74
+2024-02-12 23:04:17,402  DEBUG     decaying_perceptron.py#161  
+2024-02-12 23:04:17,402  DEBUG     decaying_perceptron.py#151    Cross validation 2
+2024-02-12 23:04:17,412  DEBUG     decaying_perceptron.py# 70      Epoch:  1    Learning rate: 0.01       Accuracy: 0.7266666666666667
+2024-02-12 23:04:17,422  DEBUG     decaying_perceptron.py# 70      Epoch:  2    Learning rate: 0.005      Accuracy: 0.7266666666666667
+2024-02-12 23:04:17,432  DEBUG     decaying_perceptron.py# 70      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.74
+2024-02-12 23:04:17,442  DEBUG     decaying_perceptron.py# 70      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.74
+2024-02-12 23:04:17,452  DEBUG     decaying_perceptron.py# 70      Epoch:  5    Learning rate: 0.002      Accuracy: 0.7533333333333333
+2024-02-12 23:04:17,462  DEBUG     decaying_perceptron.py# 70      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.7466666666666667
+2024-02-12 23:04:17,473  DEBUG     decaying_perceptron.py# 70      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.74
+2024-02-12 23:04:17,483  DEBUG     decaying_perceptron.py# 70      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.7333333333333333
+2024-02-12 23:04:17,494  DEBUG     decaying_perceptron.py# 70      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.7333333333333333
+2024-02-12 23:04:17,505  DEBUG     decaying_perceptron.py# 70      Epoch: 10    Learning rate: 0.001      Accuracy: 0.7466666666666667
+2024-02-12 23:04:17,505  DEBUG     decaying_perceptron.py# 79      Best Epoch:  5    Test Fold Accuracy: 0.7533333333333333
+2024-02-12 23:04:17,505  DEBUG     decaying_perceptron.py#161  
+2024-02-12 23:04:17,505  DEBUG     decaying_perceptron.py#151    Cross validation 3
+2024-02-12 23:04:17,515  DEBUG     decaying_perceptron.py# 70      Epoch:  1    Learning rate: 0.01       Accuracy: 0.72
+2024-02-12 23:04:17,525  DEBUG     decaying_perceptron.py# 70      Epoch:  2    Learning rate: 0.005      Accuracy: 0.7333333333333333
+2024-02-12 23:04:17,535  DEBUG     decaying_perceptron.py# 70      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.74
+2024-02-12 23:04:17,546  DEBUG     decaying_perceptron.py# 70      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.7533333333333333
+2024-02-12 23:04:17,556  DEBUG     decaying_perceptron.py# 70      Epoch:  5    Learning rate: 0.002      Accuracy: 0.7533333333333333
+2024-02-12 23:04:17,566  DEBUG     decaying_perceptron.py# 70      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.7533333333333333
+2024-02-12 23:04:17,576  DEBUG     decaying_perceptron.py# 70      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.7533333333333333
+2024-02-12 23:04:17,586  DEBUG     decaying_perceptron.py# 70      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.74
+2024-02-12 23:04:17,596  DEBUG     decaying_perceptron.py# 70      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.7533333333333333
+2024-02-12 23:04:17,606  DEBUG     decaying_perceptron.py# 70      Epoch: 10    Learning rate: 0.001      Accuracy: 0.7533333333333333
+2024-02-12 23:04:17,606  DEBUG     decaying_perceptron.py# 79      Best Epoch: 10    Test Fold Accuracy: 0.7533333333333333
+2024-02-12 23:04:17,606  DEBUG     decaying_perceptron.py#161  
+2024-02-12 23:04:17,606  DEBUG     decaying_perceptron.py#151    Cross validation 4
+2024-02-12 23:04:17,616  DEBUG     decaying_perceptron.py# 70      Epoch:  1    Learning rate: 0.01       Accuracy: 0.72
+2024-02-12 23:04:17,627  DEBUG     decaying_perceptron.py# 70      Epoch:  2    Learning rate: 0.005      Accuracy: 0.7466666666666667
+2024-02-12 23:04:17,637  DEBUG     decaying_perceptron.py# 70      Epoch:  3    Learning rate: 0.00333    Accuracy: 0.7266666666666667
+2024-02-12 23:04:17,647  DEBUG     decaying_perceptron.py# 70      Epoch:  4    Learning rate: 0.0025     Accuracy: 0.7466666666666667
+2024-02-12 23:04:17,657  DEBUG     decaying_perceptron.py# 70      Epoch:  5    Learning rate: 0.002      Accuracy: 0.7733333333333333
+2024-02-12 23:04:17,667  DEBUG     decaying_perceptron.py# 70      Epoch:  6    Learning rate: 0.00167    Accuracy: 0.7733333333333333
+2024-02-12 23:04:17,677  DEBUG     decaying_perceptron.py# 70      Epoch:  7    Learning rate: 0.00143    Accuracy: 0.78
+2024-02-12 23:04:17,687  DEBUG     decaying_perceptron.py# 70      Epoch:  8    Learning rate: 0.00125    Accuracy: 0.7466666666666667
+2024-02-12 23:04:17,697  DEBUG     decaying_perceptron.py# 70      Epoch:  9    Learning rate: 0.00111    Accuracy: 0.7733333333333333
+2024-02-12 23:04:17,708  DEBUG     decaying_perceptron.py# 70      Epoch: 10    Learning rate: 0.001      Accuracy: 0.7666666666666667
+2024-02-12 23:04:17,708  DEBUG     decaying_perceptron.py# 79      Best Epoch:  7    Test Fold Accuracy: 0.78
+2024-02-12 23:04:17,708  DEBUG     decaying_perceptron.py#161  
+2024-02-12 23:04:17,708  DEBUG     decaying_perceptron.py#163  
+2024-02-12 23:04:17,708  DEBUG     decaying_perceptron.py#165  All CV accuracy dictionary: {1: [0.6466666666666666, 0.7333333333333333, 0.76, 0.7266666666666667, 0.7666666666666667], 0.1: [0.7466666666666667, 0.76, 0.7466666666666667, 0.7533333333333333, 0.8], 0.01: [0.76, 0.74, 0.7533333333333333, 0.7533333333333333, 0.78]}
+2024-02-12 23:04:17,708  DEBUG     decaying_perceptron.py#182  Average accuracy of all folds with learning rate 1 is 0.7266666666666666
+2024-02-12 23:04:17,708  DEBUG     decaying_perceptron.py#182  Average accuracy of all folds with learning rate 0.1 is 0.7613333333333333
+2024-02-12 23:04:17,708  DEBUG     decaying_perceptron.py#182  Average accuracy of all folds with learning rate 0.01 is 0.7573333333333334
+2024-02-12 23:04:17,708  DEBUG     decaying_perceptron.py#188  All hyper parameter setting dictionary: {'learning rate 1': {'learning_rate': 1, 'accuracy': 0.7266666666666666}, 'learning rate 0.1': {'learning_rate': 0.1, 'accuracy': 0.7613333333333333}, 'learning rate 0.01': {'learning_rate': 0.01, 'accuracy': 0.7573333333333334}}
+2024-02-12 23:04:17,708  DEBUG     decaying_perceptron.py#195  --------------------------------------------------
+2024-02-12 23:04:17,708  DEBUG     decaying_perceptron.py#196  Online Training
+2024-02-12 23:04:17,708  DEBUG     decaying_perceptron.py# 91  Learning rate: 0.1
+2024-02-12 23:04:17,721  DEBUG     decaying_perceptron.py#105    Epoch:  1    Learning rate: 0.1        Accuracy: 0.69
+2024-02-12 23:04:17,734  DEBUG     decaying_perceptron.py#105    Epoch:  2    Learning rate: 0.05       Accuracy: 0.71
+2024-02-12 23:04:17,746  DEBUG     decaying_perceptron.py#105    Epoch:  3    Learning rate: 0.03333    Accuracy: 0.74
+2024-02-12 23:04:17,759  DEBUG     decaying_perceptron.py#105    Epoch:  4    Learning rate: 0.025      Accuracy: 0.75
+2024-02-12 23:04:17,772  DEBUG     decaying_perceptron.py#105    Epoch:  5    Learning rate: 0.02       Accuracy: 0.74
+2024-02-12 23:04:17,785  DEBUG     decaying_perceptron.py#105    Epoch:  6    Learning rate: 0.01667    Accuracy: 0.73
+2024-02-12 23:04:17,798  DEBUG     decaying_perceptron.py#105    Epoch:  7    Learning rate: 0.01429    Accuracy: 0.755
+2024-02-12 23:04:17,811  DEBUG     decaying_perceptron.py#105    Epoch:  8    Learning rate: 0.0125     Accuracy: 0.73
+2024-02-12 23:04:17,823  DEBUG     decaying_perceptron.py#105    Epoch:  9    Learning rate: 0.01111    Accuracy: 0.745
+2024-02-12 23:04:17,836  DEBUG     decaying_perceptron.py#105    Epoch: 10    Learning rate: 0.01       Accuracy: 0.74
+2024-02-12 23:04:17,849  DEBUG     decaying_perceptron.py#105    Epoch: 11    Learning rate: 0.00909    Accuracy: 0.74
+2024-02-12 23:04:17,862  DEBUG     decaying_perceptron.py#105    Epoch: 12    Learning rate: 0.00833    Accuracy: 0.74
+2024-02-12 23:04:17,875  DEBUG     decaying_perceptron.py#105    Epoch: 13    Learning rate: 0.00769    Accuracy: 0.765
+2024-02-12 23:04:17,888  DEBUG     decaying_perceptron.py#105    Epoch: 14    Learning rate: 0.00714    Accuracy: 0.76
+2024-02-12 23:04:17,900  DEBUG     decaying_perceptron.py#105    Epoch: 15    Learning rate: 0.00667    Accuracy: 0.755
+2024-02-12 23:04:17,913  DEBUG     decaying_perceptron.py#105    Epoch: 16    Learning rate: 0.00625    Accuracy: 0.76
+2024-02-12 23:04:17,926  DEBUG     decaying_perceptron.py#105    Epoch: 17    Learning rate: 0.00588    Accuracy: 0.755
+2024-02-12 23:04:17,939  DEBUG     decaying_perceptron.py#105    Epoch: 18    Learning rate: 0.00556    Accuracy: 0.74
+2024-02-12 23:04:17,952  DEBUG     decaying_perceptron.py#105    Epoch: 19    Learning rate: 0.00526    Accuracy: 0.755
+2024-02-12 23:04:17,965  DEBUG     decaying_perceptron.py#105    Epoch: 20    Learning rate: 0.005      Accuracy: 0.765
+2024-02-12 23:04:17,965  DEBUG     decaying_perceptron.py#116    Best Epoch: 20    Dev Accuracy: 0.765
+2024-02-12 23:04:17,967  DEBUG     decaying_perceptron.py#209  Test set accuracy for best hyper parameter (learning rate 0.1) is 0.7661691542288557

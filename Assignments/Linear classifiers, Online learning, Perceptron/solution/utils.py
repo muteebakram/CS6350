@@ -135,17 +135,26 @@ def plot_learning_curve(accuracies, label):
 
     fig = plt.figure()
 
+    xticks = []
     epochs = []
     for i in range(len(accuracies)):
         epochs.append(i + 1)
+        if i % 2 == 0:
+            xticks.append(i)
+
+    xticks.append(i + 1)
+
+    for i in range(len(accuracies)):
+        accuracies[i] = accuracies[i] * 100
 
     # Plot the data
     plt.plot(epochs, accuracies, marker="o")
-    plt.xticks(epochs)
+    plt.xticks(xticks)
+    plt.yticks([40, 50, 60, 70, 80, 90, 100])
 
     # Label the x-axis & y-axis
     plt.xlabel("Epochs")
-    plt.ylabel("Accuracy")
+    plt.ylabel("Accuracy %")
 
     # Add title to graph
     plt.title(f"{label}'s Learning curve")

@@ -7,6 +7,7 @@ from utils import (
     baseline_accuracy,
     init_logger,
     plot_learning_curve,
+    get_key_of_max_value,
 )
 
 
@@ -35,9 +36,6 @@ test_df = pd.read_csv("./hw2_data/diabetes.test.csv")
 def perceptron(df, learning_rate, weights, bias, epoch, avg_weights, avg_bias):
     update_count = 0
     example_count = 0
-    # log.debug(f"Before: {avg_bias}")
-    # log.debug(f"Before: {avg_weights}")
-    # total_examples = df.shape[0]
 
     for _, row in df.iterrows():
         example_count += 1
@@ -56,35 +54,9 @@ def perceptron(df, learning_rate, weights, bias, epoch, avg_weights, avg_bias):
             for index in range(len(weights)):
                 weights[index] += learning_rate * actual_label * example[index]
 
-        # average update
-        # dino = (epoch * total_examples) + example_count
-        # ratio = 1 / dino
-        # log.debug(
-        #     f"dino: {dino} epoch: {epoch}, total_examples: {total_examples}, example_count: {example_count}, ratio : {ratio}"
-        # )
-        # avg_bias += ratio * bias
         avg_bias += bias
         for index in range(len(weights)):
-            # log.debug(
-            #     f"first index: {index}, weights[index]: {weights[index]}, avg_weights[index]: {avg_weights[index]}"
-            # )
-            # avg_weights[index] = ratio * weights[index] + (1 - ratio) * avg_weights[index]
             avg_weights[index] += weights[index]
-            # log.debug(
-            #     f"second index: {index}, weights[index]: {weights[index]}, avg_weights[index]: {avg_weights[index]}"
-            # )
-
-        # break
-
-    # log.debug(f"Before: {avg_bias}")
-    # log.debug(f"Before: {avg_weights}")
-
-    # avg_bias = avg_bias / total_examples
-    # for index in range(len(avg_weights)):
-    #     avg_weights[index] = avg_weights[index] / total_examples
-
-    # log.debug(f"ratio: {ratio}, After: {avg_bias}")
-    # log.debug(f"ratio: {ratio}, After: {avg_weights}")
 
     return weights, bias, avg_weights, avg_bias, update_count
 
@@ -93,8 +65,6 @@ def cv_setup(train_fold_df, test_fold_df, learning_rate, weights, bias, epochs):
     # Initialize avg to the initial values.
     avg_bias = bias
     avg_weight = weights[:]  # Copy the list because list is mutable.
-    # log.debug(f"Muteeb avg_bias: {avg_bias}")
-    # log.debug(f"Muteeb avg_weight: {avg_weight}")
 
     best_epoch = 0
     best_accuracy = 0
@@ -114,9 +84,6 @@ def cv_setup(train_fold_df, test_fold_df, learning_rate, weights, bias, epochs):
             avg_bias=avg_bias,
         )
 
-        # log.debug(f"avg_bias: {avg_bias}")
-        # log.debug(f"avg_weight: {avg_weight}")
-
         accuracy = test_accuracy(df=test_fold_df, weights=avg_weight, bias=avg_bias)
         log.debug(f"    Epoch: {epoch + 1:>2}  Accuracy: {accuracy}")
 
@@ -126,7 +93,6 @@ def cv_setup(train_fold_df, test_fold_df, learning_rate, weights, bias, epochs):
             best_epoch = epoch
 
     log.debug(f"    Best Epoch: {best_epoch + 1:>2}    Test Fold Accuracy: {best_accuracy}")
-    # print(avg_weight)
     return best_accuracy
 
 
@@ -171,7 +137,7 @@ def online_setup(train_df, dev_df, learning_rate, weights, bias, epochs):
     print(
         f"c. The total number of updates the learning algorithm (learning rate {learning_rate}) performs on the training set: {total_update_counts}"
     )
-    return avg_weight, avg_bias, best_epoch, dev_accuracies
+    return avg_weight, avg_bias, dev_accuracies
 
 
 if __name__ == "__main__":
@@ -219,32 +185,42 @@ if __name__ == "__main__":
 
     log.debug(f"All CV accuracy dictionary: {all_cv_accuracies_dict}")
 
-    best_cv_accuracy = 0
+    best_lr_parameter = 0
     best_hyper_parameter = 0
+    hyper_parameter_setting = {}
+
     for learning_rate, cv_accuracies in all_cv_accuracies_dict.items():
         avg_fold_accuracy = 0
-        for accuracy in cv_accuracies:
-            if accuracy >= best_cv_accuracy:
-                best_cv_accuracy = accuracy
-                best_hyper_parameter = learning_rate
+        hyper_parameter = f"learning rate {learning_rate}"
+        hyper_parameter_setting[hyper_parameter] = {"learning_rate": 0}
 
+        for accuracy in cv_accuracies:
             avg_fold_accuracy += accuracy
+
+        hyper_parameter_setting[hyper_parameter]["learning_rate"] = learning_rate
+        hyper_parameter_setting[hyper_parameter]["accuracy"] = avg_fold_accuracy / len(cv_accuracies)
 
         log.debug(f"Average accuracy of all folds with learning rate {learning_rate} is {avg_fold_accuracy / len(dfs)}")
 
+    best_hyper_parameter = get_key_of_max_value(hyper_parameter_setting)
+    best_lr_parameter = hyper_parameter_setting[best_hyper_parameter]["learning_rate"]
+    best_cv_avg_accuracy = hyper_parameter_setting[best_hyper_parameter]["accuracy"]
+
+    log.debug(f"All hyper parameter setting dictionary: {hyper_parameter_setting}")
+
     print(f"a. The best hyper-parameters is {best_hyper_parameter}")
     print(
-        f"b. The cross-validation accuracy for the best hyperparameter ({best_hyper_parameter}) is {best_cv_accuracy}"
+        f"b. The cross-validation accuracy for the best hyperparameter ({best_hyper_parameter}) is {best_cv_avg_accuracy}"
     )
 
     log.debug(50 * "-")
     log.debug("Online Training")
 
     print(f"d. Development set accuracy for best hyper parameter ({best_hyper_parameter})")
-    best_weights, best_bias, best_epoch, dev_accuracies = online_setup(
+    best_weights, best_bias, dev_accuracies = online_setup(
         train_df=train_df,
         dev_df=dev_df,
-        learning_rate=best_hyper_parameter,
+        learning_rate=best_lr_parameter,
         weights=initial_weights,
         bias=initial_bias,
         epochs=20,

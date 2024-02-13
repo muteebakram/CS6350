@@ -8,6 +8,7 @@ from utils import (
     baseline_accuracy,
     init_logger,
     plot_learning_curve,
+    get_key_of_max_value,
 )
 
 
@@ -34,7 +35,7 @@ dev_df = pd.read_csv("./hw2_data/diabetes.dev.csv")
 test_df = pd.read_csv("./hw2_data/diabetes.test.csv")
 
 
-def perceptron(df, margin, learning_rate, weights, bias):
+def perceptron(df, margin, weights, bias):
     update_count = 0
     for _, row in df.iterrows():
         example = row.tolist()
@@ -66,9 +67,7 @@ def cv_setup(train_fold_df, test_fold_df, margin, learning_rate, weights, bias, 
         train_fold_df = train_fold_df.sample(frac=1, random_state=1)
 
         # each epoch produce new weight and bias which is input to next epoch.
-        weights, bias, _ = perceptron(
-            df=train_fold_df, margin=margin, learning_rate=learning_rate, weights=weights, bias=bias
-        )
+        weights, bias, _ = perceptron(df=train_fold_df, margin=margin, weights=weights, bias=bias)
 
         accuracy = test_accuracy(df=test_fold_df, weights=weights, bias=bias)
         log.debug(f"    Epoch: {epoch + 1:>2}    Accuracy: {accuracy}")
@@ -82,7 +81,7 @@ def cv_setup(train_fold_df, test_fold_df, margin, learning_rate, weights, bias, 
     return best_accuracy
 
 
-def online_setup(train_df, dev_df, margin, learning_rate, weights, bias, epochs):
+def online_setup(train_df, dev_df, margin, weights, bias, epochs):
     best_bias = 0
     best_weights = 0
     best_epoch = 0
@@ -96,9 +95,7 @@ def online_setup(train_df, dev_df, margin, learning_rate, weights, bias, epochs)
         train_df = train_df.sample(frac=1, random_state=1)
 
         # each epoch produce new weight and bias which is input to next epoch.
-        weights, bias, update_count = perceptron(
-            df=train_df, margin=margin, learning_rate=learning_rate, weights=weights, bias=bias
-        )
+        weights, bias, update_count = perceptron(df=train_df, margin=margin, weights=weights, bias=bias)
         total_update_counts += update_count
 
         accuracy = test_accuracy(df=dev_df, weights=weights, bias=bias)
@@ -118,7 +115,7 @@ def online_setup(train_df, dev_df, margin, learning_rate, weights, bias, epochs)
     print(
         f"c. The total number of updates the learning algorithm (margin {margin} & learning rate {learning_rate}) performs on the training set: {total_update_counts}"
     )
-    return best_weights, best_bias, best_epoch, dev_accuracies
+    return best_weights, best_bias, dev_accuracies
 
 
 if __name__ == "__main__":
@@ -170,40 +167,48 @@ if __name__ == "__main__":
 
     log.debug(f"All CV accuracy dictionary: {all_cv_accuracies_dict}")
 
-    best_cv_accuracy = 0
     best_lr_parameter = 0
     best_margin_parameter = 0
+    best_hyper_parameter = 0
+    hyper_parameter_setting = {}
+
     for margin, cv_lr_accuracies in all_cv_accuracies_dict.items():
         for learning_rate, cv_accuracies in cv_lr_accuracies.items():
             avg_fold_accuracy = 0
-            for accuracy in cv_accuracies:
-                if accuracy >= best_cv_accuracy:
-                    best_cv_accuracy = accuracy
-                    best_lr_parameter = learning_rate
-                    best_margin_parameter = margin
+            hyper_parameter = f"margin {margin} & learning rate {learning_rate}"
+            hyper_parameter_setting[hyper_parameter] = {"learning_rate": 0, "margin": 0}
 
+            for accuracy in cv_accuracies:
                 avg_fold_accuracy += accuracy
+
+            hyper_parameter_setting[hyper_parameter]["margin"] = margin
+            hyper_parameter_setting[hyper_parameter]["learning_rate"] = learning_rate
+            hyper_parameter_setting[hyper_parameter]["accuracy"] = avg_fold_accuracy / len(cv_accuracies)
 
             log.debug(
                 f"Average accuracy of all folds with margin {margin} & learning rate {learning_rate} is {avg_fold_accuracy / len(dfs)}"
             )
 
-    best_hyper_parameter = f"margin {best_margin_parameter} & learning rate {best_lr_parameter}"
+    best_hyper_parameter = get_key_of_max_value(hyper_parameter_setting)
+    best_margin_parameter = hyper_parameter_setting[best_hyper_parameter]["margin"]
+    best_lr_parameter = hyper_parameter_setting[best_hyper_parameter]["learning_rate"]
+    best_cv_avg_accuracy = hyper_parameter_setting[best_hyper_parameter]["accuracy"]
+
+    log.debug(f"All hyper parameter setting dictionary: {hyper_parameter_setting}")
 
     print(f"a. The best hyper-parameters is {best_hyper_parameter}")
     print(
-        f"b. The cross-validation accuracy for the best hyperparameter ({best_hyper_parameter}) is {best_cv_accuracy}"
+        f"b. The cross-validation accuracy for the best hyperparameter ({best_hyper_parameter}) is {best_cv_avg_accuracy}"
     )
 
     log.debug(50 * "-")
     log.debug("Online Training")
 
     print(f"d. Development set accuracy for best hyper parameter ({best_hyper_parameter})")
-    best_weights, best_bias, best_epoch, dev_accuracies = online_setup(
+    best_weights, best_bias, dev_accuracies = online_setup(
         train_df=train_df,
         dev_df=dev_df,
         margin=best_margin_parameter,
-        learning_rate=best_lr_parameter,
         weights=initial_weights,
         bias=initial_bias,
         epochs=20,
