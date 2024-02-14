@@ -1,40 +1,8 @@
 1. Simple Perceptron
 ******************************************************************
 
-2. Majority Baseline
-Test dataset has more positive examples of accuracy: 0.5223880597014925
-Development dataset has more positive examples of accuracy: 0.56
-
-3. Variants Result
-a. The best hyper-parameters is learning rate 0.01
-b. The cross-validation accuracy for the best hyperparameter (learning rate 0.01) is 0.7586666666666667
-d. Development set accuracy for best hyper parameter (learning rate 0.01)
-   Epoch:  1    Dev Accuracy: 0.73
-   Epoch:  2    Dev Accuracy: 0.755
-   Epoch:  3    Dev Accuracy: 0.74
-   Epoch:  4    Dev Accuracy: 0.745
-   Epoch:  5    Dev Accuracy: 0.74
-   Epoch:  6    Dev Accuracy: 0.73
-   Epoch:  7    Dev Accuracy: 0.74
-   Epoch:  8    Dev Accuracy: 0.74
-   Epoch:  9    Dev Accuracy: 0.735
-   Epoch: 10    Dev Accuracy: 0.74
-   Epoch: 11    Dev Accuracy: 0.74
-   Epoch: 12    Dev Accuracy: 0.72
-   Epoch: 13    Dev Accuracy: 0.755
-   Epoch: 14    Dev Accuracy: 0.745
-   Epoch: 15    Dev Accuracy: 0.74
-   Epoch: 16    Dev Accuracy: 0.74
-   Epoch: 17    Dev Accuracy: 0.745
-   Epoch: 18    Dev Accuracy: 0.75
-   Epoch: 19    Dev Accuracy: 0.745
-   Epoch: 20    Dev Accuracy: 0.745
-c. The total number of updates the learning algorithm (learning rate 0.01) performs on the training set: 3868
-e. Test set accuracy for best hyper parameter (learning rate 0.01) is 0.7711442786069652
-f. Plot a learning curve where the x axis is the epoch id and the y axis is the dev set accuracy using the classifier. Check figure './figs/Simple Perceptron.png'
-
-2. Decaying Learning Rate
-******************************************************************
+1. Briefly describe the design decisions that you have made in your implementation. (E.g, what programming language, how do you represent the vectors, etc.)
+I used Python programming language, and datasets are represented using pandas library data frame object. The weights vector is stored as a Python list and bias as a float number. From the 5-fold cross-validation of 10 epochs, the hyperparameter that yields the best average cross-validation across all ten epochs is picked. The decided hyperparameter is used for online learning on the training dataset and tested on the dev dataset to get the best weights and bias. The best weight and bias are used to test the accuracy of the test dataset. I have used the same initial random weights and bias between -0.01 & 0.01 for cross-validation and online training. The dataset is shuffled using the random seed to produce consistent randomness.
 
 2. Majority Baseline
 Test dataset has more positive examples of accuracy: 0.5223880597014925
@@ -42,69 +10,113 @@ Development dataset has more positive examples of accuracy: 0.56
 
 3. Variants Result
 a. The best hyper-parameters is learning rate 0.1
-b. The cross-validation accuracy for the best hyperparameter (learning rate 0.1) is 0.7613333333333333
+b. The cross-validation accuracy for the best hyperparameter (learning rate 0.1) is 0.7666666666666668
 d. Development set accuracy for best hyper parameter (learning rate 0.1)
-   Epoch:  1    Dev Accuracy: 0.69
-   Epoch:  2    Dev Accuracy: 0.71
-   Epoch:  3    Dev Accuracy: 0.74
+   Epoch:  1    Dev Accuracy: 0.73
+   Epoch:  2    Dev Accuracy: 0.755
+   Epoch:  3    Dev Accuracy: 0.745
    Epoch:  4    Dev Accuracy: 0.75
-   Epoch:  5    Dev Accuracy: 0.74
-   Epoch:  6    Dev Accuracy: 0.73
-   Epoch:  7    Dev Accuracy: 0.755
-   Epoch:  8    Dev Accuracy: 0.73
-   Epoch:  9    Dev Accuracy: 0.745
-   Epoch: 10    Dev Accuracy: 0.74
-   Epoch: 11    Dev Accuracy: 0.74
-   Epoch: 12    Dev Accuracy: 0.74
-   Epoch: 13    Dev Accuracy: 0.765
-   Epoch: 14    Dev Accuracy: 0.76
-   Epoch: 15    Dev Accuracy: 0.755
-   Epoch: 16    Dev Accuracy: 0.76
-   Epoch: 17    Dev Accuracy: 0.755
-   Epoch: 18    Dev Accuracy: 0.74
-   Epoch: 19    Dev Accuracy: 0.755
-   Epoch: 20    Dev Accuracy: 0.765
-c. The total number of updates the learning algorithm (learning rate 0.1) performs on the training set: 4004
-e. Test set accuracy for best hyper parameter (learning rate 0.1) is 0.7661691542288557
-f. Plot a learning curve where the x axis is the epoch id and the y axis is the dev set accuracy using the classifier. Check figure './figs/Decaying Perceptron.png'
+   Epoch:  5    Dev Accuracy: 0.725
+   Epoch:  6    Dev Accuracy: 0.715
+   Epoch:  7    Dev Accuracy: 0.75
+   Epoch:  8    Dev Accuracy: 0.74
+   Epoch:  9    Dev Accuracy: 0.72
+   Epoch: 10    Dev Accuracy: 0.695
+   Epoch: 11    Dev Accuracy: 0.7
+   Epoch: 12    Dev Accuracy: 0.68
+   Epoch: 13    Dev Accuracy: 0.735
+   Epoch: 14    Dev Accuracy: 0.685
+   Epoch: 15    Dev Accuracy: 0.75
+   Epoch: 16    Dev Accuracy: 0.745
+   Epoch: 17    Dev Accuracy: 0.73
+   Epoch: 18    Dev Accuracy: 0.73
+   Epoch: 19    Dev Accuracy: 0.77
+   Epoch: 20    Dev Accuracy: 0.72
+c. The total number of updates the learning algorithm (learning rate 0.1) performs on the training set: 4287
+e. Test set accuracy for best hyper parameter (learning rate 0.1) is 0.7711442786069652
+f. Plot a learning curve where the x axis is the epoch id and the y axis is the dev set accuracy using the classifier. Check figure './figs/Simple Perceptron.png'
 
-3. Margin Perceptron
+2. Decaying Learning Rate
 ******************************************************************
+
+1. Briefly describe the design decisions that you have made in your implementation. (E.g, what programming language, how do you represent the vectors, etc.)
+I used Python programming language, and datasets are represented using pandas library data frame object. The weights vector is stored as a Python list and bias as a float number. From the 5-fold cross-validation of 10 epochs, the hyperparameter that yields the best average cross-validation across all ten epochs is picked. The decided hyperparameter is used for online learning on the training dataset and tested on the dev dataset to get the best weights and bias. The best weight and bias are used to test the accuracy of the test dataset. I have used the same initial random weights and bias between -0.01 & 0.01 for cross-validation and online training. The dataset is shuffled using the random seed to produce consistent randomness.
 
 2. Majority Baseline
 Test dataset has more positive examples of accuracy: 0.5223880597014925
 Development dataset has more positive examples of accuracy: 0.56
 
 3. Variants Result
-a. The best hyper-parameters is margin 0.1 learning rate 0.1
-b. The cross-validation accuracy for the best hyperparameter (margin 0.1 learning rate 0.1) is 0.776
-d. Development set accuracy for best hyper parameter (margin 0.1 learning rate 0.1)
-   Epoch:  1    Dev Accuracy: 0.715
-   Epoch:  2    Dev Accuracy: 0.75
-   Epoch:  3    Dev Accuracy: 0.73
-   Epoch:  4    Dev Accuracy: 0.745
-   Epoch:  5    Dev Accuracy: 0.735
+a. The best hyper-parameters is learning rate 0.1
+b. The cross-validation accuracy for the best hyperparameter (learning rate 0.1) is 0.7586666666666667
+d. Development set accuracy for best hyper parameter (learning rate 0.1)
+   Epoch:  1    Dev Accuracy: 0.665
+   Epoch:  2    Dev Accuracy: 0.685
+   Epoch:  3    Dev Accuracy: 0.74
+   Epoch:  4    Dev Accuracy: 0.755
+   Epoch:  5    Dev Accuracy: 0.725
    Epoch:  6    Dev Accuracy: 0.735
    Epoch:  7    Dev Accuracy: 0.74
    Epoch:  8    Dev Accuracy: 0.735
+   Epoch:  9    Dev Accuracy: 0.745
+   Epoch: 10    Dev Accuracy: 0.735
+   Epoch: 11    Dev Accuracy: 0.735
+   Epoch: 12    Dev Accuracy: 0.74
+   Epoch: 13    Dev Accuracy: 0.75
+   Epoch: 14    Dev Accuracy: 0.75
+   Epoch: 15    Dev Accuracy: 0.755
+   Epoch: 16    Dev Accuracy: 0.755
+   Epoch: 17    Dev Accuracy: 0.75
+   Epoch: 18    Dev Accuracy: 0.745
+   Epoch: 19    Dev Accuracy: 0.755
+   Epoch: 20    Dev Accuracy: 0.755
+c. The total number of updates the learning algorithm (learning rate 0.1) performs on the training set: 4021
+e. Test set accuracy for best hyper parameter (learning rate 0.1) is 0.7661691542288557
+f. Plot a learning curve where the x axis is the epoch id and the y axis is the dev set accuracy using the classifier. Check figure './figs/Decaying Perceptron.png'
+
+3. Margin Perceptron
+******************************************************************
+
+1. Briefly describe the design decisions that you have made in your implementation. (E.g, what programming language, how do you represent the vectors, etc.)
+I used Python programming language, and datasets are represented using pandas library data frame object. The weights vector is stored as a Python list and bias as a float number. From the 5-fold cross-validation of 10 epochs, the hyperparameter that yields the best average cross-validation across all ten epochs is picked. The decided hyperparameter is used for online learning on the training dataset and tested on the dev dataset to get the best weights and bias. The best weight and bias are used to test the accuracy of the test dataset. I have used the same initial random weights and bias between -0.01 & 0.01 for cross-validation and online training. The dataset is shuffled using the random seed to produce consistent randomness.
+
+2. Majority Baseline
+Test dataset has more positive examples of accuracy: 0.5223880597014925
+Development dataset has more positive examples of accuracy: 0.56
+
+3. Variants Result
+a. The best hyper-parameters is margin 0.01 learning rate 0.1
+b. The cross-validation accuracy for the best hyperparameter (margin 0.01 learning rate 0.1) is 0.7746666666666667
+d. Development set accuracy for best hyper parameter (margin 0.01 learning rate 0.1)
+   Epoch:  1    Dev Accuracy: 0.735
+   Epoch:  2    Dev Accuracy: 0.76
+   Epoch:  3    Dev Accuracy: 0.74
+   Epoch:  4    Dev Accuracy: 0.74
+   Epoch:  5    Dev Accuracy: 0.74
+   Epoch:  6    Dev Accuracy: 0.74
+   Epoch:  7    Dev Accuracy: 0.735
+   Epoch:  8    Dev Accuracy: 0.73
    Epoch:  9    Dev Accuracy: 0.735
-   Epoch: 10    Dev Accuracy: 0.74
-   Epoch: 11    Dev Accuracy: 0.74
-   Epoch: 12    Dev Accuracy: 0.745
-   Epoch: 13    Dev Accuracy: 0.735
-   Epoch: 14    Dev Accuracy: 0.74
+   Epoch: 10    Dev Accuracy: 0.745
+   Epoch: 11    Dev Accuracy: 0.735
+   Epoch: 12    Dev Accuracy: 0.735
+   Epoch: 13    Dev Accuracy: 0.74
+   Epoch: 14    Dev Accuracy: 0.745
    Epoch: 15    Dev Accuracy: 0.745
    Epoch: 16    Dev Accuracy: 0.745
-   Epoch: 17    Dev Accuracy: 0.745
-   Epoch: 18    Dev Accuracy: 0.735
-   Epoch: 19    Dev Accuracy: 0.745
+   Epoch: 17    Dev Accuracy: 0.735
+   Epoch: 18    Dev Accuracy: 0.73
+   Epoch: 19    Dev Accuracy: 0.74
    Epoch: 20    Dev Accuracy: 0.745
-c. The total number of updates the learning algorithm (margin 0.1 & learning rate 0.1) performs on the training set: 3935
-e. Test set accuracy for best hyper parameter (margin 0.1 learning rate 0.1) is 0.7810945273631841
+c. The total number of updates the learning algorithm (margin 0.01 & learning rate 0.1) performs on the training set: 3946
+e. Test set accuracy for best hyper parameter (margin 0.01 learning rate 0.1) is 0.7810945273631841
 f. Plot a learning curve where the x axis is the epoch id and the y axis is the dev set accuracy using the classifier. Check figure './figs/Margin Perceptron.png'
 
 4. Average Perceptron
 ******************************************************************
+
+1. Briefly describe the design decisions that you have made in your implementation. (E.g, what programming language, how do you represent the vectors, etc.)
+I used Python programming language, and datasets are represented using pandas library data frame object. The weights vector is stored as a Python list and bias as a float number. From the 5-fold cross-validation of 10 epochs, the hyperparameter that yields the best average cross-validation across all ten epochs is picked. The decided hyperparameter is used for online learning on the training dataset and tested on the dev dataset to get the best weights and bias. The best weight and bias are used to test the accuracy of the test dataset. I have used the same initial random weights and bias between -0.01 & 0.01 for cross-validation and online training. The dataset is shuffled using the random seed to produce consistent randomness.
 
 2. Majority Baseline
 Test dataset has more positive examples of accuracy: 0.5223880597014925
@@ -112,34 +124,37 @@ Development dataset has more positive examples of accuracy: 0.56
 
 3. Variants Result
 a. The best hyper-parameters is learning rate 0.01
-b. The cross-validation accuracy for the best hyperparameter (learning rate 0.01) is 0.752
+b. The cross-validation accuracy for the best hyperparameter (learning rate 0.01) is 0.7453333333333333
 d. Development set accuracy for best hyper parameter (learning rate 0.01)
-   Epoch:  1    Dev Accuracy: 0.77
+   Epoch:  1    Dev Accuracy: 0.755
    Epoch:  2    Dev Accuracy: 0.76
-   Epoch:  3    Dev Accuracy: 0.77
-   Epoch:  4    Dev Accuracy: 0.765
-   Epoch:  5    Dev Accuracy: 0.755
-   Epoch:  6    Dev Accuracy: 0.76
-   Epoch:  7    Dev Accuracy: 0.76
+   Epoch:  3    Dev Accuracy: 0.76
+   Epoch:  4    Dev Accuracy: 0.76
+   Epoch:  5    Dev Accuracy: 0.77
+   Epoch:  6    Dev Accuracy: 0.78
+   Epoch:  7    Dev Accuracy: 0.775
    Epoch:  8    Dev Accuracy: 0.76
    Epoch:  9    Dev Accuracy: 0.76
    Epoch: 10    Dev Accuracy: 0.77
-   Epoch: 11    Dev Accuracy: 0.76
-   Epoch: 12    Dev Accuracy: 0.76
+   Epoch: 11    Dev Accuracy: 0.77
+   Epoch: 12    Dev Accuracy: 0.775
    Epoch: 13    Dev Accuracy: 0.765
-   Epoch: 14    Dev Accuracy: 0.765
+   Epoch: 14    Dev Accuracy: 0.755
    Epoch: 15    Dev Accuracy: 0.76
-   Epoch: 16    Dev Accuracy: 0.755
+   Epoch: 16    Dev Accuracy: 0.75
    Epoch: 17    Dev Accuracy: 0.76
-   Epoch: 18    Dev Accuracy: 0.76
-   Epoch: 19    Dev Accuracy: 0.76
-   Epoch: 20    Dev Accuracy: 0.76
-c. The total number of updates the learning algorithm (learning rate 0.01) performs on the training set: 3865
+   Epoch: 18    Dev Accuracy: 0.765
+   Epoch: 19    Dev Accuracy: 0.775
+   Epoch: 20    Dev Accuracy: 0.775
+c. The total number of updates the learning algorithm (learning rate 0.01) performs on the training set: 3980
 e. Test set accuracy for best hyper parameter (learning rate 0.01) is 0.7512437810945274
 f. Plot a learning curve where the x axis is the epoch id and the y axis is the dev set accuracy using the classifier. Check figure './figs/Average Perceptron.png'
 
-4. Aggressive Perceptron
+5. Aggressive Perceptron
 ******************************************************************
+
+1. Briefly describe the design decisions that you have made in your implementation. (E.g, what programming language, how do you represent the vectors, etc.)
+I used Python programming language, and datasets are represented using pandas library data frame object. The weights vector is stored as a Python list and bias as a float number. From the 5-fold cross-validation of 10 epochs, the hyperparameter that yields the best average cross-validation across all ten epochs is picked. The decided hyperparameter is used for online learning on the training dataset and tested on the dev dataset to get the best weights and bias. The best weight and bias are used to test the accuracy of the test dataset. I have used the same initial random weights and bias between -0.01 & 0.01 for cross-validation and online training. The dataset is shuffled using the random seed to produce consistent randomness.
 
 2. Majority Baseline
 Test dataset has more positive examples of accuracy: 0.5223880597014925
@@ -147,28 +162,28 @@ Development dataset has more positive examples of accuracy: 0.56
 
 3. Variants Result
 a. The best hyper-parameters is margin 0.01 & learning rate 1
-b. The cross-validation accuracy for the best hyperparameter (margin 0.01 & learning rate 1) is 0.776
+b. The cross-validation accuracy for the best hyperparameter (margin 0.01 & learning rate 1) is 0.764
 d. Development set accuracy for best hyper parameter (margin 0.01 & learning rate 1)
-   Epoch:  1    Dev Accuracy: 0.665
-   Epoch:  2    Dev Accuracy: 0.735
+   Epoch:  1    Dev Accuracy: 0.69
+   Epoch:  2    Dev Accuracy: 0.7
    Epoch:  3    Dev Accuracy: 0.625
-   Epoch:  4    Dev Accuracy: 0.735
-   Epoch:  5    Dev Accuracy: 0.715
-   Epoch:  6    Dev Accuracy: 0.68
-   Epoch:  7    Dev Accuracy: 0.77
-   Epoch:  8    Dev Accuracy: 0.69
+   Epoch:  4    Dev Accuracy: 0.725
+   Epoch:  5    Dev Accuracy: 0.7
+   Epoch:  6    Dev Accuracy: 0.675
+   Epoch:  7    Dev Accuracy: 0.725
+   Epoch:  8    Dev Accuracy: 0.665
    Epoch:  9    Dev Accuracy: 0.73
-   Epoch: 10    Dev Accuracy: 0.555
-   Epoch: 11    Dev Accuracy: 0.655
-   Epoch: 12    Dev Accuracy: 0.585
-   Epoch: 13    Dev Accuracy: 0.575
-   Epoch: 14    Dev Accuracy: 0.61
-   Epoch: 15    Dev Accuracy: 0.74
-   Epoch: 16    Dev Accuracy: 0.465
-   Epoch: 17    Dev Accuracy: 0.625
-   Epoch: 18    Dev Accuracy: 0.66
-   Epoch: 19    Dev Accuracy: 0.75
-   Epoch: 20    Dev Accuracy: 0.655
-c. The total number of updates the learning algorithm (margin 0.01 & learning rate 0.01) performs on the training set: 4925
+   Epoch: 10    Dev Accuracy: 0.6
+   Epoch: 11    Dev Accuracy: 0.65
+   Epoch: 12    Dev Accuracy: 0.565
+   Epoch: 13    Dev Accuracy: 0.56
+   Epoch: 14    Dev Accuracy: 0.6
+   Epoch: 15    Dev Accuracy: 0.745
+   Epoch: 16    Dev Accuracy: 0.46
+   Epoch: 17    Dev Accuracy: 0.635
+   Epoch: 18    Dev Accuracy: 0.645
+   Epoch: 19    Dev Accuracy: 0.74
+   Epoch: 20    Dev Accuracy: 0.645
+c. The total number of updates the learning algorithm (margin 0.01 & learning rate 0.01) performs on the training set: 4889
 e. Test set accuracy for best hyper parameter (margin 0.01 & learning rate 1) is 0.7064676616915423
 f. Plot a learning curve where the x axis is the epoch id and the y axis is the dev set accuracy using the classifier. Check figure './figs/Aggressive Perceptron.png'

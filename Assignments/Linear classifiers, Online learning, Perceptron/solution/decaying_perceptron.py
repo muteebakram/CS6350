@@ -7,7 +7,8 @@ from utils import (
     baseline_accuracy,
     init_logger,
     plot_learning_curve,
-    get_key_of_max_value
+    get_key_of_max_value,
+    print_answer_1,
 )
 
 
@@ -133,8 +134,10 @@ if __name__ == "__main__":
     log.debug(f"Initial bias: {initial_bias}")
     log.debug(f"Initial weights: {initial_weights}")
 
+    print_answer_1()
+
     print("2. Majority Baseline")
-    baseline_accuracy(test_df=test_df, dev_df=dev_df)
+    _, dev_baseline_accuracy = baseline_accuracy(test_df=test_df, dev_df=dev_df)
 
     print("\n3. Variants Result")
     log.debug(50 * "-")
@@ -211,7 +214,7 @@ if __name__ == "__main__":
     log.debug(f"Test set accuracy for best hyper parameter ({best_hyper_parameter}) is {test_data_accuracy}")
     print(f"e. Test set accuracy for best hyper parameter ({best_hyper_parameter}) is {test_data_accuracy}")
 
-    plot_learning_curve(accuracies=dev_accuracies, label=perceptron_type)
+    plot_learning_curve(accuracies=dev_accuracies, baseline_accuracy=dev_baseline_accuracy * 100, label=perceptron_type)
     print(
         f"f. Plot a learning curve where the x axis is the epoch id and the y axis is the dev set accuracy using the classifier. Check figure './figs/{perceptron_type}.png'"
     )

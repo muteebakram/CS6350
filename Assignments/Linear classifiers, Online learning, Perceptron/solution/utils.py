@@ -113,22 +113,39 @@ def baseline_accuracy(test_df, dev_df):
 
         return correct_prediction / total
 
+    test_baseline_accuracy = 0
     test_df_pos = get_accuracy(df=test_df, predict_label=1)
     test_df_neg = get_accuracy(df=test_df, predict_label=-1)
     if test_df_pos > test_df_neg:
         print(f"Test dataset has more positive examples of accuracy: {test_df_pos}")
+        test_baseline_accuracy = test_df_pos
     else:
         print(f"Test dataset has more negative examples of accuracy: {test_df_neg}")
+        test_baseline_accuracy = test_df_neg
 
+    dev_baseline_accuracy = 0
     dev_df_pos = get_accuracy(df=dev_df, predict_label=1)
     dev_df_neg = get_accuracy(df=dev_df, predict_label=-1)
     if dev_df_pos > dev_df_neg:
         print(f"Development dataset has more positive examples of accuracy: {dev_df_pos}")
+        dev_baseline_accuracy = dev_df_pos
     else:
         print(f"Development dataset has more negative examples of accuracy: {dev_df_neg}")
+        dev_baseline_accuracy = dev_df_neg
+
+    return test_baseline_accuracy, dev_baseline_accuracy
 
 
-def plot_learning_curve(accuracies, label):
+def print_answer_1():
+    print(
+        "1. Briefly describe the design decisions that you have made in your implementation. (E.g, what programming language, how do you represent the vectors, etc.)"
+    )
+    print(
+        """I used Python programming language, and datasets are represented using pandas library data frame object. The weights vector is stored as a Python list and bias as a float number. From the 5-fold cross-validation of 10 epochs, the hyperparameter that yields the best average cross-validation across all ten epochs is picked. The decided hyperparameter is used for online learning on the training dataset and tested on the dev dataset to get the best weights and bias. The best weight and bias are used to test the accuracy of the test dataset. I have used the same initial random weights and bias between -0.01 & 0.01 for cross-validation and online training. The dataset is shuffled using the random seed to produce consistent randomness.\n"""
+    )
+
+
+def plot_learning_curve(accuracies, baseline_accuracy, label):
     if not accuracies or type(accuracies) is not list:
         print(f"Can't plot learning curve. Invalid accuracies: {accuracies}")
         return
@@ -144,17 +161,40 @@ def plot_learning_curve(accuracies, label):
 
     xticks.append(i + 1)
 
+    max_epoch_accuracy = 0
+    min_epoch_accuracy = 100
     for i in range(len(accuracies)):
         accuracies[i] = accuracies[i] * 100
 
+        if accuracies[i] > max_epoch_accuracy:
+            max_epoch_accuracy = accuracies[i]
+
+        if accuracies[i] < min_epoch_accuracy:
+            min_epoch_accuracy = accuracies[i]
+
     # Plot the data
-    plt.plot(epochs, accuracies, marker="o")
+    plt.plot(epochs, accuracies, marker="o", label="Dev Epoch Accuracy")
+    plt.axhline(
+        y=min_epoch_accuracy,
+        color="orange",
+        linestyle="dotted",
+        label=f"Minimum Accuracy {round(min_epoch_accuracy, 3)}%",
+    )
+    plt.axhline(
+        y=max_epoch_accuracy, color="g", linestyle="dotted", label=f"Maximum Accuracy {round(max_epoch_accuracy, 3)}%"
+    )
+    plt.axhline(
+        y=baseline_accuracy, color="grey", linestyle="dotted", label=f"Baseline Accuracy {round(baseline_accuracy, 3)}%"
+    )
+
     plt.xticks(xticks)
-    plt.yticks([40, 50, 60, 70, 80, 90, 100])
+    plt.yticks([50, 60, 70, 80, 90])
 
     # Label the x-axis & y-axis
     plt.xlabel("Epochs")
     plt.ylabel("Accuracy %")
+
+    plt.legend()
 
     # Add title to graph
     plt.title(f"{label}'s Learning curve")
