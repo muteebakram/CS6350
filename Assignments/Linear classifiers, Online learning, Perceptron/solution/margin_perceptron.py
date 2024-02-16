@@ -1,6 +1,6 @@
+import numpy as np
 import pandas as pd
 from utils import (
-    predict,
     test_accuracy,
     prepare_train_test_folds,
     initialize_weights_bias,
@@ -42,11 +42,11 @@ def perceptron(df, margin, learning_rate, weights, bias):
         actual_label = example[0]  # y
         example = example[1:]  # x
 
-        # y(wT x + b) or y * predict
-        sign = actual_label * predict(example=example, weights=weights, bias=bias)
+        # y(wT x + b)
+        value = actual_label * (np.dot(weights, example) + bias)
 
         # update
-        if sign < margin:
+        if value < margin:
             update_count += 1
             bias += learning_rate * actual_label
             for index in range(len(weights)):
@@ -57,11 +57,9 @@ def perceptron(df, margin, learning_rate, weights, bias):
 
 
 def cv_setup(train_fold_df, test_fold_df, margin, learning_rate, weights, bias, epochs):
-    best_epoch = 0
-    best_accuracy = 0
     for epoch in range(epochs):
         # shuffle the whole data frame.
-        train_fold_df = train_fold_df.sample(frac=1, random_state=1)
+        train_fold_df = train_fold_df.sample(frac=1, random_state=1).reset_index(drop=True)
 
         new_learning_rate = learning_rate / (1 + epoch)
 
@@ -70,18 +68,8 @@ def cv_setup(train_fold_df, test_fold_df, margin, learning_rate, weights, bias, 
             df=train_fold_df, margin=margin, learning_rate=new_learning_rate, weights=weights, bias=bias
         )
 
-        accuracy = test_accuracy(df=test_fold_df, weights=weights, bias=bias)
-        log.debug(
-            f"    Epoch: {epoch + 1:>2}    Learning rate: {round(new_learning_rate, 5):<8}   Accuracy: {accuracy}"
-        )
-
-        # for the given margin and learning rate pick the best epoch
-        if accuracy >= best_accuracy:
-            best_accuracy = accuracy
-            best_epoch = epoch
-
-    log.debug(f"    Best Epoch: {best_epoch + 1:>2}    Test Fold Accuracy: {best_accuracy}")
-    return best_accuracy
+    accuracy = test_accuracy(df=test_fold_df, weights=weights, bias=bias)
+    return accuracy
 
 
 def online_setup(train_df, dev_df, margin, learning_rate, weights, bias, epochs):
@@ -95,7 +83,7 @@ def online_setup(train_df, dev_df, margin, learning_rate, weights, bias, epochs)
     log.debug(f"Learning rate: {learning_rate}")
     for epoch in range(epochs):
         # shuffle the whole data frame.
-        train_df = train_df.sample(frac=1, random_state=1)
+        train_df = train_df.sample(frac=1, random_state=1).reset_index(drop=True)
 
         new_learning_rate = learning_rate / (1 + epoch)
 
@@ -120,7 +108,7 @@ def online_setup(train_df, dev_df, margin, learning_rate, weights, bias, epochs)
     log.debug(f"  Best Epoch: {best_epoch + 1:>2}    Dev Accuracy: {best_accuracy}")
 
     print(
-        f"c. The total number of updates the learning algorithm (margin {margin} & learning rate {learning_rate}) performs on the training set: {total_update_counts}"
+        f"\nc. The total number of updates the learning algorithm (margin {margin} & learning rate {learning_rate}) performs on the training set: {total_update_counts}"
     )
     return best_weights, best_bias, dev_accuracies
 
@@ -161,7 +149,6 @@ if __name__ == "__main__":
                 all_cv_accuracies_dict[margin][learning_rate] = []
 
             for i in range(len(dfs)):
-                log.debug(f"  Cross validation {i}")
                 accuracy = cv_setup(
                     train_fold_df=train_folds[i],
                     test_fold_df=test_folds[i],
@@ -172,7 +159,7 @@ if __name__ == "__main__":
                     epochs=10,
                 )
                 all_cv_accuracies_dict[margin][learning_rate].append(accuracy)
-                log.debug("")
+                log.debug(f"  Cross validation (Fold {i}) Accuracy: {accuracy}")
 
             log.debug("")
 
@@ -209,13 +196,13 @@ if __name__ == "__main__":
 
     print(f"a. The best hyper-parameters is {best_hyper_parameter}")
     print(
-        f"b. The cross-validation accuracy for the best hyperparameter ({best_hyper_parameter}) is {best_cv_avg_accuracy}"
+        f"\nb. The cross-validation accuracy for the best hyperparameter ({best_hyper_parameter}) is {best_cv_avg_accuracy}"
     )
 
     log.debug(50 * "-")
     log.debug("Online Training")
 
-    print(f"d. Development set accuracy for best hyper parameter ({best_hyper_parameter})")
+    print(f"\nd. Development set accuracy for best hyper parameter ({best_hyper_parameter})")
     best_weights, best_bias, dev_accuracies = online_setup(
         train_df=train_df,
         dev_df=dev_df,
@@ -228,9 +215,9 @@ if __name__ == "__main__":
 
     test_data_accuracy = test_accuracy(df=test_df, weights=best_weights, bias=best_bias)
     log.debug(f"Test set accuracy for best hyper parameter ({best_hyper_parameter}) is {test_data_accuracy}")
-    print(f"e. Test set accuracy for best hyper parameter ({best_hyper_parameter}) is {test_data_accuracy}")
+    print(f"\ne. Test set accuracy for best hyper parameter ({best_hyper_parameter}) is {test_data_accuracy}")
 
     plot_learning_curve(accuracies=dev_accuracies, baseline_accuracy=dev_baseline_accuracy * 100, label=perceptron_type)
     print(
-        f"f. Plot a learning curve where the x axis is the epoch id and the y axis is the dev set accuracy using the classifier. Check figure './figs/{perceptron_type}.png'"
+        f"\nf. Plot a learning curve where the x axis is the epoch id and the y axis is the dev set accuracy using the classifier. Check figure './figs/{perceptron_type}.png'"
     )

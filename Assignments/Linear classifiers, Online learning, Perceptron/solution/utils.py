@@ -48,7 +48,7 @@ def get_key_of_max_value(map):
 
 def predict(example, weights, bias):
     value = np.dot(weights, example) + bias  # wT x + b
-    return 1 if value >= 0 else -1
+    return 1 if value > 0 else -1
 
 
 def test_accuracy(df, weights, bias):
@@ -65,6 +65,7 @@ def test_accuracy(df, weights, bias):
         if predicted_label == actual_label:
             correct_prediction += 1
 
+    # print(f"Test accuracy. Correct Pred: {correct_prediction}, Total: {total}")
     return correct_prediction / total
 
 

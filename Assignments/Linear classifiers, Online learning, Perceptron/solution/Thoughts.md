@@ -32,15 +32,13 @@ Given: This Phi func should not have radius.
 
 - 1
 - 1
-- 3
+- 2
 
 3. Is linearly separable?
 
-- Yes linearly seperable. y = x4
+- Yes linearly separable. y = x4
 
 ### 2. Feature transformations
-
-
 
 ### 3. Mistake Bound Model of Learning
 
