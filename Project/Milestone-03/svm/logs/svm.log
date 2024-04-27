@@ -1,0 +1,1102 @@
+
+Glove Dataset Setup Details
+  Epoch Error: 0.01
+  Random Seed: 42
+  Learning Rates: [1.0, 0.1, 0.01, 0.001]
+  Tradeoff Parameters: [10000.0, 1000.0, 100.0, 0.1, 0.01, 0.001]
+
+  SVM: Glove Dataset Learning rates: 1.0, Tradeoff: 10000.0
+  glove_lr_1.0_tradeoff_10000.0
+
+    Epoch: 1, First Objective: 850775180423980.6, Loss: 72251989984.24384
+    Epoch: 2, Objective difference: 0.025065894380517977, Loss: 60371151947.76722
+
+    Avg_accuracy: 0.5164444444444445
+    Precision: 1.0
+    Recall: 0.0009182736455463728
+    F1-Value: 0.0018348623853211008
+
+  SVM: Glove Dataset Learning rates: 1.0, Tradeoff: 1000.0
+  glove_lr_1.0_tradeoff_1000.0
+
+    Epoch: 1, First Objective: 8507759646838.301, Loss: 7225206841.024393
+    Epoch: 2, Objective difference: 0.025065879208388906, Loss: 6037123104.876715
+
+    Avg_accuracy: 0.5164444444444445
+    Precision: 1.0
+    Recall: 0.0009182736455463728
+    F1-Value: 0.0018348623853211008
+
+  SVM: Glove Dataset Learning rates: 1.0, Tradeoff: 100.0
+  glove_lr_1.0_tradeoff_100.0
+
+    Epoch: 1, First Objective: 85078380728.40688, Loss: 722528526.7024373
+    Epoch: 2, Objective difference: 0.025065727487059306, Loss: 603720220.587674
+
+    Avg_accuracy: 0.5164444444444445
+    Precision: 1.0
+    Recall: 0.0009182736455463728
+    F1-Value: 0.0018348623853211008
+
+  SVM: Glove Dataset Learning rates: 1.0, Tradeoff: 0.1
+  glove_lr_1.0_tradeoff_0.1
+
+    Epoch: 1, First Objective: 85949.20982550914, Loss: 731236.8183635231
+    Epoch: 2, Objective difference: 0.024896571408228745, Loss: 612501.4028937723
+
+    Avg_accuracy: 0.5164444444444445
+    Precision: 1.0
+    Recall: 0.0009182736455463728
+    F1-Value: 0.0018348623853211008
+
+  SVM: Glove Dataset Learning rates: 1.0, Tradeoff: 0.01
+  glove_lr_1.0_tradeoff_0.01
+
+    Epoch: 1, First Objective: 1038.346430095107, Loss: 88307.81058837139
+    Epoch: 2, Objective difference: 0.04852788708994757, Loss: 71048.50263745476
+
+    Avg_accuracy: 0.5164444444444445
+    Precision: 1.0
+    Recall: 0.0009182736455463728
+    F1-Value: 0.0018348623853211008
+
+  SVM: Glove Dataset Learning rates: 1.0, Tradeoff: 0.001
+  glove_lr_1.0_tradeoff_0.001
+
+    Epoch: 1, First Objective: 20.973600630795367, Loss: 19307.69668693309
+    Epoch: 2, Objective difference: 0.5565464949282116, Loss: 24925.84494112137
+    Epoch: 3, Objective difference: 0.2611437145203988, Loss: 20724.387231344564
+    Epoch: 4, Objective difference: 0.11927785129811194, Loss: 23045.14943067921
+    Epoch: 5, Objective difference: 0.18552974492092963, Loss: 19624.503567476342
+    Epoch: 6, Objective difference: 0.11944856125385936, Loss: 21431.19412204594
+    Epoch: 7, Objective difference: 0.08470426286099514, Loss: 19803.99962777702
+
+    Avg_accuracy: 0.5164444444444445
+    Precision: 1.0
+    Recall: 0.0009182736455463728
+    F1-Value: 0.0018348623853211008
+
+  SVM: Glove Dataset Learning rates: 0.1, Tradeoff: 10000.0
+  glove_lr_0.1_tradeoff_10000.0
+
+    Epoch: 1, First Objective: 102417126210122.95, Loss: 8539040819.786889
+    Epoch: 2, Objective difference: 0.3314354965447415, Loss: 12096244245.4086
+    Epoch: 3, Objective difference: 0.3415957078233376, Loss: 17129617595.970331
+    Epoch: 4, Objective difference: 0.7015335918528978, Loss: 4879442211.163118
+    Epoch: 5, Objective difference: 0.2297282569909799, Loss: 3611871306.7252235
+    Epoch: 6, Objective difference: 0.33396043775755424, Loss: 2221383655.1015825
+    Epoch: 7, Objective difference: 0.23240871675476324, Loss: 1620240675.9911542
+    Epoch: 8, Objective difference: 1.9098060226035565, Loss: 5454242880.311344
+    Epoch: 9, Objective difference: 0.47847827549980954, Loss: 8550153805.288695
+    Epoch: 10, Objective difference: 0.453011158445216, Loss: 4667288966.924927
+    Epoch: 11, Objective difference: 0.7830359901892845, Loss: 843532216.7616045
+    Epoch: 12, Objective difference: 4.505671814302145, Loss: 5734486579.214755
+    Epoch: 13, Objective difference: 0.2972998894781398, Loss: 7482328421.455293
+    Epoch: 14, Objective difference: 0.6896050657109883, Loss: 2133359081.2488527
+    Epoch: 15, Objective difference: 0.061503109149996675, Loss: 2259231572.4236674
+
+    Avg_accuracy: 0.5262222222222223
+    Precision: 0.5934959349593496
+    Recall: 0.06703397612488522
+    F1-Value: 0.12046204620462046
+
+  SVM: Glove Dataset Learning rates: 0.1, Tradeoff: 1000.0
+  glove_lr_0.1_tradeoff_1000.0
+
+    Epoch: 1, First Objective: 1024179081301.4375, Loss: 853911901.1786929
+    Epoch: 2, Objective difference: 0.3314330540414415, Loss: 1209632333.7408571
+    Epoch: 3, Objective difference: 0.341593727185764, Loss: 1712969669.69704
+    Epoch: 4, Objective difference: 0.7015306284189271, Loss: 487952003.41631484
+    Epoch: 5, Objective difference: 0.22972486081043986, Loss: 361194979.57252204
+    Epoch: 6, Objective difference: 0.23952970611415367, Loss: 249630550.53830436
+    Epoch: 7, Objective difference: 0.32771425784849684, Loss: 162031097.49911425
+    Epoch: 8, Objective difference: 1.9097461389841712, Loss: 545431866.9311316
+    Epoch: 9, Objective difference: 0.4784729112040726, Loss: 855023229.428874
+    Epoch: 10, Objective difference: 0.45300731278440104, Loss: 466736747.3924929
+    Epoch: 11, Objective difference: 0.7830247802825637, Loss: 84360597.17616041
+    Epoch: 12, Objective difference: 4.505373415277307, Loss: 573456504.1214765
+    Epoch: 13, Objective difference: 0.2972960227279538, Loss: 748240683.8455268
+    Epoch: 14, Objective difference: 0.6895981313682876, Loss: 213343779.52488634
+    Epoch: 15, Objective difference: 0.06150010325046942, Loss: 225930781.142367
+
+    Avg_accuracy: 0.5262222222222223
+    Precision: 0.5934959349593496
+    Recall: 0.06703397612488522
+    F1-Value: 0.12046204620462046
+
+  SVM: Glove Dataset Learning rates: 0.1, Tradeoff: 100.0
+  glove_lr_0.1_tradeoff_100.0
+
+    Epoch: 1, First Objective: 10242572733.012869, Loss: 85399009.31786886
+    Epoch: 2, Objective difference: 0.331408631062859, Loss: 120971142.57408562
+    Epoch: 3, Objective difference: 0.34157392712141293, Loss: 171304877.75813186
+    Epoch: 4, Objective difference: 0.7015009966110896, Loss: 48802982.641631305
+    Epoch: 5, Objective difference: 0.22969089268791643, Loss: 36127347.493176274
+    Epoch: 6, Objective difference: 0.23949843742748478, Loss: 24970339.77683016
+    Epoch: 7, Objective difference: 0.32764757479390977, Loss: 16210140.497812472
+    Epoch: 8, Objective difference: 2.05726976117863, Loss: 57767989.50044716
+    Epoch: 9, Objective difference: 0.4067910072181762, Loss: 85510172.06896946
+    Epoch: 10, Objective difference: 0.43881678254229267, Loss: 47659101.35177336
+    Epoch: 11, Objective difference: 0.24318693996608495, Loss: 36091625.465879664
+    Epoch: 12, Objective difference: 0.5384500660781348, Loss: 57352101.36781451
+    Epoch: 13, Objective difference: 0.3812921163933671, Loss: 35211361.75347697
+    Epoch: 14, Objective difference: 0.23566096732707065, Loss: 25235512.391115587
+    Epoch: 15, Objective difference: 0.40523473158228035, Loss: 13869513.749763615
+    Epoch: 16, Objective difference: 2.186358934609939, Loss: 51966975.457795806
+    Epoch: 17, Objective difference: 0.6706067319204567, Loss: 15334222.846546734
+    Epoch: 18, Objective difference: 0.5018524012338947, Loss: 7102130.935170503
+    Epoch: 19, Objective difference: 0.3771281845401981, Loss: 4537188.452589233
+    Epoch: 20, Objective difference: 12.298921337739008, Loss: 70881287.60780126
+
+    Avg_accuracy: 0.5177777777777778
+    Precision: 0.6666666666666666
+    Recall: 0.0073461891643709825
+    F1-Value: 0.014532243415077202
+
+  SVM: Glove Dataset Learning rates: 0.1, Tradeoff: 0.1
+  glove_lr_0.1_tradeoff_0.1
+
+    Epoch: 1, First Objective: 33588.86518494605, Loss: 295584.87630152056
+    Epoch: 2, Objective difference: 0.4086537269667658, Loss: 177639.57976997163
+    Epoch: 3, Objective difference: 0.19386914407276587, Loss: 220492.52212599185
+    Epoch: 4, Objective difference: 0.5537965963603917, Loss: 98033.58153972767
+    Epoch: 5, Objective difference: 0.48003679081620987, Loss: 48108.86193700886
+    Epoch: 6, Objective difference: 0.43345541747601385, Loss: 24120.00423156726
+    Epoch: 7, Objective difference: 1.6892462679471045, Loss: 74957.73284623287
+    Epoch: 8, Objective difference: 0.11104276150309825, Loss: 83606.45691994595
+    Epoch: 9, Objective difference: 0.17107425977591792, Loss: 102677.23371346423
+    Epoch: 10, Objective difference: 0.44372077060829473, Loss: 55458.43006901998
+    Epoch: 11, Objective difference: 0.28956166854866716, Loss: 39460.820117284544
+    Epoch: 12, Objective difference: 0.21234643064869696, Loss: 49220.00340820687
+    Epoch: 13, Objective difference: 0.11021019963933609, Loss: 54320.84664581718
+    Epoch: 14, Objective difference: 0.29450512741752577, Loss: 70600.4235564535
+    Epoch: 15, Objective difference: 0.4168886775888572, Loss: 40009.91608559728
+    Epoch: 16, Objective difference: 0.15563829888535322, Loss: 47595.01751130892
+    Epoch: 17, Objective difference: 0.06610559491929954, Loss: 44021.24275875901
+
+    Avg_accuracy: 0.5253333333333333
+    Precision: 0.6567164179104478
+    Recall: 0.04040404040404041
+    F1-Value: 0.07612456747404844
+
+  SVM: Glove Dataset Learning rates: 0.1, Tradeoff: 0.01
+  glove_lr_0.1_tradeoff_0.01
+
+    Epoch: 1, First Objective: 458.20767720716645, Loss: 41096.41904628749
+    Epoch: 2, Objective difference: 0.5577505343480821, Loss: 17215.7613539803
+    Epoch: 3, Objective difference: 0.5208471615813518, Loss: 28694.243229936692
+    Epoch: 4, Objective difference: 0.08132373921661266, Loss: 26881.585333887146
+
+    Avg_accuracy: 0.5182222222222223
+    Precision: 0.8571428571428571
+    Recall: 0.005509641873278237
+    F1-Value: 0.010948905109489052
+
+  SVM: Glove Dataset Learning rates: 0.1, Tradeoff: 0.001
+  glove_lr_0.1_tradeoff_0.001
+
+    Epoch: 1, First Objective: 22.194517860729917, Loss: 20116.00198282047
+    Epoch: 2, Objective difference: 0.19512935703562292, Loss: 17502.093060244533
+    Epoch: 3, Objective difference: 0.016174945964496444, Loss: 17683.712318582664
+
+    Avg_accuracy: 0.5186666666666667
+    Precision: 1.0
+    Recall: 0.005509641873278237
+    F1-Value: 0.010958904109589041
+
+  SVM: Glove Dataset Learning rates: 0.01, Tradeoff: 10000.0
+  glove_lr_0.01_tradeoff_10000.0
+
+    Epoch: 1, First Objective: 53471421124431.34, Loss: 5058648366.093705
+    Epoch: 2, Objective difference: 0.8835666883482223, Loss: 481684812.8793786
+    Epoch: 3, Objective difference: 3.5252256059166176, Loss: 2743258819.8651266
+    Epoch: 4, Objective difference: 0.6498662358531745, Loss: 933277400.3894899
+    Epoch: 5, Objective difference: 0.7035432218884471, Loss: 247698609.0203078
+    Epoch: 6, Objective difference: 0.17311571014306137, Loss: 204199631.82736525
+    Epoch: 7, Objective difference: 0.310009212086142, Loss: 279302480.8098851
+    Epoch: 8, Objective difference: 0.7911500461436725, Loss: 531243248.8261284
+    Epoch: 9, Objective difference: 0.6772625226594637, Loss: 923402552.751293
+    Epoch: 10, Objective difference: 0.4506023576786462, Loss: 500770348.2878936
+    Epoch: 11, Objective difference: 0.40362853127820486, Loss: 715317211.9087527
+    Epoch: 12, Objective difference: 0.6386573617644684, Loss: 244790221.14770702
+    Epoch: 13, Objective difference: 0.6308442195803353, Loss: 80433515.32149899
+    Epoch: 14, Objective difference: 3.9053623341759263, Loss: 462809481.0589258
+    Epoch: 15, Objective difference: 0.4175985163337995, Loss: 263966935.4909593
+    Epoch: 16, Objective difference: 1.0255120451196014, Loss: 552046757.4276859
+    Epoch: 17, Objective difference: 0.8100119916846009, Loss: 95399944.64944813
+    Epoch: 18, Objective difference: 0.4122068332837412, Loss: 140858478.3690518
+    Epoch: 19, Objective difference: 0.15282498875531936, Loss: 118891438.08595158
+    Epoch: 20, Objective difference: 4.85137356748969, Loss: 740768851.618802
+
+    Avg_accuracy: 0.5173333333333333
+    Precision: 0.7142857142857143
+    Recall: 0.004591368227731864
+    F1-Value: 0.009124087591240875
+
+  SVM: Glove Dataset Learning rates: 0.01, Tradeoff: 1000.0
+  glove_lr_0.01_tradeoff_1000.0
+
+    Epoch: 1, First Objective: 534722061044.21924, Loss: 505872686.40936863
+    Epoch: 2, Objective difference: 0.8835547488101742, Loss: 48175779.60052154
+    Epoch: 3, Objective difference: 3.626302943881024, Loss: 281218085.3550646
+    Epoch: 4, Objective difference: 0.6768078387029736, Loss: 87330455.20031072
+    Epoch: 5, Objective difference: 0.7127673630472963, Loss: 21777020.295654695
+    Epoch: 6, Objective difference: 0.14358895901754334, Loss: 26677724.711756147
+    Epoch: 7, Objective difference: 0.21054660584791646, Loss: 20902043.667599212
+    Epoch: 8, Objective difference: 0.0007852293605173633, Loss: 20700101.142361894
+
+    Avg_accuracy: 0.5417777777777778
+    Precision: 0.5179900744416873
+    Recall: 0.7667584940312213
+    F1-Value: 0.6182895223991114
+
+  SVM: Glove Dataset Learning rates: 0.01, Tradeoff: 100.0
+  glove_lr_0.01_tradeoff_100.0
+
+    Epoch: 1, First Objective: 5253913133.845029, Loss: 50224164.89717872
+    Epoch: 2, Objective difference: 0.8695179650112678, Loss: 5767128.677103829
+    Epoch: 3, Objective difference: 3.125579617655457, Loss: 27598493.186414205
+    Epoch: 4, Objective difference: 0.756443706209355, Loss: 6431000.338910798
+    Epoch: 5, Objective difference: 0.6255071836666594, Loss: 2068700.6003714732
+    Epoch: 6, Objective difference: 0.32993208276429964, Loss: 3064673.182147934
+    Epoch: 7, Objective difference: 0.26474927113293295, Loss: 3974079.845155723
+    Epoch: 8, Objective difference: 0.4452606147304712, Loss: 2078889.8399985824
+    Epoch: 9, Objective difference: 0.39545452904148326, Loss: 3152085.784040651
+    Epoch: 10, Objective difference: 0.5539479449198919, Loss: 5000889.253850908
+    Epoch: 11, Objective difference: 0.14184341533379552, Loss: 4257908.582619778
+    Epoch: 12, Objective difference: 0.5906543370987245, Loss: 1623445.6790626936
+    Epoch: 13, Objective difference: 0.46413733972422716, Loss: 807556.0781973702
+    Epoch: 14, Objective difference: 0.8399399646610638, Loss: 1643152.572043741
+    Epoch: 15, Objective difference: 0.04180037160363884, Loss: 1589722.1200280492
+
+    Avg_accuracy: 0.5955555555555555
+    Precision: 0.6337817638266069
+    Recall: 0.38934802571166205
+    F1-Value: 0.4823663253697383
+
+  SVM: Glove Dataset Learning rates: 0.01, Tradeoff: 0.1
+  glove_lr_0.01_tradeoff_0.1
+
+    Epoch: 1, First Objective: 2517.391792702902, Loss: 21867.09015335048
+    Epoch: 2, Objective difference: 0.22306530013570772, Loss: 17936.858687729367
+    Epoch: 3, Objective difference: 0.41610296285709536, Loss: 26540.230493928106
+    Epoch: 4, Objective difference: 0.04371391033911526, Loss: 25150.31632542192
+
+    Avg_accuracy: 0.5471111111111111
+    Precision: 0.7651515151515151
+    Recall: 0.09274563820018365
+    F1-Value: 0.16543816543816545
+
+  SVM: Glove Dataset Learning rates: 0.01, Tradeoff: 0.01
+  glove_lr_0.01_tradeoff_0.01
+
+    Epoch: 1, First Objective: 183.40973371949343, Loss: 17710.141259464388
+    Epoch: 2, Objective difference: 0.05278184467289709, Loss: 16930.694135030186
+
+    Avg_accuracy: 0.5795555555555556
+    Precision: 0.6151368760064412
+    Recall: 0.3507805325987144
+    F1-Value: 0.44678362573099406
+
+  SVM: Glove Dataset Learning rates: 0.01, Tradeoff: 0.001
+  glove_lr_0.01_tradeoff_0.001
+
+    Epoch: 1, First Objective: 17.475664561018206, Loss: 17350.721831713283
+    Epoch: 2, Objective difference: 0.0004907341914745643, Loss: 17387.84899477655
+
+    Avg_accuracy: 0.4822222222222222
+    Precision: 0.4829290206648697
+    Recall: 0.9871441689623508
+    F1-Value: 0.6485671191553544
+
+  SVM: Glove Dataset Learning rates: 0.001, Tradeoff: 10000.0
+  glove_lr_0.001_tradeoff_10000.0
+
+    Epoch: 1, First Objective: 2180234392411.1345, Loss: 205662824.22484508
+    Epoch: 2, Objective difference: 0.735227980958007, Loss: 50607309.389579654
+    Epoch: 3, Objective difference: 4.689675701396083, Loss: 324186946.0317119
+    Epoch: 4, Objective difference: 0.6593166198137737, Loss: 108534608.4854039
+    Epoch: 5, Objective difference: 0.7305063587936194, Loss: 27366240.292249028
+    Epoch: 6, Objective difference: 0.1778725792258752, Loss: 22722612.651506815
+    Epoch: 7, Objective difference: 0.40764501246475404, Loss: 32969573.5149812
+    Epoch: 8, Objective difference: 0.9327166033308875, Loss: 65971075.5849046
+    Epoch: 9, Objective difference: 0.41317292615365764, Loss: 94071481.76791435
+    Epoch: 10, Objective difference: 0.2998751851548124, Loss: 65559316.21038834
+    Epoch: 11, Objective difference: 0.48099862422648704, Loss: 33705689.16745592
+    Epoch: 12, Objective difference: 1.2068523039903623, Loss: 75479255.16358355
+    Epoch: 13, Objective difference: 0.809856095086614, Loss: 13647978.54105526
+    Epoch: 14, Objective difference: 1.3335355413547019, Loss: 33105695.19101043
+    Epoch: 15, Objective difference: 0.5331395439964042, Loss: 15146191.627175165
+    Epoch: 16, Objective difference: 2.3738330469533366, Loss: 52780122.182691574
+    Epoch: 17, Objective difference: 0.7451257573109505, Loss: 13018236.070867497
+    Epoch: 18, Objective difference: 0.13105838954013518, Loss: 11257772.2100473
+    Epoch: 19, Objective difference: 1.4278254350251913, Loss: 28213465.71592564
+    Epoch: 20, Objective difference: 1.2832325972603649, Loss: 65080945.04995164
+
+    Avg_accuracy: 0.5217777777777778
+    Precision: 0.6382978723404256
+    Recall: 0.027548209366391185
+    F1-Value: 0.0528169014084507
+
+  SVM: Glove Dataset Learning rates: 0.001, Tradeoff: 1000.0
+  glove_lr_0.001_tradeoff_1000.0
+
+    Epoch: 1, First Objective: 17287500339.906364, Loss: 16025928.652164126
+    Epoch: 2, Objective difference: 0.4998966760636698, Loss: 7963119.187874556
+    Epoch: 3, Objective difference: 1.9767602761664695, Loss: 25330830.47188605
+    Epoch: 4, Objective difference: 0.6511584156621193, Loss: 8634529.638508547
+    Epoch: 5, Objective difference: 0.6904491672827991, Loss: 2529192.4787417264
+    Epoch: 6, Objective difference: 0.43780546010728894, Loss: 3776346.84067638
+    Epoch: 7, Objective difference: 0.12383843841683916, Loss: 3314320.318945045
+    Epoch: 8, Objective difference: 0.4234569511199964, Loss: 1868848.4083041274
+    Epoch: 9, Objective difference: 4.390874106704558, Loss: 10752358.206945138
+    Epoch: 10, Objective difference: 0.5195412189151785, Loss: 5113571.603212637
+    Epoch: 11, Objective difference: 0.12057651527041194, Loss: 5763441.138748674
+    Epoch: 12, Objective difference: 0.09570434705385455, Loss: 5204762.034659889
+
+    Avg_accuracy: 0.5271111111111111
+    Precision: 0.5060768108896451
+    Recall: 0.9559228650137741
+    F1-Value: 0.6617927527018436
+
+  SVM: Glove Dataset Learning rates: 0.001, Tradeoff: 100.0
+  glove_lr_0.001_tradeoff_100.0
+
+    Epoch: 1, First Objective: 144096840.74390522, Loss: 1313555.365367701
+    Epoch: 2, Objective difference: 0.5739591260685031, Loss: 542577.47300064
+    Epoch: 3, Objective difference: 3.5965460964316804, Loss: 2780711.43621518
+    Epoch: 4, Objective difference: 0.4799767271983101, Loss: 1431805.337908118
+    Epoch: 5, Objective difference: 0.08289707965277833, Loss: 1560329.237069727
+
+    Avg_accuracy: 0.49066666666666664
+    Precision: 0.48702776513427404
+    Recall: 0.9825528007346189
+    F1-Value: 0.6512477175897748
+
+  SVM: Glove Dataset Learning rates: 0.001, Tradeoff: 0.1
+  glove_lr_0.001_tradeoff_0.1
+
+    Epoch: 1, First Objective: 1889.475009674093, Loss: 18107.072305000554
+    Epoch: 2, Objective difference: 0.1487856211988258, Loss: 15317.410644160891
+    Epoch: 3, Objective difference: 0.04021830041088604, Loss: 16020.57350288053
+
+    Avg_accuracy: 0.5795555555555556
+    Precision: 0.6748166259168704
+    Recall: 0.2534435261707989
+    F1-Value: 0.36849132176234983
+
+  SVM: Glove Dataset Learning rates: 0.001, Tradeoff: 0.01
+  glove_lr_0.001_tradeoff_0.01
+
+    Epoch: 1, First Objective: 170.7775247402509, Loss: 16767.81297347312
+    Epoch: 2, Objective difference: 0.0034598954699107546, Loss: 16691.316447806268
+
+    Avg_accuracy: 0.5951111111111111
+    Precision: 0.5818014705882353
+    Recall: 0.581267217630854
+    F1-Value: 0.5815342214056041
+
+  SVM: Glove Dataset Learning rates: 0.001, Tradeoff: 0.001
+  glove_lr_0.001_tradeoff_0.001
+
+    Epoch: 1, First Objective: 17.440921405124666, Loss: 17354.03198778192
+    Epoch: 2, Objective difference: 0.00034744703874473823, Loss: 17357.827505606943
+
+    Avg_accuracy: 0.484
+    Precision: 0.483710407239819
+    Recall: 0.9816345270890725
+    F1-Value: 0.648075174295241
+
+BOW Dataset Setup Details
+  Epoch Error: 0.1
+  Random Seed: 42
+  Learning Rates: [1.0, 0.1, 0.01, 0.001]
+  Tradeoff Parameters: [10000.0, 1000.0, 100.0, 0.1, 0.01, 0.001]
+
+  SVM: BOW Dataset Learning rates: 1.0, Tradeoff: 10000.0
+  bow_lr_1.0_tradeoff_10000.0
+
+    Epoch: 1, First Objective: 374539086381058.7, Loss: 1554727672.4934666
+    Epoch: 2, Objective difference: 0.9940424527562313, Loss: 79335663.36913218
+    Epoch: 3, Objective difference: 9.593400682202972, Loss: 470422149.17664665
+    Epoch: 4, Objective difference: 0.8049938299255196, Loss: 160808840.63187808
+    Epoch: 5, Objective difference: 5.766008140074971, Loss: 377414676.9736132
+    Epoch: 6, Objective difference: 0.6472749304695351, Loss: 293273170.7008648
+    Epoch: 7, Objective difference: 0.7826104465685673, Loss: 60096871.884737946
+    Epoch: 8, Objective difference: 5.77769952099085, Loss: 282398094.583086
+    Epoch: 9, Objective difference: 0.6049307495350249, Loss: 205223481.39834458
+    Epoch: 10, Objective difference: 0.896443673849775, Loss: 23975649.453102086
+    Epoch: 11, Objective difference: 1.2913528970951718, Loss: 45154191.460602105
+    Epoch: 12, Objective difference: 0.7001707065381756, Loss: 97897092.7681493
+    Epoch: 13, Objective difference: 11.342826064614423, Loss: 441910009.75542784
+    Epoch: 14, Objective difference: 0.8791163839904513, Loss: 129525673.20296776
+    Epoch: 15, Objective difference: 2.490894446463142, Loss: 290555004.1827657
+    Epoch: 16, Objective difference: 0.4892533087327999, Loss: 158472949.31300175
+    Epoch: 17, Objective difference: 0.8113892321472495, Loss: 40408835.15425476
+    Epoch: 18, Objective difference: 7.058614512418539, Loss: 153267761.8686381
+    Epoch: 19, Objective difference: 0.527046471746154, Loss: 110300060.23305847
+    Epoch: 20, Objective difference: 0.05219372144002119, Loss: 175237013.09451655
+
+    Avg_accuracy: 0.5191111111111111
+    Precision: 0.5244755244755245
+    Recall: 0.06887052341597796
+    F1-Value: 0.12175324675324674
+
+  SVM: BOW Dataset Learning rates: 1.0, Tradeoff: 1000.0
+  bow_lr_1.0_tradeoff_1000.0
+
+    Epoch: 1, First Objective: 3745398704672.709, Loss: 155480606.4733396
+    Epoch: 2, Objective difference: 0.994040397046391, Loss: 7941312.5021975525
+    Epoch: 3, Objective difference: 9.590076457402084, Loss: 47050072.831941664
+    Epoch: 4, Objective difference: 0.8049679469372935, Loss: 16088534.678562269
+    Epoch: 5, Objective difference: 5.7650545403519535, Loss: 37749268.8973614
+    Epoch: 6, Objective difference: 0.6472586203336959, Loss: 29335155.603835262
+    Epoch: 7, Objective difference: 0.781655412450556, Loss: 6057812.065816707
+    Epoch: 8, Objective difference: 5.747886640476006, Loss: 28247338.098925747
+    Epoch: 9, Objective difference: 0.6049017471164068, Loss: 20530023.49974742
+    Epoch: 10, Objective difference: 0.8963430807384458, Loss: 2404801.940864486
+    Epoch: 11, Objective difference: 1.2899560091856777, Loss: 4522728.590670888
+    Epoch: 12, Objective difference: 0.699839694113643, Loss: 9797104.666167794
+    Epoch: 13, Objective difference: 11.339598116098955, Loss: 44198378.61243563
+    Epoch: 14, Objective difference: 0.8790952980756178, Loss: 12960241.971888965
+    Epoch: 15, Objective difference: 2.4903978255854713, Loss: 29063146.344677646
+    Epoch: 16, Objective difference: 0.48922360568310247, Loss: 15855197.37674019
+    Epoch: 17, Objective difference: 0.811310194989783, Loss: 4047806.1639954895
+    Epoch: 18, Objective difference: 7.051512247398824, Loss: 15328124.294661494
+    Epoch: 19, Objective difference: 0.526804658338014, Loss: 11038077.855398403
+    Epoch: 20, Objective difference: 0.05218239240110632, Loss: 17531614.222004473
+
+    Avg_accuracy: 0.5191111111111111
+    Precision: 0.5244755244755245
+    Recall: 0.06887052341597796
+    F1-Value: 0.12175324675324674
+
+  SVM: BOW Dataset Learning rates: 1.0, Tradeoff: 100.0
+  bow_lr_1.0_tradeoff_100.0
+
+    Epoch: 1, First Objective: 37454770927.9155, Loss: 15555899.624044059
+    Epoch: 2, Objective difference: 0.9940195393497576, Loss: 801990.1689210616
+    Epoch: 3, Objective difference: 9.55731580181216, Loss: 4714390.198750307
+    Epoch: 4, Objective difference: 0.8047248023340624, Loss: 1616523.2069281149
+    Epoch: 5, Objective difference: 5.75550895142574, Loss: 3782732.7352483342
+    Epoch: 6, Objective difference: 0.6470953951876788, Loss: 2941360.9948524237
+    Epoch: 7, Objective difference: 0.7811394926765468, Loss: 613174.1051145775
+    Epoch: 8, Objective difference: 5.730325761813343, Loss: 2832307.4843681226
+    Epoch: 9, Objective difference: 0.6046078963729756, Loss: 2060759.9710630185
+    Epoch: 10, Objective difference: 0.8954823616258967, Loss: 246711.96746223667
+    Epoch: 11, Objective difference: 1.277679313940649, Loss: 459124.05813109654
+    Epoch: 12, Objective difference: 0.6775348445712794, Loss: 926826.0059309939
+    Epoch: 13, Objective difference: 11.45554511114554, Loss: 4427750.869314072
+    Epoch: 14, Objective difference: 0.8788805924494881, Loss: 1303828.8497465497
+    Epoch: 15, Objective difference: 2.4824020187521647, Loss: 2898416.9861973682
+    Epoch: 16, Objective difference: 0.48849551087901605, Loss: 1593452.1314063747
+    Epoch: 17, Objective difference: 0.8098695750128505, Loss: 414067.7531895488
+    Epoch: 18, Objective difference: 6.986588011178031, Loss: 1540077.1214837888
+    Epoch: 19, Objective difference: 0.5265360284727543, Loss: 1110201.2467779678
+    Epoch: 20, Objective difference: 0.052499553616481585, Loss: 1761133.2519009984
+
+    Avg_accuracy: 0.5191111111111111
+    Precision: 0.5244755244755245
+    Recall: 0.06887052341597796
+    F1-Value: 0.12175324675324674
+
+  SVM: BOW Dataset Learning rates: 1.0, Tradeoff: 0.1
+  bow_lr_1.0_tradeoff_0.1
+
+    Epoch: 1, First Objective: 7776.839371208464, Loss: 21732.358294798778
+    Epoch: 2, Objective difference: 0.6000751837799642, Loss: 17746.904457026536
+    Epoch: 3, Objective difference: 0.813085859987124, Loss: 22696.423891131937
+    Epoch: 4, Objective difference: 0.559716177002019, Loss: 18201.66302110665
+    Epoch: 5, Objective difference: 0.8580948250384697, Loss: 18306.746588584207
+    Epoch: 6, Objective difference: 0.35531952300716113, Loss: 18553.46287375858
+    Epoch: 7, Objective difference: 0.3051113638643136, Loss: 17321.57880940755
+    Epoch: 8, Objective difference: 0.9379127231694594, Loss: 20023.422836999827
+    Epoch: 9, Objective difference: 0.405377190209807, Loss: 17776.104704489575
+    Epoch: 10, Objective difference: 0.13758346158233833, Loss: 17788.917470534543
+    Epoch: 11, Objective difference: 0.004511174135107508, Loss: 17389.546699984287
+
+    Avg_accuracy: 0.5364444444444444
+    Precision: 0.5513392857142857
+    Recall: 0.22681359044995408
+    F1-Value: 0.32140533506831487
+
+  SVM: BOW Dataset Learning rates: 1.0, Tradeoff: 0.01
+  bow_lr_1.0_tradeoff_0.01
+
+    Epoch: 1, First Objective: 607.9861457890377, Loss: 17752.1828902337
+    Epoch: 2, Objective difference: 0.6901418785843882, Loss: 17503.48388749038
+    Epoch: 3, Objective difference: 0.11936253128004112, Loss: 17694.063521741875
+    Epoch: 4, Objective difference: 0.13658930901101743, Loss: 17527.129300581335
+    Epoch: 5, Objective difference: 0.11157128099095535, Loss: 17431.8976586314
+    Epoch: 6, Objective difference: 0.07845245963043415, Loss: 17497.950274449853
+
+    Avg_accuracy: 0.5635555555555556
+    Precision: 0.6959706959706959
+    Recall: 0.17447199265381083
+    F1-Value: 0.2790014684287812
+
+  SVM: BOW Dataset Learning rates: 1.0, Tradeoff: 0.001
+  bow_lr_1.0_tradeoff_0.001
+
+    Epoch: 1, First Objective: 21.766406456407186, Loss: 17461.763287540307
+    Epoch: 2, Objective difference: 0.18985873349198737, Loss: 17500.318032861956
+    Epoch: 3, Objective difference: 0.012526943645448313, Loss: 17515.67524646562
+
+    Avg_accuracy: 0.516
+    Precision: 1
+    Recall: 0.0
+    F1-Value: 0.0
+
+  SVM: BOW Dataset Learning rates: 0.1, Tradeoff: 10000.0
+  bow_lr_0.1_tradeoff_10000.0
+
+    Epoch: 1, First Objective: 7872284634082.178, Loss: 185383105.51172975
+    Epoch: 2, Objective difference: 0.6704284857399203, Loss: 50009146.56851857
+    Epoch: 3, Objective difference: 3.2568094431802503, Loss: 231823533.60267067
+    Epoch: 4, Objective difference: 0.45185673181505365, Loss: 120423530.75498071
+    Epoch: 5, Objective difference: 0.8007146043145984, Loss: 41305279.85034481
+    Epoch: 6, Objective difference: 0.6483710415649726, Loss: 65676007.688521914
+    Epoch: 7, Objective difference: 0.5186976202112976, Loss: 29884432.491639525
+    Epoch: 8, Objective difference: 0.9151778301692005, Loss: 80458630.81627364
+    Epoch: 9, Objective difference: 0.3818320513799611, Loss: 109791394.43911186
+    Epoch: 10, Objective difference: 0.45010249516807305, Loss: 42343592.29801352
+    Epoch: 11, Objective difference: 0.08244188352924134, Loss: 40477982.39367746
+
+    Avg_accuracy: 0.5124444444444445
+    Precision: 0.49516908212560384
+    Recall: 0.37649219467401285
+    F1-Value: 0.42775169535732915
+
+  SVM: BOW Dataset Learning rates: 0.1, Tradeoff: 1000.0
+  bow_lr_0.1_tradeoff_1000.0
+
+    Epoch: 1, First Objective: 78730237865.82077, Loss: 18545702.07618778
+    Epoch: 2, Objective difference: 0.6706277153559635, Loss: 5002174.579611335
+    Epoch: 3, Objective difference: 3.1947589806195147, Loss: 22761119.23210555
+    Epoch: 4, Objective difference: 0.8272570502461949, Loss: 10860969.41990605
+    Epoch: 5, Objective difference: 0.35757302500730315, Loss: 4137628.113395901
+    Epoch: 6, Objective difference: 0.4484672864807917, Loss: 4873560.87578677
+    Epoch: 7, Objective difference: 0.45221147928244954, Loss: 2995149.1390060703
+    Epoch: 8, Objective difference: 0.8684399078092834, Loss: 7296869.6683989
+    Epoch: 9, Objective difference: 0.5604717906099648, Loss: 3740488.872130073
+    Epoch: 10, Objective difference: 4.794909498837107, Loss: 7400397.49318255
+    Epoch: 11, Objective difference: 0.663366108876436, Loss: 4188122.765930174
+    Epoch: 12, Objective difference: 0.6026922877979102, Loss: 2002382.6159422677
+    Epoch: 13, Objective difference: 2.881101014049824, Loss: 7722612.354888297
+    Epoch: 14, Objective difference: 0.6678044582208932, Loss: 3577536.712898534
+    Epoch: 15, Objective difference: 0.8166412478601491, Loss: 7209079.063226426
+    Epoch: 16, Objective difference: 0.30691919267189405, Loss: 6673129.999465884
+    Epoch: 17, Objective difference: 0.33967679111652244, Loss: 2359565.1823051306
+    Epoch: 18, Objective difference: 0.16264762359446214, Loss: 2813270.3206604198
+    Epoch: 19, Objective difference: 0.19211594359801948, Loss: 3120919.626236465
+    Epoch: 20, Objective difference: 0.15798866010051543, Loss: 3481262.7869246667
+
+    Avg_accuracy: 0.5364444444444444
+    Precision: 0.5539906103286385
+    Recall: 0.21671258034894397
+    F1-Value: 0.3115511551155115
+
+  SVM: BOW Dataset Learning rates: 0.1, Tradeoff: 100.0
+  bow_lr_0.1_tradeoff_100.0
+
+    Epoch: 1, First Objective: 786588327.1531723, Loss: 1850894.33629393
+    Epoch: 2, Objective difference: 0.6693288431694, Loss: 506914.19728736224
+    Epoch: 3, Objective difference: 3.234379429944397, Loss: 2355304.563654098
+    Epoch: 4, Objective difference: 0.8415997543612729, Loss: 976566.3407622519
+    Epoch: 5, Objective difference: 0.4077583889382703, Loss: 379395.87472834985
+    Epoch: 6, Objective difference: 0.6742932955503267, Loss: 469762.87822683394
+    Epoch: 7, Objective difference: 0.42751647721796965, Loss: 319222.2917577702
+    Epoch: 8, Objective difference: 0.8410929701560483, Loss: 794586.0984451096
+    Epoch: 9, Objective difference: 0.5799809750958785, Loss: 352098.1391852834
+    Epoch: 10, Objective difference: 0.08824993181284288, Loss: 295992.3780288299
+
+    Avg_accuracy: 0.5706666666666667
+    Precision: 0.5706084959816303
+    Recall: 0.4563820018365473
+    F1-Value: 0.5071428571428571
+
+  SVM: BOW Dataset Learning rates: 0.1, Tradeoff: 0.1
+  bow_lr_0.1_tradeoff_0.1
+
+    Epoch: 1, First Objective: 2562.6912780014272, Loss: 18081.99356665925
+    Epoch: 2, Objective difference: 0.18177462442195266, Loss: 17416.37959933904
+    Epoch: 3, Objective difference: 0.37970484459164633, Loss: 18443.202674395034
+    Epoch: 4, Objective difference: 0.20260672480017322, Loss: 17255.51661770416
+    Epoch: 5, Objective difference: 0.1652965618255167, Loss: 17268.813610700057
+    Epoch: 6, Objective difference: 0.044691347734014376, Loss: 17358.93326755758
+
+    Avg_accuracy: 0.5937777777777777
+    Precision: 0.6092384519350812
+    Recall: 0.44811753902662993
+    F1-Value: 0.5164021164021163
+
+  SVM: BOW Dataset Learning rates: 0.1, Tradeoff: 0.01
+  bow_lr_0.1_tradeoff_0.01
+
+    Epoch: 1, First Objective: 188.16602905441857, Loss: 17396.545960881496
+    Epoch: 2, Objective difference: 0.04957506766536554, Loss: 17502.54986622339
+
+    Avg_accuracy: 0.5471111111111111
+    Precision: 0.5573770491803278
+    Recall: 0.3122130394857668
+    F1-Value: 0.4002354326074162
+
+  SVM: BOW Dataset Learning rates: 0.1, Tradeoff: 0.001
+  bow_lr_0.1_tradeoff_0.001
+
+    Epoch: 1, First Objective: 17.627954101928076, Loss: 17485.948407472013
+    Epoch: 2, Objective difference: 0.005082035955335039, Loss: 17500.24633471848
+
+    Avg_accuracy: 0.5471111111111111
+    Precision: 0.5573770491803278
+    Recall: 0.3122130394857668
+    F1-Value: 0.4002354326074162
+
+  SVM: BOW Dataset Learning rates: 0.01, Tradeoff: 10000.0
+  bow_lr_0.01_tradeoff_10000.0
+
+    Epoch: 1, First Objective: 1034200088338.2042, Loss: 33264510.329831574
+    Epoch: 2, Objective difference: 0.47669658026335354, Loss: 24713617.500890717
+    Epoch: 3, Objective difference: 0.16384785983329375, Loss: 33045812.282265358
+    Epoch: 4, Objective difference: 0.4858985119968342, Loss: 16678133.126588296
+    Epoch: 5, Objective difference: 0.3708944210115656, Loss: 9658967.766965764
+    Epoch: 6, Objective difference: 0.024997422235804846, Loss: 9564569.740725102
+
+    Avg_accuracy: 0.5773333333333334
+    Precision: 0.5622743682310469
+    Recall: 0.5720844811753902
+    F1-Value: 0.5671370050068275
+
+  SVM: BOW Dataset Learning rates: 0.01, Tradeoff: 1000.0
+  bow_lr_0.01_tradeoff_1000.0
+
+    Epoch: 1, First Objective: 8446566758.24435, Loss: 2859740.232255372
+    Epoch: 2, Objective difference: 0.40508381468083177, Loss: 2020209.952255715
+    Epoch: 3, Objective difference: 0.11521905696517105, Loss: 2190126.686478958
+    Epoch: 4, Objective difference: 0.2661673845544814, Loss: 1919418.8248805827
+    Epoch: 5, Objective difference: 0.2934767719830962, Loss: 1066210.9033632379
+    Epoch: 6, Objective difference: 0.09404131259590462, Loss: 983040.7584537279
+
+    Avg_accuracy: 0.5724444444444444
+    Precision: 0.5461818181818182
+    Recall: 0.689623507805326
+    F1-Value: 0.609577922077922
+
+  SVM: BOW Dataset Learning rates: 0.01, Tradeoff: 100.0
+  bow_lr_0.01_tradeoff_100.0
+
+    Epoch: 1, First Objective: 78097810.87755124, Loss: 306718.45047112874
+    Epoch: 2, Objective difference: 0.3541369869994968, Loss: 206573.6570934594
+    Epoch: 3, Objective difference: 0.3953927247149984, Loss: 381482.62774594635
+    Epoch: 4, Objective difference: 0.5518687207964248, Loss: 174252.4226282925
+    Epoch: 5, Objective difference: 0.2839363124113983, Loss: 108446.21871582302
+    Epoch: 6, Objective difference: 0.1019503947431912, Loss: 101129.19041891058
+    Epoch: 7, Objective difference: 0.33425460505546567, Loss: 124779.10389602742
+    Epoch: 8, Objective difference: 0.2863101616034647, Loss: 109047.84449894761
+    Epoch: 9, Objective difference: 0.15377430638797762, Loss: 131450.645199705
+    Epoch: 10, Objective difference: 0.2712140154936867, Loss: 87081.57560999451
+    Epoch: 11, Objective difference: 0.08758377232852539, Loss: 87942.51694491348
+
+    Avg_accuracy: 0.5893333333333334
+    Precision: 0.5804878048780487
+    Recall: 0.5463728191000918
+    F1-Value: 0.5629139072847682
+
+  SVM: BOW Dataset Learning rates: 0.01, Tradeoff: 0.1
+  bow_lr_0.01_tradeoff_0.1
+
+    Epoch: 1, First Objective: 1869.7122551672885, Loss: 17219.06175408061
+    Epoch: 2, Objective difference: 0.023402387523982212, Loss: 17429.66230534574
+
+    Avg_accuracy: 0.5915555555555555
+    Precision: 0.5814176245210728
+    Recall: 0.5573921028466483
+    F1-Value: 0.5691514299109236
+
+  SVM: BOW Dataset Learning rates: 0.01, Tradeoff: 0.01
+  bow_lr_0.01_tradeoff_0.01
+
+    Epoch: 1, First Objective: 176.38148555447933, Loss: 17422.609261855407
+    Epoch: 2, Objective difference: 0.0014772263914631688, Loss: 17507.540490122687
+
+    Avg_accuracy: 0.5951111111111111
+    Precision: 0.653448275862069
+    Recall: 0.3480257116620753
+    F1-Value: 0.4541641701617735
+
+  SVM: BOW Dataset Learning rates: 0.01, Tradeoff: 0.001
+  bow_lr_0.01_tradeoff_0.001
+
+    Epoch: 1, First Objective: 17.51321949882366, Loss: 17491.61822759601
+    Epoch: 2, Objective difference: 0.00012660370861376059, Loss: 17500.58986021313
+
+    Avg_accuracy: 0.5951111111111111
+    Precision: 0.6503378378378378
+    Recall: 0.35353535353535354
+    F1-Value: 0.4580606781677573
+
+  SVM: BOW Dataset Learning rates: 0.001, Tradeoff: 10000.0
+  bow_lr_0.001_tradeoff_10000.0
+
+    Epoch: 1, First Objective: 93469755759.38197, Loss: 5126055.7616989035
+    Epoch: 2, Objective difference: 0.32160518243477376, Loss: 3971294.598259021
+    Epoch: 3, Objective difference: 0.1272177528078894, Loss: 4260186.794196095
+    Epoch: 4, Objective difference: 0.29918338729777244, Loss: 2624532.8344738632
+    Epoch: 5, Objective difference: 0.2038228451283648, Loss: 2207183.0434799716
+    Epoch: 6, Objective difference: 0.2728033965036098, Loss: 1471980.1857031016
+    Epoch: 7, Objective difference: 0.045422338892175854, Loss: 1657155.7959070317
+
+    Avg_accuracy: 0.6204444444444445
+    Precision: 0.6324689966178129
+    Recall: 0.5151515151515151
+    F1-Value: 0.5678137651821862
+
+  SVM: BOW Dataset Learning rates: 0.001, Tradeoff: 1000.0
+  bow_lr_0.001_tradeoff_1000.0
+
+    Epoch: 1, First Objective: 1007082765.3464938, Loss: 565305.9513677593
+    Epoch: 2, Objective difference: 0.44134882601962977, Loss: 371951.964201359
+    Epoch: 3, Objective difference: 0.22926238142190333, Loss: 307042.49401740194
+    Epoch: 4, Objective difference: 0.02838189250772967, Loss: 309666.2071868442
+
+    Avg_accuracy: 0.6226666666666667
+    Precision: 0.6714285714285714
+    Recall: 0.4315886134067952
+    F1-Value: 0.5254332029066517
+
+  SVM: BOW Dataset Learning rates: 0.001, Tradeoff: 100.0
+  bow_lr_0.001_tradeoff_100.0
+
+    Epoch: 1, First Objective: 10301145.1769437, Loss: 62187.03640632896
+    Epoch: 2, Objective difference: 0.3304516766261009, Loss: 44577.26385285827
+    Epoch: 3, Objective difference: 0.30075124898869643, Loss: 33403.93500569312
+    Epoch: 4, Objective difference: 0.026686663911042616, Loss: 35413.08191827956
+
+    Avg_accuracy: 0.6457777777777778
+    Precision: 0.7085714285714285
+    Recall: 0.4554637281910009
+    F1-Value: 0.5544997205142538
+
+  SVM: BOW Dataset Learning rates: 0.001, Tradeoff: 0.1
+  bow_lr_0.001_tradeoff_0.1
+
+    Epoch: 1, First Objective: 1743.8180754024195, Loss: 17204.574496720237
+    Epoch: 2, Objective difference: 0.00041204587152152963, Loss: 17285.44465595944
+
+    Avg_accuracy: 0.6773333333333333
+    Precision: 0.6983606557377049
+    Recall: 0.5867768595041323
+    F1-Value: 0.6377245508982036
+
+  SVM: BOW Dataset Learning rates: 0.001, Tradeoff: 0.01
+  bow_lr_0.001_tradeoff_0.01
+
+    Epoch: 1, First Objective: 174.8529018598194, Loss: 17447.612648234674
+    Epoch: 2, Objective difference: 0.0001353766999070783, Loss: 17460.8570140123
+
+    Avg_accuracy: 0.6253333333333333
+    Precision: 0.5718457943925234
+    Recall: 0.898989898989899
+    F1-Value: 0.6990360585505178
+
+  SVM: BOW Dataset Learning rates: 0.001, Tradeoff: 0.001
+  bow_lr_0.001_tradeoff_0.001
+
+    Epoch: 1, First Objective: 17.49849721199504, Loss: 17494.213698451105
+    Epoch: 2, Objective difference: 2.1009823172036e-05, Loss: 17495.308338753217
+
+    Avg_accuracy: 0.5866666666666667
+    Precision: 0.5424
+    Recall: 0.9338842975206612
+    F1-Value: 0.6862348178137652
+
+TFIDF Dataset Setup Details
+  Epoch Error: 0.01
+  Random Seed: 42
+  Learning Rates: [1.0, 0.1, 0.01, 0.001]
+  Tradeoff Parameters: [10000.0, 1000.0, 100.0, 0.1, 0.01, 0.001]
+
+  SVM: TFIDF Dataset Learning rates: 1.0, Tradeoff: 10000.0
+  tfidf_lr_1.0_tradeoff_10000.0
+
+    Epoch: 1, First Objective: 77627851649.39355, Loss: 5784364.494572025
+    Epoch: 2, Objective difference: 0.7041140633887715, Loss: 9093474.590050615
+    Epoch: 3, Objective difference: 0.20162750029294368, Loss: 9989387.599178268
+    Epoch: 4, Objective difference: 0.650125407859307, Loss: 3111223.5864245323
+    Epoch: 5, Objective difference: 0.16971636420264852, Loss: 4671005.667116904
+    Epoch: 6, Objective difference: 0.6292676050282116, Loss: 6760109.724443063
+    Epoch: 7, Objective difference: 0.042770718443898986, Loss: 7008690.294278804
+
+    Avg_accuracy: 0.484
+    Precision: 0.484
+    Recall: 1.0
+    F1-Value: 0.6522911051212937
+
+  SVM: TFIDF Dataset Learning rates: 1.0, Tradeoff: 1000.0
+  tfidf_lr_1.0_tradeoff_1000.0
+
+    Epoch: 1, First Objective: 784118411.8686943, Loss: 586276.345355396
+    Epoch: 2, Objective difference: 0.6971636131999805, Loss: 917257.559005063
+    Epoch: 3, Objective difference: 0.20042903247609004, Loss: 1006848.8599178292
+    Epoch: 4, Objective difference: 0.6469068505499496, Loss: 319031.55864245654
+    Epoch: 5, Objective difference: 0.16721219502715798, Loss: 474939.5667116893
+    Epoch: 6, Objective difference: 0.6218819307258874, Loss: 683920.1724443061
+    Epoch: 7, Objective difference: 0.04238818192378787, Loss: 708708.0294278767
+
+    Avg_accuracy: 0.484
+    Precision: 0.484
+    Recall: 1.0
+    F1-Value: 0.6522911051212937
+
+  SVM: TFIDF Dataset Learning rates: 1.0, Tradeoff: 100.0
+  tfidf_lr_1.0_tradeoff_100.0
+
+    Epoch: 1, First Objective: 8625174.159087189, Loss: 66467.53489424968
+    Epoch: 2, Objective difference: 0.6346084276779528, Loss: 99635.85590050615
+    Epoch: 3, Objective difference: 0.18918399267003624, Loss: 108594.9859917831
+    Epoch: 4, Objective difference: 0.6163916188517143, Loss: 39812.35586424571
+    Epoch: 5, Objective difference: 0.14555793194729305, Loss: 55332.956671168926
+    Epoch: 6, Objective difference: 0.5566690471482507, Loss: 76301.21724443062
+    Epoch: 7, Objective difference: 0.038852995766585144, Loss: 78709.80294278773
+
+    Avg_accuracy: 0.484
+    Precision: 0.484
+    Recall: 1.0
+    F1-Value: 0.6522911051212937
+
+  SVM: TFIDF Dataset Learning rates: 1.0, Tradeoff: 0.1
+  tfidf_lr_1.0_tradeoff_0.1
+
+    Epoch: 1, First Objective: 1844.913648947036, Loss: 17493.13570602357
+    Epoch: 2, Objective difference: 0.025381421085547987, Loss: 17503.240939838754
+
+    Avg_accuracy: 0.516
+    Precision: 1
+    Recall: 0.0
+    F1-Value: 0.0
+
+  SVM: TFIDF Dataset Learning rates: 1.0, Tradeoff: 0.01
+  tfidf_lr_1.0_tradeoff_0.01
+
+    Epoch: 1, First Objective: 175.94913648946988, Loss: 17499.31357060243
+    Epoch: 2, Objective difference: 0.0026613674340524953, Loss: 17500.32409398391
+
+    Avg_accuracy: 0.516
+    Precision: 1
+    Recall: 0.0
+    F1-Value: 0.0
+
+  SVM: TFIDF Dataset Learning rates: 1.0, Tradeoff: 0.001
+  tfidf_lr_1.0_tradeoff_0.001
+
+    Epoch: 1, First Objective: 17.50949136489474, Loss: 17499.93135706023
+    Epoch: 2, Objective difference: 0.0002674351254099547, Loss: 17500.032409398467
+
+    Avg_accuracy: 0.516
+    Precision: 1
+    Recall: 0.0
+    F1-Value: 0.0
+
+  SVM: TFIDF Dataset Learning rates: 0.1, Tradeoff: 10000.0
+  tfidf_lr_0.1_tradeoff_10000.0
+
+    Epoch: 1, First Objective: 25505186749.622154, Loss: 1675592.4572942054
+    Epoch: 2, Objective difference: 0.05863818676223022, Loss: 1534831.2619644215
+
+    Avg_accuracy: 0.516
+    Precision: 1
+    Recall: 0.0
+    F1-Value: 0.0
+
+  SVM: TFIDF Dataset Learning rates: 0.1, Tradeoff: 1000.0
+  tfidf_lr_0.1_tradeoff_1000.0
+
+    Epoch: 1, First Objective: 262889067.49616858, Loss: 175396.44572942008
+    Epoch: 2, Objective difference: 0.056633433275703096, Loss: 161387.79477372323
+
+    Avg_accuracy: 0.516
+    Precision: 1
+    Recall: 0.0
+    F1-Value: 0.0
+
+  SVM: TFIDF Dataset Learning rates: 0.1, Tradeoff: 100.0
+  tfidf_lr_0.1_tradeoff_100.0
+
+    Epoch: 1, First Objective: 3413014.96680227, Loss: 25380.887491344314
+    Epoch: 2, Objective difference: 0.042257117268568595, Loss: 24026.532432721306
+
+    Avg_accuracy: 0.516
+    Precision: 1
+    Recall: 0.0
+    F1-Value: 0.0
+
+  SVM: TFIDF Dataset Learning rates: 0.1, Tradeoff: 0.1
+  tfidf_lr_0.1_tradeoff_0.1
+
+    Epoch: 1, First Objective: 1756.0609430956665, Loss: 17496.85421437918
+    Epoch: 2, Objective difference: 0.0026449223672934128, Loss: 17498.956535660403
+
+    Avg_accuracy: 0.5151111111111111
+    Precision: 0.0
+    Recall: 0.0
+    F1-Value: 0
+
+  SVM: TFIDF Dataset Learning rates: 0.1, Tradeoff: 0.01
+  tfidf_lr_0.1_tradeoff_0.01
+
+    Epoch: 1, First Objective: 175.06060943095633, Loss: 17499.685421437902
+    Epoch: 2, Objective difference: 0.0002653163885336303, Loss: 17499.895653566084
+
+    Avg_accuracy: 0.5151111111111111
+    Precision: 0.0
+    Recall: 0.0
+    F1-Value: 0
+
+  SVM: TFIDF Dataset Learning rates: 0.1, Tradeoff: 0.001
+  tfidf_lr_0.1_tradeoff_0.001
+
+    Epoch: 1, First Objective: 17.50060609430953, Loss: 17499.968542143743
+    Epoch: 2, Objective difference: 2.6539908621401763e-05, Loss: 17499.98956535655
+
+    Avg_accuracy: 0.5151111111111111
+    Precision: 0.0
+    Recall: 0.0
+    F1-Value: 0
+
+  SVM: TFIDF Dataset Learning rates: 0.01, Tradeoff: 10000.0
+  tfidf_lr_0.01_tradeoff_10000.0
+
+    Epoch: 1, First Objective: 2533219346.357292, Loss: 153912.29423578706
+    Epoch: 2, Objective difference: 0.04121264140776314, Loss: 165251.81917531497
+
+    Avg_accuracy: 0.5222222222222223
+    Precision: 0.7916666666666666
+    Recall: 0.017447199265381085
+    F1-Value: 0.03414195867026056
+
+  SVM: TFIDF Dataset Learning rates: 0.01, Tradeoff: 1000.0
+  tfidf_lr_0.01_tradeoff_1000.0
+
+    Epoch: 1, First Objective: 71183859.38892482, Loss: 59181.19357144187
+    Epoch: 2, Objective difference: 0.2883490712504062, Loss: 41107.616454740164
+    Epoch: 3, Objective difference: 0.17002706745353477, Loss: 34825.92769108052
+    Epoch: 4, Objective difference: 0.07066759609626222, Loss: 38795.28560847227
+
+    Avg_accuracy: 0.516
+    Precision: 1
+    Recall: 0.0
+    F1-Value: 0.0
+
+  SVM: TFIDF Dataset Learning rates: 0.01, Tradeoff: 100.0
+  tfidf_lr_0.01_tradeoff_100.0
+
+    Epoch: 1, First Objective: 2232320.1701221284, Loss: 20104.988987648307
+    Epoch: 2, Objective difference: 0.18452948800254163, Loss: 16564.44281696232
+    Epoch: 3, Objective difference: 0.014723731795432536, Loss: 16546.018607973798
+
+    Avg_accuracy: 0.516
+    Precision: 1
+    Recall: 0.0
+    F1-Value: 0.0
+
+  SVM: TFIDF Dataset Learning rates: 0.01, Tradeoff: 0.1
+  tfidf_lr_0.01_tradeoff_0.1
+
+    Epoch: 1, First Objective: 1750.1410325881482, Loss: 17498.558520613053
+    Epoch: 2, Objective difference: 1.6354650501277257e-05, Loss: 17498.573351348437
+
+    Avg_accuracy: 0.484
+    Precision: 0.484
+    Recall: 1.0
+    F1-Value: 0.6522911051212937
+
+  SVM: TFIDF Dataset Learning rates: 0.01, Tradeoff: 0.01
+  tfidf_lr_0.01_tradeoff_0.01
+
+    Epoch: 1, First Objective: 175.00141032588166, Loss: 17499.85585206132
+    Epoch: 2, Objective difference: 1.63558367311035e-06, Loss: 17499.85733513479
+
+    Avg_accuracy: 0.484
+    Precision: 0.484
+    Recall: 1.0
+    F1-Value: 0.6522911051212937
+
+  SVM: TFIDF Dataset Learning rates: 0.01, Tradeoff: 0.001
+  tfidf_lr_0.01_tradeoff_0.001
+
+    Epoch: 1, First Objective: 17.50001410325873, Loss: 17499.98558520615
+    Epoch: 2, Objective difference: 1.635595594384008e-07, Loss: 17499.985733513484
+
+    Avg_accuracy: 0.484
+    Precision: 0.484
+    Recall: 1.0
+    F1-Value: 0.6522911051212937
+
+  SVM: TFIDF Dataset Learning rates: 0.001, Tradeoff: 10000.0
+  tfidf_lr_0.001_tradeoff_10000.0
+
+    Epoch: 1, First Objective: 492191712.2171758, Loss: 38931.635693518096
+    Epoch: 2, Objective difference: 0.02987055895739795, Loss: 43765.58917284636
+
+    Avg_accuracy: 0.5368888888888889
+    Precision: 0.9433962264150944
+    Recall: 0.04591368227731864
+    F1-Value: 0.08756567425569176
+
+  SVM: TFIDF Dataset Learning rates: 0.001, Tradeoff: 1000.0
+  tfidf_lr_0.001_tradeoff_1000.0
+
+    Epoch: 1, First Objective: 20862794.193713825, Loss: 18175.746935192496
+    Epoch: 2, Objective difference: 0.2293143963861002, Loss: 13848.88440157829
+    Epoch: 3, Objective difference: 0.0239628121225, Loss: 13696.065755484737
+
+    Avg_accuracy: 0.6053333333333333
+    Precision: 0.8628158844765343
+    Recall: 0.2194674012855831
+    F1-Value: 0.34992679355783307
+
+  SVM: TFIDF Dataset Learning rates: 0.001, Tradeoff: 100.0
+  tfidf_lr_0.001_tradeoff_100.0
+
+    Epoch: 1, First Objective: 1702068.9027709095, Loss: 16298.580895233637
+    Epoch: 2, Objective difference: 0.003288023210889257, Loss: 16296.900627741767
+
+    Avg_accuracy: 0.48488888888888887
+    Precision: 0.4844306049822064
+    Recall: 1.0
+    F1-Value: 0.6526820497452802
+
+  SVM: TFIDF Dataset Learning rates: 0.001, Tradeoff: 0.1
+  tfidf_lr_0.001_tradeoff_0.1
+
+    Epoch: 1, First Objective: 1749.955092604574, Loss: 17498.650772000277
+    Epoch: 2, Objective difference: 1.6698203357729726e-05, Loss: 17498.55916987051
+
+    Avg_accuracy: 0.484
+    Precision: 0.484
+    Recall: 1.0
+    F1-Value: 0.6522911051212937
+
+  SVM: TFIDF Dataset Learning rates: 0.001, Tradeoff: 0.01
+  tfidf_lr_0.001_tradeoff_0.01
+
+    Epoch: 1, First Objective: 174.9995509260456, Loss: 17499.86507720002
+    Epoch: 2, Objective difference: 1.6697817711693572e-06, Loss: 17499.85591698704
+
+    Avg_accuracy: 0.484
+    Precision: 0.484
+    Recall: 1.0
+    F1-Value: 0.6522911051212937
+
+  SVM: TFIDF Dataset Learning rates: 0.001, Tradeoff: 0.001
+  tfidf_lr_0.001_tradeoff_0.001
+
+    Epoch: 1, First Objective: 17.499995509260344, Loss: 17499.986507720063
+    Epoch: 2, Objective difference: 1.6697780033632e-07, Loss: 17499.98559169873
+
+    Avg_accuracy: 0.484
+    Precision: 0.484
+    Recall: 1.0
+    F1-Value: 0.6522911051212937
+/var/folders/1m/0v94z2r1269fztvg5qrsfn500000gn/T/ipykernel_94173/3401668927.py:96: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig = plt.figure()

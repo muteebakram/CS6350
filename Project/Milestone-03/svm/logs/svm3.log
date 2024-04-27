@@ -1,0 +1,1685 @@
+
+Glove Dataset Setup Details
+  Epoch Error: 0.001
+  Random Seed: 42
+  Learning Rates: [0.01, 0.001]
+  Tradeoff Parameters: [1000.0, 100.0, 0.1, 0.01, 0.001]
+
+  SVM: Glove Dataset Learning rates: 0.01, Tradeoff: 1000.0
+  glove_lr_0.01_tradeoff_1000.0
+
+    Epoch: 1, First Objective: 534722061044.21924, Loss: 505872686.40936863
+    Epoch: 2, Objective difference: 0.8835547488101742, Loss: 48175779.60052154
+    Epoch: 3, Objective difference: 3.626302943881024, Loss: 281218085.3550646
+    Epoch: 4, Objective difference: 0.6768078387029736, Loss: 87330455.20031072
+    Epoch: 5, Objective difference: 0.7127673630472963, Loss: 21777020.295654695
+    Epoch: 6, Objective difference: 0.14358895901754334, Loss: 26677724.711756147
+    Epoch: 7, Objective difference: 0.21054660584791646, Loss: 20902043.667599212
+    Epoch: 8, Objective difference: 0.0007852293605173633, Loss: 20700101.142361894
+
+    Avg_accuracy: 0.5417777777777778
+    Precision: 0.5179900744416873
+    Recall: 0.7667584940312213
+    F1-Value: 0.6182895223991114
+
+  SVM: Glove Dataset Learning rates: 0.01, Tradeoff: 100.0
+  glove_lr_0.01_tradeoff_100.0
+
+    Epoch: 1, First Objective: 5253913133.845029, Loss: 50224164.89717872
+    Epoch: 2, Objective difference: 0.8695179650112678, Loss: 5767128.677103829
+    Epoch: 3, Objective difference: 3.125579617655457, Loss: 27598493.186414205
+    Epoch: 4, Objective difference: 0.756443706209355, Loss: 6431000.338910798
+    Epoch: 5, Objective difference: 0.6255071836666594, Loss: 2068700.6003714732
+    Epoch: 6, Objective difference: 0.32993208276429964, Loss: 3064673.182147934
+    Epoch: 7, Objective difference: 0.26474927113293295, Loss: 3974079.845155723
+    Epoch: 8, Objective difference: 0.4452606147304712, Loss: 2078889.8399985824
+    Epoch: 9, Objective difference: 0.39545452904148326, Loss: 3152085.784040651
+    Epoch: 10, Objective difference: 0.5539479449198919, Loss: 5000889.253850908
+    Epoch: 11, Objective difference: 0.14184341533379552, Loss: 4257908.582619778
+    Epoch: 12, Objective difference: 0.5906543370987245, Loss: 1623445.6790626936
+    Epoch: 13, Objective difference: 0.46413733972422716, Loss: 807556.0781973702
+    Epoch: 14, Objective difference: 0.8399399646610638, Loss: 1643152.572043741
+    Epoch: 15, Objective difference: 0.04180037160363884, Loss: 1589722.1200280492
+    Epoch: 16, Objective difference: 0.13575700852710898, Loss: 1360964.7510667804
+    Epoch: 17, Objective difference: 0.21973889982547262, Loss: 1047236.6124014867
+    Epoch: 18, Objective difference: 0.01322200055752743, Loss: 1050798.4746317845
+    Epoch: 19, Objective difference: 0.24581456360174586, Loss: 795032.5038870515
+    Epoch: 20, Objective difference: 6.825281290795274, Loss: 6860855.411674023
+    Epoch: 21, Objective difference: 0.28329220071556055, Loss: 4900810.410511936
+    Epoch: 22, Objective difference: 0.7721594111628374, Loss: 1050455.993911887
+    Epoch: 23, Objective difference: 1.090013754562805, Loss: 2292906.4091824247
+    Epoch: 24, Objective difference: 0.6824768421778209, Loss: 664949.4583395111
+    Epoch: 25, Objective difference: 1.995055077672948, Loss: 2185970.459846783
+    Epoch: 26, Objective difference: 0.555239745038469, Loss: 929771.0825257511
+    Epoch: 27, Objective difference: 3.2124868452209103, Loss: 4180223.816087657
+    Epoch: 28, Objective difference: 0.8770357407285707, Loss: 463726.0446790089
+    Epoch: 29, Objective difference: 1.1898915666026442, Loss: 1067676.4709349554
+    Epoch: 30, Objective difference: 0.14176412981692738, Loss: 1248379.7613407548
+    Epoch: 31, Objective difference: 0.4706895369956424, Loss: 1860652.9150566938
+    Epoch: 32, Objective difference: 0.7983962098301985, Loss: 3397294.940542262
+    Epoch: 33, Objective difference: 0.6406853107741863, Loss: 1187582.6743423678
+    Epoch: 34, Objective difference: 0.22182111639178992, Loss: 909955.4637141442
+    Epoch: 35, Objective difference: 0.40178938821394666, Loss: 522137.8341284103
+    Epoch: 36, Objective difference: 0.6970274493222367, Loss: 929011.936635865
+    Epoch: 37, Objective difference: 0.004246898585910544, Loss: 929413.3771657827
+    Epoch: 38, Objective difference: 1.4401156430306534, Loss: 2333690.192335293
+    Epoch: 39, Objective difference: 0.6963888025043397, Loss: 684686.6001561016
+    Epoch: 40, Objective difference: 0.04598356298642141, Loss: 712939.5253074379
+    Epoch: 41, Objective difference: 0.03847287979936777, Loss: 739951.1973635869
+    Epoch: 42, Objective difference: 0.19643958125003436, Loss: 590949.8758901685
+    Epoch: 43, Objective difference: 0.3295163543268631, Loss: 385929.7829163057
+    Epoch: 44, Objective difference: 0.6818908866683192, Loss: 671409.8151453617
+    Epoch: 45, Objective difference: 0.05465016862799007, Loss: 636078.4224968271
+    Epoch: 46, Objective difference: 0.3458227969608935, Loss: 406312.98396639444
+    Epoch: 47, Objective difference: 3.6521652728198317, Loss: 2015099.6751282476
+    Epoch: 48, Objective difference: 0.7607000030510244, Loss: 451043.5032513355
+    Epoch: 49, Objective difference: 0.2934745573128552, Loss: 316879.1091545401
+    Epoch: 50, Objective difference: 0.9677410511897253, Loss: 648211.0910722213
+
+    Avg_accuracy: 0.5444444444444444
+    Precision: 0.5167364016736402
+    Recall: 0.9072543617998163
+    F1-Value: 0.6584471842719094
+
+  SVM: Glove Dataset Learning rates: 0.01, Tradeoff: 0.1
+  glove_lr_0.01_tradeoff_0.1
+
+    Epoch: 1, First Objective: 2517.391792702902, Loss: 21867.09015335048
+    Epoch: 2, Objective difference: 0.22306530013570772, Loss: 17936.858687729367
+    Epoch: 3, Objective difference: 0.41610296285709536, Loss: 26540.230493928106
+    Epoch: 4, Objective difference: 0.04371391033911526, Loss: 25150.31632542192
+    Epoch: 5, Objective difference: 0.19341274815525733, Loss: 20326.94132376435
+    Epoch: 6, Objective difference: 0.01763808536445566, Loss: 19726.9609449045
+    Epoch: 7, Objective difference: 0.0864518494699426, Loss: 18100.21888684483
+    Epoch: 8, Objective difference: 0.3743213817031569, Loss: 25415.9117189963
+    Epoch: 9, Objective difference: 0.06681584607334873, Loss: 23650.464645035372
+    Epoch: 10, Objective difference: 0.27650699881877167, Loss: 16718.457851761643
+    Epoch: 11, Objective difference: 0.024603005207119683, Loss: 16611.171012640458
+    Epoch: 12, Objective difference: 0.10875942211005261, Loss: 18497.56231882781
+    Epoch: 13, Objective difference: 0.14372842505849132, Loss: 15672.690317513041
+    Epoch: 14, Objective difference: 0.2503776614174739, Loss: 19683.755010891826
+    Epoch: 15, Objective difference: 0.16338454415519055, Loss: 16418.612001077632
+    Epoch: 16, Objective difference: 0.40666436602058903, Loss: 23410.224876354052
+    Epoch: 17, Objective difference: 0.2919335780296127, Loss: 16264.693954865408
+    Epoch: 18, Objective difference: 0.044104252119679506, Loss: 15684.747862573457
+    Epoch: 19, Objective difference: 0.0029259411592123534, Loss: 15723.462005958927
+    Epoch: 20, Objective difference: 0.12136876175085737, Loss: 17634.289077915113
+    Epoch: 21, Objective difference: 0.0047276158438215084, Loss: 17449.183564656443
+    Epoch: 22, Objective difference: 0.003390925531237191, Loss: 17613.897468602707
+    Epoch: 23, Objective difference: 0.1292144190930471, Loss: 15205.409715733442
+    Epoch: 24, Objective difference: 0.05737950373096548, Loss: 16131.37073416136
+    Epoch: 25, Objective difference: 0.004711365904386232, Loss: 16111.362603879372
+    Epoch: 26, Objective difference: 0.04132635419239323, Loss: 15358.156722501946
+    Epoch: 27, Objective difference: 0.030077247895012104, Loss: 15946.04970234748
+    Epoch: 28, Objective difference: 0.023843099576730087, Loss: 16354.796533297718
+    Epoch: 29, Objective difference: 0.0017501762694943092, Loss: 16281.387421549158
+    Epoch: 30, Objective difference: 0.05116937118711547, Loss: 15388.91311706296
+    Epoch: 31, Objective difference: 0.01641515500622074, Loss: 15706.606580698268
+    Epoch: 32, Objective difference: 0.010741842868651834, Loss: 15552.577598987044
+    Epoch: 33, Objective difference: 0.22601719751222213, Loss: 19271.95111406551
+    Epoch: 34, Objective difference: 0.17757921339733648, Loss: 15693.009989552706
+    Epoch: 35, Objective difference: 0.014612657719667882, Loss: 15936.377317870716
+    Epoch: 36, Objective difference: 0.021705007387646413, Loss: 15550.374510249387
+    Epoch: 37, Objective difference: 0.015589897600298832, Loss: 15341.099205810708
+    Epoch: 38, Objective difference: 0.07942533945358157, Loss: 16533.04074715821
+    Epoch: 39, Objective difference: 0.06182758083538172, Loss: 15515.249133840083
+    Epoch: 40, Objective difference: 0.0020445347379831427, Loss: 15522.239089860095
+    Epoch: 41, Objective difference: 0.013819016147067468, Loss: 15269.771140261793
+    Epoch: 42, Objective difference: 0.04344748488473878, Loss: 15920.638175205055
+    Epoch: 43, Objective difference: 0.016084849839608752, Loss: 15757.694151114207
+    Epoch: 44, Objective difference: 0.030500168816300677, Loss: 15183.646685153053
+    Epoch: 45, Objective difference: 0.018930889313100947, Loss: 15521.905688625999
+    Epoch: 46, Objective difference: 0.01826087998522826, Loss: 15288.463734861454
+    Epoch: 47, Objective difference: 0.04927399087518311, Loss: 16004.629284928116
+    Epoch: 48, Objective difference: 0.03925554751124169, Loss: 15342.9174959939
+    Epoch: 49, Objective difference: 0.011447054635755202, Loss: 15210.693145935573
+    Epoch: 50, Objective difference: 0.12392922509048347, Loss: 17211.705051873643
+
+    Avg_accuracy: 0.568
+    Precision: 0.7910447761194029
+    Recall: 0.14600550964187328
+    F1-Value: 0.24651162790697675
+
+  SVM: Glove Dataset Learning rates: 0.01, Tradeoff: 0.01
+  glove_lr_0.01_tradeoff_0.01
+
+    Epoch: 1, First Objective: 183.40973371949343, Loss: 17710.141259464388
+    Epoch: 2, Objective difference: 0.05278184467289709, Loss: 16930.694135030186
+    Epoch: 3, Objective difference: 0.003989330909530763, Loss: 17125.510692531203
+    Epoch: 4, Objective difference: 0.18273006738511877, Loss: 19980.81308681948
+    Epoch: 5, Objective difference: 0.15671492559546096, Loss: 17108.77746973727
+    Epoch: 6, Objective difference: 0.013478423241976336, Loss: 16575.812272184005
+    Epoch: 7, Objective difference: 0.004570403184842774, Loss: 16761.664407627777
+    Epoch: 8, Objective difference: 0.010993360896899798, Loss: 17051.53834477494
+    Epoch: 9, Objective difference: 0.00882010687275635, Loss: 16882.501622370644
+    Epoch: 10, Objective difference: 0.012727288510459775, Loss: 17054.342430988218
+    Epoch: 11, Objective difference: 0.013629879708011536, Loss: 16903.513329443802
+    Epoch: 12, Objective difference: 0.012640913742495003, Loss: 16651.029911356534
+    Epoch: 13, Objective difference: 0.007560656231491474, Loss: 16890.639718206276
+    Epoch: 14, Objective difference: 0.05748606815975037, Loss: 17773.0078552248
+    Epoch: 15, Objective difference: 0.045903452597419514, Loss: 16871.693558059927
+    Epoch: 16, Objective difference: 0.01870590151007438, Loss: 17232.384177396452
+    Epoch: 17, Objective difference: 0.034598311992564634, Loss: 16615.425156065394
+    Epoch: 18, Objective difference: 0.004243841464598964, Loss: 16828.381358172013
+    Epoch: 19, Objective difference: 0.03124765324841527, Loss: 17312.062594785693
+    Epoch: 20, Objective difference: 0.019264745528534286, Loss: 16967.251223464995
+    Epoch: 21, Objective difference: 0.009152208053652234, Loss: 16834.10060844064
+    Epoch: 22, Objective difference: 0.009903835644914417, Loss: 17000.746028727892
+    Epoch: 23, Objective difference: 0.016357803458988, Loss: 16680.69496561359
+    Epoch: 24, Objective difference: 0.007457492172670685, Loss: 16854.20094363512
+    Epoch: 25, Objective difference: 0.008654343713387982, Loss: 16654.7660575932
+    Epoch: 26, Objective difference: 2.500402008751843e-05, Loss: 16559.95361375205
+
+    Avg_accuracy: 0.5813333333333334
+    Precision: 0.6082474226804123
+    Recall: 0.379247015610652
+    F1-Value: 0.4671945701357466
+
+  SVM: Glove Dataset Learning rates: 0.01, Tradeoff: 0.001
+  glove_lr_0.01_tradeoff_0.001
+
+    Epoch: 1, First Objective: 17.475664561018206, Loss: 17350.721831713283
+    Epoch: 2, Objective difference: 0.0004907341914745643, Loss: 17387.84899477655
+
+    Avg_accuracy: 0.4822222222222222
+    Precision: 0.4829290206648697
+    Recall: 0.9871441689623508
+    F1-Value: 0.6485671191553544
+
+  SVM: Glove Dataset Learning rates: 0.001, Tradeoff: 1000.0
+  glove_lr_0.001_tradeoff_1000.0
+
+    Epoch: 1, First Objective: 17287500339.906364, Loss: 16025928.652164126
+    Epoch: 2, Objective difference: 0.4998966760636698, Loss: 7963119.187874556
+    Epoch: 3, Objective difference: 1.9767602761664695, Loss: 25330830.47188605
+    Epoch: 4, Objective difference: 0.6511584156621193, Loss: 8634529.638508547
+    Epoch: 5, Objective difference: 0.6904491672827991, Loss: 2529192.4787417264
+    Epoch: 6, Objective difference: 0.43780546010728894, Loss: 3776346.84067638
+    Epoch: 7, Objective difference: 0.12383843841683916, Loss: 3314320.318945045
+    Epoch: 8, Objective difference: 0.4234569511199964, Loss: 1868848.4083041274
+    Epoch: 9, Objective difference: 4.390874106704558, Loss: 10752358.206945138
+    Epoch: 10, Objective difference: 0.5195412189151785, Loss: 5113571.603212637
+    Epoch: 11, Objective difference: 0.12057651527041194, Loss: 5763441.138748674
+    Epoch: 12, Objective difference: 0.09570434705385455, Loss: 5204762.034659889
+    Epoch: 13, Objective difference: 0.1410638022409617, Loss: 4467016.195008718
+    Epoch: 14, Objective difference: 0.023798812494530103, Loss: 4359647.252647846
+    Epoch: 15, Objective difference: 0.6263898757358359, Loss: 1588346.0056079933
+    Epoch: 16, Objective difference: 4.291057245797848, Loss: 8714715.247726643
+    Epoch: 17, Objective difference: 0.8419213758121042, Loss: 1329149.3865487443
+    Epoch: 18, Objective difference: 0.20938231033306404, Loss: 1043887.5848688334
+    Epoch: 19, Objective difference: 3.0951276898873057, Loss: 4445401.389006145
+    Epoch: 20, Objective difference: 0.6400235847711157, Loss: 7319105.760948981
+    Epoch: 21, Objective difference: 0.8334379814696429, Loss: 1183879.5748711477
+    Epoch: 22, Objective difference: 0.269475844131487, Loss: 856912.096600025
+    Epoch: 23, Objective difference: 0.05767360924011659, Loss: 807045.3827329108
+    Epoch: 24, Objective difference: 0.1191020043046806, Loss: 908499.1986682672
+    Epoch: 25, Objective difference: 0.5548924081630399, Loss: 1438444.7121550324
+    Epoch: 26, Objective difference: 0.3956758951787062, Loss: 2021750.9478890651
+    Epoch: 27, Objective difference: 1.2524916058533575, Loss: 4593525.442649062
+    Epoch: 28, Objective difference: 0.7910986312816221, Loss: 936528.1465751374
+    Epoch: 29, Objective difference: 0.5962607093616178, Loss: 1513756.142801866
+    Epoch: 30, Objective difference: 0.2867678960358737, Loss: 1076362.6633256408
+    Epoch: 31, Objective difference: 0.9788391003059704, Loss: 2151866.214924646
+    Epoch: 32, Objective difference: 0.5539916457149577, Loss: 947008.0136461194
+    Epoch: 33, Objective difference: 0.08002932945188843, Loss: 869559.2133226031
+    Epoch: 34, Objective difference: 0.30698767515217734, Loss: 596466.0569145811
+    Epoch: 35, Objective difference: 0.7980405642436007, Loss: 1090560.9646903605
+    Epoch: 36, Objective difference: 0.16322582504839478, Loss: 911500.4318867775
+    Epoch: 37, Objective difference: 0.43770778657905435, Loss: 1318819.89236975
+    Epoch: 38, Objective difference: 0.38861870590212677, Loss: 799736.30611502
+    Epoch: 39, Objective difference: 0.06799673925016954, Loss: 856810.4542252228
+    Epoch: 40, Objective difference: 0.11503280561629196, Loss: 755553.5169430625
+    Epoch: 41, Objective difference: 0.24616489830700272, Loss: 947552.2116451291
+    Epoch: 42, Objective difference: 0.2979833426358129, Loss: 660651.4682496096
+    Epoch: 43, Objective difference: 0.5339785046910881, Loss: 1023316.3580364779
+    Epoch: 44, Objective difference: 0.3107353706591401, Loss: 700184.3667779102
+    Epoch: 45, Objective difference: 0.4237158496091014, Loss: 399436.1284365825
+    Epoch: 46, Objective difference: 0.09533546752967158, Loss: 438750.3801867982
+    Epoch: 47, Objective difference: 5.547498990249809, Loss: 2943472.1980644176
+    Epoch: 48, Objective difference: 0.8332040088333852, Loss: 479089.32403345034
+    Epoch: 49, Objective difference: 0.2247444656924598, Loss: 592643.0016554091
+    Epoch: 50, Objective difference: 0.2340194404874731, Loss: 451305.11206706957
+
+    Avg_accuracy: 0.6186666666666667
+    Precision: 0.6934673366834171
+    Recall: 0.38016528925619836
+    F1-Value: 0.4911032028469752
+
+  SVM: Glove Dataset Learning rates: 0.001, Tradeoff: 100.0
+  glove_lr_0.001_tradeoff_100.0
+
+    Epoch: 1, First Objective: 144096840.74390522, Loss: 1313555.365367701
+    Epoch: 2, Objective difference: 0.5739591260685031, Loss: 542577.47300064
+    Epoch: 3, Objective difference: 3.5965460964316804, Loss: 2780711.43621518
+    Epoch: 4, Objective difference: 0.4799767271983101, Loss: 1431805.337908118
+    Epoch: 5, Objective difference: 0.08289707965277833, Loss: 1560329.237069727
+    Epoch: 6, Objective difference: 0.7820930682123288, Loss: 322007.17988573486
+    Epoch: 7, Objective difference: 0.0646974001164926, Loss: 305528.4229572441
+    Epoch: 8, Objective difference: 0.2723335115375708, Loss: 220119.45688472473
+    Epoch: 9, Objective difference: 1.0395810542550352, Loss: 467742.59488977597
+    Epoch: 10, Objective difference: 0.145666090905483, Loss: 539724.1511615877
+    Epoch: 11, Objective difference: 0.01815220046223682, Loss: 550583.5266341721
+    Epoch: 12, Objective difference: 0.15272887731962453, Loss: 636530.1419025123
+    Epoch: 13, Objective difference: 0.6401670301697036, Loss: 223995.84140804224
+    Epoch: 14, Objective difference: 1.0205682068454103, Loss: 461663.7061458152
+    Epoch: 15, Objective difference: 0.6109154202591115, Loss: 175661.8733955553
+    Epoch: 16, Objective difference: 0.984529188916909, Loss: 356413.87534297875
+    Epoch: 17, Objective difference: 0.6175077877374526, Loss: 132656.0927326013
+    Epoch: 18, Objective difference: 0.21493285440497426, Loss: 162843.91805311662
+    Epoch: 19, Objective difference: 1.4495391862680465, Loss: 407716.22319338785
+    Epoch: 20, Objective difference: 0.44750238370409745, Loss: 592699.9858718633
+    Epoch: 21, Objective difference: 0.7328235510610075, Loss: 155102.60060165342
+    Epoch: 22, Objective difference: 0.3402908258406624, Loss: 101093.79559405771
+    Epoch: 23, Objective difference: 0.16846141488723443, Loss: 83484.16616484105
+    Epoch: 24, Objective difference: 0.4500654035195299, Loss: 123271.57999176811
+    Epoch: 25, Objective difference: 1.8836577647771846, Loss: 362800.2235008303
+    Epoch: 26, Objective difference: 0.4522811311666931, Loss: 197552.71592917648
+    Epoch: 27, Objective difference: 0.6264303544685061, Loss: 323128.9380009793
+    Epoch: 28, Objective difference: 0.7792773788274235, Loss: 68901.218852362
+    Epoch: 29, Objective difference: 1.6194789906565967, Loss: 185720.25205457487
+    Epoch: 30, Objective difference: 0.4862976621894749, Loss: 94205.70184984125
+    Epoch: 31, Objective difference: 0.17040199184299698, Loss: 77676.4922775603
+    Epoch: 32, Objective difference: 0.18197059944850053, Loss: 63408.63821082189
+    Epoch: 33, Objective difference: 0.41607398058079664, Loss: 90759.34583976805
+    Epoch: 34, Objective difference: 0.24014556991947558, Loss: 68371.63223536631
+    Epoch: 35, Objective difference: 0.2869991471348607, Loss: 88749.54697917374
+    Epoch: 36, Objective difference: 0.23000149050750626, Loss: 109901.00292415671
+    Epoch: 37, Objective difference: 0.38480195359967573, Loss: 153017.5988980526
+    Epoch: 38, Objective difference: 0.5662048625771534, Loss: 65229.34448127165
+    Epoch: 39, Objective difference: 0.49868550588779115, Loss: 99062.66208028479
+    Epoch: 40, Objective difference: 0.2081578079015619, Loss: 78047.58728669726
+    Epoch: 41, Objective difference: 0.19298565370941226, Loss: 62618.8891594194
+    Epoch: 42, Objective difference: 0.8260369296711142, Loss: 115958.63889587569
+    Epoch: 43, Objective difference: 0.4513525671449249, Loss: 62967.8219586156
+    Epoch: 44, Objective difference: 0.18151389875781668, Loss: 74601.97643165651
+    Epoch: 45, Objective difference: 0.2949765718706022, Loss: 52332.68332565167
+    Epoch: 46, Objective difference: 0.2555311672295649, Loss: 66112.0668945646
+    Epoch: 47, Objective difference: 3.158124832536565, Loss: 279462.8844130562
+    Epoch: 48, Objective difference: 0.5196004773246314, Loss: 133422.61031818538
+    Epoch: 49, Objective difference: 0.5849749075357361, Loss: 54775.00290051173
+    Epoch: 50, Objective difference: 0.5631266578111997, Loss: 86236.93808248559
+
+    Avg_accuracy: 0.576
+    Precision: 0.536115569823435
+    Recall: 0.9201101928374655
+    F1-Value: 0.6774847870182555
+
+  SVM: Glove Dataset Learning rates: 0.001, Tradeoff: 0.1
+  glove_lr_0.001_tradeoff_0.1
+
+    Epoch: 1, First Objective: 1889.475009674093, Loss: 18107.072305000554
+    Epoch: 2, Objective difference: 0.1487856211988258, Loss: 15317.410644160891
+    Epoch: 3, Objective difference: 0.04021830041088604, Loss: 16020.57350288053
+    Epoch: 4, Objective difference: 0.19725880715774774, Loss: 19353.696043444335
+    Epoch: 5, Objective difference: 0.1968903080499305, Loss: 15401.672147626334
+    Epoch: 6, Objective difference: 0.0018346700831945685, Loss: 15361.979246009461
+    Epoch: 7, Objective difference: 0.009031919845272565, Loss: 15289.617931632105
+    Epoch: 8, Objective difference: 0.07253171770597006, Loss: 16455.035288112264
+    Epoch: 9, Objective difference: 0.05526935897381854, Loss: 15462.042795014137
+    Epoch: 10, Objective difference: 0.006552723501139237, Loss: 15609.430404931685
+    Epoch: 11, Objective difference: 0.009582681089575799, Loss: 15464.656176860899
+    Epoch: 12, Objective difference: 0.019881631433129956, Loss: 15115.422462737655
+    Epoch: 13, Objective difference: 0.0019152210038112334, Loss: 15160.047520965927
+    Epoch: 14, Objective difference: 0.04238241106847189, Loss: 15805.189980944895
+    Epoch: 15, Objective difference: 0.021408461621999962, Loss: 15448.485415400333
+    Epoch: 16, Objective difference: 0.019500731142581954, Loss: 15757.379203530667
+    Epoch: 17, Objective difference: 0.042058235994038365, Loss: 15096.748714520461
+    Epoch: 18, Objective difference: 0.010924117568077825, Loss: 15273.229726259051
+    Epoch: 19, Objective difference: 0.03740621319248667, Loss: 15866.641794786787
+    Epoch: 20, Objective difference: 0.03138264692711026, Loss: 15346.819945104353
+    Epoch: 21, Objective difference: 0.013803871488408012, Loss: 15125.899810971201
+    Epoch: 22, Objective difference: 0.020183385188492886, Loss: 15436.475402386795
+    Epoch: 23, Objective difference: 0.01916474932016341, Loss: 15109.71946537918
+    Epoch: 24, Objective difference: 0.0027216467207586918, Loss: 15150.922871939078
+    Epoch: 25, Objective difference: 0.004425991682965844, Loss: 15095.369137510414
+    Epoch: 26, Objective difference: 0.0009113968710835344, Loss: 15070.685544230684
+
+    Avg_accuracy: 0.6271111111111111
+    Precision: 0.6242544731610338
+    Recall: 0.5766758494031221
+    F1-Value: 0.5995226730310262
+
+  SVM: Glove Dataset Learning rates: 0.001, Tradeoff: 0.01
+  glove_lr_0.001_tradeoff_0.01
+
+    Epoch: 1, First Objective: 170.7775247402509, Loss: 16767.81297347312
+    Epoch: 2, Objective difference: 0.0034598954699107546, Loss: 16691.316447806268
+    Epoch: 3, Objective difference: 0.000397339949106579, Loss: 16714.20647288968
+
+    Avg_accuracy: 0.5835555555555556
+    Precision: 0.5608
+    Recall: 0.6437098255280074
+    F1-Value: 0.599401453612655
+
+  SVM: Glove Dataset Learning rates: 0.001, Tradeoff: 0.001
+  glove_lr_0.001_tradeoff_0.001
+
+    Epoch: 1, First Objective: 17.440921405124666, Loss: 17354.03198778192
+    Epoch: 2, Objective difference: 0.00034744703874473823, Loss: 17357.827505606943
+
+    Avg_accuracy: 0.484
+    Precision: 0.483710407239819
+    Recall: 0.9816345270890725
+    F1-Value: 0.648075174295241
+
+BOW Dataset Setup Details
+  Epoch Error: 0.0001
+  Random Seed: 42
+  Learning Rates: [1, 0.1, 0.01, 0.001]
+  Tradeoff Parameters: [10000.0, 1000.0, 100.0, 0.1]
+
+  SVM: BOW Dataset Learning rates: 1, Tradeoff: 10000.0
+  bow_lr_1_tradeoff_10000.0
+
+    Epoch: 1, First Objective: 374539086381058.7, Loss: 1554727672.4934666
+    Epoch: 2, Objective difference: 0.9940424527562313, Loss: 79335663.36913218
+    Epoch: 3, Objective difference: 9.593400682202972, Loss: 470422149.17664665
+    Epoch: 4, Objective difference: 0.8049938299255196, Loss: 160808840.63187808
+    Epoch: 5, Objective difference: 5.766008140074971, Loss: 377414676.9736132
+    Epoch: 6, Objective difference: 0.6472749304695351, Loss: 293273170.7008648
+    Epoch: 7, Objective difference: 0.7826104465685673, Loss: 60096871.884737946
+    Epoch: 8, Objective difference: 5.77769952099085, Loss: 282398094.583086
+    Epoch: 9, Objective difference: 0.6049307495350249, Loss: 205223481.39834458
+    Epoch: 10, Objective difference: 0.896443673849775, Loss: 23975649.453102086
+    Epoch: 11, Objective difference: 1.2913528970951718, Loss: 45154191.460602105
+    Epoch: 12, Objective difference: 0.7001707065381756, Loss: 97897092.7681493
+    Epoch: 13, Objective difference: 11.342826064614423, Loss: 441910009.75542784
+    Epoch: 14, Objective difference: 0.8791163839904513, Loss: 129525673.20296776
+    Epoch: 15, Objective difference: 2.490894446463142, Loss: 290555004.1827657
+    Epoch: 16, Objective difference: 0.4892533087327999, Loss: 158472949.31300175
+    Epoch: 17, Objective difference: 0.8113892321472495, Loss: 40408835.15425476
+    Epoch: 18, Objective difference: 7.058614512418539, Loss: 153267761.8686381
+    Epoch: 19, Objective difference: 0.527046471746154, Loss: 110300060.23305847
+    Epoch: 20, Objective difference: 0.05219372144002119, Loss: 175237013.09451655
+    Epoch: 21, Objective difference: 0.1710937674380128, Loss: 79831091.8148937
+    Epoch: 22, Objective difference: 0.3250472636723445, Loss: 85258972.21968617
+    Epoch: 23, Objective difference: 0.5539310205228145, Loss: 74611180.69112022
+    Epoch: 24, Objective difference: 0.18127572669857675, Loss: 50065969.34174189
+    Epoch: 25, Objective difference: 2.7912820818607647, Loss: 168575522.0392674
+    Epoch: 26, Objective difference: 0.5336852784619619, Loss: 73797022.65311179
+    Epoch: 27, Objective difference: 1.9724573523292637, Loss: 262188896.96268955
+    Epoch: 28, Objective difference: 1.0009513029045458, Loss: 522494749.5002492
+    Epoch: 29, Objective difference: 0.9226221522475279, Loss: 45067941.45232446
+    Epoch: 30, Objective difference: 0.3103630655166499, Loss: 58698989.944701806
+    Epoch: 31, Objective difference: 1.8888635073095457, Loss: 145149426.67173648
+    Epoch: 32, Objective difference: 0.05044432000360444, Loss: 143451670.3800723
+    Epoch: 33, Objective difference: 0.5316721233986607, Loss: 94262970.08654457
+    Epoch: 34, Objective difference: 0.002032166657378349, Loss: 74773089.10924748
+    Epoch: 35, Objective difference: 0.20547503646833956, Loss: 99942212.49421772
+    Epoch: 36, Objective difference: 0.04800895238614621, Loss: 75523250.29443063
+    Epoch: 37, Objective difference: 0.3471138828442415, Loss: 86280124.16027749
+    Epoch: 38, Objective difference: 0.6816872589953492, Loss: 50321684.15880882
+    Epoch: 39, Objective difference: 1.9368077706603544, Loss: 128085650.61494502
+    Epoch: 40, Objective difference: 0.6772461630277036, Loss: 36633814.00118126
+    Epoch: 41, Objective difference: 2.9409854179733133, Loss: 110064343.71738984
+    Epoch: 42, Objective difference: 0.08298913050228064, Loss: 133678801.0077017
+    Epoch: 43, Objective difference: 0.6037776526127182, Loss: 59375921.60284621
+    Epoch: 44, Objective difference: 0.24658751679589602, Loss: 76244500.616248
+    Epoch: 45, Objective difference: 0.4780151995246133, Loss: 45406821.26293724
+    Epoch: 46, Objective difference: 0.10019068305001429, Loss: 40241026.002511226
+    Epoch: 47, Objective difference: 0.2865473474258704, Loss: 94076819.49984941
+    Epoch: 48, Objective difference: 0.1410579258260974, Loss: 60360852.585123494
+    Epoch: 49, Objective difference: 0.3718132255374178, Loss: 43885463.52782454
+    Epoch: 50, Objective difference: 1.070408028542379, Loss: 83770628.86339816
+
+    Avg_accuracy: 0.5395555555555556
+    Precision: 0.5238095238095238
+    Recall: 0.5353535353535354
+    F1-Value: 0.5295186194368756
+
+  SVM: BOW Dataset Learning rates: 1, Tradeoff: 1000.0
+  bow_lr_1_tradeoff_1000.0
+
+    Epoch: 1, First Objective: 3745398704672.709, Loss: 155480606.4733396
+    Epoch: 2, Objective difference: 0.994040397046391, Loss: 7941312.5021975525
+    Epoch: 3, Objective difference: 9.590076457402084, Loss: 47050072.831941664
+    Epoch: 4, Objective difference: 0.8049679469372935, Loss: 16088534.678562269
+    Epoch: 5, Objective difference: 5.7650545403519535, Loss: 37749268.8973614
+    Epoch: 6, Objective difference: 0.6472586203336959, Loss: 29335155.603835262
+    Epoch: 7, Objective difference: 0.781655412450556, Loss: 6057812.065816707
+    Epoch: 8, Objective difference: 5.747886640476006, Loss: 28247338.098925747
+    Epoch: 9, Objective difference: 0.6049017471164068, Loss: 20530023.49974742
+    Epoch: 10, Objective difference: 0.8963430807384458, Loss: 2404801.940864486
+    Epoch: 11, Objective difference: 1.2899560091856777, Loss: 4522728.590670888
+    Epoch: 12, Objective difference: 0.699839694113643, Loss: 9797104.666167794
+    Epoch: 13, Objective difference: 11.339598116098955, Loss: 44198378.61243563
+    Epoch: 14, Objective difference: 0.8790952980756178, Loss: 12960241.971888965
+    Epoch: 15, Objective difference: 2.4903978255854713, Loss: 29063146.344677646
+    Epoch: 16, Objective difference: 0.48922360568310247, Loss: 15855197.37674019
+    Epoch: 17, Objective difference: 0.811310194989783, Loss: 4047806.1639954895
+    Epoch: 18, Objective difference: 7.051512247398824, Loss: 15328124.294661494
+    Epoch: 19, Objective difference: 0.526804658338014, Loss: 11038077.855398403
+    Epoch: 20, Objective difference: 0.05218239240110632, Loss: 17531614.222004473
+    Epoch: 21, Objective difference: 0.17107680068152228, Loss: 7990567.235224467
+    Epoch: 22, Objective difference: 0.32497772965031435, Loss: 8532782.984562136
+    Epoch: 23, Objective difference: 0.5538502250161833, Loss: 7468802.92743351
+    Epoch: 24, Objective difference: 0.1812126465909577, Loss: 5014495.65191422
+    Epoch: 25, Objective difference: 0.06866391374431989, Loss: 4867325.463828015
+    Epoch: 26, Objective difference: 0.8979368242534862, Loss: 7387125.50519943
+    Epoch: 27, Objective difference: 1.972067309291223, Loss: 26226589.206366416
+    Epoch: 28, Objective difference: 1.001982094529223, Loss: 52318515.61934969
+    Epoch: 29, Objective difference: 0.9226343863099861, Loss: 4514040.185362597
+    Epoch: 30, Objective difference: 0.31026458442724897, Loss: 5877722.51338146
+    Epoch: 31, Objective difference: 1.888190090619856, Loss: 14522551.556708446
+    Epoch: 32, Objective difference: 0.0006895596593342592, Loss: 14215850.5194098
+    Epoch: 33, Objective difference: 0.5076562565948687, Loss: 9433381.38960289
+    Epoch: 34, Objective difference: 0.0020492466487621046, Loss: 7484946.968588075
+    Epoch: 35, Objective difference: 0.205424904738057, Loss: 10000997.49149336
+    Epoch: 36, Objective difference: 0.047985217826480325, Loss: 7559404.827969551
+    Epoch: 37, Objective difference: 0.0164178347905675, Loss: 11898083.566357851
+    Epoch: 38, Objective difference: 0.5639148622741806, Loss: 5040086.5263218675
+    Epoch: 39, Objective difference: 1.9358904537028323, Loss: 12816080.16998862
+    Epoch: 40, Objective difference: 0.6777330387223908, Loss: 3638251.536117516
+    Epoch: 41, Objective difference: 0.4326943836785858, Loss: 5345879.296953092
+    Epoch: 42, Objective difference: 1.526221766934488, Loss: 13375305.10233418
+    Epoch: 43, Objective difference: 0.4177986317361498, Loss: 8703459.571415761
+    Epoch: 44, Objective difference: 0.15220224803634103, Loss: 7601721.863700488
+    Epoch: 45, Objective difference: 0.4474293540057226, Loss: 4863383.947354728
+    Epoch: 46, Objective difference: 0.04025530093495029, Loss: 4030510.360180798
+    Epoch: 47, Objective difference: 0.45301680996911325, Loss: 10805414.6420651
+    Epoch: 48, Objective difference: 0.018534319548224678, Loss: 6206949.441816408
+    Epoch: 49, Objective difference: 0.37679432764229226, Loss: 4396191.402642229
+    Epoch: 50, Objective difference: 1.0698544139564214, Loss: 8384379.624726264
+
+    Avg_accuracy: 0.5395555555555556
+    Precision: 0.5238095238095238
+    Recall: 0.5353535353535354
+    F1-Value: 0.5295186194368756
+
+  SVM: BOW Dataset Learning rates: 1, Tradeoff: 100.0
+  bow_lr_1_tradeoff_100.0
+
+    Epoch: 1, First Objective: 37454770927.9155, Loss: 15555899.624044059
+    Epoch: 2, Objective difference: 0.9940195393497576, Loss: 801990.1689210616
+    Epoch: 3, Objective difference: 9.55731580181216, Loss: 4714390.198750307
+    Epoch: 4, Objective difference: 0.8047248023340624, Loss: 1616523.2069281149
+    Epoch: 5, Objective difference: 5.75550895142574, Loss: 3782732.7352483342
+    Epoch: 6, Objective difference: 0.6470953951876788, Loss: 2941360.9948524237
+    Epoch: 7, Objective difference: 0.7811394926765468, Loss: 613174.1051145775
+    Epoch: 8, Objective difference: 5.730325761813343, Loss: 2832307.4843681226
+    Epoch: 9, Objective difference: 0.6046078963729756, Loss: 2060759.9710630185
+    Epoch: 10, Objective difference: 0.8954823616258967, Loss: 246711.96746223667
+    Epoch: 11, Objective difference: 1.277679313940649, Loss: 459124.05813109654
+    Epoch: 12, Objective difference: 0.6775348445712794, Loss: 926826.0059309939
+    Epoch: 13, Objective difference: 11.45554511114554, Loss: 4427750.869314072
+    Epoch: 14, Objective difference: 0.8788805924494881, Loss: 1303828.8497465497
+    Epoch: 15, Objective difference: 2.4824020187521647, Loss: 2898416.9861973682
+    Epoch: 16, Objective difference: 0.48849551087901605, Loss: 1593452.1314063747
+    Epoch: 17, Objective difference: 0.8098695750128505, Loss: 414067.7531895488
+    Epoch: 18, Objective difference: 6.986588011178031, Loss: 1540077.1214837888
+    Epoch: 19, Objective difference: 0.5265360284727543, Loss: 1110201.2467779678
+    Epoch: 20, Objective difference: 0.052499553616481585, Loss: 1761133.2519009984
+    Epoch: 21, Objective difference: 0.17167950092318768, Loss: 807075.1541232379
+    Epoch: 22, Objective difference: 0.3292046185374232, Loss: 831360.9398023076
+    Epoch: 23, Objective difference: 0.5827104310510838, Loss: 718849.2127931168
+    Epoch: 24, Objective difference: 0.12466471732348852, Loss: 509498.4319726053
+    Epoch: 25, Objective difference: 0.06991649930205678, Loss: 492713.88981484546
+    Epoch: 26, Objective difference: 0.6516259334084766, Loss: 1106737.7529204297
+    Epoch: 27, Objective difference: 2.086059994446631, Loss: 1938223.8549416477
+    Epoch: 28, Objective difference: 1.2106920247479869, Loss: 5239535.392690203
+    Epoch: 29, Objective difference: 0.9206587585619663, Loss: 485881.34267489664
+    Epoch: 30, Objective difference: 0.2987326164782234, Loss: 603563.4222684421
+    Epoch: 31, Objective difference: 1.3851594430250571, Loss: 1153392.6597681642
+    Epoch: 32, Objective difference: 0.19173027783567181, Loss: 1430955.341315235
+    Epoch: 33, Objective difference: 0.5060329800270084, Loss: 955879.2330496437
+    Epoch: 34, Objective difference: 0.01017035090697323, Loss: 770113.5618481244
+    Epoch: 35, Objective difference: 0.6677240129165087, Loss: 1727918.601187834
+    Epoch: 36, Objective difference: 0.25082564318340894, Loss: 763172.1259908983
+    Epoch: 37, Objective difference: 0.3475078035656592, Loss: 872302.3671120718
+    Epoch: 38, Objective difference: 0.7434806702542643, Loss: 503632.72045583033
+    Epoch: 39, Objective difference: 2.6425311951654105, Loss: 1289273.4022122084
+    Epoch: 40, Objective difference: 0.3741243860819018, Loss: 741952.438233618
+    Epoch: 41, Objective difference: 0.24544145438543413, Loss: 616004.7390602129
+    Epoch: 42, Objective difference: 1.4460530368946343, Loss: 1311976.832786179
+    Epoch: 43, Objective difference: 0.451400719162752, Loss: 957161.3081782461
+    Epoch: 44, Objective difference: 0.17102081843913755, Loss: 696780.9390740661
+    Epoch: 45, Objective difference: 0.37872500358276634, Loss: 471374.67641035555
+    Epoch: 46, Objective difference: 0.016519007461394102, Loss: 410867.9202999991
+    Epoch: 47, Objective difference: 0.5968439911047881, Loss: 1102890.752884952
+    Epoch: 48, Objective difference: 0.0071497526249103445, Loss: 572763.3267906287
+    Epoch: 49, Objective difference: 0.35291928054778904, Loss: 510016.69094082294
+    Epoch: 50, Objective difference: 0.22659036765463797, Loss: 610808.0233749214
+
+    Avg_accuracy: 0.5835555555555556
+    Precision: 0.5926829268292683
+    Recall: 0.4462809917355372
+    F1-Value: 0.5091671031953903
+
+  SVM: BOW Dataset Learning rates: 1, Tradeoff: 0.1
+  bow_lr_1_tradeoff_0.1
+
+    Epoch: 1, First Objective: 7776.839371208464, Loss: 21732.358294798778
+    Epoch: 2, Objective difference: 0.6000751837799642, Loss: 17746.904457026536
+    Epoch: 3, Objective difference: 0.813085859987124, Loss: 22696.423891131937
+    Epoch: 4, Objective difference: 0.559716177002019, Loss: 18201.66302110665
+    Epoch: 5, Objective difference: 0.8580948250384697, Loss: 18306.746588584207
+    Epoch: 6, Objective difference: 0.35531952300716113, Loss: 18553.46287375858
+    Epoch: 7, Objective difference: 0.3051113638643136, Loss: 17321.57880940755
+    Epoch: 8, Objective difference: 0.9379127231694594, Loss: 20023.422836999827
+    Epoch: 9, Objective difference: 0.405377190209807, Loss: 17776.104704489575
+    Epoch: 10, Objective difference: 0.13758346158233833, Loss: 17788.917470534543
+    Epoch: 11, Objective difference: 0.004511174135107508, Loss: 17389.546699984287
+    Epoch: 12, Objective difference: 0.023517761394055054, Loss: 17367.339582356362
+    Epoch: 13, Objective difference: 0.8365823976645291, Loss: 19945.625819184334
+    Epoch: 14, Objective difference: 0.30454010121739805, Loss: 18468.616368166156
+    Epoch: 15, Objective difference: 0.02504832262222653, Loss: 18400.120860229094
+    Epoch: 16, Objective difference: 0.03811059239732419, Loss: 20613.919954169665
+    Epoch: 17, Objective difference: 0.4110315351650971, Loss: 17150.07509740448
+    Epoch: 18, Objective difference: 0.45083148871319784, Loss: 17506.83807233017
+    Epoch: 19, Objective difference: 0.09962622977841354, Loss: 17754.62466232114
+    Epoch: 20, Objective difference: 0.4100458883595281, Loss: 20257.39383829601
+    Epoch: 21, Objective difference: 0.31256674047559047, Loss: 17567.056566883508
+    Epoch: 22, Objective difference: 0.06017882013339489, Loss: 17377.80923784435
+    Epoch: 23, Objective difference: 0.10278369409252187, Loss: 17414.48175146518
+    Epoch: 24, Objective difference: 0.010943190077878376, Loss: 17647.82483131504
+    Epoch: 25, Objective difference: 0.3460718083379452, Loss: 18494.328595574752
+    Epoch: 26, Objective difference: 0.21203577766017284, Loss: 17505.57375989562
+    Epoch: 27, Objective difference: 0.3106774822056556, Loss: 18519.17485138352
+    Epoch: 28, Objective difference: 0.08417097845966084, Loss: 18168.322687191132
+    Epoch: 29, Objective difference: 0.1448944452123095, Loss: 17500.16367235655
+    Epoch: 30, Objective difference: 0.5604838728226473, Loss: 19828.714426870407
+    Epoch: 31, Objective difference: 0.3700835156297341, Loss: 17553.704930502514
+    Epoch: 32, Objective difference: 0.04380690712555383, Loss: 17769.520491304665
+    Epoch: 33, Objective difference: 0.09022066976141857, Loss: 17831.275524603916
+    Epoch: 34, Objective difference: 0.018775647227526292, Loss: 17605.727218200107
+    Epoch: 35, Objective difference: 0.016729560035429053, Loss: 17791.165087711266
+    Epoch: 36, Objective difference: 0.030244560943249822, Loss: 17219.855500137503
+    Epoch: 37, Objective difference: 0.036570454873685314, Loss: 17356.786830032786
+    Epoch: 38, Objective difference: 0.06311589749992527, Loss: 17516.329337188312
+    Epoch: 39, Objective difference: 0.0038956850674845295, Loss: 17395.927936779728
+    Epoch: 40, Objective difference: 0.0014567329671639248, Loss: 17430.73476676368
+    Epoch: 41, Objective difference: 0.13378998406489812, Loss: 17675.85102487545
+    Epoch: 42, Objective difference: 0.07870095487602025, Loss: 17410.73304027587
+    Epoch: 43, Objective difference: 0.09837609821208221, Loss: 17660.35423193468
+    Epoch: 44, Objective difference: 0.12358983567724421, Loss: 17273.29901356026
+    Epoch: 45, Objective difference: 0.12095559922652495, Loss: 17411.894069575934
+    Epoch: 46, Objective difference: 0.026407222244435213, Loss: 17224.559627866554
+    Epoch: 47, Objective difference: 0.016612180389080064, Loss: 17469.984834041465
+    Epoch: 48, Objective difference: 0.005012629591123096, Loss: 17243.259671576554
+    Epoch: 49, Objective difference: 0.0066010728665834165, Loss: 17354.25420499283
+    Epoch: 50, Objective difference: 0.11210260204545323, Loss: 17720.34464342919
+
+    Avg_accuracy: 0.5293333333333333
+    Precision: 0.5700934579439252
+    Recall: 0.11202938475665748
+    F1-Value: 0.18726016884113583
+
+  SVM: BOW Dataset Learning rates: 0.1, Tradeoff: 10000.0
+  bow_lr_0.1_tradeoff_10000.0
+
+    Epoch: 1, First Objective: 7872284634082.178, Loss: 185383105.51172975
+    Epoch: 2, Objective difference: 0.6704284857399203, Loss: 50009146.56851857
+    Epoch: 3, Objective difference: 3.2568094431802503, Loss: 231823533.60267067
+    Epoch: 4, Objective difference: 0.45185673181505365, Loss: 120423530.75498071
+    Epoch: 5, Objective difference: 0.8007146043145984, Loss: 41305279.85034481
+    Epoch: 6, Objective difference: 0.6483710415649726, Loss: 65676007.688521914
+    Epoch: 7, Objective difference: 0.5186976202112976, Loss: 29884432.491639525
+    Epoch: 8, Objective difference: 0.9151778301692005, Loss: 80458630.81627364
+    Epoch: 9, Objective difference: 0.3818320513799611, Loss: 109791394.43911186
+    Epoch: 10, Objective difference: 0.45010249516807305, Loss: 42343592.29801352
+    Epoch: 11, Objective difference: 0.08244188352924134, Loss: 40477982.39367746
+    Epoch: 12, Objective difference: 0.5718074243594372, Loss: 22898574.887317006
+    Epoch: 13, Objective difference: 2.4542030166460576, Loss: 74443784.8433766
+    Epoch: 14, Objective difference: 0.6436874106573803, Loss: 34801296.079468325
+    Epoch: 15, Objective difference: 0.23756659979866315, Loss: 27507488.70469791
+    Epoch: 16, Objective difference: 0.6126608726841901, Loss: 50374262.94221977
+    Epoch: 17, Objective difference: 0.2812462468460071, Loss: 28113379.930065386
+    Epoch: 18, Objective difference: 0.11793894411259004, Loss: 21906817.189124063
+    Epoch: 19, Objective difference: 0.47526254447288685, Loss: 28000183.76092803
+    Epoch: 20, Objective difference: 0.16692444139180138, Loss: 38920957.802344315
+    Epoch: 21, Objective difference: 0.20520682926575295, Loss: 21312451.181973413
+    Epoch: 22, Objective difference: 0.028368759932000304, Loss: 25977866.827911444
+    Epoch: 23, Objective difference: 1.3603110365412048, Loss: 52276425.50363985
+    Epoch: 24, Objective difference: 0.6396293411492975, Loss: 21303625.83224022
+    Epoch: 25, Objective difference: 0.6006921498278219, Loss: 41646287.609959304
+    Epoch: 26, Objective difference: 0.5651928309601375, Loss: 15240284.167500975
+    Epoch: 27, Objective difference: 0.9417932470182074, Loss: 37049278.31472579
+    Epoch: 28, Objective difference: 0.4518261521631324, Loss: 28028119.82846161
+    Epoch: 29, Objective difference: 0.5020621908893195, Loss: 19551054.845957257
+    Epoch: 30, Objective difference: 0.28391805357847, Loss: 16201614.03393202
+    Epoch: 31, Objective difference: 7.006824084386095, Loss: 178587865.1446391
+    Epoch: 32, Objective difference: 0.808300327120092, Loss: 23936568.950860206
+    Epoch: 33, Objective difference: 0.2443644278161015, Loss: 17804338.80214041
+    Epoch: 34, Objective difference: 0.022597769594778796, Loss: 21347645.832511865
+    Epoch: 35, Objective difference: 0.3083196201886448, Loss: 27347748.834847603
+    Epoch: 36, Objective difference: 0.40858483460091505, Loss: 13180729.18862673
+    Epoch: 37, Objective difference: 0.038877299090029696, Loss: 13788469.105654068
+    Epoch: 38, Objective difference: 0.0265150701072414, Loss: 14667657.2663079
+    Epoch: 39, Objective difference: 0.022612781774719707, Loss: 15073347.24174827
+    Epoch: 40, Objective difference: 0.15517261348663566, Loss: 15266891.038251312
+    Epoch: 41, Objective difference: 1.0513210224075846, Loss: 43213015.45729253
+    Epoch: 42, Objective difference: 0.2904226913522938, Loss: 26610026.745756187
+    Epoch: 43, Objective difference: 0.6087008507077819, Loss: 11145478.853120595
+    Epoch: 44, Objective difference: 0.6665306675408736, Loss: 14519261.13927953
+    Epoch: 45, Objective difference: 0.33179174410125406, Loss: 10896357.334888581
+    Epoch: 46, Objective difference: 0.11106754858192366, Loss: 9684916.593411855
+    Epoch: 47, Objective difference: 0.11497744729095132, Loss: 11540634.407060195
+    Epoch: 48, Objective difference: 0.1647589792893279, Loss: 11841652.044924794
+    Epoch: 49, Objective difference: 0.2153964161313448, Loss: 10534798.559324889
+    Epoch: 50, Objective difference: 0.17151628556942683, Loss: 10073800.714291139
+
+    Avg_accuracy: 0.588
+    Precision: 0.5896017699115044
+    Recall: 0.48943985307621674
+    F1-Value: 0.5348720521826392
+
+  SVM: BOW Dataset Learning rates: 0.1, Tradeoff: 1000.0
+  bow_lr_0.1_tradeoff_1000.0
+
+    Epoch: 1, First Objective: 78730237865.82077, Loss: 18545702.07618778
+    Epoch: 2, Objective difference: 0.6706277153559635, Loss: 5002174.579611335
+    Epoch: 3, Objective difference: 3.1947589806195147, Loss: 22761119.23210555
+    Epoch: 4, Objective difference: 0.8272570502461949, Loss: 10860969.41990605
+    Epoch: 5, Objective difference: 0.35757302500730315, Loss: 4137628.113395901
+    Epoch: 6, Objective difference: 0.4484672864807917, Loss: 4873560.87578677
+    Epoch: 7, Objective difference: 0.45221147928244954, Loss: 2995149.1390060703
+    Epoch: 8, Objective difference: 0.8684399078092834, Loss: 7296869.6683989
+    Epoch: 9, Objective difference: 0.5604717906099648, Loss: 3740488.872130073
+    Epoch: 10, Objective difference: 4.794909498837107, Loss: 7400397.49318255
+    Epoch: 11, Objective difference: 0.663366108876436, Loss: 4188122.765930174
+    Epoch: 12, Objective difference: 0.6026922877979102, Loss: 2002382.6159422677
+    Epoch: 13, Objective difference: 2.881101014049824, Loss: 7722612.354888297
+    Epoch: 14, Objective difference: 0.6678044582208932, Loss: 3577536.712898534
+    Epoch: 15, Objective difference: 0.8166412478601491, Loss: 7209079.063226426
+    Epoch: 16, Objective difference: 0.30691919267189405, Loss: 6673129.999465884
+    Epoch: 17, Objective difference: 0.33967679111652244, Loss: 2359565.1823051306
+    Epoch: 18, Objective difference: 0.16264762359446214, Loss: 2813270.3206604198
+    Epoch: 19, Objective difference: 0.19211594359801948, Loss: 3120919.626236465
+    Epoch: 20, Objective difference: 0.15798866010051543, Loss: 3481262.7869246667
+    Epoch: 21, Objective difference: 0.33517895397426, Loss: 1855225.9373241924
+    Epoch: 22, Objective difference: 0.046822503740980445, Loss: 2358006.920745005
+    Epoch: 23, Objective difference: 0.3069644667751166, Loss: 2795396.8512958116
+    Epoch: 24, Objective difference: 0.3664167663208548, Loss: 1893559.9398263688
+    Epoch: 25, Objective difference: 0.7503955874344412, Loss: 3865305.186074845
+    Epoch: 26, Objective difference: 0.5195646097438902, Loss: 1556099.5866834095
+    Epoch: 27, Objective difference: 0.7157176119167891, Loss: 3356582.268919531
+    Epoch: 28, Objective difference: 0.45963213923952706, Loss: 2662543.324661287
+    Epoch: 29, Objective difference: 0.4682588560286333, Loss: 1987611.7771180517
+    Epoch: 30, Objective difference: 0.30507005327074327, Loss: 1642216.368795665
+    Epoch: 31, Objective difference: 7.015213703421177, Loss: 17377712.760949377
+    Epoch: 32, Objective difference: 0.8630810296407319, Loss: 1478466.994318995
+    Epoch: 33, Objective difference: 0.03044529084154994, Loss: 1668410.7421619098
+    Epoch: 34, Objective difference: 0.3739882517672067, Loss: 1253786.7202953992
+    Epoch: 35, Objective difference: 1.311739450998369, Loss: 2829038.727311518
+    Epoch: 36, Objective difference: 0.5181597601840444, Loss: 1248942.5127087834
+    Epoch: 37, Objective difference: 0.23948356844053417, Loss: 1521593.3484186658
+    Epoch: 38, Objective difference: 0.1496293052924208, Loss: 1577529.388748386
+    Epoch: 39, Objective difference: 0.45903495028081415, Loss: 1955636.5743664724
+    Epoch: 40, Objective difference: 0.12030994975928434, Loss: 1581087.2671443985
+    Epoch: 41, Objective difference: 0.8786450262433488, Loss: 3740456.058054326
+    Epoch: 42, Objective difference: 0.21235296915256122, Loss: 2769505.0035979254
+    Epoch: 43, Objective difference: 0.4919929214420521, Loss: 1487230.95439896
+    Epoch: 44, Objective difference: 0.23048027239641028, Loss: 1428990.1364280258
+    Epoch: 45, Objective difference: 0.1132298355125219, Loss: 1680784.8220869307
+    Epoch: 46, Objective difference: 0.16916533844214457, Loss: 1479952.1751998335
+    Epoch: 47, Objective difference: 0.37713069719640824, Loss: 890981.702840053
+    Epoch: 48, Objective difference: 0.09022597690527077, Loss: 862012.9280532068
+    Epoch: 49, Objective difference: 0.026216408998494936, Loss: 1179370.108264695
+    Epoch: 50, Objective difference: 0.053612903677036146, Loss: 1175816.0398874125
+
+    Avg_accuracy: 0.5675555555555556
+    Precision: 0.556640625
+    Recall: 0.5234159779614325
+    F1-Value: 0.5395172740179839
+
+  SVM: BOW Dataset Learning rates: 0.1, Tradeoff: 100.0
+  bow_lr_0.1_tradeoff_100.0
+
+    Epoch: 1, First Objective: 786588327.1531723, Loss: 1850894.33629393
+    Epoch: 2, Objective difference: 0.6693288431694, Loss: 506914.19728736224
+    Epoch: 3, Objective difference: 3.234379429944397, Loss: 2355304.563654098
+    Epoch: 4, Objective difference: 0.8415997543612729, Loss: 976566.3407622519
+    Epoch: 5, Objective difference: 0.4077583889382703, Loss: 379395.87472834985
+    Epoch: 6, Objective difference: 0.6742932955503267, Loss: 469762.87822683394
+    Epoch: 7, Objective difference: 0.42751647721796965, Loss: 319222.2917577702
+    Epoch: 8, Objective difference: 0.8410929701560483, Loss: 794586.0984451096
+    Epoch: 9, Objective difference: 0.5799809750958785, Loss: 352098.1391852834
+    Epoch: 10, Objective difference: 0.08824993181284288, Loss: 295992.3780288299
+    Epoch: 11, Objective difference: 0.8175485791622896, Loss: 409327.059571164
+    Epoch: 12, Objective difference: 0.5698722147775976, Loss: 233047.54082977542
+    Epoch: 13, Objective difference: 2.673144849947037, Loss: 799966.1935223639
+    Epoch: 14, Objective difference: 0.6285356609789403, Loss: 405199.9293011986
+    Epoch: 15, Objective difference: 0.08784889436053486, Loss: 322546.4418355125
+    Epoch: 16, Objective difference: 0.17699883887059065, Loss: 574688.7101694406
+    Epoch: 17, Objective difference: 0.22553891359934308, Loss: 304700.85645539634
+    Epoch: 18, Objective difference: 0.037952499704725876, Loss: 254078.69628935246
+    Epoch: 19, Objective difference: 0.36036992735737466, Loss: 347058.20399088046
+    Epoch: 20, Objective difference: 0.21915393928022636, Loss: 342247.1961526668
+    Epoch: 21, Objective difference: 0.14406606163531724, Loss: 233098.89628408203
+    Epoch: 22, Objective difference: 0.18967545248358508, Loss: 227340.81803650886
+    Epoch: 23, Objective difference: 0.3582655636550985, Loss: 292447.70093934424
+    Epoch: 24, Objective difference: 0.35633222142547155, Loss: 229658.64564438653
+    Epoch: 25, Objective difference: 0.7196075570330417, Loss: 400967.2127099773
+    Epoch: 26, Objective difference: 0.5655264109444503, Loss: 155974.17412110278
+    Epoch: 27, Objective difference: 0.8784681403822493, Loss: 338656.4535510417
+    Epoch: 28, Objective difference: 0.3744234561657495, Loss: 268032.4988183445
+    Epoch: 29, Objective difference: 0.43001678996493287, Loss: 212970.89059714632
+    Epoch: 30, Objective difference: 1.0339051538809636, Loss: 640115.1840969081
+    Epoch: 31, Objective difference: 1.7997631150766678, Loss: 1818868.848917299
+    Epoch: 32, Objective difference: 0.8419802829691841, Loss: 224641.63088866606
+    Epoch: 33, Objective difference: 0.07798578411700627, Loss: 181814.5331718883
+    Epoch: 34, Objective difference: 0.31543934164584553, Loss: 130629.41625307975
+    Epoch: 35, Objective difference: 0.857809373586996, Loss: 241864.78156074887
+    Epoch: 36, Objective difference: 0.4114416724044817, Loss: 146045.5664905846
+    Epoch: 37, Objective difference: 0.06846147881378187, Loss: 159580.2904153739
+    Epoch: 38, Objective difference: 0.024075297193588318, Loss: 184585.20343052314
+    Epoch: 39, Objective difference: 0.04901698394265131, Loss: 186588.52160456
+    Epoch: 40, Objective difference: 0.02442726761952661, Loss: 163934.10272445594
+    Epoch: 41, Objective difference: 1.2982180984343417, Loss: 474278.4074203415
+    Epoch: 42, Objective difference: 0.30165860928342164, Loss: 292770.37899961724
+    Epoch: 43, Objective difference: 0.4655742703982207, Loss: 188802.2587726427
+    Epoch: 44, Objective difference: 0.109058587767645, Loss: 141297.83015786234
+    Epoch: 45, Objective difference: 0.12333283035424547, Loss: 130445.07235458931
+    Epoch: 46, Objective difference: 0.02357580369932698, Loss: 138176.86163966966
+    Epoch: 47, Objective difference: 0.11693180229270464, Loss: 142794.85623052414
+    Epoch: 48, Objective difference: 0.17994388718417556, Loss: 138677.71251551618
+    Epoch: 49, Objective difference: 0.1808367977378151, Loss: 132114.544002311
+    Epoch: 50, Objective difference: 0.6180249778009022, Loss: 169280.9760534216
+
+    Avg_accuracy: 0.5955555555555555
+    Precision: 0.6082224909310762
+    Recall: 0.46189164370982555
+    F1-Value: 0.5250521920668058
+
+  SVM: BOW Dataset Learning rates: 0.1, Tradeoff: 0.1
+  bow_lr_0.1_tradeoff_0.1
+
+    Epoch: 1, First Objective: 2562.6912780014272, Loss: 18081.99356665925
+    Epoch: 2, Objective difference: 0.18177462442195266, Loss: 17416.37959933904
+    Epoch: 3, Objective difference: 0.37970484459164633, Loss: 18443.202674395034
+    Epoch: 4, Objective difference: 0.20260672480017322, Loss: 17255.51661770416
+    Epoch: 5, Objective difference: 0.1652965618255167, Loss: 17268.813610700057
+    Epoch: 6, Objective difference: 0.044691347734014376, Loss: 17358.93326755758
+    Epoch: 7, Objective difference: 0.0653699231028854, Loss: 17515.14033363461
+    Epoch: 8, Objective difference: 0.04333510066251788, Loss: 17547.179416980198
+    Epoch: 9, Objective difference: 0.028022676399952057, Loss: 17374.79086615581
+    Epoch: 10, Objective difference: 0.07115697716612368, Loss: 17284.328836825887
+    Epoch: 11, Objective difference: 0.05100445527327318, Loss: 17559.936136575372
+    Epoch: 12, Objective difference: 0.03645508570170615, Loss: 17253.376278579664
+    Epoch: 13, Objective difference: 0.031088197669607798, Loss: 17342.419370082782
+    Epoch: 14, Objective difference: 0.05907768943503873, Loss: 17341.54323564823
+    Epoch: 15, Objective difference: 0.02298076062432061, Loss: 17379.723563808762
+    Epoch: 16, Objective difference: 0.025480559869068616, Loss: 17852.60816346041
+    Epoch: 17, Objective difference: 0.05864969354716213, Loss: 17258.694117364637
+    Epoch: 18, Objective difference: 0.01877273122133461, Loss: 17293.154064383885
+    Epoch: 19, Objective difference: 0.011278791538174375, Loss: 17315.961474640048
+    Epoch: 20, Objective difference: 0.01032925717386823, Loss: 17276.131012202335
+    Epoch: 21, Objective difference: 0.00585372384609698, Loss: 17179.02143598925
+    Epoch: 22, Objective difference: 0.02625930225744242, Loss: 17647.590039944953
+    Epoch: 23, Objective difference: 0.017885709597883322, Loss: 17312.524076385245
+    Epoch: 24, Objective difference: 0.021279272663379468, Loss: 17296.18816812446
+    Epoch: 25, Objective difference: 0.023357937239579987, Loss: 17430.178751488595
+    Epoch: 26, Objective difference: 0.024858951859548253, Loss: 17244.594672707426
+    Epoch: 27, Objective difference: 0.008317616104229184, Loss: 17255.580804537345
+    Epoch: 28, Objective difference: 0.13891275981575776, Loss: 17681.231851206456
+    Epoch: 29, Objective difference: 0.12020964603100312, Loss: 17279.221901512556
+    Epoch: 30, Objective difference: 0.011660705053156053, Loss: 17315.752122229926
+    Epoch: 31, Objective difference: 0.04063819943930535, Loss: 17680.909173210966
+    Epoch: 32, Objective difference: 0.057846411167758925, Loss: 17260.230797959575
+    Epoch: 33, Objective difference: 0.0029629332175908924, Loss: 17200.89316630474
+    Epoch: 34, Objective difference: 0.0014980608676778524, Loss: 17209.765581610904
+    Epoch: 35, Objective difference: 0.005652379815111224, Loss: 17330.93335898003
+    Epoch: 36, Objective difference: 0.013969560800636327, Loss: 17225.866505439964
+    Epoch: 37, Objective difference: 0.008434444517186711, Loss: 17279.74225140729
+    Epoch: 38, Objective difference: 0.0077464693676553365, Loss: 17321.49948708299
+    Epoch: 39, Objective difference: 0.00014559084690134568, Loss: 17188.32416955755
+    Epoch: 40, Objective difference: 0.007653592051640661, Loss: 17241.416791249518
+    Epoch: 41, Objective difference: 0.005779082461104387, Loss: 17226.123237685024
+    Epoch: 42, Objective difference: 0.00789199772460971, Loss: 17233.08493383085
+    Epoch: 43, Objective difference: 0.0022086350799231064, Loss: 17242.768733419583
+    Epoch: 44, Objective difference: 0.003199436832743065, Loss: 17167.948600669995
+    Epoch: 45, Objective difference: 0.0023927278493146758, Loss: 17300.71382745199
+    Epoch: 46, Objective difference: 0.006623079977342572, Loss: 17224.90306029629
+    Epoch: 47, Objective difference: 9.900523996818794e-05, Loss: 17251.189983405275
+
+    Avg_accuracy: 0.5537777777777778
+    Precision: 0.5210918114143921
+    Recall: 0.9641873278236914
+    F1-Value: 0.6765463917525774
+
+  SVM: BOW Dataset Learning rates: 0.01, Tradeoff: 10000.0
+  bow_lr_0.01_tradeoff_10000.0
+
+    Epoch: 1, First Objective: 1034200088338.2042, Loss: 33264510.329831574
+    Epoch: 2, Objective difference: 0.47669658026335354, Loss: 24713617.500890717
+    Epoch: 3, Objective difference: 0.16384785983329375, Loss: 33045812.282265358
+    Epoch: 4, Objective difference: 0.4858985119968342, Loss: 16678133.126588296
+    Epoch: 5, Objective difference: 0.3708944210115656, Loss: 9658967.766965764
+    Epoch: 6, Objective difference: 0.024997422235804846, Loss: 9564569.740725102
+    Epoch: 7, Objective difference: 0.49980325400130865, Loss: 12873348.047298545
+    Epoch: 8, Objective difference: 0.4346866157486514, Loss: 8670885.135834172
+    Epoch: 9, Objective difference: 0.23476922371529263, Loss: 11671743.009448277
+    Epoch: 10, Objective difference: 0.27109294080988305, Loss: 7847074.765062618
+    Epoch: 11, Objective difference: 0.07176715400720977, Loss: 7825318.804144914
+    Epoch: 12, Objective difference: 0.16868561232562018, Loss: 9236408.371961618
+    Epoch: 13, Objective difference: 0.07363121530732654, Loss: 10889650.822620777
+    Epoch: 14, Objective difference: 0.5395271546225536, Loss: 4612354.2728800615
+    Epoch: 15, Objective difference: 0.32733635486159035, Loss: 6673918.946470234
+    Epoch: 16, Objective difference: 0.19006893402024597, Loss: 6618265.871173633
+    Epoch: 17, Objective difference: 0.29816678105519345, Loss: 5176064.0911127785
+    Epoch: 18, Objective difference: 0.03168871079204841, Loss: 5163263.789084414
+    Epoch: 19, Objective difference: 0.13865148585158654, Loss: 5099228.965249051
+    Epoch: 20, Objective difference: 0.1382521046539773, Loss: 4309364.221739928
+    Epoch: 21, Objective difference: 0.10940325688352623, Loss: 4432185.585686368
+    Epoch: 22, Objective difference: 0.24483141001412653, Loss: 5503000.281746275
+    Epoch: 23, Objective difference: 0.11688160179279344, Loss: 7062300.470090907
+    Epoch: 24, Objective difference: 0.4447858211535263, Loss: 3808401.8414559937
+    Epoch: 25, Objective difference: 0.01927226604393748, Loss: 3675782.5586422794
+    Epoch: 26, Objective difference: 0.18810021948183003, Loss: 3996777.0633984436
+    Epoch: 27, Objective difference: 0.15685622227639287, Loss: 4586110.639284813
+    Epoch: 28, Objective difference: 0.3182574976496399, Loss: 3658296.5840382194
+    Epoch: 29, Objective difference: 0.12281454082788554, Loss: 2956629.0967245055
+    Epoch: 30, Objective difference: 0.447551604085393, Loss: 4966127.656180798
+    Epoch: 31, Objective difference: 2.224088908314678, Loss: 20064129.272557687
+    Epoch: 32, Objective difference: 0.7734783537393147, Loss: 3714026.071962134
+    Epoch: 33, Objective difference: 0.0851400337212134, Loss: 3321591.711676756
+    Epoch: 34, Objective difference: 0.4207155214137714, Loss: 2122497.990427014
+    Epoch: 35, Objective difference: 0.3766933139321413, Loss: 2969535.9298461596
+    Epoch: 36, Objective difference: 0.06413824244860612, Loss: 2748423.7245646105
+    Epoch: 37, Objective difference: 0.07833305187222027, Loss: 3665210.4078164045
+    Epoch: 38, Objective difference: 0.23120215156488452, Loss: 2559207.2145832875
+    Epoch: 39, Objective difference: 0.14320245295565032, Loss: 2155762.0621850463
+    Epoch: 40, Objective difference: 0.16186416078068663, Loss: 2657588.875661451
+    Epoch: 41, Objective difference: 0.4355329175918994, Loss: 4004788.0728101693
+    Epoch: 42, Objective difference: 0.3813761507220866, Loss: 2332308.058485456
+    Epoch: 43, Objective difference: 0.042279059298353926, Loss: 2551205.741495135
+    Epoch: 44, Objective difference: 0.37332644803250814, Loss: 2962769.1539435172
+    Epoch: 45, Objective difference: 0.4069835977243767, Loss: 2003240.8216469479
+    Epoch: 46, Objective difference: 0.29873028887298914, Loss: 2600755.6209082534
+    Epoch: 47, Objective difference: 0.0928240323006844, Loss: 2252728.1921013845
+    Epoch: 48, Objective difference: 0.0965906308183339, Loss: 2585343.412116111
+    Epoch: 49, Objective difference: 0.050659134322153576, Loss: 2393311.7432447136
+    Epoch: 50, Objective difference: 0.29158670200194386, Loss: 2995586.4106233963
+
+    Avg_accuracy: 0.6013333333333334
+    Precision: 0.6108545034642032
+    Recall: 0.4857667584940312
+    F1-Value: 0.5411764705882353
+
+  SVM: BOW Dataset Learning rates: 0.01, Tradeoff: 1000.0
+  bow_lr_0.01_tradeoff_1000.0
+
+    Epoch: 1, First Objective: 8446566758.24435, Loss: 2859740.232255372
+    Epoch: 2, Objective difference: 0.40508381468083177, Loss: 2020209.952255715
+    Epoch: 3, Objective difference: 0.11521905696517105, Loss: 2190126.686478958
+    Epoch: 4, Objective difference: 0.2661673845544814, Loss: 1919418.8248805827
+    Epoch: 5, Objective difference: 0.2934767719830962, Loss: 1066210.9033632379
+    Epoch: 6, Objective difference: 0.09404131259590462, Loss: 983040.7584537279
+    Epoch: 7, Objective difference: 0.00484164652093574, Loss: 932800.9420648443
+    Epoch: 8, Objective difference: 0.18192393705315468, Loss: 852798.6057538417
+    Epoch: 9, Objective difference: 0.40964407966776967, Loss: 1483652.9182925182
+    Epoch: 10, Objective difference: 0.40843565061748294, Loss: 764167.8184003048
+    Epoch: 11, Objective difference: 0.283543093727046, Loss: 956595.2890163531
+    Epoch: 12, Objective difference: 0.18738514863981842, Loss: 780490.351419167
+    Epoch: 13, Objective difference: 0.2524935163207148, Loss: 1161156.4797727643
+    Epoch: 14, Objective difference: 0.54706060726748, Loss: 489433.619189436
+    Epoch: 15, Objective difference: 0.08697458317453872, Loss: 570766.6925088889
+    Epoch: 16, Objective difference: 0.7992715658144113, Loss: 998589.148086187
+    Epoch: 17, Objective difference: 0.49912592928924415, Loss: 460406.54814116773
+    Epoch: 18, Objective difference: 0.01844184873423602, Loss: 489516.3877615967
+    Epoch: 19, Objective difference: 0.03838894098820402, Loss: 568355.1040012591
+    Epoch: 20, Objective difference: 0.12328635037671654, Loss: 646095.490421454
+    Epoch: 21, Objective difference: 0.17979664614616037, Loss: 457901.37026538316
+    Epoch: 22, Objective difference: 0.13404038535297402, Loss: 485307.9097250357
+    Epoch: 23, Objective difference: 0.038482071047138376, Loss: 656683.0209056997
+    Epoch: 24, Objective difference: 0.2595520444545903, Loss: 455524.8322609279
+    Epoch: 25, Objective difference: 0.1347304589369692, Loss: 365826.2605768984
+    Epoch: 26, Objective difference: 0.27451786298158976, Loss: 417479.3845841195
+    Epoch: 27, Objective difference: 0.12972315746972157, Loss: 485916.7724702752
+    Epoch: 28, Objective difference: 0.18843573149660706, Loss: 423934.1452166736
+    Epoch: 29, Objective difference: 0.2983560449335632, Loss: 296768.3750873024
+    Epoch: 30, Objective difference: 0.6329687171857015, Loss: 592695.3429650142
+    Epoch: 31, Objective difference: 1.8375271927136791, Loss: 1947625.4299942243
+    Epoch: 32, Objective difference: 0.8281925348791104, Loss: 234603.74026683884
+    Epoch: 33, Objective difference: 0.523014437427485, Loss: 352525.11850727326
+    Epoch: 34, Objective difference: 0.3535101630781225, Loss: 239621.2098264704
+    Epoch: 35, Objective difference: 0.16816079724633404, Loss: 286839.09590081125
+    Epoch: 36, Objective difference: 0.11690540595553175, Loss: 251958.0610727286
+    Epoch: 37, Objective difference: 0.504616709780589, Loss: 429730.2162618941
+    Epoch: 38, Objective difference: 0.4057931315064606, Loss: 223904.5294431126
+    Epoch: 39, Objective difference: 0.02223125306890417, Loss: 212003.93029915605
+    Epoch: 40, Objective difference: 0.0707925451146722, Loss: 230833.1787613252
+    Epoch: 41, Objective difference: 0.5932005743518332, Loss: 418886.5109729141
+    Epoch: 42, Objective difference: 0.4036331892573479, Loss: 235189.83256059838
+    Epoch: 43, Objective difference: 0.09191562085713365, Loss: 266863.0379518584
+    Epoch: 44, Objective difference: 0.17858678997856514, Loss: 208756.3210046764
+    Epoch: 45, Objective difference: 0.00819531854111939, Loss: 198116.8826718459
+    Epoch: 46, Objective difference: 0.0870326914213292, Loss: 214397.66552896364
+    Epoch: 47, Objective difference: 0.0696117676044048, Loss: 229420.69647768317
+    Epoch: 48, Objective difference: 0.012514311278974892, Loss: 228384.81552144518
+    Epoch: 49, Objective difference: 0.11556559185329159, Loss: 266926.11019903177
+    Epoch: 50, Objective difference: 0.2044155402992408, Loss: 332399.5201486095
+
+    Avg_accuracy: 0.5933333333333334
+    Precision: 0.6342592592592593
+    Recall: 0.3774104683195592
+    F1-Value: 0.4732297063903282
+
+  SVM: BOW Dataset Learning rates: 0.01, Tradeoff: 100.0
+  bow_lr_0.01_tradeoff_100.0
+
+    Epoch: 1, First Objective: 78097810.87755124, Loss: 306718.45047112874
+    Epoch: 2, Objective difference: 0.3541369869994968, Loss: 206573.6570934594
+    Epoch: 3, Objective difference: 0.3953927247149984, Loss: 381482.62774594635
+    Epoch: 4, Objective difference: 0.5518687207964248, Loss: 174252.4226282925
+    Epoch: 5, Objective difference: 0.2839363124113983, Loss: 108446.21871582302
+    Epoch: 6, Objective difference: 0.1019503947431912, Loss: 101129.19041891058
+    Epoch: 7, Objective difference: 0.33425460505546567, Loss: 124779.10389602742
+    Epoch: 8, Objective difference: 0.2863101616034647, Loss: 109047.84449894761
+    Epoch: 9, Objective difference: 0.15377430638797762, Loss: 131450.645199705
+    Epoch: 10, Objective difference: 0.2712140154936867, Loss: 87081.57560999451
+    Epoch: 11, Objective difference: 0.08758377232852539, Loss: 87942.51694491348
+    Epoch: 12, Objective difference: 0.11827620344709484, Loss: 98834.15084416419
+    Epoch: 13, Objective difference: 0.042085945424260945, Loss: 113689.8998700196
+    Epoch: 14, Objective difference: 0.46198792089590096, Loss: 60175.41112351564
+    Epoch: 15, Objective difference: 0.06763482169645123, Loss: 58113.650209267274
+    Epoch: 16, Objective difference: 0.6091782798577846, Loss: 98808.06007941846
+    Epoch: 17, Objective difference: 0.41089713737523903, Loss: 51313.240163253686
+    Epoch: 18, Objective difference: 0.16979420283829763, Loss: 61320.038865777584
+    Epoch: 19, Objective difference: 0.1494263748071719, Loss: 57499.45915312358
+    Epoch: 20, Objective difference: 0.15937864783052333, Loss: 71300.00818136749
+    Epoch: 21, Objective difference: 0.18828368544798338, Loss: 51902.08091000178
+    Epoch: 22, Objective difference: 0.11113901555030906, Loss: 51889.57907592129
+    Epoch: 23, Objective difference: 0.13348928753933995, Loss: 77244.80960526863
+    Epoch: 24, Objective difference: 0.35712707292724644, Loss: 46266.56626676054
+    Epoch: 25, Objective difference: 0.09277820374285994, Loss: 51943.80998107545
+    Epoch: 26, Objective difference: 0.11326504476513248, Loss: 48632.61891109827
+    Epoch: 27, Objective difference: 0.14044397313520401, Loss: 55241.51985356385
+    Epoch: 28, Objective difference: 0.26096657271840423, Loss: 48220.87318983343
+    Epoch: 29, Objective difference: 0.14751962854059886, Loss: 38367.14213577836
+    Epoch: 30, Objective difference: 0.39690707000327374, Loss: 62035.23656235213
+    Epoch: 31, Objective difference: 1.9614538488133175, Loss: 216442.11423454955
+    Epoch: 32, Objective difference: 0.7848953463531352, Loss: 35655.25272028201
+    Epoch: 33, Objective difference: 0.22765174379451783, Loss: 40226.27150644851
+    Epoch: 34, Objective difference: 0.25580221979273043, Loss: 31590.976140192226
+    Epoch: 35, Objective difference: 0.09189072083964518, Loss: 35304.91951446722
+    Epoch: 36, Objective difference: 0.05482445761929165, Loss: 33770.012922089874
+    Epoch: 37, Objective difference: 0.036329363503494826, Loss: 38436.49996591748
+    Epoch: 38, Objective difference: 0.009092355462179406, Loss: 36329.65297592584
+    Epoch: 39, Objective difference: 0.1446587825827007, Loss: 30201.062984765347
+    Epoch: 40, Objective difference: 0.055716637343495384, Loss: 29235.25262042968
+    Epoch: 41, Objective difference: 0.6642834350058372, Loss: 53446.48026202459
+    Epoch: 42, Objective difference: 0.3055962159712461, Loss: 34204.95890874919
+    Epoch: 43, Objective difference: 0.3020531925816536, Loss: 44582.20144159183
+    Epoch: 44, Objective difference: 0.35424716123516437, Loss: 28908.532360548652
+    Epoch: 45, Objective difference: 0.05409454859090015, Loss: 27643.742561078325
+    Epoch: 46, Objective difference: 0.0361407669076141, Loss: 28608.133709253765
+    Epoch: 47, Objective difference: 0.03139949442370031, Loss: 29155.093605582024
+    Epoch: 48, Objective difference: 0.1721255660605853, Loss: 35471.315448487294
+    Epoch: 49, Objective difference: 0.051422000743474264, Loss: 33017.972654185854
+    Epoch: 50, Objective difference: 0.1412067071923003, Loss: 38071.35172751621
+/var/folders/1m/0v94z2r1269fztvg5qrsfn500000gn/T/ipykernel_94173/3133035419.py:96: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig = plt.figure()
+
+    Avg_accuracy: 0.6364444444444445
+    Precision: 0.6766623207301173
+    Recall: 0.4765840220385675
+    F1-Value: 0.5592672413793103
+
+  SVM: BOW Dataset Learning rates: 0.01, Tradeoff: 0.1
+  bow_lr_0.01_tradeoff_0.1
+
+    Epoch: 1, First Objective: 1869.7122551672885, Loss: 17219.06175408061
+    Epoch: 2, Objective difference: 0.023402387523982212, Loss: 17429.66230534574
+    Epoch: 3, Objective difference: 0.015452514305239926, Loss: 17337.92758305351
+    Epoch: 4, Objective difference: 0.01921299749942381, Loss: 17211.760292279527
+    Epoch: 5, Objective difference: 0.000980768319628578, Loss: 17212.591402208796
+    Epoch: 6, Objective difference: 0.0002017233342713082, Loss: 17239.965312957716
+    Epoch: 7, Objective difference: 0.00188257552391537, Loss: 17203.386141871568
+    Epoch: 8, Objective difference: 0.005750758057195135, Loss: 17206.227967373183
+    Epoch: 9, Objective difference: 0.008419843524663233, Loss: 17222.047684231406
+    Epoch: 10, Objective difference: 0.011045537204790021, Loss: 17256.83643120877
+    Epoch: 11, Objective difference: 0.00941468066972862, Loss: 17220.61850889433
+    Epoch: 12, Objective difference: 0.0033126577024214653, Loss: 17224.890818859083
+    Epoch: 13, Objective difference: 0.0014402212051155485, Loss: 17226.44078000525
+    Epoch: 14, Objective difference: 0.00031561241662053283, Loss: 17199.97946155462
+    Epoch: 15, Objective difference: 0.0004653108597356094, Loss: 17202.036645121036
+    Epoch: 16, Objective difference: 0.0032436238703463906, Loss: 17195.03566784726
+    Epoch: 17, Objective difference: 0.0015251645714893021, Loss: 17196.88648898806
+    Epoch: 18, Objective difference: 0.000401364013214501, Loss: 17195.01559951589
+    Epoch: 19, Objective difference: 0.000770329006043936, Loss: 17209.486084479646
+    Epoch: 20, Objective difference: 0.0004673131634500057, Loss: 17196.5684690534
+    Epoch: 21, Objective difference: 0.00020753773304785065, Loss: 17207.380716648677
+    Epoch: 22, Objective difference: 0.0013253087218008293, Loss: 17217.297320622572
+    Epoch: 23, Objective difference: 0.0021867758676839683, Loss: 17192.97389207694
+    Epoch: 24, Objective difference: 0.0010759364639848625, Loss: 17207.353128842024
+    Epoch: 25, Objective difference: 0.0018471965710781307, Loss: 17201.029882518513
+    Epoch: 26, Objective difference: 0.0014122227227336618, Loss: 17196.284944100553
+    Epoch: 27, Objective difference: 0.0013541698479969295, Loss: 17201.707146342393
+    Epoch: 28, Objective difference: 0.0002658546155833103, Loss: 17209.92665585611
+    Epoch: 29, Objective difference: 0.000619387068521839, Loss: 17205.65421299979
+    Epoch: 30, Objective difference: 0.0006056793338633893, Loss: 17212.81094264467
+    Epoch: 31, Objective difference: 0.0009870013296309208, Loss: 17217.024190894477
+    Epoch: 32, Objective difference: 0.0013931218694506393, Loss: 17195.878733743353
+    Epoch: 33, Objective difference: 0.0014838833100136106, Loss: 17197.785147304097
+    Epoch: 34, Objective difference: 0.0011962346252877077, Loss: 17189.880687152807
+    Epoch: 35, Objective difference: 0.00040155969588002906, Loss: 17212.172404663725
+    Epoch: 36, Objective difference: 1.5285126078415598e-05, Loss: 17208.335589590308
+
+    Avg_accuracy: 0.6493333333333333
+    Precision: 0.6247920133111481
+    Recall: 0.689623507805326
+    F1-Value: 0.6556089044085552
+
+  SVM: BOW Dataset Learning rates: 0.001, Tradeoff: 10000.0
+  bow_lr_0.001_tradeoff_10000.0
+
+    Epoch: 1, First Objective: 93469755759.38197, Loss: 5126055.7616989035
+    Epoch: 2, Objective difference: 0.32160518243477376, Loss: 3971294.598259021
+    Epoch: 3, Objective difference: 0.1272177528078894, Loss: 4260186.794196095
+    Epoch: 4, Objective difference: 0.29918338729777244, Loss: 2624532.8344738632
+    Epoch: 5, Objective difference: 0.2038228451283648, Loss: 2207183.0434799716
+    Epoch: 6, Objective difference: 0.2728033965036098, Loss: 1471980.1857031016
+    Epoch: 7, Objective difference: 0.045422338892175854, Loss: 1657155.7959070317
+    Epoch: 8, Objective difference: 0.1663743099755149, Loss: 1383991.846036426
+    Epoch: 9, Objective difference: 0.005737268392659514, Loss: 1438776.8282142407
+    Epoch: 10, Objective difference: 0.12410721170858204, Loss: 1095154.6302837753
+    Epoch: 11, Objective difference: 0.23015104458537572, Loss: 903960.2161597655
+    Epoch: 12, Objective difference: 0.027869486065324, Loss: 931436.6378775277
+    Epoch: 13, Objective difference: 0.38749790175224125, Loss: 1391738.4186975574
+    Epoch: 14, Objective difference: 0.4994905102700329, Loss: 616319.4201934164
+    Epoch: 15, Objective difference: 0.07366991978063923, Loss: 724375.9620735903
+    Epoch: 16, Objective difference: 0.337046739299538, Loss: 998083.5089328015
+    Epoch: 17, Objective difference: 0.3321497634862752, Loss: 609586.3813254876
+    Epoch: 18, Objective difference: 0.08220663233824364, Loss: 589261.9628113167
+    Epoch: 19, Objective difference: 0.13486137763355432, Loss: 500480.95347857516
+    Epoch: 20, Objective difference: 0.18766893012152513, Loss: 380316.10266978905
+    Epoch: 21, Objective difference: 0.24176799093704782, Loss: 516178.22315713187
+    Epoch: 22, Objective difference: 0.3883040553021979, Loss: 705774.0161047835
+    Epoch: 23, Objective difference: 0.2717408671339864, Loss: 536900.1074213017
+    Epoch: 24, Objective difference: 0.3029277184949369, Loss: 343432.2959476419
+    Epoch: 25, Objective difference: 0.13789153952400324, Loss: 291977.50075985503
+    Epoch: 26, Objective difference: 0.2832542658096038, Loss: 398437.0877889679
+    Epoch: 27, Objective difference: 0.32867415946830664, Loss: 530796.4076095503
+    Epoch: 28, Objective difference: 0.3108969050263225, Loss: 359264.5058951061
+    Epoch: 29, Objective difference: 0.09453095242200818, Loss: 318340.18652020505
+    Epoch: 30, Objective difference: 0.4168799893891313, Loss: 507761.7296316276
+    Epoch: 31, Objective difference: 2.2507822827939896, Loss: 1912093.890047256
+    Epoch: 32, Objective difference: 0.8470672928968086, Loss: 206989.14520702884
+    Epoch: 33, Objective difference: 0.23287344266435503, Loss: 279908.9635831396
+    Epoch: 34, Objective difference: 0.09762994385875273, Loss: 252001.60503940773
+    Epoch: 35, Objective difference: 0.09227770191661339, Loss: 232677.75594454963
+    Epoch: 36, Objective difference: 0.14133372479050937, Loss: 195007.1368101063
+    Epoch: 37, Objective difference: 0.5777285764632133, Loss: 348245.5805762165
+    Epoch: 38, Objective difference: 0.2573534116346188, Loss: 232396.09153999522
+    Epoch: 39, Objective difference: 0.022073681145873193, Loss: 230047.60037032262
+    Epoch: 40, Objective difference: 0.052502872454485365, Loss: 211688.34463999025
+    Epoch: 41, Objective difference: 0.6947165477664868, Loss: 414938.49565938406
+    Epoch: 42, Objective difference: 0.18064530471082607, Loss: 336192.2946924375
+    Epoch: 43, Objective difference: 0.20238717316933402, Loss: 253984.70068892537
+    Epoch: 44, Objective difference: 0.2106339664196505, Loss: 189294.3247443864
+    Epoch: 45, Objective difference: 0.03152030210095232, Loss: 179108.2376658197
+    Epoch: 46, Objective difference: 0.06009183323588094, Loss: 170618.9343556991
+    Epoch: 47, Objective difference: 0.06730009081357743, Loss: 155283.32062571697
+    Epoch: 48, Objective difference: 0.0962079140616313, Loss: 179413.35018110945
+    Epoch: 49, Objective difference: 0.15635079610334132, Loss: 143946.55675874263
+    Epoch: 50, Objective difference: 0.09519219217554589, Loss: 129027.12880471228
+
+    Avg_accuracy: 0.6537777777777778
+    Precision: 0.63668430335097
+    Recall: 0.6629935720844812
+    F1-Value: 0.6495726495726495
+
+  SVM: BOW Dataset Learning rates: 0.001, Tradeoff: 1000.0
+  bow_lr_0.001_tradeoff_1000.0
+
+    Epoch: 1, First Objective: 1007082765.3464938, Loss: 565305.9513677593
+    Epoch: 2, Objective difference: 0.44134882601962977, Loss: 371951.964201359
+    Epoch: 3, Objective difference: 0.22926238142190333, Loss: 307042.49401740194
+    Epoch: 4, Objective difference: 0.02838189250772967, Loss: 309666.2071868442
+    Epoch: 5, Objective difference: 0.32362064007443897, Loss: 211581.45460697624
+    Epoch: 6, Objective difference: 0.3142599700456785, Loss: 139939.4435799854
+    Epoch: 7, Objective difference: 0.13247793316615233, Loss: 163869.97629313174
+    Epoch: 8, Objective difference: 0.18647261792003825, Loss: 132010.760785906
+    Epoch: 9, Objective difference: 0.055368027766295985, Loss: 143886.7032917552
+    Epoch: 10, Objective difference: 0.17064745431006254, Loss: 108653.45998411762
+    Epoch: 11, Objective difference: 0.05533427478620362, Loss: 134833.75086943613
+    Epoch: 12, Objective difference: 0.1272354001772848, Loss: 111709.69781217657
+    Epoch: 13, Objective difference: 0.024006721332127327, Loss: 110587.1865558123
+    Epoch: 14, Objective difference: 0.3629277714660119, Loss: 66209.29864343294
+    Epoch: 15, Objective difference: 0.11452331789655772, Loss: 79867.86957495162
+    Epoch: 16, Objective difference: 0.5437575406287278, Loss: 127160.80277244869
+    Epoch: 17, Objective difference: 0.48479985263192404, Loss: 59764.66859197325
+    Epoch: 18, Objective difference: 0.06695511307913864, Loss: 68700.29791906873
+    Epoch: 19, Objective difference: 0.12106487863027716, Loss: 59716.02198359052
+    Epoch: 20, Objective difference: 0.04439612470407356, Loss: 57573.780704666446
+    Epoch: 21, Objective difference: 0.05574073896122801, Loss: 64186.85692390763
+    Epoch: 22, Objective difference: 0.22261761160876983, Loss: 71800.45386634255
+    Epoch: 23, Objective difference: 0.31574292506338686, Loss: 51863.27129196513
+    Epoch: 24, Objective difference: 0.11296193907352649, Loss: 45712.8676840223
+    Epoch: 25, Objective difference: 0.11730008794078006, Loss: 51287.67929509433
+    Epoch: 26, Objective difference: 0.2404464319707144, Loss: 36649.696346852514
+    Epoch: 27, Objective difference: 0.5151306715414181, Loss: 58261.27371535054
+    Epoch: 28, Objective difference: 0.33545144477769456, Loss: 38520.44727826282
+    Epoch: 29, Objective difference: 0.014940486586276214, Loss: 36780.13207092967
+    Epoch: 30, Objective difference: 0.22670520542620437, Loss: 49807.29764712535
+    Epoch: 31, Objective difference: 0.24462110842415624, Loss: 34126.426021974345
+    Epoch: 32, Objective difference: 0.15680498415346278, Loss: 27516.80408736109
+    Epoch: 33, Objective difference: 0.2818400015320017, Loss: 38174.46366003583
+    Epoch: 34, Objective difference: 0.2553460597632679, Loss: 27478.124963844242
+    Epoch: 35, Objective difference: 0.013186694104690339, Loss: 28246.147630510506
+    Epoch: 36, Objective difference: 0.1026623805786678, Loss: 25282.141389856122
+    Epoch: 37, Objective difference: 0.2885523723339868, Loss: 34820.224736622
+    Epoch: 38, Objective difference: 0.19647871925965577, Loss: 26435.62177159794
+    Epoch: 39, Objective difference: 0.008610278848527367, Loss: 26202.44322541462
+    Epoch: 40, Objective difference: 0.07511650652197774, Loss: 27913.069214933177
+    Epoch: 41, Objective difference: 0.4353372011189499, Loss: 43382.071017489
+    Epoch: 42, Objective difference: 0.1670527711037182, Loss: 36082.26844517754
+    Epoch: 43, Objective difference: 0.03782359174696859, Loss: 34940.386618748926
+    Epoch: 44, Objective difference: 0.18630424053509567, Loss: 26819.029533526525
+    Epoch: 45, Objective difference: 0.15238082117301094, Loss: 21970.826739813743
+    Epoch: 46, Objective difference: 0.07126415120954485, Loss: 20707.08756328618
+    Epoch: 47, Objective difference: 0.05318028142895679, Loss: 21850.832917432686
+    Epoch: 48, Objective difference: 0.13457102168617158, Loss: 25935.132309700864
+    Epoch: 49, Objective difference: 0.16130832158956163, Loss: 21033.917622614197
+    Epoch: 50, Objective difference: 0.0349834678679584, Loss: 22104.46335913205
+
+    Avg_accuracy: 0.6688888888888889
+    Precision: 0.6519434628975265
+    Recall: 0.6776859504132231
+    F1-Value: 0.6645655110310671
+
+  SVM: BOW Dataset Learning rates: 0.001, Tradeoff: 100.0
+  bow_lr_0.001_tradeoff_100.0
+
+    Epoch: 1, First Objective: 10301145.1769437, Loss: 62187.03640632896
+    Epoch: 2, Objective difference: 0.3304516766261009, Loss: 44577.26385285827
+    Epoch: 3, Objective difference: 0.30075124898869643, Loss: 33403.93500569312
+    Epoch: 4, Objective difference: 0.026686663911042616, Loss: 35413.08191827956
+    Epoch: 5, Objective difference: 0.1423575760562306, Loss: 31751.89316688558
+    Epoch: 6, Objective difference: 0.2369547856148948, Loss: 22952.219391188177
+    Epoch: 7, Objective difference: 0.080488219240787, Loss: 21858.18933695922
+    Epoch: 8, Objective difference: 0.035871907573139766, Loss: 23521.273784741184
+    Epoch: 9, Objective difference: 0.08261796660129254, Loss: 22213.28471024158
+    Epoch: 10, Objective difference: 0.0943703492657262, Loss: 18295.198949240854
+    Epoch: 11, Objective difference: 0.12571552775806893, Loss: 22635.920289891143
+    Epoch: 12, Objective difference: 0.22851921289221083, Loss: 17462.836320672013
+    Epoch: 13, Objective difference: 0.1466746016805298, Loss: 20330.880885054154
+    Epoch: 14, Objective difference: 0.2823297800455892, Loss: 14351.795554435394
+    Epoch: 15, Objective difference: 0.10896056599617397, Loss: 16628.86667224631
+    Epoch: 16, Objective difference: 0.04346583493684183, Loss: 17588.839414221144
+    Epoch: 17, Objective difference: 0.15583859328808095, Loss: 14054.307758953524
+    Epoch: 18, Objective difference: 0.009229492606821725, Loss: 14590.173026239652
+    Epoch: 19, Objective difference: 0.016946441694900442, Loss: 14636.276857952642
+    Epoch: 20, Objective difference: 0.13948032453607828, Loss: 12575.586953217125
+    Epoch: 21, Objective difference: 0.06550015418173745, Loss: 13433.191066490555
+    Epoch: 22, Objective difference: 0.10646660085609257, Loss: 14427.035730959278
+    Epoch: 23, Objective difference: 0.05885903221550955, Loss: 14330.534234969049
+    Epoch: 24, Objective difference: 0.107392148285496, Loss: 12632.089464927441
+    Epoch: 25, Objective difference: 0.004590985425699328, Loss: 12729.774940543406
+    Epoch: 26, Objective difference: 0.021871343577044976, Loss: 12435.897324949367
+    Epoch: 27, Objective difference: 0.0202617431893525, Loss: 12706.652372113122
+    Epoch: 28, Objective difference: 0.9631329127443965, Loss: 27465.45571244717
+    Epoch: 29, Objective difference: 0.5196544693380479, Loss: 11921.548962191018
+    Epoch: 30, Objective difference: 0.05392158060544691, Loss: 12734.042306663147
+    Epoch: 31, Objective difference: 0.81438004179047, Loss: 25238.837317305013
+    Epoch: 32, Objective difference: 0.5027012740519656, Loss: 11357.499325357187
+    Epoch: 33, Objective difference: 0.07154580274922381, Loss: 12389.634231766804
+    Epoch: 34, Objective difference: 0.1040377415630618, Loss: 10985.038475963594
+    Epoch: 35, Objective difference: 0.014060807283399944, Loss: 11196.401064041607
+    Epoch: 36, Objective difference: 0.014425340472510437, Loss: 11287.00846326868
+    Epoch: 37, Objective difference: 0.07040156327494881, Loss: 12300.460510421006
+    Epoch: 38, Objective difference: 0.09445774322389346, Loss: 11000.99738158882
+    Epoch: 39, Objective difference: 0.02414267893028535, Loss: 11377.579545286151
+    Epoch: 40, Objective difference: 0.026875574628015046, Loss: 10994.57083819478
+    Epoch: 41, Objective difference: 0.01993827189304733, Loss: 10811.493307022585
+    Epoch: 42, Objective difference: 0.016612694194106922, Loss: 10824.723243357168
+    Epoch: 43, Objective difference: 0.07430733674076165, Loss: 11913.46599581982
+    Epoch: 44, Objective difference: 0.10638142427494073, Loss: 10462.743061626401
+    Epoch: 45, Objective difference: 0.004445410674204138, Loss: 10545.444799496336
+    Epoch: 46, Objective difference: 0.017404722011011894, Loss: 10778.174294052622
+    Epoch: 47, Objective difference: 0.01517271942590696, Loss: 10624.868667753199
+    Epoch: 48, Objective difference: 0.04712337284111238, Loss: 11247.582132676405
+    Epoch: 49, Objective difference: 0.021167407943201457, Loss: 10947.873225367768
+    Epoch: 50, Objective difference: 0.0020933693824613455, Loss: 11016.515466957579
+
+    Avg_accuracy: 0.6906666666666667
+    Precision: 0.6917073170731707
+    Recall: 0.6510560146923783
+    F1-Value: 0.6707663197729422
+
+  SVM: BOW Dataset Learning rates: 0.001, Tradeoff: 0.1
+  bow_lr_0.001_tradeoff_0.1
+
+    Epoch: 1, First Objective: 1743.8180754024195, Loss: 17204.574496720237
+    Epoch: 2, Objective difference: 0.00041204587152152963, Loss: 17285.44465595944
+    Epoch: 3, Objective difference: 0.004549277399607177, Loss: 17218.73801926234
+    Epoch: 4, Objective difference: 0.0008225220458224642, Loss: 17187.529225640068
+    Epoch: 5, Objective difference: 0.000378460438947922, Loss: 17192.68245879677
+    Epoch: 6, Objective difference: 0.00035056385193463105, Loss: 17204.849204060927
+    Epoch: 7, Objective difference: 0.00013089618829522024, Loss: 17191.63952512706
+    Epoch: 8, Objective difference: 0.0003798268191626122, Loss: 17203.561022652382
+    Epoch: 9, Objective difference: 8.792745441688356e-05, Loss: 17201.565573569034
+
+    Avg_accuracy: 0.6648888888888889
+    Precision: 0.6245353159851301
+    Recall: 0.7713498622589532
+    F1-Value: 0.6902218570254726
+
+TFIDF Dataset Setup Details
+  Epoch Error: 0.001
+  Random Seed: 42
+  Learning Rates: [1.0, 0.01, 0.001]
+  Tradeoff Parameters: [10000.0, 1000.0, 100.0]
+
+  SVM: TFIDF Dataset Learning rates: 1.0, Tradeoff: 10000.0
+  tfidf_lr_1.0_tradeoff_10000.0
+
+    Epoch: 1, First Objective: 77627851649.39355, Loss: 5784364.494572025
+    Epoch: 2, Objective difference: 0.7041140633887715, Loss: 9093474.590050615
+    Epoch: 3, Objective difference: 0.20162750029294368, Loss: 9989387.599178268
+    Epoch: 4, Objective difference: 0.650125407859307, Loss: 3111223.5864245323
+    Epoch: 5, Objective difference: 0.16971636420264852, Loss: 4671005.667116904
+    Epoch: 6, Objective difference: 0.6292676050282116, Loss: 6760109.724443063
+    Epoch: 7, Objective difference: 0.042770718443898986, Loss: 7008690.294278804
+    Epoch: 8, Objective difference: 0.32343840728440415, Loss: 4670985.166498311
+    Epoch: 9, Objective difference: 0.3761056711975931, Loss: 3185027.916882165
+    Epoch: 10, Objective difference: 0.681360942059435, Loss: 4628646.500855884
+    Epoch: 11, Objective difference: 0.2783357814351615, Loss: 3152016.4683533874
+    Epoch: 12, Objective difference: 0.0996522447160208, Loss: 3748857.867114533
+    Epoch: 13, Objective difference: 0.02692097671869453, Loss: 3428716.8438479393
+    Epoch: 14, Objective difference: 0.19195988642975054, Loss: 2258581.8314436004
+    Epoch: 15, Objective difference: 0.030848084408888993, Loss: 3061477.077122728
+    Epoch: 16, Objective difference: 0.4547682374034697, Loss: 1693943.3925624928
+    Epoch: 17, Objective difference: 0.4998696454952568, Loss: 2197994.0425346843
+    Epoch: 18, Objective difference: 0.19106786867339415, Loss: 1742338.7742142947
+    Epoch: 19, Objective difference: 0.08163232188256672, Loss: 1522960.1512056303
+    Epoch: 20, Objective difference: 0.14982033840122286, Loss: 2220281.2208395908
+    Epoch: 21, Objective difference: 0.08858307653114339, Loss: 2028925.9553664096
+    Epoch: 22, Objective difference: 0.059083630671077046, Loss: 2268273.9423855953
+    Epoch: 23, Objective difference: 0.24753066561744552, Loss: 1619116.456401456
+    Epoch: 24, Objective difference: 0.13927826397888127, Loss: 1626445.7350819262
+    Epoch: 25, Objective difference: 0.06569936929595037, Loss: 1707023.135701214
+    Epoch: 26, Objective difference: 0.027368824022044498, Loss: 1627093.5970371526
+    Epoch: 27, Objective difference: 0.09448187822200457, Loss: 1431947.3145350877
+    Epoch: 28, Objective difference: 0.026094778293437582, Loss: 1358306.5415474772
+    Epoch: 29, Objective difference: 0.04057301654908715, Loss: 1497476.865975883
+    Epoch: 30, Objective difference: 0.04242776812295485, Loss: 1528657.7766981393
+    Epoch: 31, Objective difference: 0.33512141861003664, Loss: 1072649.7184163302
+    Epoch: 32, Objective difference: 0.4345268294901216, Loss: 1531665.0194332574
+    Epoch: 33, Objective difference: 0.1674596987838461, Loss: 1218356.1397283582
+    Epoch: 34, Objective difference: 0.025677653285123034, Loss: 1332339.2631169255
+    Epoch: 35, Objective difference: 0.07130357768563857, Loss: 1110193.6840235086
+    Epoch: 36, Objective difference: 0.17442318576534818, Loss: 1381698.1029757767
+    Epoch: 37, Objective difference: 0.17340523658439624, Loss: 1100707.4582750066
+    Epoch: 38, Objective difference: 0.022594972947904416, Loss: 1175614.2629588963
+    Epoch: 39, Objective difference: 0.08475323148003203, Loss: 991942.3764919209
+    Epoch: 40, Objective difference: 0.023958372540493787, Loss: 1039327.4442548454
+    Epoch: 41, Objective difference: 0.06256153333163748, Loss: 1035343.1024208063
+    Epoch: 42, Objective difference: 0.19916956868641422, Loss: 816290.3152838117
+    Epoch: 43, Objective difference: 0.2813425039094516, Loss: 1100106.0046596732
+    Epoch: 44, Objective difference: 0.04755312454848726, Loss: 878485.948609618
+    Epoch: 45, Objective difference: 0.07409873188842844, Loss: 1192273.5395955748
+    Epoch: 46, Objective difference: 0.20069319186012854, Loss: 874237.481414192
+    Epoch: 47, Objective difference: 0.2016548148191042, Loss: 1060955.145945304
+    Epoch: 48, Objective difference: 0.29249377709624913, Loss: 634169.0423802467
+    Epoch: 49, Objective difference: 0.3168797835017668, Loss: 818157.5769262846
+    Epoch: 50, Objective difference: 0.06939217574750603, Loss: 1008374.7004032219
+
+    Avg_accuracy: 0.48488888888888887
+    Precision: 0.48438893844781444
+    Recall: 0.9972451790633609
+    F1-Value: 0.6520564395076553
+
+  SVM: TFIDF Dataset Learning rates: 1.0, Tradeoff: 1000.0
+  tfidf_lr_1.0_tradeoff_1000.0
+
+    Epoch: 1, First Objective: 784118411.8686943, Loss: 586276.345355396
+    Epoch: 2, Objective difference: 0.6971636131999805, Loss: 917257.559005063
+    Epoch: 3, Objective difference: 0.20042903247609004, Loss: 1006848.8599178292
+    Epoch: 4, Objective difference: 0.6469068505499496, Loss: 319031.55864245654
+    Epoch: 5, Objective difference: 0.16721219502715798, Loss: 474939.5667116893
+    Epoch: 6, Objective difference: 0.6218819307258874, Loss: 683920.1724443061
+    Epoch: 7, Objective difference: 0.04238818192378787, Loss: 708708.0294278767
+    Epoch: 8, Objective difference: 0.3210983114238383, Loss: 475006.8166498305
+    Epoch: 9, Objective difference: 0.37226136461693743, Loss: 326341.7916882187
+    Epoch: 10, Objective difference: 0.670247443795219, Loss: 470772.9500855908
+    Epoch: 11, Objective difference: 0.27555876577952154, Loss: 323109.0468353389
+    Epoch: 12, Objective difference: 0.09839856726663157, Loss: 382724.78671145707
+    Epoch: 13, Objective difference: 0.026511446748274443, Loss: 350709.7843847937
+    Epoch: 14, Objective difference: 0.18913094717563075, Loss: 233694.48314435832
+    Epoch: 15, Objective difference: 0.030456131796801122, Loss: 314056.9077122747
+    Epoch: 16, Objective difference: 0.4466709691213181, Loss: 177300.83925624957
+    Epoch: 17, Objective difference: 0.48379802313194076, Loss: 227710.81391551901
+    Epoch: 18, Objective difference: 0.18712609820092937, Loss: 182070.17742142951
+    Epoch: 19, Objective difference: 0.0794809792620703, Loss: 160129.92725905144
+    Epoch: 20, Objective difference: 0.14577587811501985, Loss: 229932.82208395904
+    Epoch: 21, Objective difference: 0.08634640031751334, Loss: 210798.6825974075
+    Epoch: 22, Objective difference: 0.057907710863601386, Loss: 234665.49423856044
+    Epoch: 23, Objective difference: 0.24146603110156806, Loss: 169748.84564014574
+    Epoch: 24, Objective difference: 0.13506002396100686, Loss: 170550.17350819457
+    Epoch: 25, Objective difference: 0.06380628049623707, Loss: 178609.71357012235
+    Epoch: 26, Objective difference: 0.026803972154483508, Loss: 170545.9322173832
+    Epoch: 27, Objective difference: 0.09153120431209816, Loss: 151031.03145350862
+    Epoch: 28, Objective difference: 0.0251869694327153, Loss: 143664.57042692474
+    Epoch: 29, Objective difference: 0.039515471010592634, Loss: 157652.38659758875
+    Epoch: 30, Objective difference: 0.040761392909135954, Loss: 160701.17766981325
+    Epoch: 31, Objective difference: 0.32471696407428224, Loss: 115104.2730895245
+    Epoch: 32, Objective difference: 0.38570138877929205, Loss: 150130.00393423345
+    Epoch: 33, Objective difference: 0.14458889422895563, Loss: 129669.34269434519
+    Epoch: 34, Objective difference: 0.02486991680045905, Loss: 141105.39294515463
+    Epoch: 35, Objective difference: 0.06879004500907523, Loss: 118850.73297008718
+    Epoch: 36, Objective difference: 0.1673694172962943, Loss: 146005.210297577
+    Epoch: 37, Objective difference: 0.16738366279867306, Loss: 117904.67772501324
+    Epoch: 38, Objective difference: 0.021647900144807556, Loss: 125396.08538078425
+    Epoch: 39, Objective difference: 0.0811448973716017, Loss: 107027.39141356002
+    Epoch: 40, Objective difference: 0.05668665261560942, Loss: 116861.74300392346
+    Epoch: 41, Objective difference: 0.08982676047981568, Loss: 111368.81024208126
+    Epoch: 42, Objective difference: 0.18912982448082175, Loss: 89532.14819266227
+    Epoch: 43, Objective difference: 0.26392803379510427, Loss: 117846.00046596689
+    Epoch: 44, Objective difference: 0.04531025804001662, Loss: 95684.37095163554
+    Epoch: 45, Objective difference: 0.07089262382945466, Loss: 127134.75395955694
+    Epoch: 46, Objective difference: 0.1913686033258067, Loss: 95329.4917233762
+    Epoch: 47, Objective difference: 0.18940872980345758, Loss: 113906.49621973687
+    Epoch: 48, Objective difference: 0.2784243127452137, Loss: 71247.66668255844
+    Epoch: 49, Objective difference: 0.2965000325075497, Loss: 89723.31507342763
+    Epoch: 50, Objective difference: 0.06534300356918182, Loss: 108674.3296076335
+
+    Avg_accuracy: 0.48488888888888887
+    Precision: 0.48438893844781444
+    Recall: 0.9972451790633609
+    F1-Value: 0.6520564395076553
+
+  SVM: TFIDF Dataset Learning rates: 1.0, Tradeoff: 100.0
+  tfidf_lr_1.0_tradeoff_100.0
+
+    Epoch: 1, First Objective: 8625174.159087189, Loss: 66467.53489424968
+    Epoch: 2, Objective difference: 0.6346084276779528, Loss: 99635.85590050615
+    Epoch: 3, Objective difference: 0.18918399267003624, Loss: 108594.9859917831
+    Epoch: 4, Objective difference: 0.6163916188517143, Loss: 39812.35586424571
+    Epoch: 5, Objective difference: 0.14555793194729305, Loss: 55332.956671168926
+    Epoch: 6, Objective difference: 0.5566690471482507, Loss: 76301.21724443062
+    Epoch: 7, Objective difference: 0.038852995766585144, Loss: 78709.80294278773
+    Epoch: 8, Objective difference: 0.2993835693415107, Loss: 55409.85672592986
+    Epoch: 9, Objective difference: 0.337820981299533, Loss: 40474.0516679113
+    Epoch: 10, Objective difference: 0.5764255262983663, Loss: 54985.65819769548
+    Epoch: 11, Objective difference: 0.25055761927815223, Loss: 40218.638087272564
+    Epoch: 12, Objective difference: 0.08753623705609023, Loss: 46111.47867114544
+    Epoch: 13, Objective difference: 0.023013392445661536, Loss: 42909.354594134566
+    Epoch: 14, Objective difference: 0.16472386007158635, Loss: 31213.220247145346
+    Epoch: 15, Objective difference: 0.0270536830416461, Loss: 39315.10405314271
+    Epoch: 16, Objective difference: 0.6816934042149637, Loss: 75391.85751575927
+    Epoch: 17, Objective difference: 0.4956351116472333, Loss: 30685.238012620102
+    Epoch: 18, Objective difference: 0.15536504517308003, Loss: 26049.064844297667
+    Epoch: 19, Objective difference: 0.06260392067333391, Loss: 23864.058025438982
+    Epoch: 20, Objective difference: 0.1148715496304741, Loss: 30903.42670027129
+    Epoch: 21, Objective difference: 0.06886645537112271, Loss: 28988.658603836902
+    Epoch: 22, Objective difference: 0.04862086013364442, Loss: 31306.05601455083
+    Epoch: 23, Objective difference: 0.19395239602875333, Loss: 24813.17342623869
+    Epoch: 24, Objective difference: 0.10474132262700578, Loss: 24978.94337501119
+    Epoch: 25, Objective difference: 0.0504035287572517, Loss: 25754.919092843542
+    Epoch: 26, Objective difference: 0.02192426415571929, Loss: 24900.390471202038
+    Epoch: 27, Objective difference: 0.032960742106092206, Loss: 24178.937413903604
+    Epoch: 28, Objective difference: 0.018971519526555184, Loss: 22245.14885557368
+    Epoch: 29, Objective difference: 0.03065464166733845, Loss: 23678.570124422266
+    Epoch: 30, Objective difference: 0.02857112357519081, Loss: 23913.18341682351
+    Epoch: 31, Objective difference: 0.2447437076055298, Loss: 19455.372876307763
+    Epoch: 32, Objective difference: 0.2559694342249362, Loss: 22779.447624979024
+    Epoch: 33, Objective difference: 0.10509182288850283, Loss: 20857.623117827377
+    Epoch: 34, Objective difference: 0.1269289744630822, Loss: 16934.14226376421
+    Epoch: 35, Objective difference: 0.7095990040420824, Loss: 31300.07708261521
+    Epoch: 36, Objective difference: 0.36808589055682145, Loss: 16757.823906969836
+    Epoch: 37, Objective difference: 0.6063418059393665, Loss: 32610.32942832686
+    Epoch: 38, Objective difference: 0.42189961359797284, Loss: 16632.169773066762
+    Epoch: 39, Objective difference: 0.581938172201917, Loss: 30847.386764724954
+    Epoch: 40, Objective difference: 0.3783152003692114, Loss: 16482.82231430592
+    Epoch: 41, Objective difference: 0.5586433496540572, Loss: 29793.885141143153
+    Epoch: 42, Objective difference: 0.17526006662119, Loss: 24923.620548616018
+    Epoch: 43, Objective difference: 0.2028933579550322, Loss: 30092.58842542196
+    Epoch: 44, Objective difference: 0.3262918962830349, Loss: 16399.163142680998
+    Epoch: 45, Objective difference: 0.09661614662988005, Loss: 16866.271419332927
+    Epoch: 46, Objective difference: 0.025667617530967895, Loss: 16541.283114475176
+    Epoch: 47, Objective difference: 0.707714613813783, Loss: 31097.54410796436
+    Epoch: 48, Objective difference: 0.41429718485343014, Loss: 16852.042825080858
+    Epoch: 49, Objective difference: 0.08286423082817712, Loss: 16610.09099297886
+    Epoch: 50, Objective difference: 0.04467214604137404, Loss: 16904.15738299165
+
+    Avg_accuracy: 0.49066666666666664
+    Precision: 0.4871679423683026
+    Recall: 0.9935720844811754
+    F1-Value: 0.6537764350453172
+
+  SVM: TFIDF Dataset Learning rates: 0.01, Tradeoff: 10000.0
+  tfidf_lr_0.01_tradeoff_10000.0
+
+    Epoch: 1, First Objective: 2533219346.357292, Loss: 153912.29423578706
+    Epoch: 2, Objective difference: 0.04121264140776314, Loss: 165251.81917531497
+    Epoch: 3, Objective difference: 0.1616714130604582, Loss: 150819.9931398122
+    Epoch: 4, Objective difference: 0.3916061344364116, Loss: 84203.0212462596
+    Epoch: 5, Objective difference: 0.23957210664483047, Loss: 56556.09274758748
+    Epoch: 6, Objective difference: 0.14395039169384857, Loss: 79314.1698289474
+    Epoch: 7, Objective difference: 0.4557187228271135, Loss: 33493.63785117541
+    Epoch: 8, Objective difference: 0.7014744345099982, Loss: 77318.05871875017
+    Epoch: 9, Objective difference: 0.25905043370053404, Loss: 106863.95273240241
+    Epoch: 10, Objective difference: 0.5217126709047712, Loss: 41201.332333052385
+    Epoch: 11, Objective difference: 0.044264460934437096, Loss: 45658.92984848345
+    Epoch: 12, Objective difference: 0.657040948058691, Loss: 87393.86228057367
+    Epoch: 13, Objective difference: 0.5073200835340026, Loss: 36673.50002016673
+    Epoch: 14, Objective difference: 0.09537131673768696, Loss: 42331.543030253866
+    Epoch: 15, Objective difference: 0.40168192989190116, Loss: 20930.169960478343
+    Epoch: 16, Objective difference: 1.384694314930269, Loss: 68051.67615152572
+    Epoch: 17, Objective difference: 0.48937310865112404, Loss: 29091.268728466028
+    Epoch: 18, Objective difference: 0.1588342061473187, Loss: 23640.045269343704
+    Epoch: 19, Objective difference: 0.13711591877262563, Loss: 28811.0167311828
+    Epoch: 20, Objective difference: 0.27418312040848325, Loss: 18668.140257603438
+    Epoch: 21, Objective difference: 0.10592335750614136, Loss: 22199.99431770333
+    Epoch: 22, Objective difference: 0.2158453573338594, Loss: 16005.066226122508
+    Epoch: 23, Objective difference: 0.061212824545366806, Loss: 17935.08131524031
+    Epoch: 24, Objective difference: 0.01721036599312122, Loss: 18413.158237670315
+    Epoch: 25, Objective difference: 0.03247609826655736, Loss: 19558.586757001394
+    Epoch: 26, Objective difference: 0.0306904541111871, Loss: 18543.179854018
+    Epoch: 27, Objective difference: 0.12555967944441332, Loss: 15869.258570011958
+    Epoch: 28, Objective difference: 0.30446726291978876, Loss: 23376.781340320736
+    Epoch: 29, Objective difference: 0.32697197982860016, Loss: 13891.395605277523
+    Epoch: 30, Objective difference: 0.6581764463837758, Loss: 27212.554454148012
+    Epoch: 31, Objective difference: 0.43533365969020044, Loss: 12823.4603561921
+    Epoch: 32, Objective difference: 0.01808921813298671, Loss: 12462.38168755562
+    Epoch: 33, Objective difference: 0.10067656746975308, Loss: 14401.779514408581
+    Epoch: 34, Objective difference: 0.03927829186429498, Loss: 13929.701833779513
+    Epoch: 35, Objective difference: 0.09502293313394952, Loss: 15976.265030419077
+    Epoch: 36, Objective difference: 0.05670418642476561, Loss: 17145.30175173717
+    Epoch: 37, Objective difference: 0.13794468291050033, Loss: 20712.285608505255
+    Epoch: 38, Objective difference: 0.33217013540052037, Loss: 12074.273970973401
+    Epoch: 39, Objective difference: 0.8964233455813589, Loss: 27601.980190738464
+    Epoch: 40, Objective difference: 0.4314310663988457, Loss: 13634.972397931184
+    Epoch: 41, Objective difference: 0.18040724564918054, Loss: 17267.103963204398
+    Epoch: 42, Objective difference: 0.449034728351955, Loss: 27271.454671589705
+    Epoch: 43, Objective difference: 0.4666923712059897, Loss: 12179.619045492049
+    Epoch: 44, Objective difference: 0.3095483158282311, Loss: 17547.105231413985
+    Epoch: 45, Objective difference: 0.11857238675542345, Loss: 20613.939544801327
+    Epoch: 46, Objective difference: 0.3026635310885594, Loss: 12869.106583851277
+    Epoch: 47, Objective difference: 1.7323264031333785, Loss: 43395.68931246509
+    Epoch: 48, Objective difference: 0.5888447856325973, Loss: 15292.052146148399
+    Epoch: 49, Objective difference: 0.20943977923212895, Loss: 11282.395778362488
+    Epoch: 50, Objective difference: 0.42026236604390516, Loss: 17872.076387073634
+
+    Avg_accuracy: 0.6186666666666667
+    Precision: 0.8427299703264095
+    Recall: 0.26078971533516987
+    F1-Value: 0.3983169705469845
+
+  SVM: TFIDF Dataset Learning rates: 0.01, Tradeoff: 1000.0
+  tfidf_lr_0.01_tradeoff_1000.0
+
+    Epoch: 1, First Objective: 71183859.38892482, Loss: 59181.19357144187
+    Epoch: 2, Objective difference: 0.2883490712504062, Loss: 41107.616454740164
+    Epoch: 3, Objective difference: 0.17002706745353477, Loss: 34825.92769108052
+    Epoch: 4, Objective difference: 0.07066759609626222, Loss: 38795.28560847227
+    Epoch: 5, Objective difference: 0.5201984632236382, Loss: 16421.37329184966
+    Epoch: 6, Objective difference: 0.11577936608602422, Loss: 18816.230380660785
+    Epoch: 7, Objective difference: 0.238892722647147, Loss: 13820.978860934169
+    Epoch: 8, Objective difference: 0.04346841854200592, Loss: 14872.423967125122
+    Epoch: 9, Objective difference: 0.056337536959585315, Loss: 16557.93307576873
+    Epoch: 10, Objective difference: 0.17751483195593068, Loss: 12918.460024778804
+    Epoch: 11, Objective difference: 0.2378360328247554, Loss: 17385.76262234714
+    Epoch: 12, Objective difference: 0.18965540911558057, Loss: 13574.295576341767
+    Epoch: 13, Objective difference: 0.2876897732854574, Loss: 18265.304237140943
+    Epoch: 14, Objective difference: 0.10813739792544615, Loss: 16103.992693054795
+    Epoch: 15, Objective difference: 0.09006930888803302, Loss: 14387.132657162478
+    Epoch: 16, Objective difference: 0.4142404162996413, Loss: 21806.767927817556
+    Epoch: 17, Objective difference: 0.3392648364752942, Loss: 13541.853989219811
+    Epoch: 18, Objective difference: 0.02058467925714006, Loss: 13298.256713954555
+    Epoch: 19, Objective difference: 0.006024221600917414, Loss: 13354.057070939909
+    Epoch: 20, Objective difference: 0.022703588369902175, Loss: 13019.107111749521
+    Epoch: 21, Objective difference: 0.007506533172295818, Loss: 13110.65808376792
+    Epoch: 22, Objective difference: 0.0018776658473606928, Loss: 13137.391704338794
+    Epoch: 23, Objective difference: 0.040580102954171235, Loss: 12592.08436838187
+    Epoch: 24, Objective difference: 0.00999971432589439, Loss: 12624.406857642292
+    Epoch: 25, Objective difference: 0.050503434485238356, Loss: 13582.243406812917
+    Epoch: 26, Objective difference: 0.050419147687429236, Loss: 12719.226342739506
+    Epoch: 27, Objective difference: 0.026284000291266735, Loss: 12440.273776343342
+    Epoch: 28, Objective difference: 0.0364032792408502, Loss: 13093.541166623643
+    Epoch: 29, Objective difference: 0.03685320600210872, Loss: 12569.326802393341
+    Epoch: 30, Objective difference: 0.055112590913224596, Loss: 13213.873468727734
+    Epoch: 31, Objective difference: 0.04768673501132402, Loss: 14045.413406625345
+    Epoch: 32, Objective difference: 0.0950270933887867, Loss: 12522.045701815336
+    Epoch: 33, Objective difference: 0.00554230080749547, Loss: 12628.085895161064
+    Epoch: 34, Objective difference: 0.05667194750139915, Loss: 13507.988556626333
+    Epoch: 35, Objective difference: 0.07158063429139848, Loss: 12373.50479887422
+    Epoch: 36, Objective difference: 0.06112456771037775, Loss: 13332.597738173075
+    Epoch: 37, Objective difference: 0.06333728551404658, Loss: 12336.522178410562
+    Epoch: 38, Objective difference: 0.0007911848095945575, Loss: 12322.482660196767
+
+    Avg_accuracy: 0.6991111111111111
+    Precision: 0.6594427244582043
+    Recall: 0.7823691460055097
+    F1-Value: 0.7156656866862662
+
+  SVM: TFIDF Dataset Learning rates: 0.01, Tradeoff: 100.0
+  tfidf_lr_0.01_tradeoff_100.0
+
+    Epoch: 1, First Objective: 2232320.1701221284, Loss: 20104.988987648307
+    Epoch: 2, Objective difference: 0.18452948800254163, Loss: 16564.44281696232
+    Epoch: 3, Objective difference: 0.014723731795432536, Loss: 16546.018607973798
+    Epoch: 4, Objective difference: 0.16586484299573945, Loss: 19654.547326527772
+    Epoch: 5, Objective difference: 0.15507425728643034, Loss: 16526.50104774755
+    Epoch: 6, Objective difference: 0.015449946898597341, Loss: 16357.841311299764
+    Epoch: 7, Objective difference: 0.0014877215631063177, Loss: 16478.28484601597
+    Epoch: 8, Objective difference: 0.0072876375452773255, Loss: 16400.754740841447
+    Epoch: 9, Objective difference: 0.0025392617996520396, Loss: 16367.280020047274
+    Epoch: 10, Objective difference: 0.002276085486821058, Loss: 16328.283261898589
+    Epoch: 11, Objective difference: 0.001385823404165423, Loss: 16510.136530201064
+    Epoch: 12, Objective difference: 0.003578439697781771, Loss: 16394.34314853819
+    Epoch: 13, Objective difference: 7.004862890514543e-05, Loss: 16333.888217199736
+
+    Avg_accuracy: 0.5071111111111111
+    Precision: 0.4954379562043796
+    Recall: 0.9972451790633609
+    F1-Value: 0.6619932947272174
+
+  SVM: TFIDF Dataset Learning rates: 0.001, Tradeoff: 10000.0
+  tfidf_lr_0.001_tradeoff_10000.0
+
+    Epoch: 1, First Objective: 492191712.2171758, Loss: 38931.635693518096
+    Epoch: 2, Objective difference: 0.02987055895739795, Loss: 43765.58917284636
+    Epoch: 3, Objective difference: 0.5609908697847059, Loss: 16996.078481876884
+    Epoch: 4, Objective difference: 0.38053688414159953, Loss: 26252.096799727628
+    Epoch: 5, Objective difference: 0.1485986026214121, Loss: 22318.93066624119
+    Epoch: 6, Objective difference: 0.46822709975711346, Loss: 10467.135251323763
+    Epoch: 7, Objective difference: 0.29120807543781646, Loss: 14827.467980632546
+    Epoch: 8, Objective difference: 0.24663304176444928, Loss: 10702.728074412125
+    Epoch: 9, Objective difference: 0.03674689981242637, Loss: 11367.583751868127
+    Epoch: 10, Objective difference: 0.013613486517459618, Loss: 11691.930955745773
+    Epoch: 11, Objective difference: 0.05490251373241092, Loss: 12602.552865399659
+    Epoch: 12, Objective difference: 0.15622429783100597, Loss: 10366.170210892995
+    Epoch: 13, Objective difference: 0.11285025065097479, Loss: 11800.395795560175
+    Epoch: 14, Objective difference: 0.09210849840506695, Loss: 13176.188858538886
+    Epoch: 15, Objective difference: 0.19699295115724785, Loss: 10256.90983615838
+    Epoch: 16, Objective difference: 0.11641109465221046, Loss: 11711.01731081434
+    Epoch: 17, Objective difference: 0.19871326092414196, Loss: 9023.078211026215
+    Epoch: 18, Objective difference: 0.02162589553853263, Loss: 8788.983329760602
+    Epoch: 19, Objective difference: 0.023905894506747998, Loss: 9075.754664150125
+    Epoch: 20, Objective difference: 0.04381116534312701, Loss: 9581.499113834703
+    Epoch: 21, Objective difference: 0.03071629301773454, Loss: 9243.32674121459
+    Epoch: 22, Objective difference: 0.0813275609767139, Loss: 10232.901531712807
+    Epoch: 23, Objective difference: 0.12528171857187748, Loss: 8702.574795796998
+    Epoch: 24, Objective difference: 0.009964560418656477, Loss: 8634.349533378934
+    Epoch: 25, Objective difference: 0.13591150566650198, Loss: 10078.38032480041
+    Epoch: 26, Objective difference: 0.11384134266102129, Loss: 8720.565010751214
+    Epoch: 27, Objective difference: 0.017132215518578027, Loss: 8537.232942808028
+    Epoch: 28, Objective difference: 0.10171205845850988, Loss: 9594.364955241406
+    Epoch: 29, Objective difference: 0.07933707764863765, Loss: 8739.02685159585
+    Epoch: 30, Objective difference: 0.3567528455029536, Loss: 12497.396588749523
+    Epoch: 31, Objective difference: 0.2691290182080226, Loss: 8650.899008184222
+    Epoch: 32, Objective difference: 0.1543717170381942, Loss: 10272.728144392879
+    Epoch: 33, Objective difference: 0.14861390807074693, Loss: 8483.936330459332
+    Epoch: 34, Objective difference: 0.041615082524545426, Loss: 8924.96738181212
+    Epoch: 35, Objective difference: 0.04118859152691725, Loss: 8484.772709011744
+    Epoch: 36, Objective difference: 0.042207182967743104, Loss: 8941.811780240943
+    Epoch: 37, Objective difference: 0.047881801000173765, Loss: 9435.441699967303
+    Epoch: 38, Objective difference: 0.05196712516968421, Loss: 8860.294781633851
+    Epoch: 39, Objective difference: 0.021630054007045863, Loss: 9105.330574776719
+    Epoch: 40, Objective difference: 0.06346515145941027, Loss: 8429.83591981011
+    Epoch: 41, Objective difference: 0.0011673313329045912, Loss: 8414.692228747655
+    Epoch: 42, Objective difference: 0.17997024510065737, Loss: 10224.612617185776
+    Epoch: 43, Objective difference: 0.1489590616436625, Loss: 8471.744896332877
+    Epoch: 44, Objective difference: 0.004658198169457749, Loss: 8396.18877828772
+    Epoch: 45, Objective difference: 0.14201737694126665, Loss: 9848.070700213188
+    Epoch: 46, Objective difference: 0.12989088057421028, Loss: 8354.345152450063
+    Epoch: 47, Objective difference: 0.020578508572111534, Loss: 8553.94659738489
+    Epoch: 48, Objective difference: 0.0819229367689598, Loss: 9407.687146585522
+    Epoch: 49, Objective difference: 0.09002307759649773, Loss: 8424.807137894943
+    Epoch: 50, Objective difference: 0.03154091398555491, Loss: 8738.346293930512
+
+    Avg_accuracy: 0.7288888888888889
+    Precision: 0.7658157602663707
+    Recall: 0.6336088154269972
+    F1-Value: 0.693467336683417
+
+  SVM: TFIDF Dataset Learning rates: 0.001, Tradeoff: 1000.0
+  tfidf_lr_0.001_tradeoff_1000.0
+
+    Epoch: 1, First Objective: 20862794.193713825, Loss: 18175.746935192496
+    Epoch: 2, Objective difference: 0.2293143963861002, Loss: 13848.88440157829
+    Epoch: 3, Objective difference: 0.0239628121225, Loss: 13696.065755484737
+    Epoch: 4, Objective difference: 0.254941331463139, Loss: 17716.63053295484
+    Epoch: 5, Objective difference: 0.26518904139749205, Loss: 12613.457590108272
+    Epoch: 6, Objective difference: 0.03593157026351991, Loss: 12170.421354251714
+    Epoch: 7, Objective difference: 0.020867717258080693, Loss: 12478.455772189558
+    Epoch: 8, Objective difference: 0.010997170535592541, Loss: 12638.852707302318
+    Epoch: 9, Objective difference: 0.03961529984876449, Loss: 12091.700474074538
+    Epoch: 10, Objective difference: 0.017661604798829715, Loss: 12312.885060032722
+    Epoch: 11, Objective difference: 0.02173725753590608, Loss: 12041.299792324944
+    Epoch: 12, Objective difference: 0.007457617517967749, Loss: 12185.781100494138
+    Epoch: 13, Objective difference: 0.006571197817527317, Loss: 12057.901738701814
+    Epoch: 14, Objective difference: 0.08776638098231887, Loss: 13307.79981984127
+    Epoch: 15, Objective difference: 0.08536229297938819, Loss: 11990.443486351262
+    Epoch: 16, Objective difference: 0.040931317419839464, Loss: 12526.562865543963
+    Epoch: 17, Objective difference: 0.03921735806191198, Loss: 11982.98615197579
+    Epoch: 18, Objective difference: 0.023314670857588232, Loss: 12312.220270537844
+    Epoch: 19, Objective difference: 0.02907148844566796, Loss: 12751.604267862718
+    Epoch: 20, Objective difference: 0.04277110673369118, Loss: 12141.146361918474
+    Epoch: 21, Objective difference: 0.0093117200054634, Loss: 11982.420455314814
+    Epoch: 22, Objective difference: 0.012699549561621523, Loss: 12147.687432667533
+    Epoch: 23, Objective difference: 0.0027241194737830012, Loss: 12201.473081212307
+    Epoch: 24, Objective difference: 0.00275679778250382, Loss: 12149.130019394544
+    Epoch: 25, Objective difference: 0.00177449724277649, Loss: 12137.362955368228
+    Epoch: 26, Objective difference: 0.008283946509485504, Loss: 12020.499182644977
+    Epoch: 27, Objective difference: 0.0028344735276169563, Loss: 11991.090156486787
+    Epoch: 28, Objective difference: 0.001900909641852921, Loss: 12013.592147310093
+    Epoch: 29, Objective difference: 0.0013149440374351535, Loss: 11990.409451543359
+    Epoch: 30, Objective difference: 0.007021496022277418, Loss: 12087.041338914552
+    Epoch: 31, Objective difference: 0.0033315130200066104, Loss: 12035.495182255832
+    Epoch: 32, Objective difference: 0.005902678005384786, Loss: 12118.53481787785
+    Epoch: 33, Objective difference: 0.010619547836114096, Loss: 11956.478207820826
+    Epoch: 34, Objective difference: 0.0008786300848746111, Loss: 11960.255838706647
+
+    Avg_accuracy: 0.7177777777777777
+    Precision: 0.7048736462093863
+    Recall: 0.7171717171717171
+    F1-Value: 0.7109695038689121
+
+  SVM: TFIDF Dataset Learning rates: 0.001, Tradeoff: 100.0
+  tfidf_lr_0.001_tradeoff_100.0
+
+    Epoch: 1, First Objective: 1702068.9027709095, Loss: 16298.580895233637
+    Epoch: 2, Objective difference: 0.003288023210889257, Loss: 16296.900627741767
+    Epoch: 3, Objective difference: 0.003185732991426902, Loss: 16264.18379404058
+    Epoch: 4, Objective difference: 0.004955591930469473, Loss: 16312.415444899301
+    Epoch: 5, Objective difference: 0.0063729643505910675, Loss: 16294.95451457981
+    Epoch: 6, Objective difference: 0.0003912397435796629, Loss: 16271.827631417216
+
+    Avg_accuracy: 0.5968888888888889
+    Precision: 0.5471502590673575
+    Recall: 0.9696969696969697
+    F1-Value: 0.6995693938390195
